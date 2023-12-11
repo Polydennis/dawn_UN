@@ -1598,3 +1598,39 @@ a.product__text {
     border: none;
   }
 }
+
+/* Label Icons */
+
+.label-ico {
+  float: inline;
+  max-width: 50px;
+  margin: 5px 5px 5px 0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 150px;
+  max-width: 400px;
+  background-color: black;
+  color: rgb(var(--color-primary));
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
