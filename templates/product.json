@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.metafields.custom.labels.value contains 'farben' %}\n  <a href=\"#\" class=\"tooltip\">\n    <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n    <span class=\"tooltiptext\">Platzhalter für Farben<\/span>\n  <\/a>\n{% endif %}\n{% if product.metafields.custom.labels.value contains 'variabel' %}\n  <a href=\"#\" class=\"tooltip\">\n    <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n    <span class=\"tooltiptext\">Platzhalter für Variabel<\/span>\n  <\/a>\n{% endif %}\n\n<script>\n  document.addEventListener('DOMContentLoaded', function() {\n    var tooltips = document.querySelectorAll('.tooltip');\n    tooltips.forEach(function(tooltip) {\n      tooltip.addEventListener('click', function(event) {\n        event.preventDefault();\n        var tooltipText = this.querySelector('.tooltiptext');\n        tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n      });\n    });\n  });\n<\/script>"
-          }
-        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -26,6 +20,12 @@
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
+          }
+        },
+        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.metafields.custom.labels.value contains 'farben' %}\n  <a href=\"#\" class=\"tooltip\">\n    <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n    <span class=\"tooltiptext\">Platzhalter für Farben<\/span>\n  <\/a>\n{% endif %}\n{% if product.metafields.custom.labels.value contains 'variabel' %}\n  <a href=\"#\" class=\"tooltip\">\n    <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n    <span class=\"tooltiptext\">Platzhalter für Variabel<\/span>\n  <\/a>\n{% endif %}\n\n<script>\n  function positionTooltip(tooltip, tooltipText) {\n    tooltipText.style.bottom = '150%';\n    tooltipText.style.left = '50%';\n    tooltipText.style.marginLeft = '-60px';\n    tooltipText.style.marginTop = '';\n\n    const rect = tooltip.getBoundingClientRect();\n    const winWidth = window.innerWidth;\n    const winHeight = window.innerHeight;\n    const spaceLeft = rect.left;\n    const spaceRight = winWidth - rect.right;\n    const spaceTop = rect.top;\n    const spaceBottom = winHeight - rect.bottom;\n\n    if (spaceTop < tooltipText.offsetHeight) {\n      tooltipText.style.bottom = 'auto';\n      tooltipText.style.top = '100%';\n    }\n\n    if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = -(tooltipText.offsetWidth \/ 2) + 'px';\n    } else if (spaceRight < tooltipText.offsetWidth) {\n      tooltipText.style.left = 'auto';\n      tooltipText.style.right = '100%';\n      tooltipText.style.marginLeft = '';\n    }\n  }\n\n  document.addEventListener('DOMContentLoaded', function() {\n    var tooltips = document.querySelectorAll('.tooltip');\n    tooltips.forEach(function(tooltip) {\n      var tooltipText = tooltip.querySelector('.tooltiptext');\n      positionTooltip(tooltip, tooltipText);\n\n      tooltip.addEventListener('click', function(event) {\n        event.preventDefault();\n        tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n        positionTooltip(tooltip, tooltipText);\n      });\n\n      window.addEventListener('resize', function() {\n        positionTooltip(tooltip, tooltipText);\n      });\n    });\n  });\n<\/script>"
           }
         },
         "price": {
@@ -100,10 +100,10 @@
         }
       },
       "block_order": [
-        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897",
         "vendor",
         "title",
         "caption",
+        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897",
         "price",
         "variant_picker",
         "quantity_selector",
