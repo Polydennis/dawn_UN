@@ -383,5 +383,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".label-ico {float: inline; max-width: 50px; margin: 5px 5px 5px 0;}"
+    ]
   }
 }

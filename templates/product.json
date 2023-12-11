@@ -6,7 +6,7 @@
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.labels.value contains 'farben' %}\n<img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" style=\"max-width:50px;\" class=\"label\" \/>\n{% endif %}\n{% if product.metafields.custom.labels.value contains 'variabel' %}\n<img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" style=\"max-width:50px;\" class=\"label\" \/>\n{% endif %}"
+            "custom_liquid": "{% if product.metafields.custom.labels.value contains 'farben' %}\n<img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n{% endif %}\n{% if product.metafields.custom.labels.value contains 'variabel' %}\n<img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n{% endif %}"
           }
         },
         "vendor": {
