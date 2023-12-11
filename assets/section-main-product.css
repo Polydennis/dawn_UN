@@ -1610,15 +1610,15 @@ a.product__text {
 .tooltip {
   position: relative;
   display: inline-block;
-  cursor: pointer;
+  cursor: help;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   min-width: 150px;
   max-width: 400px;
-  background-color: black;
-  color: rgb(var(--color-primary));
+  background-color: rgb(var(--color-primary));
+  color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
