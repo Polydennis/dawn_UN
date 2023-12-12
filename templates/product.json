@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -59,9 +60,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Material",
+            "icon": "price_tag",
+            "content": "<p>Es handelt sich um besonders kräftige Vliestapeten mit .<\/p><p>Meine Tapeten sind frei von PVC, Weichmachern, Lösungsmitteln und ohne Zusatz von Schwermetallverbindungen oder Formaldehyd. Dadurch können sie auch bedenkenlos in Baby- und Kinderzimmern eingesetzt werden. Sie erfüllen die Anforderungen an schwerentflammbare Baustoffe (Baustoffklasse B1) nach der Norm DIN 4102-1.<\/p>",
             "page": ""
           }
         },
