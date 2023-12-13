@@ -86,10 +86,11 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "source": "{{ product.metafields.custom.hilfstexte.value }}",
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "",
+            "content": "{{ product.metafields.custom.hilfstexte.value.ausmessen | metafield_tag }}",
             "page": ""
           }
         },
