@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Versand",
             "icon": "truck",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}<\/p>",
             "page": "versand"
           }
         },
@@ -80,17 +80,7 @@
           "settings": {
             "heading": "Wände messen",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.hilfstexte.value.ausmessen | metafield_tag }}<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "source": "{{ product.metafields.custom.hilfstexte.value }}",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "{{ product.metafields.custom.hilfstexte.value.ausmessen | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -114,7 +104,6 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
-        "collapsible-row-3",
         "share"
       ],
       "settings": {
