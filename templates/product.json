@@ -199,10 +199,10 @@
         "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
+            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
+            "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
+            "button_label": "",
             "button_link": ""
           }
         }
