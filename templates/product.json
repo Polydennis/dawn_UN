@@ -155,6 +155,28 @@
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b": {
       "type": "multirow",
       "blocks": {
+        "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
+            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
+            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
+            "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e240a810-9610-44c3-aca9-5744d7240547": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
+            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
+            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
+            "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
           "type": "row",
           "settings": {
@@ -195,25 +217,15 @@
             "button_label": "",
             "button_link": ""
           }
-        },
-        "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
-            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
-            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
-            "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
+        "62be5099-6cf1-4339-a934-0ad8cdc1f401",
+        "e240a810-9610-44c3-aca9-5744d7240547",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2",
-        "29a9111b-a835-4f59-8fd8-9310d663b3d9",
-        "62be5099-6cf1-4339-a934-0ad8cdc1f401"
+        "29a9111b-a835-4f59-8fd8-9310d663b3d9"
       ],
       "settings": {
         "image_height": "medium",
