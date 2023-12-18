@@ -282,7 +282,7 @@
     "356f2a66-6f48-4098-8307-0d55af272da5": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% if product.metafields.custom.Sellwith %}\n  {% assign upsell_handles = product.metafields.custom.Sellwith | split: ',' %}\n\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for handle in upsell_handles %}\n      {% assign upsell_product = all_products[handle] %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}",
+        "custom_liquid": "{% if product.metafields.custom.sellwith %}\n  {% assign upsell_handles = product.metafields.custom.sellwith | split: ',' %}\n\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for handle in upsell_handles %}\n      {% assign upsell_product = all_products[handle] %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
