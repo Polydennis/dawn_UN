@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Material",
             "icon": "price_tag",
-            "content": "<p>{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
             "page": ""
           }
         },
@@ -71,7 +71,7 @@
           "settings": {
             "heading": "Versand",
             "icon": "truck",
-            "content": "<p>{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}",
             "page": ""
           }
         },
@@ -80,7 +80,34 @@
           "settings": {
             "heading": "Wände messen",
             "icon": "ruler",
-            "content": "<p>{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}<\/p>",
+            "content": "{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "24725872-f967-4a93-b412-3b8750be9d55": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Anpassmöglichkeiten",
+            "icon": "star",
+            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "e4466e54-edb3-46ab-abef-e0dac9de574c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Anbringung",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "970234dc-5764-4f4f-a779-3fd06697f559": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zufriedenheitsgarantie",
+            "icon": "heart",
+            "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
             "page": ""
           }
         },
@@ -104,6 +131,9 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
+        "24725872-f967-4a93-b412-3b8750be9d55",
+        "e4466e54-edb3-46ab-abef-e0dac9de574c",
+        "970234dc-5764-4f4f-a779-3fd06697f559",
         "share"
       ],
       "settings": {
