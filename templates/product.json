@@ -158,7 +158,6 @@
         "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
@@ -180,6 +179,7 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Erklaerung_Produktfotos.jpg",
             "caption": "Deine Wand, dein Stil",
             "heading": "Sei Unik",
             "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jede Tapete, die ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.<\/p>",
@@ -190,6 +190,7 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
             "caption": "Durchgängige Beratung",
             "heading": "Von der Idee zur Wand",
             "text": "<p>Bei mir steht durchgängige, persönliche Beratung im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deiner Wand, um ein Ergebnis zu garantieren, das dich begeistert.<\/p>",
