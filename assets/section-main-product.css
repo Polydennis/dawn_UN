@@ -1627,6 +1627,7 @@ a.product__text {
   left: 50%;
   margin-left: -60px;
   opacity: 0;
+  z-index: 2;
   transition: opacity 0.3s;
 }
 
