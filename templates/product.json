@@ -201,6 +201,7 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/hohe_qualitaet.jpg",
             "caption": "Begeisterte Kunden",
             "heading": "Qualität, die überzeugt",
             "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
@@ -277,12 +278,22 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "356f2a66-6f48-4098-8307-0d55af272da5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.Sellwith %}\n  {% assign upsell_handles = product.metafields.custom.Sellwith | split: ',' %}\n\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for handle in upsell_handles %}\n      {% assign upsell_product = all_products[handle] %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
     "related-products",
-    "170289245009e9ebe5"
+    "170289245009e9ebe5",
+    "356f2a66-6f48-4098-8307-0d55af272da5"
   ]
 }
