@@ -3,7 +3,7 @@
     "9d41215b-4019-4718-8b50-02b64246f741": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"collection-hero__inner page-width  scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: rgba(191,159,134,0.6);\">\n        <div class=\"category-header collection-hero__inner scroll-trigger animate--fade-in\" style=\"position: relative;\">\n        <div style=\"position: absolute; width: 100%; height: 100%; background-color: rgba(191,159,134,0.3); top: 0; left: 0;\"><\/div>\n        <style>\n            .category-header {\n            {% if collection.image %}\n                background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                background-size: cover;\n            {% endif %}\n            height: 300px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            position: relative;\n            }\n            .category-header h1 {\n            font-family: 'Bon Voyage Regular', serif;\n            font-size: 3.7em;\n            font-weight: 500;\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            color: #ffffff;\n            text-shadow: 2px 2px 2px #595959;\n            background-color: rgba(191,159,134,0.6);\n            padding: 10px 10px 0;\n            text-align: center;\n            margin-left: min(1em, 20vw);\n            margin-right: min(1em, 20vw);\n            max-width: 100%;\n            position: relative;\n            z-index: 2;\n            }\n        <\/style>\n        <h1>{{ collection.title }}<\/h1>\n        <\/div>\n    <\/div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        <\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"collection-hero__inner page-width  scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: var(--background)\">\n        <div class=\"category-header collection-hero__inner scroll-trigger animate--fade-in\" style=\"position: relative;\">\n        <div><\/div>\n        <style>\n            .category-header {\n            {% if collection.image %}\n                background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                background-size: cover;\n            {% endif %}\n            min-height: 200px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            position: relative;\n            }\n            .category-header h1 {\n            font-family: 'Bon Voyage Regular', serif;\n            font-size: 3.7em;\n            font-weight: 500;\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            color: #ffffff;\n            text-shadow: 2px 2px 2px #595959;\n            background-color: rgba(191,159,134,0.6);\n            padding: 10px 10px 0;\n            text-align: center;\n            margin-left: min(1em, 20vw);\n            margin-right: min(1em, 20vw);\n            max-width: 100%;\n            position: relative;\n            z-index: 2;\n            }\n        <\/style>\n        <h1>{{ collection.title }}<\/h1>\n        <\/div>\n    <\/div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        <\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -51,6 +51,9 @@
       "block_order": [
         "template--18322339496204__50417dae-724e-441f-83ea-3070bb99050e-text-1"
       ],
+      "custom_css": [
+        "div {text-align: left;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -59,12 +62,23 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "d7309c03-2624-4843-8a0c-88d815bb0721": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Schreib mir!",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "9d41215b-4019-4718-8b50-02b64246f741",
     "product-grid",
     "banner",
-    "50417dae-724e-441f-83ea-3070bb99050e"
+    "50417dae-724e-441f-83ea-3070bb99050e",
+    "d7309c03-2624-4843-8a0c-88d815bb0721"
   ]
 }
