@@ -124,6 +124,12 @@
           {{- 'templates.contact.form.comment' | t -}}
         </label>
       </div>
+      <div class="field">
+        <input type="file" name="contact[image]" accept="image/*">
+        <label class="form__label field__label" for="contact[image]">
+          {{- 'templates.contact.form.image' | t -}}
+        </label>
+      </div>
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
