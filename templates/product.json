@@ -119,8 +119,15 @@
         },
         "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
-            "custom_liquid": "{% if product.metafields.custom.sellwith %}\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for upsell_product in product.metafields.custom.sellwith %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}"
+            "custom_liquid": "asd\n{% if product.metafields.custom.sellwith %}\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for upsell_product in product.metafields.custom.sellwith %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}"
+          }
+        },
+        "f72e0f29-9bde-47a2-9281-116e421970d2": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign refs = product.metafields.custom.sellwith %}\n{% for i in refs %}\n        {{ i }}\n{% endfor %}\n\n\n\n\n{% if product.metafields.custom.sellwith %}\n    <div class=\"upsell-products\">\n      <h2>Passende Produkte<\/h2>\n      {% assign upsell_product_ids = product.metafields.custom.sellwith | split: ',' %}\n      {% for upsell_product_gid in upsell_product_ids %}\n        {% assign upsell_product_id = upsell_product_gid | split: '\/' | last %}\n        {% assign upsell_product = all_products[upsell_product_id] %}\n        {% if upsell_product %}\n          <div class=\"upsell-product\">\n            <a href=\"{{ upsell_product.url }}\">\n              <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n              <p>{{ upsell_product.title }}<\/p>\n              <p>{{ upsell_product.price | money }}<\/p>\n            <\/a>\n          <\/div>\n        {% endif %}\n      {% endfor %}\n    <\/div>\n  {% endif %}"
           }
         }
       },
@@ -141,7 +148,8 @@
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "share",
-        "b6e2e917-3611-461c-8013-255b4dc8e1b2"
+        "b6e2e917-3611-461c-8013-255b4dc8e1b2",
+        "f72e0f29-9bde-47a2-9281-116e421970d2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -252,6 +260,22 @@
         "padding_bottom": 36
       }
     },
+    "170289245009e9ebe5": {
+      "type": "apps",
+      "blocks": {
+        "da54baad-b45e-4a43-8a83-4af017fd047b": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "da54baad-b45e-4a43-8a83-4af017fd047b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -269,28 +293,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "170289245009e9ebe5": {
-      "type": "apps",
-      "blocks": {
-        "da54baad-b45e-4a43-8a83-4af017fd047b": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "da54baad-b45e-4a43-8a83-4af017fd047b"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
-    "related-products",
-    "170289245009e9ebe5"
+    "170289245009e9ebe5",
+    "related-products"
   ]
 }
