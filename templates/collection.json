@@ -3,50 +3,8 @@
     "9d41215b-4019-4718-8b50-02b64246f741": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"collection-hero__inner page-width  scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: rgba(191,159,134,0.6);\">\n        <div class=\"category-header collection-hero__inner scroll-trigger animate--fade-in\" style=\"position: relative;\">\n        <div style=\"position: absolute; width: 100%; height: 100%; background-color: rgba(191,159,134,0.3); top: 0; left: 0;\"><\/div>\n        <style>\n            .category-header {\n            background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n            background-size: cover;\n            height: 300px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            position: relative;\n            }\n            .category-header h1 {\n            font-family: 'Bon Voyage Regular', serif;\n            font-size: 3.7em;\n            font-weight: 500;\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            color: #ffffff;\n            text-shadow: 2px 2px 2px #595959;\n            background-color: rgba(191,159,134,0.6);\n            padding: 10px 10px 0;\n            text-align: center;\n            margin-left: min(1em, 20vw);\n            margin-right: min(1em, 20vw);\n            max-width: 100%;\n            position: relative;\n            z-index: 2;\n            }\n        <\/style>\n        <h1>{{ collection.title }}<\/h1>\n        <\/div>\n    <\/div>\n    <div class=\"collection-hero__text-wrapper rte\">\n        <div class=\"collection-hero__description rte\">\n            {{ collection.description }}\n        <\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"collection-hero__inner page-width  scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: rgba(191,159,134,0.6);\">\n        <div class=\"category-header collection-hero__inner scroll-trigger animate--fade-in\" style=\"position: relative;\">\n        <div style=\"position: absolute; width: 100%; height: 100%; background-color: rgba(191,159,134,0.3); top: 0; left: 0;\"><\/div>\n        <style>\n            .category-header {\n            background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n            background-size: cover;\n            height: 300px;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            position: relative;\n            }\n            .category-header h1 {\n            font-family: 'Bon Voyage Regular', serif;\n            font-size: 3.7em;\n            font-weight: 500;\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            color: #ffffff;\n            text-shadow: 2px 2px 2px #595959;\n            background-color: rgba(191,159,134,0.6);\n            padding: 10px 10px 0;\n            text-align: center;\n            margin-left: min(1em, 20vw);\n            margin-right: min(1em, 20vw);\n            max-width: 100%;\n            position: relative;\n            z-index: 2;\n            }\n        <\/style>\n        <h1>{{ collection.title }}<\/h1>\n        <\/div>\n    <\/div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte\">\n            {{ collection.description }}\n        <\/div>\n    <\/div>\n<\/div>",
         "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-text-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-heading-1",
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-text-1",
-        "template--18322339496204__c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -79,12 +37,34 @@
         "show_collection_image": true,
         "color_scheme": "scheme-1"
       }
+    },
+    "50417dae-724e-441f-83ea-3070bb99050e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18322339496204__50417dae-724e-441f-83ea-3070bb99050e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.seo_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--18322339496204__50417dae-724e-441f-83ea-3070bb99050e-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "9d41215b-4019-4718-8b50-02b64246f741",
-    "c48e3779-8ba3-4d28-9d64-4c7a2e3baa8a",
     "product-grid",
-    "banner"
+    "banner",
+    "50417dae-724e-441f-83ea-3070bb99050e"
   ]
 }
