@@ -31,7 +31,7 @@
     "9d41215b-4019-4718-8b50-02b64246f741": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n    .category-header {\n      background: url('{{ 'kategoriebild.jpg' | asset_url }}') no-repeat center center;\n      background-size: cover;\n      height: 300px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    .category-header h1 {\n      font-size: 48px;\n      color: #yourcolor; \/* Ersetze #yourcolor mit der gewünschten Textfarbe *\/\n      background-color: rgba(255, 255, 255, 0.7); \/* Hintergrundfarbe des Textfelds, anpassbar *\/\n      padding: 10px 20px;\n      border-radius: 10px;\n    }\n  <\/style>\n\n  <div class=\"category-header\">\n    <h1>{{ collection.title }}<\/h1>\n  <\/div>",
+        "custom_liquid": "<style>\n    .category-header {\n      background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n      background-size: cover;\n      height: 300px;\n      display: flex;\n      align-items: center;\n      justify-content: center;\n    }\n    .category-header h1 {\n      font-family: 'Bon Voyage Regular', serif;\n      font-size: 3.7em;\n      font-weight: 500;\n      text-transform: uppercase;\n      letter-spacing: 2px;\n      color: #ffffff;\n      text-shadow: 2px 2px 2px #595959;\n      background-color: rgba(191,159,134,0.6);\n      padding: 10px 10px 0;\n      text-align: center;\n      margin-left: min(1em, 20vw);\n      margin-right: min(1em, 20vw);\n      max-width: 100%;\n    }\n  <\/style>\n\n  <div class=\"category-header\">\n    <h1>{{ collection.title }}<\/h1>\n  <\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
