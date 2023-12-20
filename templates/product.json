@@ -23,6 +23,11 @@
             "text_style": "subtitle"
           }
         },
+        "eb110f0e-e19d-4053-b283-30727c7dc66c": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
           "settings": {
@@ -135,6 +140,7 @@
         "vendor",
         "title",
         "caption",
+        "eb110f0e-e19d-4053-b283-30727c7dc66c",
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897",
         "price",
         "variant_picker",
