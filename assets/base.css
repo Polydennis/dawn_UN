@@ -3499,3 +3499,19 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+/* Custom */
+
+@font-face {
+  font-family: 'Bon Voyage Regular';
+  src: url('{{ 'MADE_Bon_Voyage_Regular_PERSONAL_USE.otf' | asset_url }}') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bon Voyage Thin';
+  src: url('{{ 'MADE_Bon_Voyage_Thin_PERSONAL_USE.otf' | asset_url }}') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
