@@ -317,11 +317,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mobil_Tapete-Fototapete-Pamela-Reif-Fitness-Stuck-Tur-weiss-youtube.jpg",
-            "heading": "Foto&#173;tapeten Home-Gym",
+            "heading": "<a href=\"\/collections\/fototapeten-home-gym\" title=\"Foto&shy;tapeten Home-Gym\">Foto­tapeten Home-Gym<\/a>",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "",
+            "link": "shopify:\/\/collections\/fototapeten-home-gym",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
