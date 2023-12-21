@@ -1,5 +1,121 @@
 {
   "sections": {
+    "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
+      "type": "slideshow",
+      "blocks": {
+        "00332378-0e47-4c7a-b477-9006f35a538b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tapete-Kinderzimmer-Wald-Baeume-Pastell_04.jpg",
+            "heading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Kinder<\/a>­<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">tapeten<\/a>",
+            "heading_size": "h1",
+            "subheading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben<\/a>",
+            "button_label": "Jetzt ansehen",
+            "link": "shopify:\/\/collections\/kindertapeten",
+            "button_style_secondary": true,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tapete_Fototapete-Tropisch-Muster-blaetter-voegel-Tucan_10.jpg",
+            "heading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Natur­tapeten<\/a>",
+            "heading_size": "h1",
+            "subheading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Hol dir die Tier- und Pflanzenwelt in dein Zuhause<\/a>",
+            "button_label": "Jetzt ansehen",
+            "link": "shopify:\/\/collections\/naturtapeten",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mobil_Tapete-Fototapete-Pamela-Reif-Fitness-Stuck-Tur-weiss-youtube.jpg",
+            "heading": "<a href=\"\/collections\/fototapeten-home-gym\" title=\"Foto&shy;tapeten Home-Gym\">Foto­tapeten Home-Gym<\/a>",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/fototapeten-home-gym",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tapete_Tropisch_Muscinae_Haeckel_breit_Fototapete_07_a0ab569e-d4b3-43c4-8716-ee50c4c0ccf6.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "9be37071-bb59-420b-a356-632d89308bf8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Himmel-Sterne-Nacht-Aquarell_02.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "00332378-0e47-4c7a-b477-9006f35a538b",
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
+        "b4e3236e-8312-49c6-ba50-20558b8061ef",
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
+        "9be37071-bb59-420b-a356-632d89308bf8"
+      ],
+      "custom_css": [
+        "a {text-decoration: none;}",
+        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 9,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Kollektionen"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -34,6 +150,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -273,125 +390,10 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
-      "type": "slideshow",
-      "blocks": {
-        "00332378-0e47-4c7a-b477-9006f35a538b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Kinderzimmer-Wald-Baeume-Pastell_04.jpg",
-            "heading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Kinder<\/a>­<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">tapeten<\/a>",
-            "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben<\/a>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kindertapeten",
-            "button_style_secondary": true,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete_Fototapete-Tropisch-Muster-blaetter-voegel-Tucan_10.jpg",
-            "heading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Natur­tapeten<\/a>",
-            "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Hol dir die Tier- und Pflanzenwelt in dein Zuhause<\/a>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/naturtapeten",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mobil_Tapete-Fototapete-Pamela-Reif-Fitness-Stuck-Tur-weiss-youtube.jpg",
-            "heading": "<a href=\"\/collections\/fototapeten-home-gym\" title=\"Foto&shy;tapeten Home-Gym\">Foto­tapeten Home-Gym<\/a>",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify:\/\/collections\/fototapeten-home-gym",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete_Tropisch_Muscinae_Haeckel_breit_Fototapete_07_a0ab569e-d4b3-43c4-8716-ee50c4c0ccf6.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "9be37071-bb59-420b-a356-632d89308bf8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Himmel-Sterne-Nacht-Aquarell_02.jpg",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "00332378-0e47-4c7a-b477-9006f35a538b",
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
-        "b4e3236e-8312-49c6-ba50-20558b8061ef",
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
-        "9be37071-bb59-420b-a356-632d89308bf8"
-      ],
-      "custom_css": [
-        "a {text-decoration: none;}",
-        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 9,
-        "image_behavior": "ambient",
-        "show_text_below": true,
-        "accessibility_info": "Kollektionen"
-      }
     }
   },
   "order": [
+    "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "image_banner",
     "rich_text",
     "featured_collection",
@@ -399,7 +401,6 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "multicolumn",
-    "1703089345cd69a960",
-    "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4"
+    "1703089345cd69a960"
   ]
 }
