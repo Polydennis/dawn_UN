@@ -389,7 +389,7 @@
         "82478fe2-9c8b-4a67-a6e6-0fe017e54196"
       ],
       "custom_css": [
-        "div {background-color: #bf9f86;}"
+        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
       ],
       "settings": {
         "include_margins": true
