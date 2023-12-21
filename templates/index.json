@@ -357,6 +357,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -386,6 +387,9 @@
       },
       "block_order": [
         "82478fe2-9c8b-4a67-a6e6-0fe017e54196"
+      ],
+      "custom_css": [
+        "div {background-color: #bf9f86;}"
       ],
       "settings": {
         "include_margins": true
