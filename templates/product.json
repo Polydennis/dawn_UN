@@ -47,6 +47,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -131,8 +132,22 @@
         },
         "f72e0f29-9bde-47a2-9281-116e421970d2": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign refs = product.metafields.custom.sellwith %}\n{% for i in refs %}\n        {{ i }}\n{% endfor %}\n\n\n\n\n{% if product.metafields.custom.sellwith %}\n    <div class=\"upsell-products\">\n      <h2>Passende Produkte<\/h2>\n      {% assign upsell_product_ids = product.metafields.custom.sellwith | split: ',' %}\n      {% for upsell_product_gid in upsell_product_ids %}\n        {% assign upsell_product_id = upsell_product_gid | split: '\/' | last %}\n        {% assign upsell_product = all_products[upsell_product_id] %}\n        {% if upsell_product %}\n          <div class=\"upsell-product\">\n            <a href=\"{{ upsell_product.url }}\">\n              <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n              <p>{{ upsell_product.title }}<\/p>\n              <p>{{ upsell_product.price | money }}<\/p>\n            <\/a>\n          <\/div>\n        {% endif %}\n      {% endfor %}\n    <\/div>\n  {% endif %}"
+          }
+        },
+        "228d415a-3259-4c35-9225-e4ee1041029d": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
           }
         }
       },
@@ -155,7 +170,8 @@
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "share",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
-        "f72e0f29-9bde-47a2-9281-116e421970d2"
+        "f72e0f29-9bde-47a2-9281-116e421970d2",
+        "228d415a-3259-4c35-9225-e4ee1041029d"
       ],
       "settings": {
         "enable_sticky_info": true,
