@@ -140,12 +140,12 @@
         "228d415a-3259-4c35-9225-e4ee1041029d": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
+            "block_heading": "Passend dazu",
+            "make_collapsible_row": true,
+            "icon": "eye",
+            "product_list_limit": 5,
             "products_per_page": 3,
-            "pagination_style": "counter",
+            "pagination_style": "dots",
             "image_ratio": "square",
             "enable_quick_add": false
           }
