@@ -28,16 +28,6 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "7313f047-af65-4437-9ad9-0e0765ab1ade": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "7313f047-af65-4437-9ad9-0e0765ab1ade"
-      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
