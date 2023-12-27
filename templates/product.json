@@ -65,7 +65,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Material",
+            "heading": "Hochwertiges Material",
             "icon": "price_tag",
             "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
             "page": ""
@@ -74,7 +74,7 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Versand",
+            "heading": "Schneller Versand",
             "icon": "truck",
             "content": "{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}",
             "page": ""
@@ -101,7 +101,7 @@
         "e4466e54-edb3-46ab-abef-e0dac9de574c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Anbringung",
+            "heading": "Leichte Anbringung",
             "icon": "check_mark",
             "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
             "page": ""
