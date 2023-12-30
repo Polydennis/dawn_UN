@@ -125,16 +125,14 @@
         },
         "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "asd\n{% if product.metafields.custom.sellwith %}\n  <div class=\"upsell-products\">\n    <h2>Passende Produkte<\/h2>\n    {% for upsell_product in product.metafields.custom.sellwith %}\n      {% if upsell_product %}\n        <div class=\"upsell-product\">\n          <a href=\"{{ upsell_product.url }}\">\n            <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n            <p>{{ upsell_product.title }}<\/p>\n            <p>{{ upsell_product.price | money }}<\/p>\n          <\/a>\n        <\/div>\n      {% endif %}\n    {% endfor %}\n  <\/div>\n{% endif %}"
+            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n  \n      fetch(\"\/products\/\" + sampleHandle + \".js\")\n        .then(response => {\n          if(response.ok) {\n            return response.json();\n          } else {\n            throw new Error('Muster nicht gefunden');\n          }\n        })\n        .then(product => {\n          document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"\/products\/' + sampleHandle + '\">kostenloses Muster bestellen<\/a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.<\/p>';\n        })\n        .catch(error => {\n          document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar.<\/p>';\n        });\n    });\n  <\/script>\n  <div id=\"sample-link\"><\/div>"
           }
         },
         "f72e0f29-9bde-47a2-9281-116e421970d2": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
-            "custom_liquid": "{% assign refs = product.metafields.custom.sellwith %}\n{% for i in refs %}\n        {{ i }}\n{% endfor %}\n\n\n\n\n{% if product.metafields.custom.sellwith %}\n    <div class=\"upsell-products\">\n      <h2>Passende Produkte<\/h2>\n      {% assign upsell_product_ids = product.metafields.custom.sellwith | split: ',' %}\n      {% for upsell_product_gid in upsell_product_ids %}\n        {% assign upsell_product_id = upsell_product_gid | split: '\/' | last %}\n        {% assign upsell_product = all_products[upsell_product_id] %}\n        {% if upsell_product %}\n          <div class=\"upsell-product\">\n            <a href=\"{{ upsell_product.url }}\">\n              <img src=\"{{ upsell_product.featured_image | img_url: '300x300' }}\" alt=\"{{ upsell_product.title }}\">\n              <p>{{ upsell_product.title }}<\/p>\n              <p>{{ upsell_product.price | money }}<\/p>\n            <\/a>\n          <\/div>\n        {% endif %}\n      {% endfor %}\n    <\/div>\n  {% endif %}"
+            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"\/products\/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.<\/a><\/p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"\/products\/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.<\/a><\/p>\n{% endif %}"
           }
         },
         "228d415a-3259-4c35-9225-e4ee1041029d": {
