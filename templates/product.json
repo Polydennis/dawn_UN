@@ -131,6 +131,7 @@
         },
         "f72e0f29-9bde-47a2-9281-116e421970d2": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"\/products\/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.<\/a><\/p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"\/products\/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.<\/a><\/p>\n{% endif %}"
           }
