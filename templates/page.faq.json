@@ -7,16 +7,6 @@
         "padding_bottom": 36
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "63795057-f106-4835-9ab1-87f7f4278859": {
       "type": "collapsible-content",
       "blocks": {
@@ -77,11 +67,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Noch Fragen? Schreib mir!",
+        "heading_size": "h1",
+        "color_scheme": "accent-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "form",
-    "63795057-f106-4835-9ab1-87f7f4278859"
+    "63795057-f106-4835-9ab1-87f7f4278859",
+    "form"
   ]
 }
