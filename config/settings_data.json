@@ -145,6 +145,12 @@
         "settings": {
           "position": "right"
         }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
@@ -194,11 +200,11 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#bcb2a8",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#334fb4",
+          "button_label": "#6e6e6e",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }

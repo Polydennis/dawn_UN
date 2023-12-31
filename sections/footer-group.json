@@ -5,40 +5,45 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "5db8702d-074c-4d33-867f-a7af180bb2e9": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XLREv2"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Informationen",
+            "menu": "informationen"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
+            "heading": "Rechtliches",
             "menu": "footer"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "0c197f5e-5755-43f8-b4ca-513fd9100173": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
       },
       "block_order": [
+        "5db8702d-074c-4d33-867f-a7af180bb2e9",
         "footer-0",
         "footer-1",
-        "footer-2"
+        "0c197f5e-5755-43f8-b4ca-513fd9100173"
       ],
       "settings": {
-        "color_scheme": "inverse",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": true,
+        "color_scheme": "accent-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "Newsletteranmeldung",
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": false,
+        "enable_country_selector": true,
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
