@@ -151,6 +151,57 @@
         "padding_bottom": 36
       }
     },
+    "eb91bbdf-d0df-4d49-afcb-4e528fa578e3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f6e4620e-84aa-4bc2-803f-e1821f9b886b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist das Tapezieren einfach?",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Ja<\/strong>, absolut! Meine Tapeten werden aus einem außergewöhnlich dicken Vliesmaterial von 180 gr\/m² gefertigt. Dieses ist besonders reißfest und einfach zu Verarbeiten.Im Gegensatz zu anderen Tapeten, musst du die Bahnen nicht vorher einkleistern, sondern kannst sie direkt aufhängen, nachdem du die Wand eingekleistert hast. Danach kannst du sie sogar noch leicht verschieben, so dass eine perfekte Stoßkante ganz einfach ist!Im Anschluss schneidest du den Überstand mit einem scharfen Tapeziermesser ab und erhältst ein perfektes Ergebnis.Solltest du dir immer noch unsicher sein oder sollte beim Tapezieren doch etwas schief gehen, zögere bitte nicht, mich zu kontaktieren. Gemeinsam finden wir ganz sicher eine Lösung!<\/p><p><a href=\"https:\/\/youtu.be\/XbyfX2G2xls?list=TLGGSKUwT3tqk2swMjAxMjAyNA\" target=\"_blank\" title=\"Montageanleitung Unik Nordic\">Dieses kurze Video<\/a> zeigt dir, wie du die Tapete anbringst.<\/p><p><a href=\"https:\/\/youtu.be\/mpteTxXLEtI?list=TLGG-EpvhcY2PL0wMjAxMjAyNA\" title=\"Malermeister testet Unik Nordic Tapete\">In diesem ausführlichen Video<\/a> hat ein Malermeister mit mir gemeinsam eine Tapete an die Wand gebracht.<\/p>",
+            "page": ""
+          }
+        },
+        "eab34631-6a0d-403b-a7c3-b80c9da1033c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Muss ich einen Versatz oder Rapport einrechnen?",
+            "icon": "question_mark",
+            "row_content": "<p>Meine Tapeten werden schon fertig zugeschnitten zu dir geliefert. So musst du keinen Rapport einrechnen. Einfach die Bahnen entsprechend der Nummerierung nacheinander an die Wand anbringen. Du kannst dir dazu auch meine <a href=\"https:\/\/youtu.be\/XbyfX2G2xls?list=TLGGSKUwT3tqk2swMjAxMjAyNA\" target=\"_blank\" title=\"Montageanleitung Unik Nordic\">Montageanleitung ansehen<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "eab09fda-7a73-4588-82ae-59c3fc1a4fc6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was mache ich mit Fenstern oder Türen?",
+            "icon": "question_mark",
+            "row_content": "<p>Ganz einfach: Schick mir bitte eine Skizze mit allen Maßen der Wand und den genauen Positionen von Türen oder Fenstern. Du kannst diese Skizze direkt bei deiner Bestellung hochladen. Ich werde <strong>diese<\/strong> dann bei der Gestaltung deiner persönlichen Tapete <strong>berücksichtigen <\/strong>und die Motive daran anpassen.Oder, wenn du es bevorzugst, sende mir die Skizze vorab über das Kontaktformular weiter unten. Dann erstelle ich für dich eine Vorschau, bevor du die Bestellung aufgibst.<strong> So stelle ich sicher, dass alles perfekt passt<\/strong> und du genau das bekommst, was du dir vorstellst.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6e4620e-84aa-4bc2-803f-e1821f9b886b",
+        "eab34631-6a0d-403b-a7c3-b80c9da1033c",
+        "eab09fda-7a73-4588-82ae-59c3fc1a4fc6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Tapezieren",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -167,6 +218,7 @@
     "63795057-f106-4835-9ab1-87f7f4278859",
     "abcb3f7d-8c46-46cf-8e62-b5462dc75131",
     "68f349d4-b547-4af0-8f85-d09cb130ddbe",
+    "eb91bbdf-d0df-4d49-afcb-4e528fa578e3",
     "form"
   ]
 }
