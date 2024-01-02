@@ -118,7 +118,7 @@ input[type="file"]:focus::before {
   justify-content: center;
 }
 
-h2 {
+.contact h2 {
   font-family: 'Bon Voyage Regular', serif!important;
 }
 

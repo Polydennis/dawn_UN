@@ -284,6 +284,10 @@ h5,
   word-break: break-word;
 }
 
+h1 {
+  font-family: 'Bon Voyage Regular', serif;
+}
+
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
@@ -2804,6 +2808,7 @@ details[open] > .header__submenu {
   padding: 1.2rem;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
+  text-transform: uppercase;
 }
 
 .header__menu-item:hover {
