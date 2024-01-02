@@ -62,34 +62,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "d7309c03-2624-4843-8a0c-88d815bb0721": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Schreib mir!",
-        "heading_size": "h1",
-        "color_scheme": "inverse",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f681d1c8-b9e9-438c-b447-6047a703ace8": {
-      "type": "page",
-      "settings": {
-        "page": "schreib-mir-1",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "9d41215b-4019-4718-8b50-02b64246f741",
     "product-grid",
     "banner",
-    "50417dae-724e-441f-83ea-3070bb99050e",
-    "d7309c03-2624-4843-8a0c-88d815bb0721",
-    "f681d1c8-b9e9-438c-b447-6047a703ace8"
+    "50417dae-724e-441f-83ea-3070bb99050e"
   ]
 }
