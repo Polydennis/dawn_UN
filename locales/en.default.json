@@ -252,7 +252,7 @@
         "comment": "Comment",
         "send": "Send",
         "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
-        "image": "Here you have the option of attaching an image file (sketch\/photo) to your message.",
+        "image": "Here you have the option of attaching image files (sketch\/photo) to your message.",
         "error_heading": "Please adjust the following:"
       }
     },
