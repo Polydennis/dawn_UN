@@ -119,7 +119,7 @@ input[type="file"]:focus::before {
 }
 
 h2 {
-  font-family: 'Bon Voyage Regular', serif;
+  font-family: 'Bon Voyage Regular', serif!important;
 }
 
 .contact-method h3 {
