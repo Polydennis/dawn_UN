@@ -16,6 +16,9 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+    <div class="contact-image">
+      <img src="{{ 'ecom-edit-image-M2Ja0mLkhpFoto_Website' | asset_url }}" alt="Sindy, die Gründerin">
+    </div>
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}

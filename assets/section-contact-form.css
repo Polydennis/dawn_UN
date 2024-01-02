@@ -40,6 +40,11 @@
 
 
 /* Contact method styles */
+.contact-image img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 .contact-methods {
   display: flex;
   flex-direction: column;
@@ -79,6 +84,6 @@
   }
   .contact-method {
     flex: 1;
-    max-width: calc(33.33% - 40px); 
+    max-width: 33.33%;
   }
 }
