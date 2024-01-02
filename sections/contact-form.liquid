@@ -19,8 +19,9 @@
     <div class="contact-image">
       <img
         src="{{ 'ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg' | asset_image_url: "medium" }}"
-        alt="Sindy, die Gründerin"
+        alt="Sindy die Gründerin"
       >
+      {{ images['ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg'] | image_url: width: 200 | image_tag }}
     </div>
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
