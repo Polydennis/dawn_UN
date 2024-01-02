@@ -53,6 +53,7 @@
   background-color: #fff;
   border-radius: 10px;
   padding: 38px 15px 30px;
+  color: rgb(var(--color-foreground));
 }
 
 .contact-method svg {
