@@ -1,0 +1,266 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "63795057-f106-4835-9ab1-87f7f4278859": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--18747892826380__63795057-f106-4835-9ab1-87f7f4278859-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Variable Anordnung",
+            "icon": "question_mark",
+            "row_content": "<p>Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.<br\/>Je nach Format kann es aber sein, dass ich das ein oder andere Element entferne um die Wirkung des Motivs zu erhalten und die Tapete nicht zu unruhig wirken zu lassen.Wenn dir z.B. bei einer Tapete mit Tieren eines davon besonders wichtig ist und du ein sehr schmales Format hast, kannst du mir deinen Wunsch gerne mit in das Personalisierungsfeld schreiben. Dann beachte ich das bei der Designerstellung.Zudem kannst du mir auch in dieses Feld mit rein schreiben ob du eine Vorschau vor dem Druck haben möchtest.<\/p>",
+            "page": ""
+          }
+        },
+        "60869b35-a52a-4be5-8309-9252af3b1d84": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Farbvarianten",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "657e4521-607b-4083-871b-01bff623233b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ohne Label (Standardmöglichkeiten)",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18747892826380__63795057-f106-4835-9ab1-87f7f4278859-collapsible_row-1",
+        "60869b35-a52a-4be5-8309-9252af3b1d84",
+        "657e4521-607b-4083-871b-01bff623233b"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Labelerklärung",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "abcb3f7d-8c46-46cf-8e62-b5462dc75131": {
+      "type": "collapsible-content",
+      "blocks": {
+        "d1671e32-3fe4-47d4-a14a-6b39f0418c26": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie hoch sind die Versandkosten?",
+            "icon": "question_mark",
+            "row_content": "<p>Ich versende europaweit mit DHL.<\/p><ul><li>Versand nach <strong>Deutschland 4,90 €<\/strong>. <strong>Ab 60€<\/strong> Warenkorbwert ist der <strong>Versand kostenlos!<\/strong><\/li><li>Versand in die <strong>sonstige EU 15,99 €<\/strong><br\/><\/li><li>Versand in die <strong>Schweiz 26,90 €<\/strong><br\/><\/li><\/ul><p>Wenn du zu deiner Tapete auch Zubehör bestellst wird dieses separat versendet. Versandkosten fallen dennoch nur einmal pro Bestellung an.<\/p>",
+            "page": ""
+          }
+        },
+        "0b64c4dc-25ac-4658-805a-b4f72ef54b85": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wie lange dauert es bis ich meine Tapete erhalte?",
+            "icon": "question_mark",
+            "row_content": "<p>Nach deiner Bestellung passe ich dein gewünschtes Motiv auf deine Maße an und sende den Auftrag an meine Partnerdruckerei. Bis deine Tapete fertig produziert ist und in den Versand geht, dauert es in der Regel 4-5 Werktage. Die Versandzeit beträgt erfahrungsgemäß innerhalb Deutschlands 1-2 Tage (EU ca. 3-4 Tage). Wenn du deine Tapete kurzfristig benötigst zögere nicht mich vor deiner Bestellung anzuschreiben! Ich gebe mein Bestes damit die Tapete rechtzeitig ankommt.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "d1671e32-3fe4-47d4-a14a-6b39f0418c26",
+        "0b64c4dc-25ac-4658-805a-b4f72ef54b85"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Versand",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "68f349d4-b547-4af0-8f85-d09cb130ddbe": {
+      "type": "collapsible-content",
+      "blocks": {
+        "2308e09c-0357-4639-8d49-41889b9ec825": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welche Maße muss ich bestellen?",
+            "icon": "question_mark",
+            "row_content": "<p>Bitte miss die komplette zu tapezierende Fläche aus und<strong>runde<\/strong>bei deiner Bestellung auf die nächsten<strong>vollen 10 Centimeterauf<\/strong>. Hast du nur 1 oder 2 Centimeter aufgerundet, solltest du vielleicht auf die nächsten 10 Centimeter aufrunden.<strong>Nicht jede Wand ist komplett gerade<\/strong>. Insbesondere Altbauwände können über die komplette Länge oder Breite starke Abweichungen haben. Sollte das der Fall, oder solltest du dir unsicher sein runde lieber noch ein bisschen mehr auf.<\/p><p><a href=\"https:\/\/youtu.be\/7mejdvQU6NQ?list=TLGGIa_g3Vr0nBUwMjAxMjAyNA\" target=\"_blank\" title=\"Messanleitung Unik Nordic\">Dieses Video<\/a> erklärt es dir auch noch ein mal bildlich.<\/p>",
+            "page": ""
+          }
+        },
+        "0cd7e433-be4d-4a1f-aae9-c142cb90b0d9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Muss ich einen Versatz oder Rapport einrechnen?",
+            "icon": "question_mark",
+            "row_content": "<p>Meine Tapeten werden schon fertig zugeschnitten zu dir geliefert. So musst du keinen Rapport einrechnen. Einfach die Bahnen entsprechend der Nummerierung nacheinander an die Wand anbringen. Du kannst dir dazu auch meine <a href=\"https:\/\/youtu.be\/XbyfX2G2xls?list=TLGGSKUwT3tqk2swMjAxMjAyNA\" target=\"_blank\" title=\"Montageanleitung Unik Nordic\">Montageanleitung ansehen<\/a>.<\/p>",
+            "page": ""
+          }
+        },
+        "53227d15-b401-49d3-834a-3541a76cea13": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was mache ich mit Fenstern oder Türen?",
+            "icon": "question_mark",
+            "row_content": "<p>Ganz einfach: Schick mir bitte eine Skizze mit allen Maßen der Wand und den genauen Positionen von Türen oder Fenstern. Du kannst diese Skizze direkt bei deiner Bestellung hochladen. Ich werde <strong>diese<\/strong> dann bei der Gestaltung deiner persönlichen Tapete <strong>berücksichtigen <\/strong>und die Motive daran anpassen.Oder, wenn du es bevorzugst, sende mir die Skizze vorab über das Kontaktformular weiter unten. Dann erstelle ich für dich eine Vorschau, bevor du die Bestellung aufgibst.<strong> So stelle ich sicher, dass alles perfekt passt<\/strong> und du genau das bekommst, was du dir vorstellst.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "2308e09c-0357-4639-8d49-41889b9ec825",
+        "0cd7e433-be4d-4a1f-aae9-c142cb90b0d9",
+        "53227d15-b401-49d3-834a-3541a76cea13"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Ausmessen der Wand",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "eb91bbdf-d0df-4d49-afcb-4e528fa578e3": {
+      "type": "collapsible-content",
+      "blocks": {
+        "f6e4620e-84aa-4bc2-803f-e1821f9b886b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ist das Tapezieren einfach?",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Ja<\/strong>, absolut! Meine Tapeten werden aus einem außergewöhnlich dicken Vliesmaterial von 180 gr\/m² gefertigt. Dieses ist besonders reißfest und einfach zu Verarbeiten.Im Gegensatz zu anderen Tapeten, musst du die Bahnen nicht vorher einkleistern, sondern kannst sie direkt aufhängen, nachdem du die Wand eingekleistert hast. Danach kannst du sie sogar noch leicht verschieben, so dass eine perfekte Stoßkante ganz einfach ist!Im Anschluss schneidest du den Überstand mit einem scharfen Tapeziermesser ab und erhältst ein perfektes Ergebnis.Solltest du dir immer noch unsicher sein oder sollte beim Tapezieren doch etwas schief gehen, zögere bitte nicht, mich zu kontaktieren. Gemeinsam finden wir ganz sicher eine Lösung!<\/p><p><a href=\"https:\/\/youtu.be\/XbyfX2G2xls?list=TLGGSKUwT3tqk2swMjAxMjAyNA\" target=\"_blank\" title=\"Montageanleitung Unik Nordic\">Dieses kurze Video<\/a> zeigt dir, wie du die Tapete anbringst.<\/p><p><a href=\"https:\/\/youtu.be\/mpteTxXLEtI?list=TLGG-EpvhcY2PL0wMjAxMjAyNA\" title=\"Malermeister testet Unik Nordic Tapete\">In diesem ausführlichen Video<\/a> hat ein Malermeister mit mir gemeinsam eine Tapete an die Wand gebracht.<\/p>",
+            "page": ""
+          }
+        },
+        "eab34631-6a0d-403b-a7c3-b80c9da1033c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welchen Kleister soll ich verwenden?",
+            "icon": "question_mark",
+            "row_content": "<p>Für die Anbringung kannst du jeden handelsüblichen Kleister verwenden, der für Vliestapeten und somit für die Direktverklebung (Auftrag auf die Wand, nicht auf die Bahnen) geeignet ist. Ich habe bisher nur gute Erfahrungen mit dem \"Status Kleister\" gemacht, den es auch <a href=\"https:\/\/unik-nordic.com\/products\/kleister-fur-vliestapeten\">in meinem Shop<\/a> gibt.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "f6e4620e-84aa-4bc2-803f-e1821f9b886b",
+        "eab34631-6a0d-403b-a7c3-b80c9da1033c"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Tapezieren",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f96d4067-0bf5-460a-a127-222e89156501": {
+      "type": "collapsible-content",
+      "blocks": {
+        "131bf9a4-a193-4864-b5be-aa93de61ffad": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kann ich die Motive an meine Wand anpassen lassen?",
+            "icon": "question_mark",
+            "row_content": "<p><strong>Ja<\/strong>, natürlich - und das sogar kostenlos! Schrägen, Türen, Fenster... nicht jede Wand ist einfach :) Du kannst mir sehr gerne eine Mail schreiben, mit einer Skizze deiner Wand und der Angabe welches Motiv es werden soll. Ich erstelle dir dann kostenlos und unverbindlich eine Vorschau wie das Motiv angepasst an deine Wand aussehen könnte. Meine Mailadresse: kschischan@unik-nordic.com<\/p><p><a href=\"https:\/\/youtu.be\/XbyfX2G2xls?list=TLGGSKUwT3tqk2swMjAxMjAyNA\" target=\"_blank\" title=\"Messanleitung Unik Nordic\">Dieses Video<\/a> zeigt dir, wie du die Maße deiner Tapete aufnimmst.<\/p>",
+            "page": ""
+          }
+        },
+        "b65fb30e-f272-4ff3-bdf7-adcb645146b5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Welche Inhaltsstoffe haben die Tapeten?",
+            "icon": "question_mark",
+            "row_content": "<p>Meine Tapeten sind<strong> frei von PVC, Weichmachern, Lösungsmitteln und ohne Zusatz von Schwermetallverbindungen oder Formaldehyd<\/strong>. Dadurch können sie auch bedenkenlos in Baby- und Kinderzimmern eingesetzt werden. Sie erfüllen die Anforderungen an <strong>schwerentflammbare <\/strong>Baustoffe (Baustoffklasse B1) nach der Norm DIN 4102-1.<\/p>",
+            "page": ""
+          }
+        },
+        "1d6c947e-2e20-408c-9c38-c80b4e5860c3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Was kann ich alles anpassen lassen? (Labelerklärungen)",
+            "icon": "question_mark",
+            "row_content": "<p>Auf den Produktseiten findest du anhand dieser Label heraus, was du anpassen lassen kannst. Das Format wird natürlich immer angepasst. Einige Motive lassen sich auch in der Gesamtfarbe oder sogar in der Farbe einzelner Elemente anpassen.<\/p><h4>Motive ohne Label<\/h4><p>Alle Motive werden von mir nach deiner Bestellung genau auf deine Wandmaße angepasst indem ich einen optisch bestmöglichen Ausschnitt wähle oder (wenn möglich) das Motiv etwas verzerre. Z.B. bei Marmortapeten fällt es optisch nicht auf wenn das Motiv etwas gestaucht oder gezerrt ist. Dadurch erhältst du aber möglichst viele Details.<\/p><h4>Variabel<\/h4><p>Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente am Rand abgeschnitten. Je nach Format kann es aber sein, dass ich das ein oder andere Element entferne um die Wirkung des Motivs zu erhalten und die Tapete nicht zu unruhig wirken zu lassen.Wenn dir z.B. bei einer Tapete mit Tieren eines davon besonders wichtig ist und du ein sehr schmales Format hast, kannst du mir deinen Wunsch gerne mit in das Personalisierungsfeld schreiben. Dann beachte ich das bei der Designerstellung. Zudem kannst du mir auch in dieses Feld mit rein schreiben ob du eine Vorschau vor dem Druck haben möchtest.<\/p><h4>Farbvarianten<\/h4><p>Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.Dabei gibt es 2 Varianten: <\/p><ol><li>Du kannst die Hintergrundfarbe bzw. die Designfarben frei aus den Auswahlmöglichkeiten wählen. <\/li><li>Die kannst die Farbe aller Elemente frei aus meiner Farbkarte wählen.<br\/><\/li><\/ol><p> Alle Infos zu deinen Auswahlmöglichkeiten findest du in der Beschreibung des jeweiligen Motivs.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "131bf9a4-a193-4864-b5be-aa93de61ffad",
+        "b65fb30e-f272-4ff3-bdf7-adcb645146b5",
+        "1d6c947e-2e20-408c-9c38-c80b4e5860c3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Produktfragen",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Noch Fragen? Schreib mir!",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "63795057-f106-4835-9ab1-87f7f4278859",
+    "abcb3f7d-8c46-46cf-8e62-b5462dc75131",
+    "68f349d4-b547-4af0-8f85-d09cb130ddbe",
+    "eb91bbdf-d0df-4d49-afcb-4e528fa578e3",
+    "f96d4067-0bf5-460a-a127-222e89156501",
+    "form"
+  ]
+}
