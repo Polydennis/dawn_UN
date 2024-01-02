@@ -57,6 +57,11 @@
   text-decoration: none;
 }
 
+.contact-method h3 {
+  color: rgb(var(--color-background-contrast))!important;
+  font-weight: bold;
+}
+
 .contact-method svg {
   margin-bottom: 8px;
 }
