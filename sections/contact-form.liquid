@@ -17,10 +17,6 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     <div class="contact-image">
-      <img
-        src="{{ 'ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg' | asset_image_url: "medium" }}"
-        alt="Sindy die Gründerin"
-      >
       {{ images['ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg'] | image_url: width: 200 | image_tag }}
     </div>
     {%- if section.settings.heading != blank -%}

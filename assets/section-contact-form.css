@@ -40,6 +40,10 @@
 
 
 /* Contact method styles */
+.contact-image {  
+  text-align: center;
+}
+
 .contact-image img {
   border-radius: 50%;
   margin-bottom: 20px;
