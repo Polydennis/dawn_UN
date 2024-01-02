@@ -118,9 +118,14 @@ input[type="file"]:focus::before {
   justify-content: center;
 }
 
+h2 {
+  font-family: 'Bon Voyage Regular', serif;
+}
+
 .contact-method h3 {
   color: rgb(var(--color-button-text))!important;
 }
+
 
 .contact-method svg {
   margin-bottom: 8px;
