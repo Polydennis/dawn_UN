@@ -256,6 +256,9 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2",
         "29a9111b-a835-4f59-8fd8-9310d663b3d9"
       ],
+      "custom_css": [
+        "h2 {font-family: 'Bon Voyage Regular', serif!important;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
