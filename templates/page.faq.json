@@ -26,7 +26,7 @@
             "heading": "Farbvarianten",
             "icon": "question_mark",
             "row_content": "",
-            "page": ""
+            "page": "faq-farbvarianten"
           }
         },
         "657e4521-607b-4083-871b-01bff623233b": {
@@ -35,7 +35,7 @@
             "heading": "Ohne Label (Standardmöglichkeiten)",
             "icon": "question_mark",
             "row_content": "",
-            "page": ""
+            "page": "faq-ohne-label"
           }
         }
       },
