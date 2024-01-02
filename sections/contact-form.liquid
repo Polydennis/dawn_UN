@@ -192,8 +192,11 @@
     var fileLabel = document.querySelector("label[for='ContactForm-image']");
 
     fileInput.addEventListener('change', function (event) {
-      var fileName = event.target.files[0].name;
-      fileLabel.textContent = fileName;
+      var fileNames = [];
+      for (var i = 0; i < event.target.files.length; i++) {
+        fileNames.push(event.target.files[i].name);
+      }
+      fileLabel.textContent = fileNames.join(', ');
     });
   });
 </script>
