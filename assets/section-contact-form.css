@@ -78,6 +78,7 @@
 
 .contact-method svg {
   margin-bottom: 8px;
+  align-self: center;
 }
 
 @media screen and (min-width: 750px) {
