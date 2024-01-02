@@ -52,10 +52,9 @@ input[type="file"] {
   color: transparent;
   width: 100%;
   padding: 10px;
-  background-color: #f3f3f3;
   border: 1px solid #dcdcdc; 
-  border-radius: 5px;
   cursor: pointer;
+  opacity: 0;
 }
 
 input[type="file"]::-webkit-file-upload-button {
