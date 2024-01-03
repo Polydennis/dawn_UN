@@ -395,6 +395,16 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Noch Fragen? Schreib mir?",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -406,6 +416,7 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "multicolumn",
-    "1703089345cd69a960"
+    "1703089345cd69a960",
+    "243dfa51-fba6-451f-8318-b9c2c5ed6949"
   ]
 }
