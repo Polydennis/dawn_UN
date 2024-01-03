@@ -416,29 +416,20 @@
             "heading_size": "h1"
           }
         },
-        "72f7a279-96f3-4c24-937f-518b1ecdd387": {
-          "type": "caption",
-          "settings": {
-            "caption": "Individualität für dein Zuhause. Sei unik!",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in Druck geht.So passt das Motiv später perfekt auf deine Wand.<\/p>",
+            "text": "<h3>Individualität für dein Zuhause. Sei unik!<\/h3><p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in Druck geht.So passt das Motiv später perfekt auf deine Wand.<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1",
-        "72f7a279-96f3-4c24-937f-518b1ecdd387",
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1"
       ],
       "custom_css": [
-        "h2, h3, subtitle {font-family: \"Bon Voyage Regular\", serif;}"
+        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.jpg",
