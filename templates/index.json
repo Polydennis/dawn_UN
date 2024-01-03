@@ -412,7 +412,7 @@
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Maß­ange­fertigte Ta­pe­ten",
+            "heading": "Maß­ange­fertigte Tapeten",
             "heading_size": "h1"
           }
         },
@@ -436,6 +436,9 @@
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1",
         "72f7a279-96f3-4c24-937f-518b1ecdd387",
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1"
+      ],
+      "custom_css": [
+        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.png",
