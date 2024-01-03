@@ -438,10 +438,10 @@
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1"
       ],
       "custom_css": [
-        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
+        "h2, h3, subtitle {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.png",
+        "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -449,7 +449,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "section_color_scheme": "background-1",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
