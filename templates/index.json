@@ -416,26 +416,26 @@
             "heading_size": "h1"
           }
         },
+        "72f7a279-96f3-4c24-937f-518b1ecdd387": {
+          "type": "caption",
+          "settings": {
+            "caption": "Individualität für dein Zuhause. Sei unik!",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in Druck geht.So passt das Motiv später perfekt auf deine Wand.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1",
-        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1",
-        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-button-1"
+        "72f7a279-96f3-4c24-937f-518b1ecdd387",
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.png",
