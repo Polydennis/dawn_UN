@@ -185,6 +185,7 @@
         "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-07-29_um_13.39.40.png",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
@@ -195,7 +196,7 @@
         "e240a810-9610-44c3-aca9-5744d7240547": {
           "type": "row",
           "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
+            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2022-11-11_um_12.55.56.png",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
@@ -206,7 +207,7 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Erklaerung_Produktfotos.jpg",
+            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
             "caption": "Deine Wand, dein Stil",
             "heading": "Sei Unik",
             "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jede Tapete, die ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.<\/p>",
@@ -228,7 +229,7 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hohe_qualitaet.jpg",
+            "image": "shopify:\/\/shop_images\/Produktseite_Qualitaet.jpg",
             "caption": "Begeisterte Kunden",
             "heading": "Qualität, die überzeugt",
             "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
@@ -239,7 +240,7 @@
         "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/einfache_montage.jpg",
+            "image": "shopify:\/\/shop_images\/Produktseite_Montage.jpg",
             "caption": "Einfaches Anbringen",
             "heading": "Unkomplizierte Montage",
             "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Tapeten sind so gestaltet, dass du sie ganz einfach selbst anbringen kannst – perfekt für alle DIY-Enthusiasten. Genieße das Erfolgserlebnis, dein Zuhause mit eigenen Händen zu verschönern.<\/p>",
@@ -257,7 +258,7 @@
         "29a9111b-a835-4f59-8fd8-9310d663b3d9"
       ],
       "custom_css": [
-        "h2 {font-family: 'Bon Voyage Regular', serif!important;}"
+        "h2 {font-family: \"Bon Voyage Regular\", serif !important;}"
       ],
       "settings": {
         "image_height": "medium",
