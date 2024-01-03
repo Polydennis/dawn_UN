@@ -405,6 +405,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "46d794bc-7a98-4fa8-9086-fc0ccec2de34": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maß­ange­fertigte Ta­pe­ten",
+            "heading_size": "h1"
+          }
+        },
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1",
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1",
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -417,6 +464,7 @@
     "video",
     "multicolumn",
     "1703089345cd69a960",
-    "243dfa51-fba6-451f-8318-b9c2c5ed6949"
+    "243dfa51-fba6-451f-8318-b9c2c5ed6949",
+    "46d794bc-7a98-4fa8-9086-fc0ccec2de34"
   ]
 }
