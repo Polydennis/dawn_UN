@@ -416,6 +416,120 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Beratung.png",
+            "title": "Beratung",
+            "text": "<p>Egal welche Fragen du hast, ich bin immer für dich da und finde mit dir  auch vor dem Kauf das perfekte Motiv.<\/p>",
+            "link_label": "Schreib mir",
+            "link": "shopify:\/\/pages\/schreib-mir"
+          }
+        },
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Personalisiert_1fb74390-7188-43f7-ba30-bf3a232cf61e.png",
+            "title": "Design",
+            "text": "<p>Alle Motive werden auf dein bestelltes Format angepasst. Zudem kannst du viele nach deinen Wünschen anpassen zu lassen.<\/p>",
+            "link_label": "Weitere Infos",
+            "link": "shopify:\/\/pages\/faq"
+          }
+        },
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Motive.png",
+            "title": "Einzigartige Motive",
+            "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "37ddb6a2-01d2-49f4-94ba-b04877663891": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
+            "title": "Persönlicher Motivservice",
+            "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern oder Schrägen<\/p>",
+            "link_label": "Kontakt",
+            "link": "shopify:\/\/pages\/schreib-mir"
+          }
+        },
+        "be68dd8c-c296-43cf-95d8-84833eadde63": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
+            "title": "Berliner Druck",
+            "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Adlershof angefertigt und ausgiebig geprüft.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Kalkulation.png",
+            "title": "Kalkulator",
+            "text": "<p>Den Preis für deine Tapete erfährst du ganz einfach über den Kalkulator auf jeder  Produktseite.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e596a778-7165-4979-a415-ef49f9a37c3a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Montage.png",
+            "title": "Montage",
+            "text": "<p>Die Bahnen kommen schon zugeschnitten und nummeriert bei dir an.<br\/>Wand einkleistern, Bahnen anbringen - FERTIG!<\/p>",
+            "link_label": "Videoanleitung",
+            "link": "https:\/\/www.youtube.com\/watch?v=XbyfX2G2xls"
+          }
+        },
+        "a4b302be-1cd8-422d-befe-523463196468": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Know_How.png",
+            "title": "Meine Passion",
+            "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br\/>Möchtest du mehr über mich erfahren?<\/p>",
+            "link_label": "Über mich",
+            "link": "shopify:\/\/pages\/uber-mich"
+          }
+        }
+      },
+      "block_order": [
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-1",
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-2",
+        "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3",
+        "37ddb6a2-01d2-49f4-94ba-b04877663891",
+        "be68dd8c-c296-43cf-95d8-84833eadde63",
+        "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e",
+        "e596a778-7165-4979-a415-ef49f9a37c3a",
+        "a4b302be-1cd8-422d-befe-523463196468"
+      ],
+      "custom_css": [
+        "h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -428,6 +542,7 @@
     "video",
     "multicolumn",
     "1703089345cd69a960",
-    "243dfa51-fba6-451f-8318-b9c2c5ed6949"
+    "243dfa51-fba6-451f-8318-b9c2c5ed6949",
+    "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c"
   ]
 }
