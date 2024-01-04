@@ -185,7 +185,7 @@
         "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2022-07-29_um_13.39.40.png",
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
@@ -196,7 +196,7 @@
         "e240a810-9610-44c3-aca9-5744d7240547": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bildschirm_foto_2022-11-11_um_12.55.56.png",
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
