@@ -204,13 +204,13 @@
             "button_link": ""
           }
         },
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
-            "caption": "Deine Wand, dein Stil",
-            "heading": "Sei Unik",
-            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jede Tapete, die ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.<\/p>",
+            "image": "shopify:\/\/shop_images\/Produktseite_Qualitaet.jpg",
+            "caption": "Begeisterte Kunden",
+            "heading": "Qualität, die überzeugt",
+            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -226,13 +226,13 @@
             "button_link": ""
           }
         },
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produktseite_Qualitaet.jpg",
-            "caption": "Begeisterte Kunden",
-            "heading": "Qualität, die überzeugt",
-            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
+            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
+            "caption": "Deine Wand, dein Stil",
+            "heading": "Sei Unik",
+            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jede Tapete, die ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -252,9 +252,9 @@
       "block_order": [
         "62be5099-6cf1-4339-a934-0ad8cdc1f401",
         "e240a810-9610-44c3-aca9-5744d7240547",
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1",
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2",
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3",
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1",
         "29a9111b-a835-4f59-8fd8-9310d663b3d9"
       ],
       "custom_css": [
