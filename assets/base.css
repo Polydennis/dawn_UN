@@ -284,8 +284,9 @@ h5,
   word-break: break-word;
 }
 
-h1 {
-  font-family: 'Bon Voyage Regular', serif;
+h1, h2, h3 {
+  font-family: "Bon Voyage Regular", serif;
+  text-transform: uppercase;
 }
 
 .hxl {
