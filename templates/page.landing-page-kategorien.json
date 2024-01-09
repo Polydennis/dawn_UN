@@ -163,119 +163,117 @@
       }
     },
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a": {
-        "type": "multicolumn",
-        "blocks": {
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-1": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Beratung.png",
-              "title": "Beratung",
-              "text": "<p>Egal welche Fragen du hast, ich bin immer für dich da und finde mit dir  auch vor dem Kauf das perfekte Motiv.<\/p>",
-              "link_label": "Schreib mir",
-              "link": "shopify:\/\/pages\/schreib-mir"
-            }
-          },
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-2": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Personalisiert_1fb74390-7188-43f7-ba30-bf3a232cf61e.png",
-              "title": "Design",
-              "text": "<p>Alle Motive werden auf dein bestelltes Format angepasst. Zudem kannst du viele nach deinen Wünschen anpassen zu lassen.<\/p>",
-              "link_label": "Weitere Infos",
-              "link": "shopify:\/\/pages\/faq"
-            }
-          },
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Motive.png",
-              "title": "Einzigartige Motive",
-              "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.<\/p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "37ddb6a2-01d2-49f4-94ba-b04877663891": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
-              "title": "Persön­licher Motiv­service",
-              "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern oder Schrägen<\/p>",
-              "link_label": "Kontakt",
-              "link": "shopify:\/\/pages\/schreib-mir"
-            }
-          },
-          "be68dd8c-c296-43cf-95d8-84833eadde63": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
-              "title": "Berliner Druck",
-              "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Adlershof angefertigt und ausgiebig geprüft.<\/p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Kalkulation.png",
-              "title": "Kalkulator",
-              "text": "<p>Den Preis für deine Tapete erfährst du ganz einfach über den Kalkulator auf jeder  Produktseite.<\/p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "e596a778-7165-4979-a415-ef49f9a37c3a": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Montage.png",
-              "title": "Montage",
-              "text": "<p>Die Bahnen kommen schon zugeschnitten und nummeriert bei dir an.<br\/>Wand einkleistern, Bahnen anbringen - FERTIG!<\/p>",
-              "link_label": "Videoanleitung",
-              "link": "https:\/\/www.youtube.com\/watch?v=XbyfX2G2xls"
-            }
-          },
-          "a4b302be-1cd8-422d-befe-523463196468": {
-            "type": "column",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Icon_Know_How.png",
-              "title": "Meine Passion",
-              "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br\/>Möchtest du mehr über mich erfahren?<\/p>",
-              "link_label": "Über mich",
-              "link": "shopify:\/\/pages\/uber-mich"
-            }
+      "type": "multicolumn",
+      "blocks": {
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Beratung.png",
+            "title": "Beratung",
+            "text": "<p>Egal welche Fragen du hast, ich bin immer für dich da und finde mit dir  auch vor dem Kauf das perfekte Motiv.<\/p>",
+            "link_label": "Schreib mir",
+            "link": "shopify:\/\/pages\/schreib-mir"
           }
         },
-        "block_order": [
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-1",
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-2",
-          "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3",
-          "37ddb6a2-01d2-49f4-94ba-b04877663891",
-          "be68dd8c-c296-43cf-95d8-84833eadde63",
-          "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e",
-          "e596a778-7165-4979-a415-ef49f9a37c3a",
-          "a4b302be-1cd8-422d-befe-523463196468"
-        ],
-        "custom_css": [
-          "h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase; font-size: 2rem;}"
-        ],
-        "settings": {
-          "title": "",
-          "heading_size": "h1",
-          "image_width": "half",
-          "image_ratio": "adapt",
-          "columns_desktop": 4,
-          "column_alignment": "center",
-          "background_style": "primary",
-          "button_label": "",
-          "button_link": "",
-          "color_scheme": "background-2",
-          "columns_mobile": "1",
-          "swipe_on_mobile": true,
-          "padding_top": 36,
-          "padding_bottom": 36
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Personalisiert_1fb74390-7188-43f7-ba30-bf3a232cf61e.png",
+            "title": "Design",
+            "text": "<p>Alle Motive werden auf dein bestelltes Format angepasst. Zudem kannst du viele nach deinen Wünschen anpassen zu lassen.<\/p>",
+            "link_label": "Weitere Infos",
+            "link": "shopify:\/\/pages\/faq"
+          }
+        },
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Motive.png",
+            "title": "Einzigartige Motive",
+            "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "13d015ad-ce66-409c-a1c4-615046ab8e98": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
+            "title": "Persön­licher Motiv­service",
+            "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern oder Schrägen<\/p>",
+            "link_label": "Kontakt",
+            "link": "shopify:\/\/pages\/schreib-mir"
+          }
+        },
+        "ae88b71c-a8b7-44a1-ac20-1144d20d4a91": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
+            "title": "Berliner Druck",
+            "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Adlershof angefertigt und ausgiebig geprüft.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "296e6a08-46bf-4149-b999-32604c6609d9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Kalkulation.png",
+            "title": "Kalkulator",
+            "text": "<p>Den Preis für deine Tapete erfährst du ganz einfach über den Kalkulator auf jeder  Produktseite.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8c0f2d74-a93f-4410-9845-b2f92d536cd1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Montage.png",
+            "title": "Montage",
+            "text": "<p>Die Bahnen kommen schon zugeschnitten und nummeriert bei dir an.<br\/>Wand einkleistern, Bahnen anbringen - FERTIG!<\/p>",
+            "link_label": "Videoanleitung",
+            "link": "https:\/\/www.youtube.com\/watch?v=XbyfX2G2xls"
+          }
+        },
+        "bb1172d2-e335-4d84-9811-11886ace4331": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Know_How.png",
+            "title": "Meine Passion",
+            "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br\/>Möchtest du mehr über mich erfahren?<\/p>",
+            "link_label": "Über mich",
+            "link": "shopify:\/\/pages\/uber-mich"
+          }
         }
       },
+      "block_order": [
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-1",
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-2",
+        "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-3",
+        "13d015ad-ce66-409c-a1c4-615046ab8e98",
+        "ae88b71c-a8b7-44a1-ac20-1144d20d4a91",
+        "296e6a08-46bf-4149-b999-32604c6609d9",
+        "8c0f2d74-a93f-4410-9845-b2f92d536cd1",
+        "bb1172d2-e335-4d84-9811-11886ace4331"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
   "order": [
     "beb8b4c2-5082-42e2-81f6-dc0bf1ee471a",
     "330243b5-97d7-4935-a422-c18067f56d06",
@@ -285,4 +283,4 @@
     "form",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a"
   ]
-}}
+}
