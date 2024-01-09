@@ -28,7 +28,7 @@
         "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1"
       ],
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "heading": "Kollektionen",
@@ -212,7 +212,7 @@
         "bb1172d2-e335-4d84-9811-11886ace4331"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
