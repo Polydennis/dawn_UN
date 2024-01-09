@@ -27,6 +27,9 @@
         "bb0c3109-e4a2-47cb-9f58-a34d4ec077a6",
         "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1"
       ],
+      "custom_css": [
+        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
       "settings": {
         "heading": "Kollektionen",
         "heading_size": "h1",
