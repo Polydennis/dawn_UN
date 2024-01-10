@@ -1135,7 +1135,7 @@ class VariantSelects extends HTMLElement {
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 
-        if (price) price.classList.remove('hidden');
+
 
         if (inventoryDestination)
           inventoryDestination.classList.toggle('hidden', inventorySource.innerText === '');
