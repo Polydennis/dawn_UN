@@ -434,10 +434,10 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e": {
       "type": "collage",
       "blocks": {
-        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
+        "0945f3da-a152-4c24-8328-848fa1d66c19": {
           "type": "collection",
           "settings": {
-            "collection": "architektur-shy-tapeten"
+            "collection": "fototapeten"
           }
         },
         "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9": {
@@ -446,17 +446,17 @@
             "collection": "muster"
           }
         },
-        "0945f3da-a152-4c24-8328-848fa1d66c19": {
+        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
           "type": "collection",
           "settings": {
-            "collection": "fototapeten"
+            "collection": "ikea-kura-bett-folien"
           }
         }
       },
       "block_order": [
-        "c115f993-e3d1-40f8-8093-150b7d9f18da",
+        "0945f3da-a152-4c24-8328-848fa1d66c19",
         "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9",
-        "0945f3da-a152-4c24-8328-848fa1d66c19"
+        "c115f993-e3d1-40f8-8093-150b7d9f18da"
       ],
       "custom_css": [
 
