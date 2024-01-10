@@ -14,7 +14,7 @@
             "link": "shopify:\/\/collections\/kindertapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
             "color_scheme": "inverse",
@@ -32,7 +32,7 @@
             "link": "shopify:\/\/collections\/naturtapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 30,
             "color_scheme": "inverse",
@@ -50,7 +50,7 @@
             "link": "shopify:\/\/collections\/fototapeten-home-gym",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
             "color_scheme": "inverse",
@@ -68,7 +68,7 @@
             "link": "shopify:\/\/collections\/marmor-steintapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
             "color_scheme": "inverse",
@@ -86,7 +86,7 @@
             "link": "shopify:\/\/collections\/ikea-kura-bett-folien",
             "button_style_secondary": false,
             "box_align": "bottom-right",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
             "color_scheme": "inverse",
@@ -106,7 +106,7 @@
         "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
@@ -129,7 +129,7 @@
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3>Individualität für dein Zuhause. Sei unik!<\/h3><p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv kostenfrei und exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in den Druck geht. <br\/>So passt das Motiv später perfekt auf deine Wand.<\/p>",
+            "text": "<h3>Individualität für dein Zuhause. <br\/>Sei unik!<\/h3><p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv kostenfrei und exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in den Druck geht. <br\/>So passt das Motiv später perfekt auf deine Wand.<\/p>",
             "text_style": "body"
           }
         }
