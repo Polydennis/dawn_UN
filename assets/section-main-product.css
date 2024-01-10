@@ -822,9 +822,9 @@ a.product__text {
     padding: 2rem 11rem;
   }
 
-  .product-media-modal__content > * {
+  /* .product-media-modal__content > * {
     width: 100%;
-  }
+  } */
 
   .product-media-modal__content > * + * {
     margin-top: 2rem;
