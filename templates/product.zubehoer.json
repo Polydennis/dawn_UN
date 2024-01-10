@@ -22,6 +22,7 @@
         },
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div>{% if product.metafields.custom.labels.value contains 'farben' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.<\/span>\n    <\/a>\n  {% elsif product.metafields.custom.labels.value contains 'variabel' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.<\/span>\n    <\/a>\n{% endif %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Dein Motiv wird genau auf das bestellte Format angepasst und in passende und nummertierte Bahnen geschnitten.<\/span>\n    <\/a>\n\n  \n  \n  <script>\n    function positionTooltip(tooltip, tooltipText) {\n      tooltipText.style.bottom = '150%';\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = '-60px';\n      tooltipText.style.marginTop = '';\n  \n      const rect = tooltip.getBoundingClientRect();\n      const winWidth = window.innerWidth;\n      const winHeight = window.innerHeight;\n      const spaceLeft = rect.left;\n      const spaceRight = winWidth - rect.right;\n      const spaceTop = rect.top;\n      const spaceBottom = winHeight - rect.bottom;\n  \n      if (spaceTop < tooltipText.offsetHeight) {\n        tooltipText.style.bottom = 'auto';\n        tooltipText.style.top = '100%';\n      }\n  \n      if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n        tooltipText.style.left = '50%';\n        tooltipText.style.marginLeft = -(tooltipText.offsetWidth \/ 2) + 'px';\n      } else if (spaceRight < tooltipText.offsetWidth) {\n        tooltipText.style.left = 'auto';\n        tooltipText.style.right = '100%';\n        tooltipText.style.marginLeft = '';\n      }\n    }\n  \n    document.addEventListener('DOMContentLoaded', function() {\n      var tooltips = document.querySelectorAll('.tooltip');\n      tooltips.forEach(function(tooltip) {\n        var tooltipText = tooltip.querySelector('.tooltiptext');\n        positionTooltip(tooltip, tooltipText);\n  \n        tooltip.addEventListener('click', function(event) {\n          event.preventDefault();\n          tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n          positionTooltip(tooltip, tooltipText);\n        });\n  \n        window.addEventListener('resize', function() {\n          positionTooltip(tooltip, tooltipText);\n        });\n      });\n    });\n  <\/script><\/div>"
           }
@@ -64,9 +65,18 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Hochwertiges Material",
+            "heading": "Hochwertiges Werkzeug",
             "icon": "price_tag",
             "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "e4466e54-edb3-46ab-abef-e0dac9de574c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Perfektes Arbeiten",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
             "page": ""
           }
         },
@@ -81,6 +91,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Wände messen",
             "icon": "ruler",
@@ -90,6 +101,7 @@
         },
         "24725872-f967-4a93-b412-3b8750be9d55": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Anpassmöglichkeiten",
             "icon": "star",
@@ -97,17 +109,9 @@
             "page": ""
           }
         },
-        "e4466e54-edb3-46ab-abef-e0dac9de574c": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Leichte Anbringung",
-            "icon": "check_mark",
-            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
-            "page": ""
-          }
-        },
         "970234dc-5764-4f4f-a779-3fd06697f559": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Zufriedenheitsgarantie",
             "icon": "heart",
@@ -154,10 +158,10 @@
         "description",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
         "collapsible-row-0",
+        "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "collapsible-row-1",
         "collapsible-row-2",
         "24725872-f967-4a93-b412-3b8750be9d55",
-        "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",

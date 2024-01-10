@@ -134,17 +134,23 @@
 
     ],
     "blocks": {
-      "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "12120936241911852800": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
+        }
+      },
+      "21474836472147483647": {
+        "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "11667715999621601152": {
+        "type": "shopify:\/\/apps\/pixeltok-multi-pixel-install\/blocks\/turbo-tiktok\/0f61e244-e2c9-43da-9523-9762c9f7e6bf",
+        "disabled": false,
+        "settings": {
         }
       },
       "855628211100114053": {
@@ -153,16 +159,23 @@
         "settings": {
         }
       },
-      "11667715999621601152": {
-        "type": "shopify:\/\/apps\/tiktok-ads-tiktok-pixels\/blocks\/turbo-tiktok\/0f61e244-e2c9-43da-9523-9762c9f7e6bf",
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
-      "21474836472147483647": {
-        "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
-        "disabled": true,
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
         "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
         }
       }
     },

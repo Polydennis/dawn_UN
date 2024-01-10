@@ -402,13 +402,13 @@
         "85aad2c5-311f-490e-b87d-efa516fb14e3": {
           "type": "collection",
           "settings": {
-            "collection": "blumentapeten"
+            "collection": "naturtapeten"
           }
         },
         "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5": {
           "type": "collection",
           "settings": {
-            "collection": "marmor-steintapeten"
+            "collection": "abstrakte-tapeten"
           }
         }
       },
@@ -434,10 +434,10 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e": {
       "type": "collage",
       "blocks": {
-        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
+        "0945f3da-a152-4c24-8328-848fa1d66c19": {
           "type": "collection",
           "settings": {
-            "collection": "architektur-shy-tapeten"
+            "collection": "fototapeten"
           }
         },
         "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9": {
@@ -446,17 +446,17 @@
             "collection": "muster"
           }
         },
-        "0945f3da-a152-4c24-8328-848fa1d66c19": {
+        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
           "type": "collection",
           "settings": {
-            "collection": "fototapeten-home-gym"
+            "collection": "ikea-kura-bett-folien"
           }
         }
       },
       "block_order": [
-        "c115f993-e3d1-40f8-8093-150b7d9f18da",
+        "0945f3da-a152-4c24-8328-848fa1d66c19",
         "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9",
-        "0945f3da-a152-4c24-8328-848fa1d66c19"
+        "c115f993-e3d1-40f8-8093-150b7d9f18da"
       ],
       "custom_css": [
 
@@ -479,8 +479,9 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/Website_Quadratisch.mov",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/produktionsvideo_titel.jpg",
+        "description": "Unik Nordic Produktionsvideo",
         "full_width": false,
         "color_scheme": "scheme-1",
         "padding_top": 36,
