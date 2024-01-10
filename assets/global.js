@@ -1128,10 +1128,6 @@ class VariantSelects extends HTMLElement {
           volumePricingDestination.innerHTML = volumePricingSource.innerHTML;
         }
 
-        if (pricePerItemSource && pricePerItemDestination) {
-          pricePerItemDestination.innerHTML = pricePerItemSource.innerHTML;
-          pricePerItemDestination.classList.toggle('hidden', pricePerItemSource.classList.contains('hidden'));
-        }
 
         const price = document.getElementById(`price-${this.dataset.section}`);
 
@@ -1188,7 +1184,7 @@ class VariantSelects extends HTMLElement {
 
     if (!addButton) return;
     addButtonText.textContent = window.variantStrings.unavailable;
-
+    if (price) price.classList.add('hidden');
     if (inventory) inventory.classList.add('hidden');
     if (sku) sku.classList.add('hidden');
     if (pricePerItem) pricePerItem.classList.add('hidden');
