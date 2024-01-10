@@ -68,7 +68,7 @@
           "settings": {
             "heading": "Hochwertiges Material",
             "icon": "price_tag",
-            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
+            "content": "<p>Die Motive werden auf Möbelfolie höchster Qualität gedruckt und mit hochpräzisen Maschinen auf das optimale Format geschnitten.<\/p>",
             "page": ""
           }
         },
@@ -106,7 +106,7 @@
           "settings": {
             "heading": "Leichtes Aufkleben",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
+            "content": "<p>Das Anbringen der Folien auf deine Möbel ist spielend leicht. Mit dem mitgelieferten Rakel gelingt dir das Aufkleben ohne Luftblasen garantiert.<\/p>",
             "page": ""
           }
         },
