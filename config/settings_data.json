@@ -97,6 +97,9 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
+    "brand_headline": "Unik Nordic - einzigartige Tapeten",
+    "brand_description": "<p>Sei unik - unverwechselbare Wohnraumgestaltung<\/p>",
+    "brand_image": "shopify:\/\/shop_images\/Logo_2022_dark.png",
     "social_facebook_link": "https:\/\/www.facebook.com\/UnikNordic\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/unik.nordic\/",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC0wXEDqZ49MyMT2C8nINiSg",
@@ -141,6 +144,12 @@
           "position": "right"
         }
       },
+      "21474836472147483647": {
+        "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
+        "disabled": true,
+        "settings": {
+        }
+      },
       "11667715999621601152": {
         "type": "shopify:\/\/apps\/pixeltok-multi-pixel-install\/blocks\/turbo-tiktok\/0f61e244-e2c9-43da-9523-9762c9f7e6bf",
         "disabled": false,
@@ -164,7 +173,7 @@
         "disabled": false,
         "settings": {
           "button_color": "#000000",
-          "secondary_color": "#ffffff",
+          "secondary_color": "#FFFFFF",
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
