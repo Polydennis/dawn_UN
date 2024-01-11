@@ -1174,7 +1174,28 @@ class VariantSelects extends HTMLElement {
     if (!modifyClass) return;
   }
 
+  setUnavailable() {
+    const button = document.getElementById(`product-form-${this.dataset.section}`);
+    const addButton = button.querySelector('[name="add"]');
+    const addButtonText = button.querySelector('[name="add"] > span');
+    const price = document.getElementById(`price-${this.dataset.section}`);
+    const inventory = document.getElementById(`Inventory-${this.dataset.section}`);
+    const sku = document.getElementById(`Sku-${this.dataset.section}`);
+    const pricePerItem = document.getElementById(`Price-Per-Item-${this.dataset.section}`);
+    const volumeNote = document.getElementById(`Volume-Note-${this.dataset.section}`);
+    const volumeTable = document.getElementById(`Volume-${this.dataset.section}`);
+    const qtyRules = document.getElementById(`Quantity-Rules-${this.dataset.section}`);
 
+    if (!addButton) return;
+    addButtonText.textContent = window.variantStrings.unavailable;
+    if (price) price.classList.add('hidden');
+    if (inventory) inventory.classList.add('hidden');
+    if (sku) sku.classList.add('hidden');
+    if (pricePerItem) pricePerItem.classList.add('hidden');
+    if (volumeNote) volumeNote.classList.add('hidden');
+    if (volumeTable) volumeTable.classList.add('hidden');
+    if (qtyRules) qtyRules.classList.add('hidden');
+  }
 
   getVariantData() {
     this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
