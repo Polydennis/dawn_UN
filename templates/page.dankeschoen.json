@@ -29,10 +29,88 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "collection_list_GTd3FU": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dnCNKa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "alle-tapeten"
+          }
+        },
+        "featured_collection_6aecYm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ikea-kura-bett-folien"
+          }
+        },
+        "featured_collection_xiri8P": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kindertapeten"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dnCNKa",
+        "featured_collection_6aecYm",
+        "featured_collection_xiri8P"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_BKXtVh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_VdNjkY": {
+          "type": "heading",
+          "settings": {
+            "heading": "UnikNordicFriends10",
+            "heading_size": "h1"
+          }
+        },
+        "text_G3WiGL": {
+          "type": "text",
+          "settings": {
+            "text": "10% Rabatt auf alle Tapeten bei der nächsten Bestellung.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VdNjkY",
+        "text_G3WiGL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/imgonline-com-ua-TextureSeamless-aR2Fz2HEInqVjDS.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "1704992060048aaa52"
+    "1704992060048aaa52",
+    "collection_list_GTd3FU",
+    "image_banner_BKXtVh"
   ]
 }
