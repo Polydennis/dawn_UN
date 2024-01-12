@@ -322,7 +322,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-family: \"Bon Voyage Regular\", serif;}"
+        "h2 {font-family: \"Bon Voyage Regular\", serif;}",
+        ".card-information {display: none;}"
       ],
       "settings": {
         "title": "FAVORITEN",
