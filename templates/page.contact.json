@@ -26,7 +26,6 @@
       "blocks": {
         "heading_rHkKNx": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Kontaktformular",
             "heading_size": "h1"
@@ -44,7 +43,7 @@
         "text_XFyxhK"
       ],
       "custom_css": [
-        ".block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
+        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "desktop_content_position": "center",
