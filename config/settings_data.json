@@ -145,18 +145,6 @@
           "position": "right"
         }
       },
-      "21474836472147483647": {
-        "type": "shopify:\/\/apps\/ecomposer-builder\/blocks\/app-embed\/a0fc26e1-7741-4773-8b27-39389b4fb4a0",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "11667715999621601152": {
-        "type": "shopify:\/\/apps\/pixeltok-multi-pixel-install\/blocks\/turbo-tiktok\/0f61e244-e2c9-43da-9523-9762c9f7e6bf",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -171,15 +159,35 @@
       },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
+        "disabled": false,
         "settings": {
-          "button_color": "#000000",
+          "button_color": "#bf9f86",
           "secondary_color": "#ffffff",
           "button_icon": "chat_bubble",
-          "button_text": "chat_with_us",
-          "button_horizontal_position": "bottom_right",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
           "button_vertical_position": "lowest",
-          "greeting_message": ""
+          "greeting_message": "Hallo!👋 Wenn ich dir irgendwie weiter helfen kann, lass es mich gerne wissen!"
+        }
+      },
+      "10404934522805747554": {
+        "type": "shopify:\/\/apps\/my-file-field\/blocks\/mff-javascript\/bac93ccb-bfed-4f56-b6c4-3f9a466fb5c1",
+        "disabled": false,
+        "settings": {
+          "label_title": "Attach a file",
+          "margin_top": -20,
+          "margin_bottom": 30,
+          "margin_left": 0,
+          "margin_right": 0,
+          "label_margin_top": 0,
+          "label_margin_bottom": 0,
+          "label_margin_left": 0,
+          "label_margin_right": 10,
+          "field_margin_top": 15,
+          "field_margin_bottom": 0,
+          "field_margin_left": 0,
+          "field_margin_right": 0,
+          "auto_submit": true
         }
       }
     },
