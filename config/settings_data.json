@@ -169,6 +169,26 @@
           "button_vertical_position": "lowest",
           "greeting_message": "Hallo!👋 Wenn ich dir irgendwie weiter helfen kann, lass es mich gerne wissen!"
         }
+      },
+      "10404934522805747554": {
+        "type": "shopify:\/\/apps\/my-file-field\/blocks\/mff-javascript\/bac93ccb-bfed-4f56-b6c4-3f9a466fb5c1",
+        "disabled": false,
+        "settings": {
+          "label_title": "Attach a file",
+          "margin_top": -20,
+          "margin_bottom": 30,
+          "margin_left": 0,
+          "margin_right": 0,
+          "label_margin_top": 0,
+          "label_margin_bottom": 0,
+          "label_margin_left": 0,
+          "label_margin_right": 10,
+          "field_margin_top": 15,
+          "field_margin_bottom": 0,
+          "field_margin_left": 0,
+          "field_margin_right": 0,
+          "auto_submit": true
+        }
       }
     },
     "color_schemes": {
