@@ -68,13 +68,15 @@
         <h3>Telefon</h3>
         <p>+49&nbsp;1520 756&nbsp;49&nbsp;00</p>
       </a>
-    </div>
+    </div> 
+
+    {% comment %}
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
-    -%}
+    -%} 
     <h3>{{ 'templates.contact.form.title' | t }}</h3>
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
@@ -200,6 +202,8 @@
     });
   });
 </script>
+
+{% endcomment %}
 
 {% schema %}
 {
