@@ -600,10 +600,10 @@
         "formful_app_block_form_zMxRwC": {
           "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
           "settings": {
-            "form_id": "",
+            "form_id": "form_GIrxcD8v6n",
             "max_width": 75,
-            "column_gap": 2,
-            "row_gap": 1
+            "column_gap": 0,
+            "row_gap": 0
           }
         }
       },
