@@ -170,7 +170,7 @@
         "text_DDdEf3": {
           "type": "text",
           "settings": {
-            "text": "<p>Ich liebe es hier meine Leidenschaft für Interieur und Gestaltung ausleben zu können und dabei im Kontakt zu meinen Kunden zu stehen und vor Allem sie zu <a href=\"\/pages\/kontakt\" title=\"Kontakt\">beraten<\/a>.<\/p>",
+            "text": "<p>Ich liebe es hier <a href=\"\/pages\/uber-mich\" title=\"Über mich\">meine Leidenschaft<\/a> für Interieur und Gestaltung ausleben zu können und dabei im Kontakt zu meinen Kunden zu stehen und vor Allem sie zu <a href=\"\/pages\/kontakt\" title=\"Kontakt\">beraten<\/a>.<\/p>",
             "text_style": "body"
           }
         }
@@ -584,6 +584,41 @@
         "padding_bottom": 36
       }
     },
+    "tooltips_rwNqAb": {
+      "type": "tooltips",
+      "blocks": {
+        "tooltip_tXNE8w": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "IKEA Kura Bettfolien",
+            "content": "Unsere <a href=\"https:\/\/unik-nordic.com\/collections\/ikea-kura-bett-folien\">Foliensets für das IKEA Kura Bett<\/a> sind perfekt auf die Maße der beliebten Möbel angepasst und erweitern das Zimmer deiner Kinder fantasievoll und kreativ.",
+            "top": 76,
+            "left": 84
+          }
+        },
+        "tooltip_McgDC6": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Kindertapeten",
+            "content": "Zu unseren Möbelfolien findest du natürlich auch die passenden <a href=\"https:\/\/unik-nordic.com\/collections\/kindertapeten\">Tapeten<\/a> um eine perfekt abgestimmte Atmosphäre zu erzeugen.",
+            "top": 12,
+            "left": 81
+          }
+        }
+      },
+      "block_order": [
+        "tooltip_tXNE8w",
+        "tooltip_McgDC6"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Tannen-Wald_01.jpg",
+        "tooltip_color": "#ffffff",
+        "tooltip_background_color": "#bf9f86",
+        "tooltip_focus_color": "#bcb2a8",
+        "breakpoint": "768"
+      }
+    },
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
@@ -613,40 +648,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "tooltips_rwNqAb": {
-      "type": "tooltips",
-      "blocks": {
-        "tooltip_tXNE8w": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "IKEA Kura Bettfolien",
-            "content": "Unsere <a href=\"https:\/\/unik-nordic.com\/collections\/ikea-kura-bett-folien\">Foliensets für das IKEA Kura Bett<\/a> sind perfekt auf die Maße der beliebten Möbel angepasst und erweitern das Zimmer deiner Kinder fantasievoll und kreativ.",
-            "top": 76,
-            "left": 84
-          }
-        },
-        "tooltip_McgDC6": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Kindertapeten",
-            "content": "Zu unseren Möbelfolien findest du natürlich auch die passenden <a href=\"https:\/\/unik-nordic.com\/collections\/kindertapeten\">Tapeten<\/a> um eine perfekt abgestimmte Atmosphäre zu erzeugen.",
-            "top": 12,
-            "left": 81
-          }
-        }
-      },
-      "block_order": [
-        "tooltip_tXNE8w",
-        "tooltip_McgDC6"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Tannen-Wald_01.jpg",
-        "tooltip_color": "#ffffff",
-        "tooltip_background_color": "#bf9f86",
-        "tooltip_focus_color": "#bcb2a8",
-        "breakpoint": "768"
-      }
     }
   },
   "order": [
@@ -662,8 +663,8 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "multicolumn",
+    "tooltips_rwNqAb",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409",
-    "tooltips_rwNqAb"
+    "1705325432ab25b409"
   ]
 }
