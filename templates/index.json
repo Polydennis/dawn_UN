@@ -613,6 +613,30 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "tooltips_rwNqAb": {
+      "type": "tooltips",
+      "blocks": {
+        "tooltip_tXNE8w": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "IKEA Kura Bettfolien",
+            "content": "Unsere <a href=\"https:\/\/unik-nordic.com\/collections\/ikea-kura-bett-folien\">Foliensets für das IKEA Kura Bett<\/a> sind perfekt auf die Maße der beliebten Möbel angepasst und erweitern das Zimmer deiner Kinder fantasievoll und kreativ.",
+            "top": 76,
+            "left": 84
+          }
+        }
+      },
+      "block_order": [
+        "tooltip_tXNE8w"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Tannen-Wald_01.jpg",
+        "tooltip_color": "#ffffff",
+        "tooltip_background_color": "#bf9f86",
+        "tooltip_focus_color": "#bcb2a8",
+        "breakpoint": "768"
+      }
     }
   },
   "order": [
@@ -629,6 +653,7 @@
     "video",
     "multicolumn",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409"
+    "1705325432ab25b409",
+    "tooltips_rwNqAb"
   ]
 }
