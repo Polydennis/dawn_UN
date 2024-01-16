@@ -625,10 +625,20 @@
             "top": 76,
             "left": 84
           }
+        },
+        "tooltip_McgDC6": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Kindertapeten",
+            "content": "Zu unseren Möbelfolien findest du natürlich auch die passenden <a href=\"https:\/\/unik-nordic.com\/collections\/kindertapeten\">Tapeten<\/a> um eine perfekt abgestimmte Atmosphäre zu erzeugen.",
+            "top": 12,
+            "left": 81
+          }
         }
       },
       "block_order": [
-        "tooltip_tXNE8w"
+        "tooltip_tXNE8w",
+        "tooltip_McgDC6"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Tannen-Wald_01.jpg",
