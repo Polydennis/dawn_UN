@@ -237,7 +237,7 @@
 
 {%- comment -%} ---------------- THE MARKUP ------------------ {%- endcomment -%}
 
-<div class="tooltips-section" data-tooltips="{{ section.id }}">
+<div class="tooltips-section page-width" data-tooltips="{{ section.id }}">
   <figure class="tooltips-figure">
     {%- if section.settings.image == blank -%}
       {{ 'image' | placeholder_svg_tag: 'tooltips-picture' }}
