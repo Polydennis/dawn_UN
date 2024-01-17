@@ -34,7 +34,7 @@
         "657e4521-607b-4083-871b-01bff623233b": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Ohne Label (Anpassung an Maße)",
+            "heading": "Anpassung an Maße",
             "icon": "question_mark",
             "row_content": "",
             "page": "faq-ohne-label"
