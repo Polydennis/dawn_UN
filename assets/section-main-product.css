@@ -1623,11 +1623,12 @@ a.product__text {
   border-radius: 6px;
   padding: 5px;
   position: absolute;
-  bottom: 150%;
+  bottom: auto; 
+  top: 100%;
   left: 50%;
   margin-left: -60px;
   opacity: 0;
-  z-index: 99999999999999999999999999999;
+  z-index: 99999;
   transition: opacity 0.3s;
 }
 
