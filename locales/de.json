@@ -514,5 +514,10 @@
     "links": {
       "powered_by_shopify": "❤️"
     }
+  },
+  "customer_accounts": {
+    "shop_policies": {
+      "privacy_policy": "Daten&shy;schutz&shy;erklärung"
+    }
   }
 }
