@@ -1,0 +1,148 @@
+<div>
+  <span class="caption">Anpassungen (Klick für Info):<br></span>
+  {% if product.metafields.custom.labels.value contains 'individualmaße' %}
+    <a href="#" class="tooltip">
+      <img src="{{ section.settings.individualmasse_icon | file_img_url }}" class="label-ico">
+      <span class="tooltiptext">section.settings.Text_Individualmasse</span>
+    </a>
+  {% endif %}
+  {% if product.metafields.custom.labels.value contains 'farben' %}
+    <a href="#" class="tooltip">
+      <img src="{{ section.settings.farben_icon | file_img_url }}" class="label-ico">
+      <span class="tooltiptext">section.settings.Text_Variabel</span>
+    </a>
+  {% endif %}
+  {% if product.metafields.custom.labels.value contains 'variabel' %}
+    <a href="#" class="tooltip">
+      <img src="{{ section.settings.variabel_icon | file_img_url }}" class="label-ico">
+      <span class="tooltiptext">section.settings.Text_Farben</span>
+    </a>
+  {% endif %}
+</div>
+
+{% stylesheet %}
+  .label-ico {
+    float: inline;
+    max-width: 50px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 150px;
+    max-width: 400px;
+    background-color: #6e6e6e;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    bottom: auto;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    z-index: 99999;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  function positionTooltip(tooltip, tooltipText) {
+    // Standardposition auf unterhalb des Tooltips setzen
+    tooltipText.style.top = '100%';
+    tooltipText.style.bottom = 'auto';
+
+    const rect = tooltip.getBoundingClientRect();
+    const winWidth = window.innerWidth;
+    const winHeight = window.innerHeight;
+    const spaceBottom = winHeight - rect.bottom;
+
+    // Platz unten überprüfen und ggf. Position anpassen
+    if (spaceBottom < tooltipText.offsetHeight) {
+      tooltipText.style.top = 'auto';
+      tooltipText.style.bottom = '100%';
+    }
+
+    if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {
+      tooltipText.style.left = '50%';
+      tooltipText.style.marginLeft = -(tooltipText.offsetWidth / 2) + 'px';
+    } else if (spaceRight < tooltipText.offsetWidth) {
+      tooltipText.style.left = 'auto';
+      tooltipText.style.right = '100%';
+      tooltipText.style.marginLeft = '';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var tooltips = document.querySelectorAll('.tooltip');
+    tooltips.forEach(function (tooltip) {
+      var tooltipText = tooltip.querySelector('.tooltiptext');
+      positionTooltip(tooltip, tooltipText);
+
+      tooltip.addEventListener('click', function (event) {
+        event.preventDefault();
+        tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';
+        positionTooltip(tooltip, tooltipText);
+      });
+
+      window.addEventListener('resize', function () {
+        positionTooltip(tooltip, tooltipText);
+      });
+    });
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Labelinfo",
+  "tag": "section",
+  "class": "info",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "Text_Individualmasse",
+      "placeholder": "Beschreibung für Maße",
+      "default": "Beschreibung für Individualmaße",
+      "info": "Hier legst du den Text des Tooltips fest."
+    },
+    {
+      "type": "image_picker",
+      "id": "individualmasse_icon"
+    },
+    {
+      "type": "textarea",
+      "id": "Text_Variabel",
+      "placeholder": "Beschreibung für variable Motive",
+      "default": "Beschreibung für variable Motive",
+      "info": "Hier legst du den Text des Tooltips fest."
+    },
+    {
+      "type": "image_picker",
+      "id": "variabel_icon"
+    },
+    {
+      "type": "textarea",
+      "id": "Text_Farben",
+      "placeholder": "Beschreibung für Farbanpassungen",
+      "default": "Beschreibung für Farbanpassungen",
+      "info": "Hier legst du den Text des Tooltips fest."
+    },
+    {
+      "type": "image_picker",
+      "id": "variabel_farben"
+    }
+  ]
+}
+{% endschema %}
