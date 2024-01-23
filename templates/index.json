@@ -132,11 +132,20 @@
             "text": "<h3>Individualität für dein Zuhause. <br\/>Sei unik!<\/h3><p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv kostenfrei und exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in den Druck geht. <br\/>So passt das Motiv später perfekt auf deine Wand.<\/p>",
             "text_style": "body"
           }
+        },
+        "button_Bkyt9e": {
+          "type": "button",
+          "settings": {
+            "button_label": "Alle Tapeten ansehen",
+            "button_link": "shopify:\/\/collections\/alle-tapeten",
+            "button_style_secondary": true
+          }
         }
       },
       "block_order": [
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1",
-        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1"
+        "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1",
+        "button_Bkyt9e"
       ],
       "custom_css": [
         "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
