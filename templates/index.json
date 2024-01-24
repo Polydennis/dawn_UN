@@ -172,8 +172,8 @@
         "heading_NfcABR": {
           "type": "heading",
           "settings": {
-            "heading": "Erst&shy;klassige Drucke &  einzig&shy;artige Designs",
-            "heading_size": "h1"
+            "heading": "Erst­klassige Drucke &  einzig­artige Designs",
+            "heading_size": "h2"
           }
         },
         "text_DDdEf3": {
@@ -200,7 +200,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "section_color_scheme": "background-1",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
