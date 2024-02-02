@@ -663,13 +663,6 @@
     "featured_product_kBnGme": {
       "type": "featured-product",
       "blocks": {
-        "text_hLfwxW": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title_kiyHmh": {
           "type": "title",
           "settings": {
@@ -708,7 +701,6 @@
         }
       },
       "block_order": [
-        "text_hLfwxW",
         "title_kiyHmh",
         "price_zjKJCB",
         "variant_picker_YhzYek",
