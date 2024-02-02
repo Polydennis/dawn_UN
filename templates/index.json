@@ -628,38 +628,6 @@
         "breakpoint": "768"
       }
     },
-    "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Noch Fragen? Schreib mir?",
-        "heading_size": "h1",
-        "color_scheme": "inverse",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1705325432ab25b409": {
-      "type": "apps",
-      "blocks": {
-        "formful_app_block_form_zMxRwC": {
-          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
-          "settings": {
-            "form_id": "form_GIrxcD8v6n",
-            "max_width": 75,
-            "column_gap": 0,
-            "row_gap": 0,
-            "padding_top": 36,
-            "padding_bottom": 36
-          }
-        }
-      },
-      "block_order": [
-        "formful_app_block_form_zMxRwC"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "featured_product_kBnGme": {
       "type": "featured-product",
       "blocks": {
@@ -722,6 +690,38 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Noch Fragen? Schreib mir?",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1705325432ab25b409": {
+      "type": "apps",
+      "blocks": {
+        "formful_app_block_form_zMxRwC": {
+          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "settings": {
+            "form_id": "form_GIrxcD8v6n",
+            "max_width": 75,
+            "column_gap": 0,
+            "row_gap": 0,
+            "padding_top": 36,
+            "padding_bottom": 36
+          }
+        }
+      },
+      "block_order": [
+        "formful_app_block_form_zMxRwC"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -738,8 +738,8 @@
     "video",
     "multicolumn",
     "tooltips_rwNqAb",
+    "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409",
-    "featured_product_kBnGme"
+    "1705325432ab25b409"
   ]
 }
