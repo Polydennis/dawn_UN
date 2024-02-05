@@ -3535,4 +3535,8 @@ details-disclosure > details {
   
   }
   
-  
+ .shopify-pc__banner__btn-accept {
+  color: white;
+  Background: black;
+  font-weight: bold;
+}
