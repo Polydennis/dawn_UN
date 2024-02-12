@@ -132,6 +132,16 @@
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a": {
       "type": "multicolumn",
       "blocks": {
+        "13d015ad-ce66-409c-a1c4-615046ab8e98": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
+            "title": "Sicher & Wertvoll",
+            "text": "<p>Meine Tapeten sind schadstofffrei und padägogisch wertvoll gestaltet. Für die gesunde Entwicklung deines Kindes!<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/kontakt"
+          }
+        },
         "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-1": {
           "type": "column",
           "settings": {
@@ -160,16 +170,6 @@
             "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.<\/p>",
             "link_label": "",
             "link": ""
-          }
-        },
-        "13d015ad-ce66-409c-a1c4-615046ab8e98": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
-            "title": "Persön­licher Motiv­service",
-            "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern oder Schrägen<\/p>",
-            "link_label": "Kontakt",
-            "link": "shopify:\/\/pages\/kontakt"
           }
         },
         "ae88b71c-a8b7-44a1-ac20-1144d20d4a91": {
@@ -214,10 +214,10 @@
         }
       },
       "block_order": [
+        "13d015ad-ce66-409c-a1c4-615046ab8e98",
         "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-1",
         "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-2",
         "template--18840219255052__2a705e2b-95f5-448a-8c73-836fa9f1b07a-column-3",
-        "13d015ad-ce66-409c-a1c4-615046ab8e98",
         "ae88b71c-a8b7-44a1-ac20-1144d20d4a91",
         "296e6a08-46bf-4149-b999-32604c6609d9",
         "8c0f2d74-a93f-4410-9845-b2f92d536cd1",
