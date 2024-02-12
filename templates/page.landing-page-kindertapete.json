@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
         "h1,h2,h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
@@ -17,19 +16,19 @@
         "template--18840219255052__beb8b4c2-5082-42e2-81f6-dc0bf1ee471a-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "kindertapeten"
+            "collection": "naturtapeten-fur-kinder"
           }
         },
         "bb0c3109-e4a2-47cb-9f58-a34d4ec077a6": {
           "type": "collection",
           "settings": {
-            "collection": "abstrakte-tapeten"
+            "collection": "beliebte-motive-fur-kinder"
           }
         },
         "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1": {
           "type": "collection",
           "settings": {
-            "collection": "blumentapeten"
+            "collection": "tiertapeten-fur-kinder"
           }
         }
       },
@@ -42,7 +41,7 @@
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
-        "heading": "Kollektionen",
+        "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -79,6 +78,7 @@
         "60539a3b-7974-4f76-96f2-11ab14a12018",
         "0fbdbe1b-eaad-471e-8180-60fb5eccdc65"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -117,6 +117,7 @@
         "f0e08a6e-cc42-4864-baaa-dc465f782aff",
         "1cc6a494-0a99-4fad-b0c1-89ac1af33cd6"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -250,9 +251,9 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "alle-tapeten",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "kindertapeten",
+        "products_to_show": 5,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
