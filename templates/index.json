@@ -29,7 +29,7 @@
             "heading_size": "h1",
             "subheading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Hol dir die Tier- und Pflanzenwelt in dein Zuhause<\/a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/naturtapeten",
+            "link": "shopify:\/\/collections\/naturtapetenold",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -453,7 +453,7 @@
         "85aad2c5-311f-490e-b87d-efa516fb14e3": {
           "type": "collection",
           "settings": {
-            "collection": "naturtapeten"
+            "collection": "naturtapetenold"
           }
         },
         "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5": {
