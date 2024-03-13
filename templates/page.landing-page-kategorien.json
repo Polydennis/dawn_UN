@@ -29,7 +29,7 @@
         "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1": {
           "type": "collection",
           "settings": {
-            "collection": "blumentapetenold"
+            "collection": "blumentapeten"
           }
         }
       },
@@ -96,13 +96,13 @@
         "ef9cfb58-ce83-41e2-a815-438e923f3ba3": {
           "type": "collection",
           "settings": {
-            "collection": "naturtapetenold"
+            "collection": "naturtapeten"
           }
         },
         "f0e08a6e-cc42-4864-baaa-dc465f782aff": {
           "type": "collection",
           "settings": {
-            "collection": "dschungel"
+            "collection": "dschungeltapeten"
           }
         },
         "1cc6a494-0a99-4fad-b0c1-89ac1af33cd6": {
