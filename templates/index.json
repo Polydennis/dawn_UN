@@ -676,6 +676,9 @@
         "buy_buttons_f3B8r3",
         "share_BJ6ccr"
       ],
+      "custom_css": [
+        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
+      ],
       "settings": {
         "product": "unik-nordic-geschenkgutschein",
         "color_scheme": "background-1",
