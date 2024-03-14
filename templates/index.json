@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben<\/a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kindertapeten",
+            "link": "shopify:\/\/collections\/kindertapetenold",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -447,7 +447,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "kindertapeten"
+            "collection": "kindertapetenold"
           }
         },
         "85aad2c5-311f-490e-b87d-efa516fb14e3": {
