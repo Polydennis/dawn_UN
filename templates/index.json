@@ -11,7 +11,7 @@
             "heading_size": "h1",
             "subheading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben<\/a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kindertapetenold",
+            "link": "shopify:\/\/collections\/kindertapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -29,7 +29,7 @@
             "heading_size": "h1",
             "subheading": "<a href=\"\/collections\/naturtapeten\" title=\"Natur­tapeten\">Hol dir die Tier- und Pflanzenwelt in dein Zuhause<\/a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/naturtapetenold",
+            "link": "shopify:\/\/collections\/naturtapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -78,7 +78,7 @@
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Himmel-Sterne-Nacht-Aquarell_02.jpg",
+            "image": "shopify:\/\/shop_images\/KURA.jpg",
             "heading": "IKEA Kura Bett­folien",
             "heading_size": "h1",
             "subheading": "Verwandle den Klassiker in einen fantasievollen Blickfang",
