@@ -10,6 +10,37 @@
         "padding_bottom": 36
       }
     },
+    "04fc0b06-f489-400c-862a-3d6269ce018b": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "title": "Bestseller",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ikea-malm-mobelfolien",
+        "products_to_show": 21,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "beb8b4c2-5082-42e2-81f6-dc0bf1ee471a": {
       "type": "collage",
       "blocks": {
@@ -37,6 +68,7 @@
         "bb0c3109-e4a2-47cb-9f58-a34d4ec077a6",
         "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1"
       ],
+      "disabled": true,
       "custom_css": [
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
@@ -240,37 +272,6 @@
         "padding_bottom": 36
       }
     },
-    "04fc0b06-f489-400c-862a-3d6269ce018b": {
-      "type": "featured-collection",
-      "custom_css": [
-        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
-      ],
-      "settings": {
-        "title": "Bestseller",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "kindertapetenold",
-        "products_to_show": 21,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -306,11 +307,11 @@
   },
   "order": [
     "main",
+    "04fc0b06-f489-400c-862a-3d6269ce018b",
     "beb8b4c2-5082-42e2-81f6-dc0bf1ee471a",
     "330243b5-97d7-4935-a422-c18067f56d06",
     "398b1967-5b80-40fc-9f91-2ec4d8d6243a",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a",
-    "04fc0b06-f489-400c-862a-3d6269ce018b",
     "form",
     "170774340382c5916b"
   ]
