@@ -10,6 +10,84 @@
         "padding_bottom": 0
       }
     },
+    "ss_instafeed_UWwUtk": {
+      "type": "ss-instafeed",
+      "blocks": {
+        "image_XMPf8q": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_mBLCNE": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_DkTBHK": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_bGk7Bz": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_kPeQ7a": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_QUg6yM": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_wParEd": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        },
+        "image_HxkxUX": {
+          "type": "image",
+          "settings": {
+            "gallery_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XMPf8q",
+        "image_mBLCNE",
+        "image_DkTBHK",
+        "image_bGk7Bz",
+        "image_kPeQ7a",
+        "image_QUg6yM",
+        "image_wParEd",
+        "image_HxkxUX"
+      ],
+      "settings": {
+        "background-color": "#bf9f86",
+        "text-color": "#FFFFFF",
+        "hide_image_mobile": 0,
+        "insta_url": "https:\/\/www.instagram.com\/unik.nordic\/",
+        "instafeed_title": "Werde Teil der Familie",
+        "hashtag_title": "#uniknordic",
+        "insta_handle": "unik.nordic",
+        "header_size": 18,
+        "hashtag_size": 36,
+        "handle_size": 12,
+        "padding_image": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1704217496d6e5deb6": {
       "type": "apps",
       "blocks": {
@@ -29,6 +107,7 @@
   },
   "order": [
     "main",
+    "ss_instafeed_UWwUtk",
     "1704217496d6e5deb6"
   ]
 }
