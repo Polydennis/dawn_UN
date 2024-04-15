@@ -117,7 +117,7 @@
         "minimum_of": "Mindestens {{ quantity }}",
         "maximum_of": "Maximal {{ quantity }}",
         "multiples_of": "In {{ quantity }}er Schritten",
-        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> im Warenkorb",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> im Warenkorb",
         "note": "Mengenregeln anzeigen",
         "min_of": "Mindestens {{ quantity }}",
         "max_of": "Höchstens {{ quantity }}"
@@ -373,10 +373,10 @@
     "country_label": "Land\/Region",
     "language_label": "Sprache",
     "update_language": "Sprache aktualisieren",
-    "update_country": "Land/Region aktualisieren",
+    "update_country": "Land\/Region aktualisieren",
     "search": "Suchen",
-    "popular_countries_regions": "Beliebte Länder/Regionen",
-    "country_results_count": "{{ count }} Länder/Regionen gefunden"
+    "popular_countries_regions": "Beliebte Länder\/Regionen",
+    "country_results_count": "{{ count }} Länder\/Regionen gefunden"
   },
   "customer": {
     "account": {

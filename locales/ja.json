@@ -118,7 +118,7 @@
         "minimum_of": "最小{{ quantity }}",
         "maximum_of": "最大{{ quantity }}",
         "multiples_of": "{{ quantity }}の増分",
-        "in_cart_html": "カートに<span class=\"quantity-cart\">{{ quantity }}</span>",
+        "in_cart_html": "カートに<span class=\"quantity-cart\">{{ quantity }}<\/span>",
         "note": "数量ルールを見る",
         "min_of": "最小：{{ quantity }}",
         "max_of": "最大： {{ quantity }}"
@@ -371,10 +371,10 @@
     "country_label": "国\/地域",
     "language_label": "言語",
     "update_language": "言語を更新する",
-    "update_country": "国/地域を更新する",
+    "update_country": "国\/地域を更新する",
     "search": "検索",
-    "popular_countries_regions": "人気のある国/地域",
-    "country_results_count": "{{ count }}の国/地域が見つかりました"
+    "popular_countries_regions": "人気のある国\/地域",
+    "country_results_count": "{{ count }}の国\/地域が見つかりました"
   },
   "customer": {
     "account": {

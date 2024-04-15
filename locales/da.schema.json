@@ -56,8 +56,8 @@
       "name": "Sociale medier",
       "settings": {
         "social_twitter_link": {
-          "label": "X/Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X\/Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
@@ -1655,7 +1655,7 @@
             },
             "swatch_shape": {
               "label": "Prøve",
-              "info": "Aktivér [prøver](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) for produktmuligheder.",
+              "info": "Aktivér [prøver](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) for produktmuligheder.",
               "options__1": {
                 "label": "Cirkel"
               },
@@ -2510,7 +2510,7 @@
             },
             "swatch_shape": {
               "label": "Prøve",
-              "info": "Aktivér [prøver](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) for produktmuligheder.",
+              "info": "Aktivér [prøver](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) for produktmuligheder.",
               "options__1": {
                 "label": "Cirkel"
               },

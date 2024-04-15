@@ -56,8 +56,8 @@
       "name": "Médias sociaux",
       "settings": {
         "social_twitter_link": {
-          "label": "X / Twitter",
-          "info": "https://x.com/shopify"
+          "label": "X \/ Twitter",
+          "info": "https:\/\/x.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
@@ -1654,7 +1654,7 @@
             },
             "swatch_shape": {
               "label": "Échantillon",
-              "info": "Activez [échantillons](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) sur les options produits.",
+              "info": "Activez [échantillons](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) sur les options produits.",
               "options__1": {
                 "label": "Cercle"
               },
@@ -2510,7 +2510,7 @@
             },
             "swatch_shape": {
               "label": "Échantillon",
-              "info": "Activez [échantillons](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) sur les options produits.",
+              "info": "Activez [échantillons](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/theme-structure\/theme-settings#options-with-swatches) sur les options produits.",
               "options__1": {
                 "label": "Cercle"
               },
