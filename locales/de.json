@@ -255,7 +255,8 @@
         "post_success": "Danke, dass du uns kontaktiert hast. Wir werden uns so schnell wie möglich bei dir melden.",
         "image": "Füge Skizzen\/Fotos zu deiner Nachricht hinzu.",
         "error_heading": "Bitte passe Folgendes an:",
-        "title": "Kontaktformular"
+        "title": "Kontaktformular",
+        "whatsapp_desc": "Einfahc und direkt via Messenger"
       }
     },
     "404": {
