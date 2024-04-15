@@ -394,6 +394,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
@@ -702,32 +703,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_yje9ej": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WBp46V": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_WBp46V"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "1705325432ab25b409": {
       "type": "apps",
       "blocks": {
@@ -768,7 +743,6 @@
     "tooltips_rwNqAb",
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "rich_text_yje9ej",
     "1705325432ab25b409"
   ]
 }
