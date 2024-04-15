@@ -504,6 +504,11 @@
       "expired": "Expired"
     }
   },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": "❤️"
+    }
+  },
   "recipient": {
     "form": {
       "checkbox": "I want to send this as a gift",
