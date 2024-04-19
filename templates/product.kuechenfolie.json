@@ -217,9 +217,8 @@
         },
         "e240a810-9610-44c3-aca9-5744d7240547": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
+            "image": "shopify:\/\/shop_images\/folie_abwischbar.webp",
             "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
             "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
             "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
@@ -233,7 +232,7 @@
             "image": "shopify:\/\/shop_images\/Kategoriebild_KF_NEU.jpg",
             "caption": "Begeisterte Kunden",
             "heading": "Qualität, die überzeugt",
-            "text": "<p>Meine Produkte stehen für erstklassige Qualität und einzigartiges Design. Aus kratzfestem Glaslaminat gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
+            "text": "<p>Meine Produkte stehen für erstklassige Qualität und einzigartiges Design. Aus kratzfestem Glaslaminat gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kundinnen.<\/p>",
             "button_label": "",
             "button_link": ""
           }
