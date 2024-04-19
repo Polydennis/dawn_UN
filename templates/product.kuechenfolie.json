@@ -219,9 +219,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/folie_abwischbar.webp",
-            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
-            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
-            "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
+            "caption": "Leicht abwischbar",
+            "heading": "Hygiene, die glänzt",
+            "text": "<p>Meine Küchenfolien verkörpern höchste Standards in Sachen Reinigung und Hygiene. Aus kratzfestem Hochglanz-Glaslaminat gefertigt, vereinen sie Langlebigkeit mit müheloser Pflege. Diese Qualitäten, gepaart mit stilvollem Design, sorgen für Begeisterung bei meinen Kundinnen.<\/p>",
             "button_label": "",
             "button_link": ""
           }
