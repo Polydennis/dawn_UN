@@ -166,6 +166,47 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          {% if card_product.metafields.custom.labels.value != blank %}
+            <div class="card__custom-labels">
+              {% if card_product.metafields.custom.labels.value contains 'Anpassbare Farben' %}
+                <div class="card__label">
+                  <img
+                    src="{{ 'Icons_Farben.png' | file_img_url }}"
+                    alt="{{  card_product.metafields.custom.labels.value }}"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                  <span>{{ card_product.metafields.custom.labels.value }}</span>
+                </div>
+              {% endif %}
+              {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' %}
+                <div class="card__label">
+                  <img
+                    src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+                    alt="{{  card_product.metafields.custom.labels.value }}"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                  <span>{{ card_product.metafields.custom.labels.value }}</span>
+                </div>
+              {% endif %}
+              {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
+                <div class="card__label">
+                  <img
+                    src="{{ 'Icons_Format.png' | file_img_url }}"
+                    alt="{{  card_product.metafields.custom.labels.value }}"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                  <span>{{ card_product.metafields.custom.labels.value }}</span>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
