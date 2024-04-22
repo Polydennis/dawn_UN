@@ -547,7 +547,7 @@
                 </div>
               {% endif %}
               {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
-                <div class="card__label">
+                <div class="badge badge--top-right color-{{ settings.sold_out_badge_color_scheme }}">
                   <img
                     src="{{ 'Icons_Format.png' | file_img_url }}"
                     alt="Individuelle Maße"
