@@ -23,13 +23,27 @@
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_QxgXRH"
       ],
+      "custom_css": [
+        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
+      ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "contact_form_QhzYzy": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "17138834637e422566"
+    "17138834637e422566",
+    "contact_form_QhzYzy"
   ]
 }
