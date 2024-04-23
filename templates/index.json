@@ -593,34 +593,44 @@
         "padding_bottom": 36
       }
     },
-    "tooltips_rwNqAb": {
+    "tooltips_gGYKab": {
       "type": "tooltips",
       "blocks": {
-        "tooltip_tXNE8w": {
+        "tooltip_BK3KH8": {
           "type": "Tooltip",
           "settings": {
-            "title": "IKEA Kura Bettfolien",
-            "content": "Unsere <a href=\"https:\/\/unik-nordic.com\/collections\/ikea-kura-bett-folien\">Foliensets für das IKEA Kura Bett<\/a> sind perfekt auf die Maße der beliebten Möbel angepasst und erweitern das Zimmer deiner Kinder fantasievoll und kreativ.",
-            "top": 76,
-            "left": 84
+            "title": "Fototapete Blooming Spring",
+            "content": "Dieses <a href=\"https:\/\/unik-nordic.com\/products\/fototapete-blooming-spring\">Motiv<\/a> bringt den Frühling an deine Wand!",
+            "top": 19,
+            "left": 29
           }
         },
-        "tooltip_McgDC6": {
+        "tooltip_UzgykR": {
           "type": "Tooltip",
           "settings": {
-            "title": "Kindertapeten",
-            "content": "Zu unseren Möbelfolien findest du natürlich auch die passenden <a href=\"https:\/\/unik-nordic.com\/collections\/kindertapeten\">Tapeten<\/a> um eine perfekt abgestimmte Atmosphäre zu erzeugen.",
-            "top": 12,
-            "left": 81
+            "title": "Malm Möbelfolie Blooming Spring",
+            "content": "Diese exakt zugeschnittene Folie ist leicht anzubringen und wertet deine Möbel im Handumdrehen auf.",
+            "top": 58,
+            "left": 31
+          }
+        },
+        "tooltip_H3xawB": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Küchenfolie Blooming Spring",
+            "content": "Auch in deiner Küche findet dieses florale Motiv Platz. Schütze deine Rückwand vor Spritzern und lass ihn dabei noch gut aussehen!",
+            "top": 47,
+            "left": 62
           }
         }
       },
       "block_order": [
-        "tooltip_tXNE8w",
-        "tooltip_McgDC6"
+        "tooltip_BK3KH8",
+        "tooltip_UzgykR",
+        "tooltip_H3xawB"
       ],
-      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
         "tooltip_color": "#ffffff",
         "tooltip_background_color": "#bf9f86",
         "tooltip_focus_color": "#bcb2a8",
@@ -725,50 +735,6 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "tooltips_gGYKab": {
-      "type": "tooltips",
-      "blocks": {
-        "tooltip_BK3KH8": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Fototapete Blooming Spring",
-            "content": "Dieses <a href=\"https:\/\/unik-nordic.com\/products\/fototapete-blooming-spring\">Motiv<\/a> bringt den Frühling an deine Wand!",
-            "top": 19,
-            "left": 29
-          }
-        },
-        "tooltip_UzgykR": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Malm Möbelfolie Blooming Spring",
-            "content": "Diese exakt zugeschnittene Folie ist leicht anzubringen und wertet deine Möbel im Handumdrehen auf.",
-            "top": 58,
-            "left": 31
-          }
-        },
-        "tooltip_H3xawB": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Küchenfolie Blooming Spring",
-            "content": "Auch in deiner Küche findet dieses florale Motiv Platz. Schütze deine Rückwand vor Spritzern und lass ihn dabei noch gut aussehen!",
-            "top": 47,
-            "left": 62
-          }
-        }
-      },
-      "block_order": [
-        "tooltip_BK3KH8",
-        "tooltip_UzgykR",
-        "tooltip_H3xawB"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
-        "tooltip_color": "#ffffff",
-        "tooltip_background_color": "#bf9f86",
-        "tooltip_focus_color": "#bcb2a8",
-        "breakpoint": "768"
-      }
     }
   },
   "order": [
@@ -784,10 +750,9 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "multicolumn",
-    "tooltips_rwNqAb",
+    "tooltips_gGYKab",
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409",
-    "tooltips_gGYKab"
+    "1705325432ab25b409"
   ]
 }
