@@ -123,6 +123,47 @@
               </a>
             </h3>
           </div>
+          {% comment %} Metafield Badges {% endcomment %}
+          <div class="card__badge top right">
+            {% if card_product.metafields.custom.labels.value != blank %}
+              <div class="card__custom-labels">
+                {% if card_product.metafields.custom.labels.value contains 'Auswählbare Farben' %}
+                  <div class="rte badge--top-right">
+                    <img
+                      src="{{ 'Icons_Farben.png' | file_img_url }}"
+                      alt="Auswählbare Farben"
+                      class="label-ico"
+                      width="50"
+                      height="50"
+                    >
+                  </div>
+                {% endif %}
+                {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' %}
+                  <div class="rte badge--top-right">
+                    <img
+                      src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+                      alt="Verschiebbare Einzelmotive"
+                      class="label-ico"
+                      width="50"
+                      height="50"
+                    >
+                  </div>
+                {% endif %}
+                {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
+                  <div class="rte badge--top-right">
+                    <img
+                      src="{{ 'Icons_Format.png' | file_img_url }}"
+                      alt="Individuelle Maße"
+                      class="label-ico"
+                      width="50"
+                      height="50"
+                    >
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% comment %} End Metafield Badges {% endcomment %}
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
@@ -137,6 +178,13 @@
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
                 {{- 'products.product.on_sale' | t -}}
+              </span>
+            {%- elsif card_product.tags contains 'new' -%}
+              <span
+                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{- 'products.product.new' | t -}}
               </span>
             {%- endif -%}
           </div>
@@ -513,6 +561,47 @@
             </div>
           {% endif %}
         {% endif %}
+        {% comment %} Metafield Badges {% endcomment %}
+        <div class="card__badge top right">
+          {% if card_product.metafields.custom.labels.value != blank %}
+            <div class="card__custom-labels">
+              {% if card_product.metafields.custom.labels.value contains 'Anpassbare Farben' %}
+                <div class="card__label">
+                  <img
+                    src="{{ 'Icons_Farben.png' | file_img_url }}"
+                    alt="Anpassbare Farben"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                </div>
+              {% endif %}
+              {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' %}
+                <div class="card__label">
+                  <img
+                    src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+                    alt="Verschiebbare Einzelmotive"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                </div>
+              {% endif %}
+              {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
+                <div class="badge badge--top-right color-{{ settings.sold_out_badge_color_scheme }}">
+                  <img
+                    src="{{ 'Icons_Format.png' | file_img_url }}"
+                    alt="Individuelle Maße"
+                    class="label-ico"
+                    width="24"
+                    height="24"
+                  >
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+        {% comment %} End Metafield Badges {% endcomment %}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
@@ -527,6 +616,13 @@
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
               {{- 'products.product.on_sale' | t -}}
+            </span>
+          {%- elsif card_product.tags contains 'new' -%}
+            <span
+              id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+            >
+              {{- 'products.product.new' | t -}}
             </span>
           {%- endif -%}
         </div>
