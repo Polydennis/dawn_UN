@@ -3,15 +3,33 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "17138834637e422566": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_QxgXRH": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_QxgXRH"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "17138834637e422566"
   ]
 }
