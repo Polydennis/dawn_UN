@@ -725,6 +725,50 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "tooltips_gGYKab": {
+      "type": "tooltips",
+      "blocks": {
+        "tooltip_BK3KH8": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Fototapete Blooming Spring",
+            "content": "Dieses <a href=\"https:\/\/unik-nordic.com\/products\/fototapete-blooming-spring\">Motiv<\/a> bringt den Frühling an deine Wand!",
+            "top": 19,
+            "left": 29
+          }
+        },
+        "tooltip_UzgykR": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Malm Möbelfolie Blooming Spring",
+            "content": "Diese exakt zugeschnittene Folie ist leicht anzubringen und wertet deine Möbel im Handumdrehen auf.",
+            "top": 58,
+            "left": 31
+          }
+        },
+        "tooltip_H3xawB": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Küchenfolie Blooming Spring",
+            "content": "Auch in deiner Küche findet dieses florale Motiv Platz. Schütze deine Rückwand vor Spritzern und lass ihn dabei noch gut aussehen!",
+            "top": 47,
+            "left": 62
+          }
+        }
+      },
+      "block_order": [
+        "tooltip_BK3KH8",
+        "tooltip_UzgykR",
+        "tooltip_H3xawB"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
+        "tooltip_color": "#ffffff",
+        "tooltip_background_color": "#bf9f86",
+        "tooltip_focus_color": "#bcb2a8",
+        "breakpoint": "768"
+      }
     }
   },
   "order": [
@@ -743,6 +787,7 @@
     "tooltips_rwNqAb",
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409"
+    "1705325432ab25b409",
+    "tooltips_gGYKab"
   ]
 }
