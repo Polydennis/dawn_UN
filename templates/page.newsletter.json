@@ -1,7 +1,44 @@
 {
   "sections": {
+    "image_banner_TcTVDL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Q86nRt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Newsletteranmeldung",
+            "heading_size": "h1"
+          }
+        },
+        "text_EJaYKf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Erhalte kreative Post mit dem Newsletter von Unik-Nordic. <\/strong>Du erfährst immer als erstes von neuen Kollektionen und Produkten. Zusätzlich gebe ich dir zahlreiche Tipps und Tricks zur Raumgestaltung, um mit dir dein Zuhause einzigartig zu machen! Entdecke mit mir zusammen das Potenzial deiner eigenen vier Wände. Jetzt anmelden und inspirieren lassen.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q86nRt",
+        "text_EJaYKf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
@@ -24,7 +61,7 @@
         "klaviyo_email_marketing_sms_form_embed_block_QxgXRH"
       ],
       "custom_css": [
-        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
+        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em; margin-bottom: 3em;}"
       ],
       "settings": {
         "include_margins": true
@@ -33,7 +70,7 @@
     "contact_form_QhzYzy": {
       "type": "contact-form",
       "custom_css": [
-        ".sectio{margin-bottom: 0;}"
+        ".sectio {margin-bottom: 0;}"
       ],
       "settings": {
         "heading": "Noch Fragen? Schreib mir!",
@@ -45,6 +82,7 @@
     }
   },
   "order": [
+    "image_banner_TcTVDL",
     "main",
     "17138834637e422566",
     "contact_form_QhzYzy"
