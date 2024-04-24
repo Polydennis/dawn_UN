@@ -32,6 +32,9 @@
     },
     "contact_form_QhzYzy": {
       "type": "contact-form",
+      "custom_css": [
+        ".sectio{margin-bottom: 0;}"
+      ],
       "settings": {
         "heading": "Noch Fragen? Schreib mir!",
         "heading_size": "h1",
