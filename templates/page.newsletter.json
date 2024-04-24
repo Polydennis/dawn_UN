@@ -22,6 +22,9 @@
         "heading_Q86nRt",
         "text_EJaYKf"
       ],
+      "custom_css": [
+        ".shopify-block {margin-bottom: 3em;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
         "image_overlay_opacity": 0,
