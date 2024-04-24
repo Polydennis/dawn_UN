@@ -23,7 +23,7 @@
         "text_EJaYKf"
       ],
       "custom_css": [
-        ".shopify-block {margin-bottom: 3em;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
@@ -64,7 +64,7 @@
         "klaviyo_email_marketing_sms_form_embed_block_QxgXRH"
       ],
       "custom_css": [
-        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em; margin-bottom: 3em;}"
+        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em; margin-bottom: 3em; margin-top: 2em;}"
       ],
       "settings": {
         "include_margins": true
