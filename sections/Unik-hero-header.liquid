@@ -1,0 +1,74 @@
+{%- style -%}
+  .category-header {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .category-header h1 {
+    font-family: 'Bon Voyage Regular', serif;
+    font-size: clamp(2em, 5vw, 3em);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #595959;
+    background-color: rgba(191, 159, 134, 0.6);
+    padding: 10px 10px 0;
+    text-align: center;
+    margin-left: min(1em, 20vw);
+    margin-right: min(1em, 20vw);
+    max-width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+{%- endstyle -%}
+
+<div
+  class="collection-hero__outer page-width scroll-trigger animate--fade-in"
+  style="padding: 5px; background-color: #BCB2A8"
+>
+  <div
+    class="category-header"
+    style="background: url('{{ section.settings.image | img_url: '1024x1024' }}') no-repeat center center; background-size: cover;"
+  >
+    <h1>{{ section.settings.title }}</h1>
+  </div>
+  <div class="collection-hero__text-wrapper rte" style="margin-top:1em;">
+    <div class="collection-hero__description rte center">
+      {{ section.settings.description }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Collection Hero",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Enter your title"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "Enter your description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Collection Hero",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}
