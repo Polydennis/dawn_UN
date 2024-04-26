@@ -133,8 +133,8 @@
                       src="{{ 'Icons_Farben.png' | file_img_url }}"
                       alt="Auswählbare Farben"
                       class="label-ico"
-                      width="50"
-                      height="50"
+                      width="40"
+                      height="40"
                     >
                   </div>
                 {% endif %}
@@ -144,8 +144,8 @@
                       src="{{ 'Icons_Anpassung.png' | file_img_url }}"
                       alt="Verschiebbare Einzelmotive"
                       class="label-ico"
-                      width="50"
-                      height="50"
+                      width="40"
+                      height="40"
                     >
                   </div>
                 {% endif %}
@@ -155,8 +155,8 @@
                       src="{{ 'Icons_Format.png' | file_img_url }}"
                       alt="Individuelle Maße"
                       class="label-ico"
-                      width="50"
-                      height="50"
+                      width="40"
+                      height="40"
                     >
                   </div>
                 {% endif %}
@@ -464,7 +464,10 @@
                   {%- render 'loading-spinner' -%}
                 </button>
               </modal-opener>
-              <modal-dialog id="QuickAddBulk-{{ card_product.id }}" class="quick-add-modal color-{{ section.settings.color_scheme }}">
+              <modal-dialog
+                id="QuickAddBulk-{{ card_product.id }}"
+                class="quick-add-modal color-{{ section.settings.color_scheme }}"
+              >
                 <div
                   role="dialog"
                   aria-label="{{ 'products.product.choose_product_options' | t: product_name: card_product.title | escape }}"
@@ -571,8 +574,8 @@
                     src="{{ 'Icons_Farben.png' | file_img_url }}"
                     alt="Anpassbare Farben"
                     class="label-ico"
-                    width="24"
-                    height="24"
+                    width="40"
+                    height="40"
                   >
                 </div>
               {% endif %}
@@ -582,8 +585,8 @@
                     src="{{ 'Icons_Anpassung.png' | file_img_url }}"
                     alt="Verschiebbare Einzelmotive"
                     class="label-ico"
-                    width="24"
-                    height="24"
+                    width="40"
+                    height="40"
                   >
                 </div>
               {% endif %}
@@ -593,8 +596,8 @@
                     src="{{ 'Icons_Format.png' | file_img_url }}"
                     alt="Individuelle Maße"
                     class="label-ico"
-                    width="24"
-                    height="24"
+                    width="40"
+                    height="40"
                   >
                 </div>
               {% endif %}
