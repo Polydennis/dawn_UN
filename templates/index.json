@@ -31,7 +31,7 @@
             "button_label": "Jetzt ansehen",
             "link": "shopify:\/\/collections\/marmor-steintapeten",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "top-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
@@ -45,7 +45,7 @@
             "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
             "heading": "<a href=\"\/collections\/neues\" title=\"Neues\">Neu im Sortiment<\/a>",
             "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/neues\" title=\"Neues\">Unsere Neuheiten bei Produkten und Motiven. Sei im Trend!<\/a>",
+            "subheading": "<a href=\"\/collections\/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!<\/strong><\/a>",
             "button_label": "Jetzt ansehen",
             "link": "shopify:\/\/collections\/neues",
             "button_style_secondary": false,
@@ -89,7 +89,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
-            "color_scheme": "inverse",
+            "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
         }
