@@ -8,6 +8,12 @@
           "settings": {
           }
         },
+        "custom_liquid_Kqkcac": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains 'Bestseller' %}\n              <span\n                id=\"NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}\"\n                class=\"badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}\"\n              >Bestseller<\/span>\n{% endif %}"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -147,6 +153,7 @@
       },
       "block_order": [
         "title",
+        "custom_liquid_Kqkcac",
         "caption",
         "14cabf41-0965-4cf8-9c5c-944812d212b5",
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897",
