@@ -10,66 +10,6 @@
         "padding_bottom": 28
       }
     },
-    "1704992060048aaa52": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_hX3Pb3": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "XHcq5k"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_hX3Pb3"
-      ],
-      "custom_css": [
-        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "collection_list_GTd3FU": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_dnCNKa": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "alle-tapeten"
-          }
-        },
-        "featured_collection_6aecYm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ikea-kura-bett-folien"
-          }
-        },
-        "featured_collection_xiri8P": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kindertapetenold"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_dnCNKa",
-        "featured_collection_6aecYm",
-        "featured_collection_xiri8P"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner_BKXtVh": {
       "type": "image-banner",
       "blocks": {
@@ -105,12 +45,31 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1704992060048aaa52": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_hX3Pb3": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XHcq5k"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_hX3Pb3"
+      ],
+      "custom_css": [
+        ".shopify-block {background-color: #bf9f86; padding: 0 1em 1em 1em;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "1704992060048aaa52",
-    "collection_list_GTd3FU",
-    "image_banner_BKXtVh"
+    "image_banner_BKXtVh",
+    "1704992060048aaa52"
   ]
 }
