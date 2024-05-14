@@ -167,6 +167,53 @@
         "padding_bottom": 36
       }
     },
+    "collection_list_GNJ6aU": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_QTzjKb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kura-fantasie"
+          }
+        },
+        "featured_collection_fy69jY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kura-beliebte-motive"
+          }
+        },
+        "featured_collection_jywNgU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kura-natur"
+          }
+        },
+        "featured_collection_Wh38Yf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kura-tiere"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_QTzjKb",
+        "featured_collection_fy69jY",
+        "featured_collection_jywNgU",
+        "featured_collection_Wh38Yf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -206,6 +253,7 @@
     "04fc0b06-f489-400c-862a-3d6269ce018b",
     "video_NWy8DY",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a",
+    "collection_list_GNJ6aU",
     "form",
     "170774340382c5916b"
   ]
