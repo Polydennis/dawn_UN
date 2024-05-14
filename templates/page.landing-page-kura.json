@@ -10,21 +10,6 @@
         "padding_bottom": 36
       }
     },
-    "video_NWy8DY": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=CY1RIXykujs",
-        "cover_image": "shopify:\/\/shop_images\/thumbnail_kuramontage_b903a046-83c0-4b17-9a88-d0f017ba5c83.jpg",
-        "description": "So einfach machst du dein Kura-Bett einzigartig.",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "04fc0b06-f489-400c-862a-3d6269ce018b": {
       "type": "featured-collection",
       "custom_css": [
@@ -52,6 +37,21 @@
         "quick_add": "none",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_NWy8DY": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=CY1RIXykujs",
+        "cover_image": "shopify:\/\/shop_images\/thumbnail_kuramontage_b903a046-83c0-4b17-9a88-d0f017ba5c83.jpg",
+        "description": "So einfach machst du dein Kura-Bett einzigartig.",
+        "full_width": false,
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -203,8 +203,8 @@
   },
   "order": [
     "main",
-    "video_NWy8DY",
     "04fc0b06-f489-400c-862a-3d6269ce018b",
+    "video_NWy8DY",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a",
     "form",
     "170774340382c5916b"
