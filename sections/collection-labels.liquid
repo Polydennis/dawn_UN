@@ -1,0 +1,124 @@
+{% schema %}
+{
+  "name": "Custom Collection Icons",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection",
+      "default": "frontpage"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Collection Icons",
+      "category": "Collection"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .collection__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .collection__icon {
+    display: flex;
+    align-items: center;
+    flex: 1 1 20px;
+    margin: 10px;
+  }
+  .collection__icon img {
+    margin-right: 10px;
+  }
+  .collection__icon p {
+    margin: 0;
+    text-align: left;
+    line-height: 1.2;
+  }
+  @media (max-width: 768px) {
+    .collection__icons {
+      flex-direction: column;
+    }
+    .collection__icon {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+    .collection__icon img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+    .collection__icon p {
+      text-size: small;
+    }
+  }
+</style>
+
+<div class="page-width">
+  <div class="collection__icons">
+    {% assign measure_icon_shown = false %}
+    {% assign motive_icon_shown = false %}
+    {% assign color_icon_shown = false %}
+
+    {% assign collection = collections[section.settings.collection] %}
+    {% if collection != null %}
+      {% for product in collection.products %}
+        {% if product.metafields.custom.labels.value != blank %}
+          {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
+            <div class="collection__icon">
+              <img
+                src="{{ 'Icons_Format.png' | file_img_url }}"
+                alt="{{ 'Individuelle Maße' | t }}"
+                class="label-ico"
+                width="60"
+                height="60"
+              >
+              <p>
+                <b>{{ 'Individuelle Maße' | t }}</b><br>
+                {{ 'Motiv und Schnitt werden kostenlos auf Maß angepasst.' | t }}
+              </p>
+            </div>
+            {% assign measure_icon_shown = true %}
+          {% endif %}
+          {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
+            <div class="collection__icon">
+              <img
+                src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+                alt="{{ 'Verschiebbare Einzelmotive' | t }}"
+                class="label-ico"
+                width="60"
+                height="60"
+              >
+              <p>
+                <b>{{ 'Verschiebbare Einzelmotive' | t }}</b><br>
+                {{ 'Mit diesem Label sind die Einzelelemente verschiebbar.' | t }}
+              </p>
+            </div>
+            {% assign motive_icon_shown = true %}
+          {% endif %}
+          {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
+            <div class="collection__icon">
+              <img
+                src="{{ 'Icons_Farben.png' | file_img_url }}"
+                alt="{{ 'Auswählbare Farben' | t }}"
+                class="label-ico"
+                width="60"
+                height="60"
+              >
+              <p>
+                <b>{{ 'Auswählbare Farben' | t }}</b><br>
+                {{ 'Mit diesem Label kannst du Farben frei wählen.' | t }}
+              </p>
+            </div>
+            {% assign color_icon_shown = true %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
