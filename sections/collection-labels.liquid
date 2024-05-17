@@ -45,69 +45,63 @@
     }
   }
 {% endstyle %}
+<div class="page-width">
+  <div class="collection__icons">
+    {% assign measure_icon_shown = false %}
+    {% assign motive_icon_shown = false %}
+    {% assign color_icon_shown = false %}
 
-{% if template contains 'collection' %}
-  <div class="page-width">
-    <div class="collection__icons">
-      {% assign measure_icon_shown = false %}
-      {% assign motive_icon_shown = false %}
-      {% assign color_icon_shown = false %}
-
-      {% assign collection = collection %}
-      {% if collection != null %}
-        {% for product in collection.products %}
-          {% if product.metafields.custom.labels.value != blank %}
-            {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
-              <div class="collection__icon">
-                <img
-                  src="{{ 'Icons_Format.png' | file_img_url }}"
-                  alt="{{ 'products.product.custom_sizes' | t }}"
-                  class="label-ico"
-                  width="60"
-                  height="60"
-                >
-                <p>
-                  <b>{{ 'products.product.custom_sizes' | t }}</b><br>
-                  {{ 'products.product.custom_sizes_desc' | t }}
-                </p>
-              </div>
-              {% assign measure_icon_shown = true %}
-            {% endif %}
-            {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
-              <div class="collection__icon">
-                <img
-                  src="{{ 'Icons_Anpassung.png' | file_img_url }}"
-                  alt="{{ 'products.product.moveable_elements' | t }}"
-                  class="label-ico"
-                  width="60"
-                  height="60"
-                >
-                <p>
-                  <b>{{ 'products.product.moveable_elements' | t }}</b><br>
-                  {{ 'products.product.moveable_elements_desc' | t }}
-                </p>
-              </div>
-              {% assign motive_icon_shown = true %}
-            {% endif %}
-            {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
-              <div class="collection__icon">
-                <img
-                  src="{{ 'Icons_Farben.png' | file_img_url }}"
-                  alt="{{ 'products.product.color_options' | t }}"
-                  class="label-ico"
-                  width="60"
-                  height="60"
-                >
-                <p>
-                  <b>{{ 'products.product.color_options' | t }}</b><br>
-                  {{ 'products.product.color_options_desc' | t }}
-                </p>
-              </div>
-              {% assign color_icon_shown = true %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+    {% for product in collection.products %}
+      {% if product.metafields.custom.labels.value != blank %}
+        {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
+          <div class="collection__icon">
+            <img
+              src="{{ 'Icons_Format.png' | file_img_url }}"
+              alt="{{ 'products.product.custom_labels.custom_sizes' | t }}"
+              class="label-ico"
+              width="60"
+              height="60"
+            >
+            <p>
+              <b>{{ 'products.product.custom_labels.custom_sizes' | t }}</b><br>
+              {{ 'products.product.custom_labels.custom_sizes_desc' | t }}
+            </p>
+          </div>
+          {% assign measure_icon_shown = true %}
+        {% endif %}
+        {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
+          <div class="collection__icon">
+            <img
+              src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+              alt="{{ 'products.product.custom_labels.moveable_elements' | t }}"
+              class="label-ico"
+              width="60"
+              height="60"
+            >
+            <p>
+              <b>{{ 'products.product.custom_labels.moveable_elements' | t }}</b><br>
+              {{ 'products.product.custom_labels.moveable_elements_desc' | t }}
+            </p>
+          </div>
+          {% assign motive_icon_shown = true %}
+        {% endif %}
+        {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
+          <div class="collection__icon">
+            <img
+              src="{{ 'Icons_Farben.png' | file_img_url }}"
+              alt="{{ 'products.product.custom_labels.color_options' | t }}"
+              class="label-ico"
+              width="60"
+              height="60"
+            >
+            <p>
+              <b>{{ 'products.product.custom_labels.color_options' | t }}</b><br>
+              {{ 'products.product.custom_labels.color_options_desc' | t }}
+            </p>
+          </div>
+          {% assign color_icon_shown = true %}
+        {% endif %}
       {% endif %}
-    </div>
+    {% endfor %}
   </div>
-{% endif %}
+</div>
