@@ -108,7 +108,7 @@
     "product": {
       "custom_labels": {
         "color_options": "Selectable colors",
-        "moveable_elements": "Movable indivdual motifs",
+        "moveable_elements": "Movable individual motifs",
         "custom_sizes": "Individual dimensions",
         "color_options_desc": "With this label, you can choose the colors yourself.",
         "moveable_elements_desc": "With this label, the individual elements are movable.",
