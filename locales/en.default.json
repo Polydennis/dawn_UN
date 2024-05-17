@@ -107,9 +107,12 @@
   "products": {
     "product": {
       "custom_labels": {
-        "color_options": "For this product, you can customize the color of the elements to match your taste.",
-        "moveable_elements": "Each element on this item is individually repositioned by me. This way, no individual motifs are cut off by corners and doors.",
-        "custom_sizes": "Your motif will be adapted to the ordered format free of charge and cut into suitable and numbered strips."
+        "color_options": "Selectable colors",
+        "moveable_elements": "Movable indivdual motifs",
+        "custom_sizes": "Individual dimensions",
+        "color_options_desc": "For this product, you can customize the color of the elements to match your taste.",
+        "moveable_elements_desc": "Each element on this item is individually repositioned by me. This way, no individual motifs are cut off by corners and doors.",
+        "custom_sizes_desc": "Your motif will be adapted to the ordered format free of charge and cut into suitable and numbered strips."
       },
       "new": "New",
       "add_to_cart": "Add to cart",

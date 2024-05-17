@@ -1,5 +1,11 @@
-<style>
-    {%- capture section_css -%}
+{% schema %}
+{
+  "name": "Custom Collection Icons",
+  "settings": []
+}
+{% endschema %}
+
+{% style %}
   .collection__icons {
     display: flex;
     flex-wrap: wrap;
@@ -35,92 +41,73 @@
       margin-right: 10px;
     }
     .collection__icon p {
-      text-size: small;
+      font-size: small;
     }
   }
-  {%- endcapture -%}
-  {{ section_css | strip }}
-</style>
+{% endstyle %}
 
-<div class="page-width">
-  <div class="collection__icons">
-    {% assign measure_icon_shown = false %}
-    {% assign motive_icon_shown = false %}
-    {% assign color_icon_shown = false %}
+{% if template contains 'collection' %}
+  <div class="page-width">
+    <div class="collection__icons">
+      {% assign measure_icon_shown = false %}
+      {% assign motive_icon_shown = false %}
+      {% assign color_icon_shown = false %}
 
-    {% assign collection = collections[section.settings.collection] %}
-    {% if collection != null %}
-      {% for product in collection.products %}
-        {% if product.metafields.custom.labels.value != blank %}
-          {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
-            <div class="collection__icon">
-              <img
-                src="{{ 'Icons_Format.png' | file_img_url }}"
-                alt="{{ 'Individuelle Maße' | t }}"
-                class="label-ico"
-                width="60"
-                height="60"
-              >
-              <p>
-                <b>{{ 'Individuelle Maße' | t }}</b><br>
-                {{ 'Motiv und Schnitt werden kostenlos auf Maß angepasst.' | t }}
-              </p>
-            </div>
-            {% assign measure_icon_shown = true %}
+      {% assign collection = collection %}
+      {% if collection != null %}
+        {% for product in collection.products %}
+          {% if product.metafields.custom.labels.value != blank %}
+            {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
+              <div class="collection__icon">
+                <img
+                  src="{{ 'Icons_Format.png' | file_img_url }}"
+                  alt="{{ 'products.product.custom_sizes' | t }}"
+                  class="label-ico"
+                  width="60"
+                  height="60"
+                >
+                <p>
+                  <b>{{ 'products.product.custom_sizes' | t }}</b><br>
+                  {{ 'products.product.custom_sizes_desc' | t }}
+                </p>
+              </div>
+              {% assign measure_icon_shown = true %}
+            {% endif %}
+            {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
+              <div class="collection__icon">
+                <img
+                  src="{{ 'Icons_Anpassung.png' | file_img_url }}"
+                  alt="{{ 'products.product.moveable_elements' | t }}"
+                  class="label-ico"
+                  width="60"
+                  height="60"
+                >
+                <p>
+                  <b>{{ 'products.product.moveable_elements' | t }}</b><br>
+                  {{ 'products.product.moveable_elements_desc' | t }}
+                </p>
+              </div>
+              {% assign motive_icon_shown = true %}
+            {% endif %}
+            {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
+              <div class="collection__icon">
+                <img
+                  src="{{ 'Icons_Farben.png' | file_img_url }}"
+                  alt="{{ 'products.product.color_options' | t }}"
+                  class="label-ico"
+                  width="60"
+                  height="60"
+                >
+                <p>
+                  <b>{{ 'products.product.color_options' | t }}</b><br>
+                  {{ 'products.product.color_options_desc' | t }}
+                </p>
+              </div>
+              {% assign color_icon_shown = true %}
+            {% endif %}
           {% endif %}
-          {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
-            <div class="collection__icon">
-              <img
-                src="{{ 'Icons_Anpassung.png' | file_img_url }}"
-                alt="{{ 'Verschiebbare Einzelmotive' | t }}"
-                class="label-ico"
-                width="60"
-                height="60"
-              >
-              <p>
-                <b>{{ 'Verschiebbare Einzelmotive' | t }}</b><br>
-                {{ 'Mit diesem Label sind die Einzelelemente verschiebbar.' | t }}
-              </p>
-            </div>
-            {% assign motive_icon_shown = true %}
-          {% endif %}
-          {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
-            <div class="collection__icon">
-              <img
-                src="{{ 'Icons_Farben.png' | file_img_url }}"
-                alt="{{ 'Auswählbare Farben' | t }}"
-                class="label-ico"
-                width="60"
-                height="60"
-              >
-              <p>
-                <b>{{ 'Auswählbare Farben' | t }}</b><br>
-                {{ 'Mit diesem Label kannst du Farben frei wählen.' | t }}
-              </p>
-            </div>
-            {% assign color_icon_shown = true %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
-</div>
-
-{% schema %}
-{
-  "name": "Collection Icons",
-  "settings": [
-    {
-      "type": "collection",
-      "id": "collection",
-      "label": "Collection"
-    }
-  ],
-  "presets": [
-    {
-      "name": "Collection Icons",
-      "category": "Custom"
-    }
-  ]
-}
-{% endschema %}
+{% endif %}
