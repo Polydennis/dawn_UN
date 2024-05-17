@@ -110,9 +110,9 @@
           "color_options": "Auswählbare Farben",
           "moveable_elements": "Verschiebbare Einzelmotive",
           "custom_sizes": "Individuelle Maße",
-          "color_options_desc": "Bei diesem Produkt kannst du die Farbe der Elemente passend zu deinem Geschmack bestimmen.",
-          "moveable_elements_desc": "Auf diesem Artikel wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Einzelmotive durch Ecken und Türen abgeschnitten.",
-          "custom_sizes_desc": "Dein Motiv wird kostenlos auf das bestellte Format angepasst und in passende und nummerierte Bahnen geschnitten."
+          "color_options_desc": "Mit diesem Label kannst du die Farben selbst bestimmen.",
+          "moveable_elements_desc": "Mit diesem Label sind die Einzelelemente verschiebbar.",
+          "custom_sizes_desc": "Motiv und Schnitt werden kostenlos auf Maß angepasst."
         
         },
       "new": "Neu",

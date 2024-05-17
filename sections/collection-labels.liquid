@@ -53,50 +53,52 @@
 
     {% for product in collection.products %}
       {% if product.metafields.custom.labels.value != blank %}
-        {% if (product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Custom Measurements') and measure_icon_shown == false %}
+        {% if product.metafields.custom.labels.value contains 'Individuelle Maße' and measure_icon_shown == false %}
           <div class="collection__icon">
             <img
               src="{{ 'Icons_Format.png' | file_img_url }}"
-              alt="{{ 'products.product.custom_labels.custom_sizes' | t }}"
+              alt="Individuelle Maße"
               class="label-ico"
               width="60"
               height="60"
             >
             <p>
-              <b>{{ 'products.product.custom_labels.custom_sizes' | t }}</b><br>
-              {{ 'products.product.custom_labels.custom_sizes_desc' | t }}
+              <b>Individuelle Maße</b><br>
+              Motiv und Schnitt werden kostenlos auf Maß angepasst.
             </p>
           </div>
           {% assign measure_icon_shown = true %}
         {% endif %}
-        {% if (product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable Individual Motifs') and motive_icon_shown == false %}
+        {% if product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive'
+          and motive_icon_shown == false
+        %}
           <div class="collection__icon">
             <img
               src="{{ 'Icons_Anpassung.png' | file_img_url }}"
-              alt="{{ 'products.product.custom_labels.moveable_elements' | t }}"
+              alt="Verschiebbare Einzelmotive"
               class="label-ico"
               width="60"
               height="60"
             >
             <p>
-              <b>{{ 'products.product.custom_labels.moveable_elements' | t }}</b><br>
-              {{ 'products.product.custom_labels.moveable_elements_desc' | t }}
+              <b>Verschiebbare Einzelmotive</b><br>
+              Mit diesem Label sind die Einzelelemente verschiebbar.
             </p>
           </div>
           {% assign motive_icon_shown = true %}
         {% endif %}
-        {% if (product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors') and color_icon_shown == false %}
+        {% if product.metafields.custom.labels.value contains 'Auswählbare Farben' and color_icon_shown == false %}
           <div class="collection__icon">
             <img
               src="{{ 'Icons_Farben.png' | file_img_url }}"
-              alt="{{ 'products.product.custom_labels.color_options' | t }}"
+              alt="Auswählbare Farben"
               class="label-ico"
               width="60"
               height="60"
             >
             <p>
-              <b>{{ 'products.product.custom_labels.color_options' | t }}</b><br>
-              {{ 'products.product.custom_labels.color_options_desc' | t }}
+              <b>Auswählbare Farben</b><br>
+              Mit diesem Label kannst du Farben frei wählen.
             </p>
           </div>
           {% assign color_icon_shown = true %}
