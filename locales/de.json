@@ -107,6 +107,7 @@
   "products": {
     "product": {
       "custom_labels": {
+        "label_info": "Anpassungen (Klick für Info):",
         "color_options": "Auswählbare Farben",
         "moveable_elements": "Verschiebbare Einzelmotive",
         "custom_sizes": "Individuelle Maße",
