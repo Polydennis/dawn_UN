@@ -127,33 +127,39 @@
           <div class="card__badge top right">
             {% if card_product.metafields.custom.labels.value != blank %}
               <div class="card__custom-labels">
-                {% if card_product.metafields.custom.labels.value contains 'Auswählbare Farben' %}
+                {% if card_product.metafields.custom.labels.value contains 'Auswählbare Farben'
+                  or card_product.metafields.custom.labels.value contains 'selectable colors'
+                %}
                   <div class="rte badge--top-right">
                     <img
                       src="{{ 'Icons_Farben.png' | file_img_url }}"
-                      alt="Auswählbare Farben"
+                      alt="{{ 'products.product.custom_labels.color_options' | t }}"
                       class="label-ico"
                       width="35"
                       height="35"
                     >
                   </div>
                 {% endif %}
-                {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' %}
+                {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive'
+                  or card_product.metafields.custom.labels.value contains 'movable individual motifs'
+                %}
                   <div class="rte badge--top-right">
                     <img
                       src="{{ 'Icons_Anpassung.png' | file_img_url }}"
-                      alt="Verschiebbare Einzelmotive"
+                      alt="{{ 'products.product.custom_labels.moveable_elements' | t }}"
                       class="label-ico"
                       width="35"
                       height="35"
                     >
                   </div>
                 {% endif %}
-                {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
+                {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße'
+                  or card_product.metafields.custom.labels.value contains 'individual dimensions'
+                %}
                   <div class="rte badge--top-right">
                     <img
                       src="{{ 'Icons_Format.png' | file_img_url }}"
-                      alt="Individuelle Maße"
+                      alt="{{ 'products.product.custom_labels.custom_sizes' | t }}"
                       class="label-ico"
                       width="35"
                       height="35"
@@ -576,33 +582,39 @@
         <div class="card__badge top right">
           {% if card_product.metafields.custom.labels.value != blank %}
             <div class="card__custom-labels">
-              {% if card_product.metafields.custom.labels.value contains 'Anpassbare Farben' %}
-                <div class="card__label">
+              {% if card_product.metafields.custom.labels.value contains 'Auswählbare Farben'
+                or card_product.metafields.custom.labels.value contains 'selectable colors'
+              %}
+                <div class="rte badge--top-right">
                   <img
                     src="{{ 'Icons_Farben.png' | file_img_url }}"
-                    alt="Anpassbare Farben"
+                    alt="{{ 'products.product.custom_labels.color_options' | t }}"
                     class="label-ico"
                     width="35"
                     height="35"
                   >
                 </div>
               {% endif %}
-              {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' %}
-                <div class="card__label">
+              {% if card_product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive'
+                or card_product.metafields.custom.labels.value contains 'movable individual motifs'
+              %}
+                <div class="rte badge--top-right">
                   <img
                     src="{{ 'Icons_Anpassung.png' | file_img_url }}"
-                    alt="Verschiebbare Einzelmotive"
+                    alt="{{ 'products.product.custom_labels.moveable_elements' | t }}"
                     class="label-ico"
                     width="35"
                     height="35"
                   >
                 </div>
               {% endif %}
-              {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße' %}
-                <div class="badge badge--top-right color-{{ settings.sold_out_badge_color_scheme }}">
+              {% if card_product.metafields.custom.labels.value contains 'Individuelle Maße'
+                or card_product.metafields.custom.labels.value contains 'individual dimensions'
+              %}
+                <div class="rte badge--top-right">
                   <img
                     src="{{ 'Icons_Format.png' | file_img_url }}"
-                    alt="Individuelle Maße"
+                    alt="{{ 'products.product.custom_labels.custom_sizes' | t }}"
                     class="label-ico"
                     width="35"
                     height="35"
