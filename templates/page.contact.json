@@ -44,16 +44,6 @@
         "padding_bottom": 12
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Noch Fragen? Schreib mir!",
-        "heading_size": "h1",
-        "color_scheme": "inverse",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "17050770069e2ea6c8": {
       "type": "apps",
       "blocks": {
@@ -79,12 +69,22 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Noch Fragen? Schreib mir!",
+        "heading_size": "h1",
+        "color_scheme": "inverse",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_GkLKkF",
-    "form",
-    "17050770069e2ea6c8"
+    "17050770069e2ea6c8",
+    "form"
   ]
 }
