@@ -50,6 +50,23 @@
         "color_scheme": "scheme-1"
       }
     },
+    "171689932043344943": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_ixc8GN": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_ixc8GN"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "50417dae-724e-441f-83ea-3070bb99050e": {
       "type": "rich-text",
       "blocks": {
@@ -81,6 +98,7 @@
     "custom_liquid_G8jmit",
     "product-grid",
     "banner",
+    "171689932043344943",
     "50417dae-724e-441f-83ea-3070bb99050e"
   ]
 }
