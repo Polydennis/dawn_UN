@@ -738,38 +738,6 @@
     },
     "image_banner_BdCcJ7": {
       "type": "image-banner",
-      "blocks": {
-        "heading_QHPmbq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_QizfHD": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_gVh9jF": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_QHPmbq",
-        "text_QizfHD",
-        "buttons_gVh9jF"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
         "image_overlay_opacity": 0,
@@ -782,6 +750,22 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "171699842267b6a21f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_C4j78X": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_C4j78X"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -802,6 +786,7 @@
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409",
-    "image_banner_BdCcJ7"
+    "image_banner_BdCcJ7",
+    "171699842267b6a21f"
   ]
 }
