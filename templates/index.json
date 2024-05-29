@@ -752,22 +752,6 @@
         "include_margins": false
       }
     },
-    "image_banner_BdCcJ7": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "slideshow_7WPkPD": {
       "type": "slideshow",
       "blocks": {
@@ -824,7 +808,6 @@
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409",
-    "image_banner_BdCcJ7",
     "slideshow_7WPkPD"
   ]
 }
