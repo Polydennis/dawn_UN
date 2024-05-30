@@ -116,22 +116,6 @@
         "accessibility_info": "Kollektionen"
       }
     },
-    "171699842267b6a21f": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_ugc_media_grid_C4j78X": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_ugc_media_grid_C4j78X"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34": {
       "type": "image-with-text",
       "blocks": {
@@ -180,6 +164,22 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "171699842267b6a21f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_C4j78X": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_C4j78X"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_VEYqap": {
@@ -792,8 +792,8 @@
   },
   "order": [
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
-    "171699842267b6a21f",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
+    "171699842267b6a21f",
     "image_with_text_VEYqap",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
     "image_banner",
