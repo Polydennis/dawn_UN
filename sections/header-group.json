@@ -11,10 +11,18 @@
             "text": "Individuelle Tapeten nach Maß - Kostenloser Versand nach DE ab 60€",
             "link": ""
           }
+        },
+        "announcement_TkMJmx": {
+          "type": "announcement",
+          "settings": {
+            "text": "Aktion zum Kindertag! 10% auf alle Artikel für Kinder",
+            "link": "shopify:\/\/pages\/kindertag"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_TkMJmx"
       ],
       "settings": {
         "color_scheme": "inverse",
