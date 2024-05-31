@@ -234,6 +234,7 @@
         },
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
             "caption": "Deine Wand, dein Stil",
@@ -246,7 +247,7 @@
         "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produktseite_Montage.jpg",
+            "image": "shopify:\/\/shop_images\/Wandsticker-Aufklerber-Safari-Dschungel-Kinder-Zimmer__Mood_01.jpg",
             "caption": "Einfaches Anbringen",
             "heading": "Klebt zuverlässig",
             "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Wandsticker sind so reißfest und, dass du sie ganz einfach und ohne Risiko selbst anbringen kannst – perfekt für alle Design-Liebhaberinnen.<br\/>Und wenn die Sticker dir oder deinem Kind einmal nicht mehr gefallen, kannst du sie ganz leicht und ohne Spuren wieder ablösen.<\/p>",
