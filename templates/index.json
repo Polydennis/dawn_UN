@@ -58,6 +58,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
+            "heading": "Wandsticker",
+            "heading_size": "h1",
+            "subheading": "<strong>Gestalte deine Wand selbst oder gemeinsam mit deinem Kind.<\/strong>",
+            "button_label": "Jetzt ansehen",
+            "link": "shopify:\/\/collections\/wandsticker",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2": {
           "type": "slide",
           "settings": {
@@ -94,24 +112,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kategoriebild_KF_NEU.jpg",
-            "heading": "Folien für Küchenrückwände",
-            "heading_size": "h1",
-            "subheading": "<strong>Leicht zu reinigende Folierung für einen modernen Look.<\/strong>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kuechenfolie",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
@@ -133,9 +133,9 @@
       },
       "block_order": [
         "00332378-0e47-4c7a-b477-9006f35a538b",
+        "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
-        "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "9be37071-bb59-420b-a356-632d89308bf8"
       ],
       "custom_css": [
