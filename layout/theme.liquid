@@ -387,31 +387,9 @@
         } else {
             console.error('Image element not found');
         }
-    }, 1000);
+    }, 500);
 });
     </script>
-    <script>
-     document.addEventListener('DOMContentLoaded', function() {
-    // Find the element you want to watch for clicks
-    var thumbnailLink = document.querySelector('.jdgm-ugc-media__thumbnail-link');
-
-    // Add a click event listener to the element
-    thumbnailLink.addEventListener('click', function(event) {
-        // Prevent the default behavior of the link
-        event.preventDefault();
-
-        // Your script here to change the image source
-        var imgElement = document.querySelector('#jdgm-gallery-popup--ugc-media-0 > div > div.jm-mfp-main > div.jm-mfp-carousel-wrapper > div.jm-mfp-carousel > div > div.jdgm-gallery__thumbnail-link.jdgm-gallery__thumbnail-link--current > div > img');
-
-        if (imgElement) {
-            imgElement.src = 'https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/440131557_741579164758415_6934325693437273167_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=geOa0YbFvtcQ7kNvgGAba6K&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AJ7ooaQEAAAA&oh=00_AYAHI9eaoBY28AoALBcbJkDewkYv_ncxEC9qmnE51IjsOA&oe=6665959E';
-        } else {
-            console.error('Image element not found');
-        }
-    });
-});
-
-
-    </script>
+   
   </body>
 </html>
