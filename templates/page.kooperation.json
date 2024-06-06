@@ -69,9 +69,9 @@
       ],
       "settings": {
         "product": "kindertapete-wolkentraum",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
