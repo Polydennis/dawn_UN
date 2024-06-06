@@ -2,16 +2,160 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_rNAHBF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VKTHn9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Verwandle das Kinderzimmer in ein magisches Paradies. Von beruhigenden Farbtönen bis zu fantasievollen Motiven - jede Tapete fördert die Kreativität und schafft eine tolle Umgebung für dein Kind. Alle Tapeten sind individuell anpassbar und schadstofffrei.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_VKTHn9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "featured_product_bgKLzY": {
+      "type": "featured-product",
+      "blocks": {
+        "title_wFjAMT": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_pKAjKH": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_gEzX8j": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "share_Ggdazg": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        }
+      },
+      "block_order": [
+        "title_wFjAMT",
+        "price_pKAjKH",
+        "variant_picker_gEzX8j",
+        "share_Ggdazg"
+      ],
+      "settings": {
+        "product": "kindertapete-wolkentraum",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_qzrNMn": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kindertapeten",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "kindertapeten",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_XCrRQ8": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NjzBJd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wandsticker"
+          }
+        },
+        "featured_collection_jezeza": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ikea-kura-bett-folien"
+          }
+        },
+        "featured_collection_VxN3Lk": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ikea-malm-mobelfolien"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NjzBJd",
+        "featured_collection_jezeza",
+        "featured_collection_VxN3Lk"
+      ],
+      "settings": {
+        "title": "Weitere Produkte",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_rNAHBF",
+    "featured_product_bgKLzY",
+    "featured_collection_qzrNMn",
+    "collection_list_XCrRQ8"
   ]
 }
