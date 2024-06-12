@@ -115,7 +115,7 @@
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KURA.jpg",
+            "image": "shopify:\/\/shop_images\/tapete-jugendzimmer-kind-fussball-gras-rasen-junge-04jpg.jpg",
             "heading": "PASSEND ZUM EM-START",
             "heading_size": "h1",
             "subheading": "Bring den Fußball in das Zimmer deines Kindes!",
@@ -125,7 +125,7 @@
             "box_align": "bottom-right",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 60,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
