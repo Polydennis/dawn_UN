@@ -73,22 +73,21 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Randlose Gestaltung",
+            "icon": "silhouette",
+            "content": "<p>Meine Sticker werden in Deutschland mit hochpräzisen Schneidemaschinen hergestellt und haben keinen weißen Rand.<\/p>",
+            "page": ""
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Schneller Versand",
             "icon": "truck",
             "content": "{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Wände messen",
-            "icon": "ruler",
-            "content": "{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}",
             "page": ""
           }
         },
@@ -159,8 +158,8 @@
         "description",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
+        "collapsible-row-1",
         "24725872-f967-4a93-b412-3b8750be9d55",
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
