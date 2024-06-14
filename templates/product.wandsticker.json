@@ -91,16 +91,6 @@
             "page": ""
           }
         },
-        "24725872-f967-4a93-b412-3b8750be9d55": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Anpassmöglichkeiten",
-            "icon": "star",
-            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
-            "page": ""
-          }
-        },
         "e4466e54-edb3-46ab-abef-e0dac9de574c": {
           "type": "collapsible_tab",
           "settings": {
@@ -116,6 +106,15 @@
             "heading": "Zufriedenheitsgarantie",
             "icon": "heart",
             "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "24725872-f967-4a93-b412-3b8750be9d55": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Made in Germany",
+            "icon": "check_mark",
+            "content": "<p>Das Design und die Herstellung finden in Deutschland statt.<\/p>",
             "page": ""
           }
         },
@@ -160,9 +159,9 @@
         "collapsible-row-0",
         "collapsible-row-2",
         "collapsible-row-1",
-        "24725872-f967-4a93-b412-3b8750be9d55",
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
+        "24725872-f967-4a93-b412-3b8750be9d55",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
         "228d415a-3259-4c35-9225-e4ee1041029d"
