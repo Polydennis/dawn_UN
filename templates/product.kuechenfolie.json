@@ -112,6 +112,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_Ajxnxx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Made in Germany",
+            "icon": "check_mark",
+            "content": "<p>Das Design und die Produktion finden in Deutschland statt.<\/p>",
+            "page": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -155,6 +164,7 @@
         "24725872-f967-4a93-b412-3b8750be9d55",
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
+        "collapsible_tab_Ajxnxx",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
         "228d415a-3259-4c35-9225-e4ee1041029d"
