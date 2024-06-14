@@ -2,16 +2,48 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_ikcdc3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_t8gEb6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Teilnahmebedingungen Gewinnspiel",
+            "heading_size": "h1"
+          }
+        },
+        "text_pFqxqJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das Gewinnspiel<br\/>steht in keiner Verbindung zu Instagram und wird in keiner Weise von Instagram<br\/>gesponsert, unterstützt oder organisiert.<\/p><p> <\/p><p><strong>Veranstalter<\/strong><br\/>Polyprint GmbH, Franz-Ehrlich-Str.12, 12489 Berlin<\/p><p><strong>Teilnahmeberechtigung<\/strong><br\/>Teilnehmen darf jede Person, die zum Zeitpunkt der Teilnahme das 18. Lebensjahr vollendet hat und in Deutschland wohnhaft ist. Die Teilnahme erfolgt ausschließlich im Rahmen dieser Teilnahmebedingungen. Mit der Teilnahme an der Aktion werden die Teilnahmebedingungen akzeptiert. Mitarbeiter der Polyprint GmbH und deren Angehörige sowie Mitarbeiter der an diesem Gewinnspiel beteiligten Unternehmen und deren Angehörige sind von der Teilnahme ausgeschlossen.<\/p><p><strong>Gewinnspielzeitraum<\/strong><br\/>Der Teilnahmeschluss ist jeweils im Beitrag angegeben.<\/p><p><strong>Durchführung und Abwicklung<\/strong><br\/>Jeder Teilnehmer, der die im Beitrag genannten Teilnahmebedingungen (Beitrag kommentieren und\/oder Beitrag ein Herz schenken) erfüllt, nimmt an der Gewinnziehung teil und stimmt den Teilnahmebedingungen und der Datenschutzerklärung zu. Um teilzunehmen, benötigt der Teilnehmer einen eigenen Instagram-Account. Die Auslosung erfolgt nach Teilnahmeschluss des jeweiligen Gewinnspiels, wie im Beitrag angekündigt. Die Gewinner werden nach der Auslosung benachrichtigt und aufgefordert, ihren vollständigen Namen und Postanschrift innerhalb von ca. 2 Tagen via privater Nachricht über den Button „Instagram Direkt“ zu senden. Erfolgt diese Übermittlung nicht rechtzeitig, behält sich die Polyprint GmbH das Recht vor, den Gewinn zu annullieren und einen neuen Gewinner auszulosen. Der Gewinn ist nicht auf Dritte übertragbar. Eine Barauszahlung oder ein Tausch der Gewinne sind ausgeschlossen.<\/p><p><strong>Preise<\/strong><br\/>Die Preise werden jeweils im Verlosungsbeitrag bezeichnet.<\/p><p><strong>Teilnahmeausschluss \/ Abänderung des Gewinnspiels<\/strong><br\/>Polyprint GmbH behält sich das Recht vor, Teilnehmer zu disqualifizieren und von der Auslosung auszuschließen, die den Teilnahmevorgang, das System und\/oder die Auslosung\/Seiten manipulieren bzw. dies versuchen und\/oder gegen die Teilnahmebedingungen oder die guten Sitten verstoßen und\/oder in unfairer und\/oder unlauterer Weise versuchen, die Auslosung zu beeinflussen. Polyprint GmbH behält sich das Recht vor, das Gewinnspiel jederzeit, auch ohne Einhaltung von Fristen, ganz oder teilweise vorzeitig zu beenden oder in seinem Ablauf abzuändern, sofern es aus technischen (z.B. Viren im Computersystem, Manipulation oder Fehler in der Hard- und\/oder Software) oder aus rechtlichen Gründen nicht möglich ist, eine ordnungsgemäße Durchführung des Gewinnspiels zu gewährleisten. Sofern eine derartige Beendigung durch das Verhalten eines Teilnehmers verursacht wird, kann Polyprint GmbH von dieser Person Ersatz der hierdurch entstandenen Schäden verlangen. In jedem Fall eines Ausschlusses können auch nachträglich Gewinne aberkannt oder bereits ausgelieferte Gewinne zurückgefordert werden. Polyprint GmbH ist berechtigt, anstelle der ursprünglich in Aussicht gestellten Gewinne angemessene, gleichwertige Äquivalente zu vergeben, falls Polyprint GmbH die Vergabe der Gewinne nicht möglich sein sollte.<\/p><p><strong>Widerruf der Teilnahme<\/strong><br\/>Teilnehmer können die Teilnahme am Gewinnspiel widerrufen. Eine E-Mail mit entsprechendem Inhalt sowie Name an <a>support@unik-nordic.com<\/a> genügt.<\/p><p><strong>Datenschutzerklärung<\/strong><br\/>Die von den Teilnehmern mit der Teilnahme übermittelten Daten werden von Polyprint GmbH für die Dauer des Gewinnspiels gespeichert und ausschließlich für die Durchführung des Gewinnspiels genutzt und nach Beendigung des Gewinnspiels gelöscht. Zwecks Durchführung des Gewinnspiels werden die Daten ggf. an eine mit der Durchführung des Gewinnspiels beauftragte Agentur und\/oder Kooperationspartner weitergegeben. Eine Weitergabe an unbeteiligte Dritte findet nicht statt. Die Teilnehmer stimmen zu, dass im Gewinnfall ihr Name (Instagram-Profil-Name) auf der Internetseite\/Instagram-Seite von Unik Nordic veröffentlicht wird.<\/p><p><strong>Haftung<\/strong><br\/>Polyprint GmbH wird mit der Aushändigung des Gewinns von allen Verpflichtungen frei, sofern sich nicht aus diesen Regelungen schon ein früherer Zeitpunkt ergibt. Für Sach- und\/oder Rechtsmängel an den vom Kooperationspartner gestifteten Gewinnen haftet Polyprint GmbH nicht. Polyprint GmbH haftet nicht für die Insolvenz eines Kooperationspartners sowie die sich hieraus für die Durchführung und Abwicklung des Gewinnspiels ergebenden Folgen. Polyprint GmbH haftet nur für Schäden, welche von der Polyprint GmbH oder einem seiner Erfüllungsgehilfen vorsätzlich oder grob fahrlässig oder durch die Verletzung von Kardinalspflichten verursacht wurden. Diese Haftungsbeschränkung gilt nicht für Schäden durch die Verletzung von Leben, Körper und\/oder Gesundheit. Die voranstehende Haftungsbeschränkung gilt insbesondere für Schäden durch Fehler, Verzögerungen oder Unterbrechungen in der Übermittlung von Daten o. ä., bei Störungen der technischen Anlagen oder des Services, unrichtige Inhalte, Verlust oder Löschung von Daten, Viren. Bei Reisegewinnen haftet Polyprint GmbH weiterhin nicht für die Folgen einer berechtigten Änderung des Reiseangebots oder der begründeten Absage der Reise durch den Reiseveranstalter. Die Möglichkeit der Auszahlung des Reisewertes ist ausgeschlossen.<\/p><p><strong>Sonstiges<\/strong><br\/>Der Rechtsweg ist ausgeschlossen. Das Gewinnspiel unterliegt dem Recht der Bundesrepublik Deutschland. Polyprint GmbH behält sich vor, diese Teilnahmebedingungen und\/oder den Gewinn jederzeit und ohne Angabe von Gründen zu ändern.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t8gEb6",
+        "text_pFqxqJ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_ikcdc3"
   ]
 }
