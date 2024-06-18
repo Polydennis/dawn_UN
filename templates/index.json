@@ -1,5 +1,51 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "slideshow_7WPkPD": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_kM4YFT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kM4YFT"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
       "type": "slideshow",
       "blocks": {
@@ -17,6 +63,24 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
+            "heading": "Wandsticker",
+            "heading_size": "h1",
+            "subheading": "<strong>Gestalte deine Wand selbst oder gemeinsam mit deinem Kind.<\/strong>",
+            "button_label": "Jetzt ansehen",
+            "link": "shopify:\/\/collections\/wandsticker",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
             "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
@@ -57,38 +121,20 @@
             "text_alignment_mobile": "center"
           }
         },
-        "b4e3236e-8312-49c6-ba50-20558b8061ef": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kategoriebild_KF_NEU.jpg",
-            "heading": "Folien für Küchenrückwände",
-            "heading_size": "h1",
-            "subheading": "<strong>Leicht zu reinigende Folierung für einen modernen Look.<\/strong>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kuechenfolie",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KURA.jpg",
-            "heading": "IKEA Kura Bett­folien",
+            "image": "shopify:\/\/shop_images\/tapete-jugendzimmer-kind-fussball-gras-rasen-junge-04jpg.jpg",
+            "heading": "PASSEND ZUM EM-START",
             "heading_size": "h1",
-            "subheading": "Verwandle den Klassiker in einen fantasievollen Blickfang",
+            "subheading": "Bring den Fußball in das Zimmer deines Kindes!",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/ikea-kura-bett-folien",
+            "link": "shopify:\/\/collections\/fussball",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 60,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
@@ -96,9 +142,9 @@
       },
       "block_order": [
         "00332378-0e47-4c7a-b477-9006f35a538b",
+        "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
-        "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "9be37071-bb59-420b-a356-632d89308bf8"
       ],
       "custom_css": [
@@ -114,22 +160,6 @@
         "image_behavior": "ambient",
         "show_text_below": false,
         "accessibility_info": "Kollektionen"
-      }
-    },
-    "171699842267b6a21f": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_ugc_media_grid_C4j78X": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_ugc_media_grid_C4j78X"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34": {
@@ -180,6 +210,22 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "171699842267b6a21f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_C4j78X": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_C4j78X"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "image_with_text_VEYqap": {
@@ -722,7 +768,7 @@
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
-        "heading": "Noch Fragen? Schreib mir?",
+        "heading": "Noch Fragen? Schreib mir!",
         "heading_size": "h1",
         "color_scheme": "inverse",
         "padding_top": 36,
@@ -751,49 +797,13 @@
       "settings": {
         "include_margins": false
       }
-    },
-    "slideshow_7WPkPD": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_kM4YFT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_kM4YFT"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
+    "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
-    "171699842267b6a21f",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
+    "171699842267b6a21f",
     "image_with_text_VEYqap",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
     "image_banner",
@@ -807,7 +817,6 @@
     "tooltips_gGYKab",
     "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
-    "1705325432ab25b409",
-    "slideshow_7WPkPD"
+    "1705325432ab25b409"
   ]
 }

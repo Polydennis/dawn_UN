@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "multirow_4fFKib": {
+      "type": "multirow",
+      "blocks": {
+        "row_UaQaqH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tapete-Fototapete-Meer-Fische-Unterwasser-Wal-Delfin-Kinderzimmer-Baby_08.jpg",
+            "caption": "",
+            "heading": "Kindertapeten",
+            "text": "<p>Entdecke eine Vielzahl von wunderschönen Motiven, die Kinderzimmer in ein harmonisches Paradies der Natur, mit einer Prise Waldzauber, Dschungelabenteuern oder Safari-Begegnungen verwandeln.<\/p>",
+            "button_label": "Mehr entdecken",
+            "button_link": "https:\/\/unik-nordic.com\/collections\/kindertapeten"
+          }
+        },
+        "row_6JBpab": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kura-Aufkleber-Moebelfolie-Bett-IKEA-Himmel-Sterne-pastell-Aquarell_02.jpg",
+            "caption": "",
+            "heading": "IKea Kura Bettfolie",
+            "text": "<p>Mit dem individuell angefertigten Sticker-Set von UNIK NORDIC wird dein schlichtes IKEA KURA Hochbett im Handumdrehen zu einem einzigartigen Blickfang im Kinderzimmer.<\/p>",
+            "button_label": "Mehr entdecken",
+            "button_link": "https:\/\/unik-nordic.com\/collections\/ikea-kura-bett-folien"
+          }
+        },
+        "row_QxLMhh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Malm_Aufkleber_Folie_IKEA_Wald_Baeume_Kinder-08.jpg",
+            "caption": "",
+            "heading": "Ikea Malm Möbelfolie",
+            "text": "<p>Entdecke die Magie der Verwandlung mit unseren neuen Möbelfolien für IKEA Malm Kommoden. Ich möchte deinem Zuhause mit diesen speziell entworfenen Folien einen Hauch von Einzigartigkeit und Stil zu verleihen.<\/p>",
+            "button_label": "Mehr entdecken",
+            "button_link": "https:\/\/unik-nordic.com\/collections\/ikea-malm-mobelfolien"
+          }
+        },
+        "row_rJeJCB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mood_02.jpg",
+            "caption": "",
+            "heading": "Spielteppich",
+            "text": "<p>Entdecke die zauberhafte Kindertapete \"Spielstraße Landschaft\", die das Kinderzimmer in eine Rennstrecke verwandelt.<\/p>",
+            "button_label": "Mehr entdecken",
+            "button_link": "https:\/\/unik-nordic.com\/products\/kindertapete-spielstrasse-landschaft?_pos=2&_sid=62a7ece3b&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "row_UaQaqH",
+        "row_6JBpab",
+        "row_QxLMhh",
+        "row_rJeJCB"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "multirow_4fFKib"
+  ]
+}
