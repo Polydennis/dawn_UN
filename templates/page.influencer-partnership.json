@@ -91,23 +91,74 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_LtQpnp": {
+    "collapsible_content_hgKRk6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Bk9pzy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Schritt: 1. Anmeldung",
+            "icon": "clipboard",
+            "row_content": "<p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cdrJMB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Schritt: 2. Teilen",
+            "icon": "chat_bubble",
+            "row_content": "<p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_y4fk4H": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Schritt: 3. Profitieren",
+            "icon": "check_mark",
+            "row_content": "<p>Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Bk9pzy",
+        "collapsible_row_cdrJMB",
+        "collapsible_row_y4fk4H"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "wie funktioniert es?",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_QrPA84": {
       "type": "rich-text",
       "blocks": {
-        "heading_xeyQzB": {
+        "heading_gNeRpK": {
           "type": "heading",
           "settings": {
             "heading": "wie funktioniert es?",
             "heading_size": "h2"
           }
         },
-        "text_AWWVU9": {
+        "text_fnh99T": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Anmeldung<\/strong><\/p><p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><strong>Teilen<\/strong><\/p><p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p><p><strong>Profitieren<\/strong><\/p><p>Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>"
           }
         },
-        "button_VNpyxN": {
+        "button_er97Lq": {
           "type": "button",
           "disabled": true,
           "settings": {
@@ -121,9 +172,9 @@
         }
       },
       "block_order": [
-        "heading_xeyQzB",
-        "text_AWWVU9",
-        "button_VNpyxN"
+        "heading_gNeRpK",
+        "text_fnh99T",
+        "button_er97Lq"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -175,7 +226,8 @@
     "main",
     "rich_text_GkLKkF",
     "image_with_text_4RYTRQ",
-    "rich_text_LtQpnp",
+    "collapsible_content_hgKRk6",
+    "rich_text_QrPA84",
     "17050770069e2ea6c8",
     "form"
   ]
