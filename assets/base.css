@@ -258,7 +258,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: "Bon Voyage", serif;
+  font-family: "Bon Voyage Regular", serif;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -3569,4 +3569,34 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+
+/* Custom */
+
+@font-face {
+  font-family: 'Bon Voyage Regular';
+  src: url('https://cdn.shopify.com/s/files/1/0580/6007/9242/files/MADE_Bon_Voyage_Regular_PERSONAL_USE.otf?v=1679586510') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bon Voyage Thin';
+  src: url('https://cdn.shopify.com/s/files/1/0580/6007/9242/files/MADE_Bon_Voyage_Thin_PERSONAL_USE.otf?v=1679586510') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* trustedshops badge */
+#trustbadge-container-98e3dadd90eb493088abdc5597a70810 {
+  z-index: 21!important;
+  
+  }
+  
+ .shopify-pc__banner__btn-accept {
+  color: white!important;
+  Background: black!important;
+  font-weight: bold!important;
+}
+.card__custom-labels {
+  line-height: normal;
 }
