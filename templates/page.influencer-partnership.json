@@ -142,49 +142,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_QrPA84": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_gNeRpK": {
-          "type": "heading",
-          "settings": {
-            "heading": "wie funktioniert es?",
-            "heading_size": "h2"
-          }
-        },
-        "text_fnh99T": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Anmeldung<\/strong><\/p><p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><strong>Teilen<\/strong><\/p><p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p><p><strong>Profitieren<\/strong><\/p><p>Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>"
-          }
-        },
-        "button_er97Lq": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_gNeRpK",
-        "text_fnh99T",
-        "button_er97Lq"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "17050770069e2ea6c8": {
       "type": "apps",
       "blocks": {
@@ -227,7 +184,6 @@
     "rich_text_GkLKkF",
     "image_with_text_4RYTRQ",
     "collapsible_content_hgKRk6",
-    "rich_text_QrPA84",
     "17050770069e2ea6c8",
     "form"
   ]
