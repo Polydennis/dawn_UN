@@ -53,43 +53,40 @@
         "padding_bottom": 12
       }
     },
-    "collage_FwFHce": {
-      "type": "collage",
+    "image_with_text_4RYTRQ": {
+      "type": "image-with-text",
       "blocks": {
-        "image_ffePLV": {
-          "type": "image",
+        "heading_PMxw4U": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kueche-rueckwand-muster-fruechte-lemon-zitronen-retro04jpg.jpg"
+            "heading": "Warum unik nordic",
+            "heading_size": "h2"
           }
         },
-        "product_XKWcJ3": {
-          "type": "product",
-          "disabled": true,
+        "text_fpQHcY": {
+          "type": "text",
           "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_hPbBCh": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
+            "text": "<p><strong>Einzigartige Designs<\/strong><\/p><p>Jedes Tapetenmotiv wird von mir persönlich entworfen und verleiht jedem Raum einen individuellen Charme.<\/p><p><strong>Hochwertige Materialien<\/strong><\/p><p> Unsere Tapeten bestehen aus reißfestem Vlies und sind frei von Schadstoffen – perfekt für ein gesundes Raumklima.<\/p><p><strong>Einfache Montage<\/strong><\/p><p> Nummerierte und zugeschnittene Bahnen sorgen dafür, dass das Anbringen der Tapeten zum Kinderspiel wird.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "image_ffePLV",
-        "product_XKWcJ3",
-        "collection_hPbBCh"
+        "heading_PMxw4U",
+        "text_fpQHcY"
       ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "image": "shopify:\/\/shop_images\/1052wtrolle-detailjpg.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -137,6 +134,48 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_XWfQMg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Td7EqW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wie funktioniert's?",
+            "heading_size": "h2"
+          }
+        },
+        "text_wKCE7R": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Anmeldung:<\/strong> <\/p><p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><strong>Teilen:<\/strong> Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p><p><strong>Profitieren:<\/strong> Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>"
+          }
+        },
+        "button_yCJxmg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Td7EqW",
+        "text_wKCE7R",
+        "button_yCJxmg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "17050770069e2ea6c8": {
       "type": "apps",
       "blocks": {
@@ -177,8 +216,9 @@
   "order": [
     "main",
     "rich_text_GkLKkF",
-    "collage_FwFHce",
+    "image_with_text_4RYTRQ",
     "rich_text_LtQpnp",
+    "rich_text_XWfQMg",
     "17050770069e2ea6c8",
     "form"
   ]
