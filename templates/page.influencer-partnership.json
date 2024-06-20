@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
@@ -24,16 +25,15 @@
       "blocks": {
         "heading_rHkKNx": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Kontaktformular",
+            "heading": "Werde Teil der Unik Nordic Familie als Influencer",
             "heading_size": "h1"
           }
         },
         "text_XFyxhK": {
           "type": "text",
           "settings": {
-            "text": "<p>Wenn du möchtest, hinterlass mir gern deine Emailadresse und zusätzlich eine Telefonnummer. ich werde dann versuchen dich anzurufen. Natürlich werden deine Daten behutsam behandelt und auf sicheren Servern gespeichert - allein zum Zwecke der Antwort auf deine Anfrage.<\/p>"
+            "text": "<p>Du liebst es, dein Zuhause mit <strong>einzigartigen Designs<\/strong> zu verschönern und deine Follower für <strong>außergewöhnliche Produkte<\/strong> zu begeistern? <\/p><p>Dann bist du bei mir genau richtig! Als Influencer für Unik Nordic hast du die Möglichkeit, deinen Followern exklusive Rabattcodes anzubieten und dabei <span style=\"text-decoration:underline\">selbst zu profitieren<\/span>.<\/p>"
           }
         }
       },
