@@ -83,8 +83,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "background-1",
+        "color_scheme": "inverse",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -97,14 +97,14 @@
         "heading_xeyQzB": {
           "type": "heading",
           "settings": {
-            "heading": "Warum Unik Nordic?",
+            "heading": "wie funktioniert es?",
             "heading_size": "h2"
           }
         },
         "text_AWWVU9": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Einzigartige Designs<\/strong><\/p><p>Jedes Tapetenmotiv wird von mir persönlich entworfen und verleiht jedem Raum einen individuellen Charme.<\/p><p><strong>Hochwertige Materialien<\/strong><\/p><p> Unsere Tapeten bestehen aus reißfestem Vlies und sind frei von Schadstoffen – perfekt für ein gesundes Raumklima.<\/p><p><strong>Einfache Montage<\/strong><\/p><p> Nummerierte und zugeschnittene Bahnen sorgen dafür, dass das Anbringen der Tapeten zum Kinderspiel wird.<\/p>"
+            "text": "<p><strong>Anmeldung<\/strong><\/p><p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><strong>Teilen<\/strong><\/p><p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p><p><strong>Profitieren<\/strong><\/p><p>Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>"
           }
         },
         "button_VNpyxN": {
@@ -128,49 +128,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_XWfQMg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Td7EqW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wie funktioniert's?",
-            "heading_size": "h2"
-          }
-        },
-        "text_wKCE7R": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Anmeldung:<\/strong> <\/p><p>Melde dich bei mir und erhalte deinen individuellen Rabattcode.<\/p><p><strong>Teilen:<\/strong> Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p><p><strong>Profitieren:<\/strong> Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>"
-          }
-        },
-        "button_yCJxmg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Td7EqW",
-        "text_wKCE7R",
-        "button_yCJxmg"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -218,7 +176,6 @@
     "rich_text_GkLKkF",
     "image_with_text_4RYTRQ",
     "rich_text_LtQpnp",
-    "rich_text_XWfQMg",
     "17050770069e2ea6c8",
     "form"
   ]
