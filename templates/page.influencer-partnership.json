@@ -33,7 +33,7 @@
         "text_XFyxhK": {
           "type": "text",
           "settings": {
-            "text": "<p>Du liebst es, dein Zuhause mit <strong>einzigartigen Designs<\/strong> zu verschönern und deine Follower für <strong>außergewöhnliche Produkte<\/strong> zu begeistern? <\/p><p>Dann bist du bei mir genau richtig! Als Influencer für Unik Nordic hast du die Möglichkeit, deinen Followern exklusive Rabattcodes anzubieten und dabei <span style=\"text-decoration:underline\">selbst zu profitieren<\/span>.<\/p>"
+            "text": "<p>Du liebst es, dein Zuhause mit <strong>einzigartigen Designs<\/strong> zu verschönern und deine Follower für <strong>außergewöhnliche Produkte<\/strong> zu begeistern? <\/p><p>Dann bist du bei mir genau richtig! <\/p><p>Als Influencer für Unik Nordic hast du die Möglichkeit, deinen Followern exklusive Rabattcodes anzubieten und dabei <span style=\"text-decoration:underline\">selbst zu profitieren<\/span>.<\/p>"
           }
         }
       },
@@ -51,6 +51,48 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 12
+      }
+    },
+    "rich_text_LtQpnp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xeyQzB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warum Unik Nordic?",
+            "heading_size": "h1"
+          }
+        },
+        "text_AWWVU9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Einzigartige Designs<\/strong><\/p><p>Jedes Tapetenmotiv wird von mir persönlich entworfen und verleiht jedem Raum einen individuellen Charme.<\/p><p><strong>Hochwertige Materialien<\/strong><\/p><p> Unsere Tapeten bestehen aus reißfestem Vlies und sind frei von Schadstoffen – perfekt für ein gesundes Raumklima.<\/p><p><strong>Einfache Montage<\/strong><\/p><p> Nummerierte und zugeschnittene Bahnen sorgen dafür, dass das Anbringen der Tapeten zum Kinderspiel wird.<\/p>"
+          }
+        },
+        "button_VNpyxN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xeyQzB",
+        "text_AWWVU9",
+        "button_VNpyxN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "17050770069e2ea6c8": {
@@ -93,6 +135,7 @@
   "order": [
     "main",
     "rich_text_GkLKkF",
+    "rich_text_LtQpnp",
     "17050770069e2ea6c8",
     "form"
   ]
