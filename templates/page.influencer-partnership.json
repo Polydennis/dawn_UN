@@ -71,6 +71,7 @@
         },
         "button_VNpyxN": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Schaltflächenbeschriftung",
             "button_link": "",
