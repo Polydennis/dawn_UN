@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -224,8 +233,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
             "caption": "Durchgängige Beratung",
-            "heading": "Von der Idee zur Wand",
-            "text": "<p>Bei mir steht durchgängige, <a href=\"\/pages\/schreib-mir\" title=\"Schreib mir\">persönliche Beratung<\/a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deiner Wand, um ein Ergebnis zu garantieren, das dich begeistert.<\/p>",
+            "heading": "Von der Idee zur Umsetzung",
+            "text": "<p>Bei mir steht durchgängige, <a href=\"\/pages\/schreib-mir\" title=\"Schreib mir\">persönliche Beratung<\/a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung in deinem Zuhause, um ein Ergebnis zu garantieren, das dich begeistert.<\/p>",
             "button_label": "",
             "button_link": ""
           }
