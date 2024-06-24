@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Schritt: 3. Profitieren",
             "icon": "check_mark",
-            "row_content": "<p>Bei jeder Bestellung mit deinem Code erhältst du 10% des Gesamtbestellwertes als Provision.<\/p>",
+            "row_content": "<p>Bei jeder Bestellung mit deinem Code erhältst du <strong>10% des Gesamtbestellwertes als Provision<\/strong>.<\/p>",
             "page": ""
           }
         }
