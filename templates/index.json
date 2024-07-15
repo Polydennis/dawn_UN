@@ -103,24 +103,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
-            "heading": "<a href=\"\/collections\/neues\" title=\"Neues\">Neu im Sortiment<\/a>",
-            "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!<\/strong><\/a>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/neues",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
-        },
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
@@ -138,14 +120,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
+            "heading": "<a href=\"\/collections\/neues\" title=\"Neues\">Neu im Sortiment<\/a>",
+            "heading_size": "h1",
+            "subheading": "<a href=\"\/collections\/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!<\/strong><\/a>",
+            "button_label": "Jetzt ansehen",
+            "link": "shopify:\/\/collections\/neues",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "00332378-0e47-4c7a-b477-9006f35a538b",
         "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
-        "9be37071-bb59-420b-a356-632d89308bf8"
+        "9be37071-bb59-420b-a356-632d89308bf8",
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1"
       ],
       "custom_css": [
         "a {text-decoration: none;}",
