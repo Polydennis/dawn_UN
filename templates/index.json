@@ -124,17 +124,17 @@
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tapete-jugendzimmer-kind-fussball-gras-rasen-junge-04jpg.jpg",
-            "heading": "PASSEND ZUM EM-START",
+            "image": "shopify:\/\/shop_images\/kura-sticker-aufkleber-baustelle-bagger-junge-bau03jpg.jpg",
+            "heading": "Möbelfolien",
             "heading_size": "h1",
-            "subheading": "Bring den Fußball in das Zimmer deines Kindes!",
+            "subheading": "Werte deine Möbel mit Folien auf",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/fussball",
+            "link": "shopify:\/\/collections\/mobelfolien",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 60,
+            "image_overlay_opacity": 30,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
