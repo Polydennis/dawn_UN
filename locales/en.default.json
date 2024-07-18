@@ -112,7 +112,7 @@
         "moveable_elements": "Movable individual motifs",
         "custom_sizes": "Individual dimensions",
         "color_options_desc": "With this label, you can choose the colors yourself.",
-        "moveable_elements_desc": "With this label, the individual elements are movable.",
+        "moveable_elements_desc": "The individual elements of this motiv are movable.",
         "custom_sizes_desc": "The motif and cut are adjusted to size for free."
       },
       "new": "New",
