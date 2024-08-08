@@ -35,47 +35,10 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "newsletter_FfJUCg": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_gwcx9M": {
-          "type": "heading",
-          "settings": {
-            "heading": "Abonniere unsere E-Mails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_zUhp9n": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Erfahre als Erster von neuen Kollektionen und exklusiven Angeboten.<\/p>"
-          }
-        },
-        "email_form_r7dDn7": {
-          "type": "email_form",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_gwcx9M",
-        "paragraph_zUhp9n",
-        "email_form_r7dDn7"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
-    "17216404435e9fef29",
-    "newsletter_FfJUCg"
+    "17216404435e9fef29"
   ]
 }
