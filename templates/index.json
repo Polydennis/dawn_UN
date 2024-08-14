@@ -675,15 +675,6 @@
             "left": 31
           }
         },
-        "tooltip_qkNg4G": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Tooltip title",
-            "content": "I am a tooltip, I provide additional explanatory content and showcase product features.",
-            "top": 50,
-            "left": 50
-          }
-        },
         "tooltip_H3xawB": {
           "type": "Tooltip",
           "settings": {
@@ -697,7 +688,6 @@
       "block_order": [
         "tooltip_BK3KH8",
         "tooltip_UzgykR",
-        "tooltip_qkNg4G",
         "tooltip_H3xawB"
       ],
       "settings": {
