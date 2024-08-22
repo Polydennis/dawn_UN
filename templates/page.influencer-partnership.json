@@ -182,7 +182,7 @@
         "text_jihFQX": {
           "type": "text",
           "settings": {
-            "text": "<p>Hier klicken, um die AGBs zu lesen.<\/p>"
+            "text": "<p><a href=\"\/pages\/affiliate-agb\" target=\"_blank\" title=\"Affiliate-AGB\">Unsere Affiliate-AGB findest du hier.<\/a><\/p>"
           }
         },
         "button_k3gY7j": {
