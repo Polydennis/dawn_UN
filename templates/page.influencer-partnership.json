@@ -168,6 +168,50 @@
         "include_margins": true
       }
     },
+    "rich_text_amtRJx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Gnc3iP": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_jihFQX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hier klicken, um die AGBs zu lesen.<\/p>"
+          }
+        },
+        "button_k3gY7j": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gnc3iP",
+        "text_jihFQX",
+        "button_k3gY7j"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -185,6 +229,7 @@
     "image_with_text_4RYTRQ",
     "collapsible_content_hgKRk6",
     "17050770069e2ea6c8",
+    "rich_text_amtRJx",
     "form"
   ]
 }
