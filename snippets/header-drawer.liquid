@@ -52,9 +52,12 @@
                       >
                         {{ link.title | escape }}
                       </a>
+                      {% if link.links != blank %}
+                        {% render 'icon-arrow' %}
+                        {% render 'icon-caret' %}
+                      {% endif %}
                     </div>
 
-                  {%- else -%}
                     {%- if link.links != blank -%}
                       <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
                         <summary
@@ -78,7 +81,29 @@
                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                               {%- for childlink in link.links -%}
                                 <li>
-                                  {%- if childlink.links == blank -%}
+                                  {% assign image_url_child = '' %}
+                                  {% if section.settings.drawer_menu_images_toggle == 'featured' %}
+                                    {% if childlink.object.featured_image %}
+                                      {% assign image_url_child = childlink.object.featured_image | img_url: 'master' %}
+                                    {% endif %}
+                                  {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
+                                    {% if childlink.object.metafields.custom.header_menu_image %}
+                                      {% assign image_url_child = childlink.object.metafields.custom.header_menu_image
+                                        | img_url: 'master'
+                                      %}
+                                    {% endif %}
+                                  {% endif %}
+
+                                  <div class="menu-drawer__menu-item-container{% if childlink.current %} menu-drawer__menu-item--active{% endif %}">
+                                    {% if image_url_child != blank %}
+                                      <a href="{{ childlink.url }}" class="menu-drawer__menu-item-link">
+                                        <img
+                                          src="{{ image_url_child }}"
+                                          alt="{{ childlink.title | escape }}"
+                                          class="menu-drawer__image"
+                                        >
+                                      </a>
+                                    {% endif %}
                                     <a
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                       href="{{ childlink.url }}"
@@ -89,7 +114,13 @@
                                     >
                                       {{ childlink.title | escape }}
                                     </a>
-                                  {%- else -%}
+                                    {% if childlink.links != blank %}
+                                      {% render 'icon-arrow' %}
+                                      {% render 'icon-caret' %}
+                                    {% endif %}
+                                  </div>
+
+                                  {%- if childlink.links != blank -%}
                                     <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
                                       <summary
                                         id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
@@ -133,6 +164,48 @@
                                       </div>
                                     </details>
                                   {%- endif -%}
+                                </li>
+                              {%- endfor -%}
+                            </ul>
+                          </div>
+                        </div>
+                      </details>
+                    {%- endif -%}
+
+                  {%- else -%}
+                    {%- if link.links != blank -%}
+                      <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
+                        <summary
+                          id="HeaderDrawer-{{ link.handle }}"
+                          class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
+                        >
+                          {{ link.title | escape }}
+                          {% render 'icon-arrow' %}
+                          {% render 'icon-caret' %}
+                        </summary>
+                        <div
+                          id="link-{{ link.handle | escape }}"
+                          class="menu-drawer__submenu has-submenu gradient motion-reduce"
+                          tabindex="-1"
+                        >
+                          <div class="menu-drawer__inner-submenu">
+                            <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
+                              {% render 'icon-arrow' %}
+                              {{ link.title | escape }}
+                            </button>
+                            <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                              {%- for childlink in link.links -%}
+                                <li>
+                                  <a
+                                    id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
+                                    href="{{ childlink.url }}"
+                                    class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"
+                                    {% if childlink.current %}
+                                      aria-current="page"
+                                    {% endif %}
+                                  >
+                                    {{ childlink.title | escape }}
+                                  </a>
                                 </li>
                               {%- endfor -%}
                             </ul>
