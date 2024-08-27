@@ -39,12 +39,14 @@
 
                       {% if section.settings.mega_menu_images_toggle == 'featured' %}
                         {% if childlink.object.featured_image %}
-                          {% assign image_url = childlink.object.featured_image | img_url: 'master' %}
+                          {% assign image_url = childlink.object.featured_image | img_url: '100x' %}
                         {% endif %}
                       {% elsif section.settings.mega_menu_images_toggle == 'metafield' %}
-                        {% assign image_url = childlink.object.metafields.custom.header_menu_image
-                          | img_url: 'master'
-                        %}
+                        {% if childlink.object.metafields.custom.header_menu_image %}
+                          {% assign image_url = childlink.object.metafields.custom.header_menu_image
+                            | img_url: '100x'
+                          %}
+                        {% endif %}
                       {% endif %}
 
                       <li>
@@ -144,7 +146,7 @@
                 class="header__active-menu-item"
               {% endif %}
             >
-              {{- link.title | escape -}}
+              {{- link.title | escape }}
             </span>
           </a>
         {%- endif -%}
@@ -155,8 +157,8 @@
 
 <style>
   .mega-menu__image {
-    width: 100px; /* Set a fixed width to make it a square */
-    height: 100px; /* Set a fixed height to make it a square */
+    width: 100px; /* Fixed width to match the fixed height */
+    height: 100px; /* Fixed height directly applied from Liquid */
     object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
     border-radius: 50%; /* Makes the image a perfect circle */
     margin-bottom: 10px; /* Adds space between the image and the text */
