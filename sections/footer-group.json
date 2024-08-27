@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -5,6 +14,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "5db8702d-074c-4d33-867f-a7af180bb2e9": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "UkR3jg"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -23,19 +38,13 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
-        },
-        "5db8702d-074c-4d33-867f-a7af180bb2e9": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "UkR3jg"
-          }
         }
       },
       "block_order": [
+        "5db8702d-074c-4d33-867f-a7af180bb2e9",
         "footer-0",
         "footer-1",
-        "0c197f5e-5755-43f8-b4ca-513fd9100173",
-        "5db8702d-074c-4d33-867f-a7af180bb2e9"
+        "0c197f5e-5755-43f8-b4ca-513fd9100173"
       ],
       "settings": {
         "color_scheme": "accent-2",

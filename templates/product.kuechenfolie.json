@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -56,6 +65,13 @@
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "text_NqKJHU": {
+          "type": "text",
+          "settings": {
+            "text": "Die Küchenfolien werden mit einem aufwändigen Verfahren produziert, das ein Aushärten erfordert. Deshalb beträgt die Herstellungszeit deiner Bestellung zwei Tage.",
+            "text_style": "body"
           }
         },
         "collapsible-row-0": {
@@ -158,6 +174,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "text_NqKJHU",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
