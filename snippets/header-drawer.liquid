@@ -46,7 +46,30 @@
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
                               <li>
-                                {%- if childlink.links == blank -%}
+                                {% assign image_url = '' %}
+
+                                {% if section.settings.mega_menu_images_toggle == 'featured' %}
+                                  {% if childlink.object.featured_image %}
+                                    {% assign image_url = childlink.object.featured_image | img_url: '100x100' %}
+                                  {% endif %}
+                                {% elsif section.settings.mega_menu_images_toggle == 'metafield' %}
+                                  {% if childlink.object.metafields.custom.header_menu_image %}
+                                    {% assign image_url = childlink.object.metafields.custom.header_menu_image
+                                      | img_url: '100x100'
+                                    %}
+                                  {% endif %}
+                                {% endif %}
+
+                                <div class="menu-drawer__item-container">
+                                  {% if image_url != blank %}
+                                    <a href="{{ childlink.url }}">
+                                      <img
+                                        src="{{ image_url }}"
+                                        alt="{{ childlink.title | escape }}"
+                                        class="menu-drawer__image"
+                                      >
+                                    </a>
+                                  {% endif %}
                                   <a
                                     id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                     href="{{ childlink.url }}"
@@ -57,7 +80,9 @@
                                   >
                                     {{ childlink.title | escape }}
                                   </a>
-                                {%- else -%}
+                                </div>
+
+                                {%- if childlink.links != blank -%}
                                   <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
                                     <summary
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
@@ -258,3 +283,18 @@
     </div>
   </details>
 </header-drawer>
+
+<style>
+  .menu-drawer__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image is always square and covers the container */
+    margin-bottom: 10px;
+  }
+
+  .menu-drawer__item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+</style>
