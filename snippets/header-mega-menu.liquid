@@ -57,7 +57,7 @@
                           <a
                             id="HeaderMenu-{{ link.handle }}-{{ childlink.handle }}"
                             href="{{ childlink.url }}"
-                            class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %} {% if section.settings.mega_menu_images_title %}hide-title{% endif %}"
+                            class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"
                             {% if childlink.current %}
                               aria-current="page"
                             {% endif %}
@@ -159,20 +159,18 @@
     height: 100px; /* Set a fixed height to make it a square */
     object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
     border-radius: 50%; /* Makes the image a perfect circle */
-    margin-right: 15px; /* Adds some space between the image and the text */
+    margin-bottom: 10px; /* Adds space between the image and the text */
   }
 
   .mega-menu__column {
     display: flex;
-    flex-direction: row; /* Aligns image and text in a row */
-    align-items: center; /* Aligns items vertically */
-    justify-content: flex-start; /* Ensures everything is left-aligned */
+    flex-direction: column; /* Aligns image and text in a column (vertical) */
+    align-items: flex-start; /* Aligns items to the left */
     text-align: left; /* Ensures text inside the column is left-aligned */
   }
 
   .mega-menu__list.megamenu-with-image {
     justify-content: flex-start; /* Ensures the entire list is left-aligned */
-    grid-template-columns: repeat(auto-fit, minmax(calc((100% - (5 * 4rem)) / 6), calc((100% - (5 * 4rem)) / 6)));
   }
 
   .mega-menu__link.hide-title {
