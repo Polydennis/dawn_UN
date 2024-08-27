@@ -37,22 +37,21 @@
                     {% endif %}
 
                     <div class="menu-drawer__menu-item-container{% if link.current %} menu-drawer__menu-item--active{% endif %}">
+                      {% if image_url != blank %}
+                        <a href="{{ link.url }}" class="menu-drawer__menu-item-link">
+                          <img src="{{ image_url }}" alt="{{ link.title | escape }}" class="menu-drawer__image">
+                        </a>
+                      {% endif %}
                       <a
                         id="HeaderDrawer-{{ link.handle }}"
                         href="{{ link.url }}"
-                        class="menu-drawer__menu-item menu-drawer__menu-item-w-image link link--text focus-inset"
+                        class="menu-drawer__menu-item link link--text focus-inset"
                         {% if link.current %}
                           aria-current="page"
                         {% endif %}
                       >
                         {{ link.title | escape }}
                       </a>
-
-                      {% if image_url != blank %}
-                        <a href="{{ link.url }}" class="menu-drawer__menu-item-link">
-                          <img src="{{ image_url }}" alt="{{ link.title | escape }}" class="menu-drawer__image">
-                        </a>
-                      {% endif %}
                     </div>
 
                   {%- else -%}
@@ -169,7 +168,7 @@
                       {{ customer | avatar }}
                     {%- else -%}
                       {% render 'icon-account' %}
-                    {%- endif -%}
+                    {%- endif %}
                   </account-icon>
                 {%- else -%}
                   {% render 'icon-account' %}
@@ -310,17 +309,15 @@
   }
   {% endif %}
 
-
   .menu-drawer__menu-item-container {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* This will push the image to the far right */
+    justify-content: flex-start; /* Ensures the image and text align to the left */
     padding: 1.1rem 3rem;
-    /*border-bottom: 1px solid #eaeaea;  Add a border to the bottom of each list item */
   }
 
   .menu-drawer__menu-item-link {
-    margin-left: auto; /* This ensures that the link (image) is pushed to the far right */
+    margin-right: 15px; /* Adds space between the image and the text */
   }
 
   .menu-drawer__image {
@@ -331,6 +328,10 @@
   }
 
   .menu-drawer__menu-item.menu-drawer__menu-item-w-image {
-    padding: 0px 0px;
+    padding: 0px;
+  }
+
+  .menu-drawer__menu-item {
+    text-align: left; /* Ensures the text is left-aligned */
   }
 </style>
