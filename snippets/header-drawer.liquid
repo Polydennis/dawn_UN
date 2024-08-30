@@ -27,11 +27,11 @@
 
                   {% if section.settings.drawer_menu_images_toggle == 'featured' %}
                     {% if link.object.featured_image %}
-                      {% assign image_url = link.object.featured_image | img_url: '50x' %}
+                      {% assign image_url = link.object.featured_image | img_url: '40x' %}
                     {% endif %}
                   {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
                     {% if link.object.metafields.custom.header_menu_image %}
-                      {% assign image_url = link.object.metafields.custom.header_menu_image | img_url: '50x' %}
+                      {% assign image_url = link.object.metafields.custom.header_menu_image | img_url: '40x' %}
                     {% endif %}
                   {% endif %}
                 {% endif %}
@@ -74,11 +74,13 @@
                                       aria-current="page"
                                     {% endif %}
                                   >
-                                    {% if section.settings.drawer_menu_images_toggle != 'none' %}
+                                    {% if section.settings.drawer_menu_images_toggle != 'none' and image_url != blank %}
                                       <img
                                         src="{{ image_url }}"
                                         alt="{{ link.title | escape }}"
                                         class="menu-drawer__image"
+                                        loading="lazy"
+                                        height="40px"
                                       >
                                     {% endif %}
                                     {{ childlink.title | escape }}
@@ -125,11 +127,15 @@
                                                 aria-current="page"
                                               {% endif %}
                                             >
-                                              {% if section.settings.drawer_menu_images_toggle != 'none' %}
+                                              {% if section.settings.drawer_menu_images_toggle != 'none'
+                                                and image_url != blank
+                                              %}
                                                 <img
                                                   src="{{ image_url }}"
                                                   alt="{{ link.title | escape }}"
                                                   class="menu-drawer__image"
+                                                  loading="lazy"
+                                                  height="40px"
                                                 >
                                               {% endif %}
                                               {{ grandchildlink.title | escape }}
@@ -155,8 +161,14 @@
                         aria-current="page"
                       {% endif %}
                     >
-                      {% if section.settings.drawer_menu_images_toggle != 'none' %}
-                        <img src="{{ image_url }}" alt="{{ link.title | escape }}" class="menu-drawer__image">
+                      {% if section.settings.drawer_menu_images_toggle != 'none' and image_url != blank %}
+                        <img
+                          src="{{ image_url }}"
+                          alt="{{ link.title | escape }}"
+                          class="menu-drawer__image"
+                          loading="lazy"
+                          height="40px"
+                        >
                       {% endif %}
                       {{ link.title | escape }}
                     </a>
