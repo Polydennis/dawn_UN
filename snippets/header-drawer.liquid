@@ -32,6 +32,8 @@
                   {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
                     {% if link.object.metafields.custom.header_menu_image %}
                       {% assign image_url = link.object.metafields.custom.header_menu_image | img_url: '40x' %}
+                    {% elsif link.object.featured_image %}
+                      {% assign image_url = link.object.featured_image | img_url: '40x' %}
                     {% endif %}
                   {% endif %}
                 {% endif %}
@@ -375,10 +377,11 @@
   }
 
   .menu-drawer__image {
-    max-width: 50px; /* Set a fixed width for the images */
-    height: 50px; /* Set a fixed height for the images to make them square */
+    max-width: 40px; /* Set a fixed width for the images */
+    height: 40px; /* Set a fixed height for the images to make them square */
     object-fit: cover; /* Ensures the image covers the area, useful if the images are not square */
     border-radius: 5px; /* Adjust the radius value as needed */
+    margin-right: 15px;
   }
 
   .menu-drawer__menu-item.menu-drawer__menu-item-w-image {
