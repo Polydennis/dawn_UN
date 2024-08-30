@@ -51,8 +51,10 @@
                             class="menu-drawer__image"
                             loading="lazy"
                             height="40px"
+                            width="40px"
                           >
                         {% endif %}
+
                         {{ link.title | escape }}
                         <span class="svg-wrapper">
                           {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -120,14 +122,18 @@
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                       class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
                                     >
-                                      <img
-                                        src="{{ image_url }}"
-                                        alt="{{ link.title | escape }}"
-                                        class="menu-drawer__image"
-                                        loading="lazy"
-                                        height="40px"
-                                        width="40px"
-                                      >
+                                      {% if section.settings.drawer_menu_images_toggle != 'none'
+                                        and image_url != blank
+                                      %}
+                                        <img
+                                          src="{{ image_url }}"
+                                          alt="{{ link.title | escape }}"
+                                          class="menu-drawer__image"
+                                          loading="lazy"
+                                          height="40px"
+                                          width="40px"
+                                        >
+                                      {% endif %}
                                       {{ childlink.title | escape }}
                                       <span class="svg-wrapper">
                                         {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -197,6 +203,7 @@
                                                   width="40px"
                                                 >
                                               {% endif %}
+
                                               {{ grandchildlink.title | escape }}
                                             </a>
                                           </li>
@@ -230,6 +237,7 @@
                           width="40px"
                         >
                       {% endif %}
+
                       {{ link.title | escape }}
                     </a>
                   {%- endif -%}
