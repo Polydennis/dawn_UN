@@ -42,6 +42,15 @@
                         id="HeaderDrawer-{{ link.handle }}"
                         class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}"
                       >
+                        {% if section.settings.drawer_menu_images_toggle != 'none' and image_url != blank %}
+                          <img
+                            src="{{ image_url }}"
+                            alt="{{ link.title | escape }}"
+                            class="menu-drawer__image"
+                            loading="lazy"
+                            height="40px"
+                          >
+                        {% endif %}
                         {{ link.title | escape }}
                         <span class="svg-wrapper">
                           {{- 'icon-arrow.svg' | inline_asset_content -}}
