@@ -75,6 +75,23 @@
                           </button>
                           <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
+                              {% if section.settings.drawer_menu_images_toggle != 'none' %}
+                                {% assign image_url = '' %}
+
+                                {% if section.settings.drawer_menu_images_toggle == 'featured' %}
+                                  {% if link.object.featured_image %}
+                                    {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                  {% endif %}
+                                {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
+                                  {% if link.object.metafields.custom.header_menu_image %}
+                                    {% assign image_url = link.object.metafields.custom.header_menu_image
+                                      | img_url: '40x'
+                                    %}
+                                  {% elsif link.object.featured_image %}
+                                    {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                  {% endif %}
+                                {% endif %}
+                              {% endif %}
                               <li>
                                 {%- if childlink.links == blank -%}
                                   <a
@@ -102,6 +119,13 @@
                                       id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
                                       class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
                                     >
+                                      <img
+                                        src="{{ image_url }}"
+                                        alt="{{ link.title | escape }}"
+                                        class="menu-drawer__image"
+                                        loading="lazy"
+                                        height="40px"
+                                      >
                                       {{ childlink.title | escape }}
                                       <span class="svg-wrapper">
                                         {{- 'icon-arrow.svg' | inline_asset_content -}}
@@ -129,6 +153,23 @@
                                         tabindex="-1"
                                       >
                                         {%- for grandchildlink in childlink.links -%}
+                                          {% if section.settings.drawer_menu_images_toggle != 'none' %}
+                                            {% assign image_url = '' %}
+
+                                            {% if section.settings.drawer_menu_images_toggle == 'featured' %}
+                                              {% if link.object.featured_image %}
+                                                {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                              {% endif %}
+                                            {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
+                                              {% if link.object.metafields.custom.header_menu_image %}
+                                                {% assign image_url = link.object.metafields.custom.header_menu_image
+                                                  | img_url: '40x'
+                                                %}
+                                              {% elsif link.object.featured_image %}
+                                                {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                              {% endif %}
+                                            {% endif %}
+                                          {% endif %}
                                           <li>
                                             <a
                                               id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
