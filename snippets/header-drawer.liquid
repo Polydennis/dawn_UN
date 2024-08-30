@@ -85,7 +85,7 @@
                                 {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
                                   {% if link.object.metafields.custom.header_menu_image %}
                                     {% assign image_url = link.object.metafields.custom.header_menu_image
-                                      | img_url: '40x'
+                                      | image_url: '40x'
                                     %}
                                   {% elsif link.object.featured_image %}
                                     {% assign image_url = link.object.featured_image | img_url: '40x' %}
@@ -109,6 +109,7 @@
                                         class="menu-drawer__image"
                                         loading="lazy"
                                         height="40px"
+                                        width="40px"
                                       >
                                     {% endif %}
                                     {{ childlink.title | escape }}
@@ -125,6 +126,7 @@
                                         class="menu-drawer__image"
                                         loading="lazy"
                                         height="40px"
+                                        width="40px"
                                       >
                                       {{ childlink.title | escape }}
                                       <span class="svg-wrapper">
@@ -188,6 +190,7 @@
                                                   class="menu-drawer__image"
                                                   loading="lazy"
                                                   height="40px"
+                                                  width="40px"
                                                 >
                                               {% endif %}
                                               {{ grandchildlink.title | escape }}
@@ -220,6 +223,7 @@
                           class="menu-drawer__image"
                           loading="lazy"
                           height="40px"
+                          width="40px"
                         >
                       {% endif %}
                       {{ link.title | escape }}
