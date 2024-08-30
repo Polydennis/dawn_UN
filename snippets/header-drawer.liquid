@@ -79,16 +79,16 @@
                                 {% assign image_url = '' %}
 
                                 {% if section.settings.drawer_menu_images_toggle == 'featured' %}
-                                  {% if link.object.featured_image %}
-                                    {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                  {% if childlink.object.featured_image %}
+                                    {% assign image_url = childlink.object.featured_image | img_url: '40x' %}
                                   {% endif %}
                                 {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
-                                  {% if link.object.metafields.custom.header_menu_image %}
-                                    {% assign image_url = link.object.metafields.custom.header_menu_image
-                                      | image_url: '40x'
+                                  {% if childlink.object.metafields.custom.header_menu_image %}
+                                    {% assign image_url = childlink.object.metafields.custom.header_menu_image
+                                      | img_url: '40x'
                                     %}
-                                  {% elsif link.object.featured_image %}
-                                    {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                  {% elsif childlink.object.featured_image %}
+                                    {% assign image_url = childlink.object.featured_image | img_url: '40x' %}
                                   {% endif %}
                                 {% endif %}
                               {% endif %}
@@ -159,16 +159,20 @@
                                             {% assign image_url = '' %}
 
                                             {% if section.settings.drawer_menu_images_toggle == 'featured' %}
-                                              {% if link.object.featured_image %}
-                                                {% assign image_url = link.object.featured_image | img_url: '40x' %}
-                                              {% endif %}
-                                            {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
-                                              {% if link.object.metafields.custom.header_menu_image %}
-                                                {% assign image_url = link.object.metafields.custom.header_menu_image
+                                              {% if childlink.object.featured_image %}
+                                                {% assign image_url = childlink.object.featured_image
                                                   | img_url: '40x'
                                                 %}
-                                              {% elsif link.object.featured_image %}
-                                                {% assign image_url = link.object.featured_image | img_url: '40x' %}
+                                              {% endif %}
+                                            {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
+                                              {% if childlink.object.metafields.custom.header_menu_image %}
+                                                {% assign image_url = childlink.object.metafields.custom.header_menu_image
+                                                  | img_url: '40x'
+                                                %}
+                                              {% elsif childlink.object.featured_image %}
+                                                {% assign image_url = childlink.object.featured_image
+                                                  | img_url: '40x'
+                                                %}
                                               {% endif %}
                                             {% endif %}
                                           {% endif %}
