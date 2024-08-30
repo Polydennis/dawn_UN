@@ -28,11 +28,11 @@
 
                     {% if section.settings.drawer_menu_images_toggle == 'featured' %}
                       {% if link.object.featured_image %}
-                        {% assign image_url = link.object.featured_image | img_url: 'master' %}
+                        {% assign image_url = link.object.featured_image | img_url: '50x50' %}
                       {% endif %}
                     {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
                       {% if link.object.metafields.custom.header_menu_image %}
-                        {% assign image_url = link.object.metafields.custom.header_menu_image | img_url: 'master' %}
+                        {% assign image_url = link.object.metafields.custom.header_menu_image | img_url: '50x50' %}
                       {% endif %}
                     {% endif %}
                     {%- if link.links != blank -%}
@@ -148,7 +148,13 @@
                         {% endif %}
                       >
                         {% if image_url != blank %}
-                          <img src="{{ image_url }}" alt="{{ link.title | escape }}" class="menu-drawer__image">
+                          <img
+                            src="{{ image_url }}"
+                            alt="{{ link.title | escape }}"
+                            class="menu-drawer__image"
+                            width="50"
+                            height="50"
+                          >
                         {% endif %}
                         {{ link.title | escape }}
                       </a>
@@ -170,7 +176,7 @@
                       {{ customer | avatar }}
                     {%- else -%}
                       {% render 'icon-account' %}
-                    {%- endif -%}
+                    {%- endif %}
                   </account-icon>
                 {%- else -%}
                   {% render 'icon-account' %}
