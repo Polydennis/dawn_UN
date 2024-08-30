@@ -159,19 +159,19 @@
                                             {% assign image_url = '' %}
 
                                             {% if section.settings.drawer_menu_images_toggle == 'featured' %}
-                                              {% if childlink.object.featured_image %}
-                                                {% assign image_url = childlink.object.featured_image
-                                                  | img_url: '40x'
+                                              {% if grandchildlink.object.featured_image %}
+                                                {% assign image_url = grandchildlink.object.featured_image
+                                                  | image_url: '40x'
                                                 %}
                                               {% endif %}
                                             {% elsif section.settings.drawer_menu_images_toggle == 'metafield' %}
-                                              {% if childlink.object.metafields.custom.header_menu_image %}
-                                                {% assign image_url = childlink.object.metafields.custom.header_menu_image
-                                                  | img_url: '40x'
+                                              {% if grandchildlink.object.metafields.custom.header_menu_image %}
+                                                {% assign image_url = grandchildlink.object.metafields.custom.header_menu_image
+                                                  | image_url: '40x'
                                                 %}
-                                              {% elsif childlink.object.featured_image %}
-                                                {% assign image_url = childlink.object.featured_image
-                                                  | img_url: '40x'
+                                              {% elsif grandchildlink.object.featured_image %}
+                                                {% assign image_url = grandchildlink.object.featured_image
+                                                  | image_url: '40x'
                                                 %}
                                               {% endif %}
                                             {% endif %}
