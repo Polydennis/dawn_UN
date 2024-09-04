@@ -11,12 +11,35 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_y3MPrg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Mb7Trr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit meinen Designs verwandelst du deine Wände in echte Hingucker, genauso wie die BR Volleys die Halle rocken. Ob Wohnzimmer, Kinderzimmer oder Küche – bei mir findest du für jeden Raum das passende Unikat.<\/p><p>Und weil auch ich auf Teamgeist setze: Mit dem Code \"<strong>BRV10<\/strong>\" bekommst du <strong>10 % Rabatt<\/strong> auf deine Bestellung.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Mb7Trr"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection_ftw3y8": {
@@ -84,35 +107,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "wandsticker",
-        "products_to_show": 10,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_WPzVbA": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Wandsticker",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mobelfolien",
-        "products_to_show": 10,
+        "products_to_show": 5,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -181,10 +176,10 @@
   },
   "order": [
     "main",
+    "rich_text_y3MPrg",
     "featured_collection_ftw3y8",
     "featured_collection_NU9NGX",
     "featured_collection_NhiHGw",
-    "featured_collection_WPzVbA",
     "collection_list_Bjdq6D"
   ]
 }
