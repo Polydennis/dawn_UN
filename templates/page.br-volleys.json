@@ -44,6 +44,9 @@
     },
     "featured_collection_ftw3y8": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
       "settings": {
         "title": "Design-Tapeten",
         "heading_size": "h1",
@@ -72,6 +75,9 @@
     },
     "featured_collection_NU9NGX": {
       "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
       "settings": {
         "title": "Kindertapeten",
         "heading_size": "h1",
