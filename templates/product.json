@@ -91,8 +91,8 @@
           "settings": {
             "heading": "Wände messen",
             "icon": "ruler",
-            "content": "{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}",
-            "page": ""
+            "content": "",
+            "page": "so-misst-du-deine-wand-richtig-aus"
           }
         },
         "24725872-f967-4a93-b412-3b8750be9d55": {
