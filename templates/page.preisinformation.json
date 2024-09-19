@@ -33,7 +33,7 @@
         "text_xeDqmX": {
           "type": "text",
           "settings": {
-            "text": "<p>Lange Zeit ist es mir gelungen, meine Preise stabil zu<br\/>halten. Nun bin ich aber leider gezwungen, eine Preisanpassung bei den Tapeten<br\/>vorzunehmen. Dies ist eine Entscheidung, die ich lange hinausgezögert habe,<br\/>aber aufgrund der allgemeinen Preissteigerungen leider unumgänglich ist.<\/p><p>Damit ich die Qualität meiner Tapeten weiterhin<br\/>gewährleisten und stetig verbessern kann, werden sie künftig etwas mehr kosten.<br\/>Die <strong>Preisanpassung <\/strong>findet <strong>am 07.10.2024<\/strong> statt, bis dahin kannst du deine Bestellung<br\/>zum alten Preis abschließen.<\/p><p><strong>Doch ich habe auch eine gute Nachricht:<\/strong> Alle anderen<br\/>Produkte, wie z. B. meine Wandsticker oder Möbelfolien, behalten ihren Preis!<\/p><p>Zudem bekommst du wie immer <strong>maßgeschneiderte Designs<\/strong>, die<br\/>ich persönlich an deine Raumgegebenheiten anpasse – egal ob Dachschrägen,<br\/>Fenster oder Türen. <strong>Ab 60 € Bestellwert<\/strong> sende ich dir deine Bestellung übrigens auch weiterhin<br\/><strong>kostenfrei nach Hause<\/strong>.<\/p><p>Mir ist es wichtig, dass du dich weiterhin auf die <strong>Qualität<br\/>und den individuellen Service<\/strong> verlassen kannst, den du bei mir gewohnt bist.<br\/>Auch die einfache Montage mit den passgenau zugeschnittenen und nummerierten<br\/>Bahnen bleibt dir erhalten.<\/p><p><strong>Danke für dein Verständnis und dein Vertrauen! 💛<\/strong><\/p>"
+            "text": "<p>Lange Zeit ist es mir gelungen, meine Preise stabil zu<br\/>halten. Nun bin ich aber leider gezwungen, eine Preisanpassung bei den Tapeten<br\/>vorzunehmen. Dies ist eine Entscheidung, die ich lange hinausgezögert habe,<br\/>aber aufgrund der allgemeinen Preissteigerungen leider unumgänglich ist.<\/p><p>Damit ich die Qualität meiner Tapeten weiterhin<br\/>gewährleisten und stetig verbessern kann, werden sie künftig etwas mehr kosten.<br\/>Die <strong>Preisanpassung <\/strong>findet <strong>am 07.10.2024<\/strong> statt, bis dahin kannst du deine Bestellung<br\/>zum alten Preis abschließen.<\/p><p><strong>Doch ich habe auch eine gute Nachricht:<\/strong> Alle anderen<br\/>Produkte, wie z. B. meine Wandsticker oder Möbelfolien, behalten ihren Preis!<\/p><p>Zudem bekommst du wie immer <strong>maßgeschneiderte Designs<\/strong>, die<br\/>ich persönlich an deine Raumgegebenheiten anpasse – egal ob Dachschrägen,<br\/>Fenster oder Türen. <strong>Ab 60 € Bestellwert<\/strong> sende ich dir deine Bestellung übrigens auch weiterhin<br\/><strong>kostenfrei nach Hause<\/strong>.<\/p><p>Mir ist es wichtig, dass du dich weiterhin auf die <strong>Qualität<br\/>und den individuellen Service<\/strong> verlassen kannst, den du bei mir gewohnt bist.<br\/>Auch die einfache Montage mit den passgenau zugeschnittenen und nummerierten<br\/>Bahnen bleibt dir erhalten.<\/p>"
           }
         },
         "button_mmc6hM": {
@@ -60,12 +60,44 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_grbiEA": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_KfbHPD": {
+          "type": "caption",
+          "settings": {
+            "caption": "Danke für dein Verständnis & Vertrauen 💛",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "caption_KfbHPD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Foto_Website.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "rich_text_TFHiUX"
+    "rich_text_TFHiUX",
+    "image_with_text_grbiEA"
   ]
 }
