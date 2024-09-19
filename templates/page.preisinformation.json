@@ -11,16 +11,61 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_TFHiUX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kTPzzi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Danke, dass du Unik Nordic dein Vertrauen schenkst!",
+            "heading_size": "h1"
+          }
+        },
+        "text_xeDqmX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lange Zeit ist es mir gelungen, meine Preise stabil zu<br\/>halten. Nun bin ich aber leider gezwungen, eine Preisanpassung bei den Tapeten<br\/>vorzunehmen. Dies ist eine Entscheidung, die ich lange hinausgezögert habe,<br\/>aber aufgrund der allgemeinen Preissteigerungen leider unumgänglich ist.<\/p><p>Damit ich die Qualität meiner Tapeten weiterhin<br\/>gewährleisten und stetig verbessern kann, werden sie künftig etwas mehr kosten.<br\/>Die <strong>Preisanpassung <\/strong>findet <strong>am 07.10.2024<\/strong> statt, bis dahin kannst du deine Bestellung<br\/>zum alten Preis abschließen.<\/p><p><strong>Doch ich habe auch eine gute Nachricht:<\/strong> Alle anderen<br\/>Produkte, wie z. B. meine Wandsticker oder Möbelfolien, behalten ihren Preis!<\/p><p>Zudem bekommst du wie immer <strong>maßgeschneiderte Designs<\/strong>, die<br\/>ich persönlich an deine Raumgegebenheiten anpasse – egal ob Dachschrägen,<br\/>Fenster oder Türen. <br\/><strong>Ab 60 € Bestellwert<\/strong> sende ich dir deine Bestellung übrigens auch weiterhin<br\/><strong>kostenfrei nach Hause<\/strong>.<\/p><p>Mir ist es wichtig, dass du dich weiterhin auf die <strong>Qualität<br\/>und den individuellen Service<\/strong> verlassen kannst, den du bei mir gewohnt bist.<br\/>Auch die einfache Montage mit den passgenau zugeschnittenen und nummerierten<br\/>Bahnen bleibt dir erhalten.<\/p><p><strong>Danke für dein Verständnis und dein Vertrauen! 💛<\/strong><\/p>"
+          }
+        },
+        "button_mmc6hM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTPzzi",
+        "text_xeDqmX",
+        "button_mmc6hM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_TFHiUX"
   ]
 }
