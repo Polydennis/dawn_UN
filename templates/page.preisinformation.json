@@ -66,16 +66,24 @@
     "image_with_text_grbiEA": {
       "type": "image-with-text",
       "blocks": {
+        "heading_wF89LK": {
+          "type": "heading",
+          "settings": {
+            "heading": "DANKE",
+            "heading_size": "h1"
+          }
+        },
         "caption_KfbHPD": {
           "type": "caption",
           "settings": {
-            "caption": "Danke für dein Verständnis & Vertrauen 💛",
+            "caption": "für dein Verständnis & Vertrauen 💛",
             "text_style": "subtitle",
             "text_size": "medium"
           }
         }
       },
       "block_order": [
+        "heading_wF89LK",
         "caption_KfbHPD"
       ],
       "settings": {
@@ -83,7 +91,7 @@
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
