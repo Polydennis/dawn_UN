@@ -22,6 +22,13 @@
             "link": "shopify:\/\/pages\/kindertag"
           }
         },
+        "announcement_z6F3C3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Preisanpassung zum 7.10.24",
+            "link": "shopify:\/\/pages\/preisinformation"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -32,6 +39,7 @@
       },
       "block_order": [
         "announcement_TkMJmx",
+        "announcement_z6F3C3",
         "announcement-bar-0"
       ],
       "settings": {
