@@ -16,10 +16,9 @@
       "blocks": {
         "announcement_TkMJmx": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Aktion zum Kindertag! 10% auf alle Artikel für Kinder",
-            "link": "shopify:\/\/pages\/kindertag"
+            "text": "Individuelle Tapeten auf Maß",
+            "link": ""
           }
         },
         "announcement_z6F3C3": {
