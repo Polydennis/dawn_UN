@@ -14,7 +14,7 @@
     "custom_liquid_PPxtQn": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"replycoChat\" />\n<script>\n    (function(){\n      window.replycoChat=window.replycoChat||function(){(window.replycoChat=window.replycoChat||[]).push(arguments)};\n      window.replycoChat.data = {\n        widgetId: \"1e5c9add-71d1-45bb-9f01-08dce6f50014\"\n      };\n      var a = document.getElementsByTagName('head')[0];\n      var r = document.createElement('script');r.async=1;\n      r.src = \"https://app.replyco.com/extensions/widget.js\";\n      a.appendChild(r);\n    })();\n</script>\n<style>\n#replycoChat .replyco-chat-global {\n    bottom: 60px !important;\n    right: 10px !important;\n</style>",
+        "custom_liquid": "<div id=\"replycoChat\">\n<script>\n    (function(){\n      window.replycoChat=window.replycoChat||function(){(window.replycoChat=window.replycoChat||[]).push(arguments)};\n      window.replycoChat.data = {\n        widgetId: \"1e5c9add-71d1-45bb-9f01-08dce6f50014\"\n      };\n      var a = document.getElementsByTagName('head')[0];\n      var r = document.createElement('script');r.async=1;\n      r.src = \"https://app.replyco.com/extensions/widget.js\";\n      a.appendChild(r);\n    })();\n</script>\n<style>\n#replycoChat .replyco-chat-global {\n    bottom: 60px !important;\n    right: 10px !important;\n</style>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
