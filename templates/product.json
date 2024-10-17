@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Maßanfertigung für deine Wand",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.produkttyp.value.masse | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -89,7 +89,7 @@
           "settings": {
             "heading": "Motivanpassung an Fenster, Türen, Schrägen & Möbel",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.produkttyp.value.motivanpassung | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -98,7 +98,7 @@
           "settings": {
             "heading": "Druck auf Vlies in Deutschland",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.material | metafield_tag }}",
+            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
             "page": ""
           }
         },
@@ -123,9 +123,9 @@
         "collapsible_tab_Dz7KKA": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Zuschneiden auf nummerierte Bahnen",
+            "heading": "Handliche, nummerierte Bahnen",
             "icon": "check_mark",
-            "content": "<p>Das Design und die Produktion finden in Deutschland statt.</p>",
+            "content": "<p>Die einzelnen Bahnen werden gleich groß und auf ein handliches Maß geschnitten und nummeriert, damit du auf der mitgelieferten Voransicht alles im Blick hast.</p>",
             "page": ""
           }
         },
