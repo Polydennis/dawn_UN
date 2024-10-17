@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -68,12 +68,37 @@
             "show_gift_card_recipient": true
           }
         },
+        "text_FtPH9X": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Mein Service für dich:</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "24725872-f967-4a93-b412-3b8750be9d55": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Maßanfertigung für deine Wand",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_3WdiRc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Motivanpassung an Fenster, Türen, Schrägen & Möbel",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Hochwertiges Material",
-            "icon": "price_tag",
-            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
+            "heading": "Druck auf Vlies in Deutschland",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.material | metafield_tag }}",
             "page": ""
           }
         },
@@ -81,9 +106,34 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Schneller Versand",
-            "icon": "truck",
+            "icon": "check_mark",
             "content": "{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}",
             "page": ""
+          }
+        },
+        "970234dc-5764-4f4f-a779-3fd06697f559": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zufriedenheitsgarantie",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Dz7KKA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zuschneiden auf nummerierte Bahnen",
+            "icon": "check_mark",
+            "content": "<p>Das Design und die Produktion finden in Deutschland statt.</p>",
+            "page": ""
+          }
+        },
+        "text_b9MmR7": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Alles, was du tun musst:</strong>",
+            "text_style": "subtitle"
           }
         },
         "collapsible-row-2": {
@@ -95,39 +145,12 @@
             "page": "so-misst-du-deine-wand-richtig-aus"
           }
         },
-        "24725872-f967-4a93-b412-3b8750be9d55": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Anpassmöglichkeiten",
-            "icon": "star",
-            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
-            "page": ""
-          }
-        },
         "e4466e54-edb3-46ab-abef-e0dac9de574c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Leichte Anbringung",
-            "icon": "check_mark",
+            "heading": "Kinderleicht tapezieren",
+            "icon": "leaf",
             "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "970234dc-5764-4f4f-a779-3fd06697f559": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Zufriedenheitsgarantie",
-            "icon": "heart",
-            "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "collapsible_tab_Dz7KKA": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Made in Germany",
-            "icon": "check_mark",
-            "content": "<p>Das Design und die Produktion finden in Deutschland statt.</p>",
             "page": ""
           }
         },
@@ -185,13 +208,16 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_FtPH9X",
+        "24725872-f967-4a93-b412-3b8750be9d55",
+        "collapsible_tab_3WdiRc",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "24725872-f967-4a93-b412-3b8750be9d55",
-        "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "collapsible_tab_Dz7KKA",
+        "text_b9MmR7",
+        "collapsible-row-2",
+        "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "description",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
         "custom_liquid_tXPEAe",
