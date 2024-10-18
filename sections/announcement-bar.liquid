@@ -138,19 +138,6 @@
         </style>
       {%- endif -%}
     {%- endif -%}
-    <div class="localization-wrapper">
-      <!-- Begin eTrusted widget tag -->
-      <style>
-        .trusted-stars-service-widget .wrapper {
-          margin: 0 !important;
-        }
-        .trusted-stars-service-widget .wrapper .content .grade-value {
-          font-weight: normal !important;
-        }
-      </style>
-      <script src="https://integrations.etrusted.com/applications/widget.js/v2" async defer></script>
-      <etrusted-widget data-etrusted-widget-id="wdg-6d52dad8-ec31-4dd6-8d7f-b30f7d41c5fe"></etrusted-widget>
-      <!-- End eTrusted widget tag -->
       {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
         <localization-form class="small-hide medium-hide">
           {%- form 'localization', id: 'AnnouncementCountryForm', class: 'localization-form' -%}
