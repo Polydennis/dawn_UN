@@ -55,7 +55,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        ".icon {position: static;}"
       ],
       "settings": {
         "logo_position": "top-center",
