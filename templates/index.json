@@ -162,6 +162,22 @@
         "accessibility_info": "Kollektionen"
       }
     },
+    "172926778639d65192": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_easy_integration_trusted_stars_Dzj38B": {
+          "type": "shopify://apps/trusted-shops-easy-integration/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "trusted_shops_easy_integration_trusted_stars_Dzj38B"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34": {
       "type": "image-with-text",
       "blocks": {
@@ -807,6 +823,7 @@
   "order": [
     "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
+    "172926778639d65192",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
     "featured_collection",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
