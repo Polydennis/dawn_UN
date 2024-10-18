@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -16,22 +16,30 @@
       "blocks": {
         "announcement_TkMJmx": {
           "type": "announcement",
+          "settings": {
+            "text": "Individuelle Tapeten auf Maß",
+            "link": ""
+          }
+        },
+        "announcement_z6F3C3": {
+          "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Aktion zum Kindertag! 10% auf alle Artikel für Kinder",
-            "link": "shopify:\/\/pages\/kindertag"
+            "text": "Preisanpassung zum 7.10.24",
+            "link": "shopify://pages/preisinformation"
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Individuelle Tapeten nach Maß - Kostenloser Versand nach DE ab 60€",
+            "text": "Kostenloser Versand nach DE ab 60€",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement_TkMJmx",
+        "announcement_z6F3C3",
         "announcement-bar-0"
       ],
       "settings": {
@@ -41,11 +49,14 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
-        "enable_language_selector": true
+        "enable_language_selector": false
       }
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".icon {position: static;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "megamenu",

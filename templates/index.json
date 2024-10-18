@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_7WPkPD": {
@@ -15,7 +15,7 @@
         "slide_kM4YFT": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
+            "image": "shopify://shop_images/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
             "heading": "",
             "heading_size": "h0",
             "subheading": "",
@@ -52,12 +52,12 @@
         "00332378-0e47-4c7a-b477-9006f35a538b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Home-Kinderzimmer-Birken-Baeume-Tapete-Fototapete.jpg",
-            "heading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Kinder<\/a>­<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">tapeten<\/a>",
+            "image": "shopify://shop_images/Home-Kinderzimmer-Birken-Baeume-Tapete-Fototapete.jpg",
+            "heading": "<a href=\"/collections/kindertapeten\" title=\"Kinder­tapeten\">Kinder</a>­<a href=\"/collections/kindertapeten\" title=\"Kinder­tapeten\">tapeten</a>",
             "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben<\/a>",
+            "subheading": "<a href=\"/collections/kindertapeten\" title=\"Kinder­tapeten\">Für ein kreatives Umfeld in beruhigenden Farben</a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/kindertapeten",
+            "link": "shopify://collections/kindertapeten",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -70,12 +70,12 @@
         "b4e3236e-8312-49c6-ba50-20558b8061ef": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
+            "image": "shopify://shop_images/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
             "heading": "Wandsticker",
             "heading_size": "h1",
-            "subheading": "<strong>Gestalte deine Wand selbst oder gemeinsam mit deinem Kind.<\/strong>",
+            "subheading": "<strong>Gestalte deine Wand selbst oder gemeinsam mit deinem Kind.</strong>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/wandsticker",
+            "link": "shopify://collections/wandsticker",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
@@ -88,12 +88,12 @@
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Fototapete-Wandtapete-Marmor-Pastell-Stein-Struktur-beige-01_bea18eed-9963-4b1d-8903-1f1b47703da4.jpg",
+            "image": "shopify://shop_images/Tapete-Fototapete-Wandtapete-Marmor-Pastell-Stein-Struktur-beige-01_bea18eed-9963-4b1d-8903-1f1b47703da4.jpg",
             "heading": "Marmor- & Stein­tapeten",
             "heading_size": "h1",
             "subheading": "Atmosphärisch natürliche Muster und kunstvolle Aquarelle",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/marmor-steintapeten",
+            "link": "shopify://collections/marmor-steintapeten",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": false,
@@ -106,12 +106,12 @@
         "9be37071-bb59-420b-a356-632d89308bf8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kura-sticker-aufkleber-baustelle-bagger-junge-bau03jpg.jpg",
+            "image": "shopify://shop_images/kura-sticker-aufkleber-baustelle-bagger-junge-bau03jpg.jpg",
             "heading": "Möbelfolien",
             "heading_size": "h1",
             "subheading": "Werte deine Möbel mit Folien auf",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/mobelfolien",
+            "link": "shopify://collections/mobelfolien",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -124,12 +124,12 @@
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
-            "heading": "<a href=\"\/collections\/neues\" title=\"Neues\">Neu im Sortiment<\/a>",
+            "image": "shopify://shop_images/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
+            "heading": "<a href=\"/collections/neues\" title=\"Neues\">Neu im Sortiment</a>",
             "heading_size": "h1",
-            "subheading": "<a href=\"\/collections\/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!<\/strong><\/a>",
+            "subheading": "<a href=\"/collections/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!</strong></a>",
             "button_label": "Jetzt ansehen",
-            "link": "shopify:\/\/collections\/neues",
+            "link": "shopify://collections/neues",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": false,
@@ -168,14 +168,14 @@
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Exklusive Tapeten auf Maß",
+            "heading": "Für dich persönlich angefertigt",
             "heading_size": "h1"
           }
         },
         "template--18322339561740__46d794bc-7a98-4fa8-9086-fc0ccec2de34-text-1": {
           "type": "text",
           "settings": {
-            "text": "<h3>Individualität für dein Zuhause. <br\/>Sei unik!<\/h3><p>Alle Tapeten in meinem Shop kannst du genau in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv <strong>kostenfrei <\/strong>und exakt darauf anpassen und Fenster und Türen beachten, bevor deine Tapete in den Druck geht. <br\/>So passt das Motiv später perfekt auf deine Wand.<\/p>",
+            "text": "<h3>Individualität für dein Zuhause. <br/>Sei unik!</h3><p>Alle Tapeten in meinem Shop kannst du in deinen Wandmaßen bestellen. Dadurch kann ich dein Motiv <strong>kostenfrei </strong>und exakt darauf anpassen und Fenster, Möbel und Türen beachten, bevor deine Tapete in unserer Berliner Druckerei angefertigt und zugeschnitten wird. <br/>So passt das Motiv später perfekt auf deine Wand.</p>",
             "text_style": "body"
           }
         },
@@ -183,7 +183,7 @@
           "type": "button",
           "settings": {
             "button_label": "Alle Tapeten ansehen",
-            "button_link": "shopify:\/\/collections\/alle-tapeten",
+            "button_link": "shopify://collections/alle-tapeten",
             "button_style_secondary": true
           }
         }
@@ -197,7 +197,7 @@
         "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/02_Spezielle_Wand_Dschungeltiere.jpg",
+        "image": "shopify://shop_images/02_Spezielle_Wand_Dschungeltiere.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -250,29 +250,29 @@
         "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Beratung.png",
+            "image": "shopify://shop_images/Icon_Beratung.png",
             "title": "Beratung",
-            "text": "<p>Egal welche Fragen du hast, ich bin immer für dich da und finde mit dir  auch vor dem Kauf das perfekte Motiv.<\/p>",
+            "text": "<p>Egal welche Fragen du hast, ich bin immer für dich da und finde mit dir auch vor dem Kauf das perfekte Motiv.</p>",
             "link_label": "Schreib mir",
-            "link": "shopify:\/\/pages\/kontakt"
+            "link": "shopify://pages/kontakt"
           }
         },
         "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Personalisiert_1fb74390-7188-43f7-ba30-bf3a232cf61e.png",
+            "image": "shopify://shop_images/Icon_Personalisiert_1fb74390-7188-43f7-ba30-bf3a232cf61e.png",
             "title": "Design",
-            "text": "<p>Alle Motive werden kostenlos auf dein bestelltes Format angepasst. Zudem kannst du viele nach deinen Wünschen anpassen zu lassen.<\/p>",
+            "text": "<p>Alle Motive werden kostenlos auf dein bestelltes Format angepasst. Zudem kannst du viele nach deinen Wünschen anpassen zu lassen.</p>",
             "link_label": "Weitere Infos",
-            "link": "shopify:\/\/pages\/infos-faq"
+            "link": "shopify://pages/infos-faq"
           }
         },
         "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Motive.png",
+            "image": "shopify://shop_images/Icon_Motive.png",
             "title": "Einzigartige Motive",
-            "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.<\/p>",
+            "text": "<p>Von internationalen Künstlern und von mir selbst gestaltete Motive garantieren dir Einzigartigkeit.</p>",
             "link_label": "",
             "link": ""
           }
@@ -280,19 +280,19 @@
         "37ddb6a2-01d2-49f4-94ba-b04877663891": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Motivservice.png",
+            "image": "shopify://shop_images/Icon_Motivservice.png",
             "title": "Persön­licher Motiv­service",
-            "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern oder Schrägen<\/p>",
+            "text": "<p>Designs nach deinen Wünschen & Anpassung unter Beachtung von Türen, Fenstern, Möbeln und Schrägen</p>",
             "link_label": "Kontakt",
-            "link": "shopify:\/\/pages\/kontakt"
+            "link": "shopify://pages/kontakt"
           }
         },
         "be68dd8c-c296-43cf-95d8-84833eadde63": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
+            "image": "shopify://shop_images/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
             "title": "Berliner Druck",
-            "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Adlershof angefertigt und ausgiebig geprüft.<\/p>",
+            "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Berlin-Adlershof angefertigt und ausgiebig geprüft.</p>",
             "link_label": "",
             "link": ""
           }
@@ -300,9 +300,9 @@
         "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Kalkulation.png",
+            "image": "shopify://shop_images/Icon_Kalkulation.png",
             "title": "Kalkulator",
-            "text": "<p>Den Preis für deine Tapete erfährst du ganz einfach über den Kalkulator auf jeder  Produktseite.<\/p>",
+            "text": "<p>Den Preis für deine Tapete erfährst du ganz einfach über den Kalkulator auf jeder  Produktseite.</p>",
             "link_label": "",
             "link": ""
           }
@@ -310,21 +310,21 @@
         "e596a778-7165-4979-a415-ef49f9a37c3a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Montage.png",
+            "image": "shopify://shop_images/Icon_Montage.png",
             "title": "Montage",
-            "text": "<p>Die Bahnen kommen schon zugeschnitten und nummeriert bei dir an.<br\/>Wand einkleistern, Bahnen anbringen - FERTIG!<\/p>",
+            "text": "<p>Die Bahnen kommen schon zugeschnitten und nummeriert bei dir an.<br/>Wand einkleistern, Bahnen anbringen - FERTIG!</p>",
             "link_label": "Videoanleitung",
-            "link": "https:\/\/www.youtube.com\/watch?v=XbyfX2G2xls"
+            "link": "https://www.youtube.com/watch?v=XbyfX2G2xls"
           }
         },
         "a4b302be-1cd8-422d-befe-523463196468": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Icon_Know_How.png",
+            "image": "shopify://shop_images/Icon_Know_How.png",
             "title": "Meine Passion",
-            "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br\/>Möchtest du mehr über mich erfahren?<\/p>",
+            "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br/>Möchtest du mehr über mich erfahren?</p>",
             "link_label": "Über mich",
-            "link": "shopify:\/\/pages\/uber-mich"
+            "link": "shopify://pages/uber-mich"
           }
         }
       },
@@ -362,7 +362,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_ugc_media_grid_C4j78X": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -387,7 +387,7 @@
         "text_DDdEf3": {
           "type": "text",
           "settings": {
-            "text": "<p>Ich liebe es hier <a href=\"\/pages\/uber-mich\" title=\"Über mich\">meine Leidenschaft<\/a> für Interieur und Gestaltung ausleben zu können und dabei im Kontakt zu meinen Kunden zu stehen und vor Allem sie zu <a href=\"\/pages\/kontakt\" title=\"Kontakt\">beraten<\/a>.<\/p>",
+            "text": "<p>Ich liebe es hier <a href=\"/pages/uber-mich\" title=\"Über mich\">meine Leidenschaft</a> für Interieur und Gestaltung ausleben zu können und dabei im Kontakt zu meinen Kunden zu stehen und vor Allem sie zu <a href=\"/pages/kontakt\" title=\"Kontakt\">beraten</a>.</p>",
             "text_style": "body"
           }
         }
@@ -400,7 +400,7 @@
         "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
+        "image": "shopify://shop_images/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -436,7 +436,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -467,12 +467,12 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_medals_NdG3qE": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
         "2597eb6a-aa01-479c-a74b-7d80391dfd2f": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1400
           }
@@ -493,7 +493,7 @@
       "type": "apps",
       "blocks": {
         "82478fe2-9c8b-4a67-a6e6-0fe017e54196": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
             "formId": "TJxJLY"
           }
@@ -597,8 +597,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=g16yvx8hpt0",
-        "cover_image": "shopify:\/\/shop_images\/produktionsvideo_titel.jpg",
+        "video_url": "https://www.youtube.com/watch?v=g16yvx8hpt0",
+        "cover_image": "shopify://shop_images/produktionsvideo_titel.jpg",
         "description": "Unik Nordic Produktionsvideo",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -613,7 +613,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -622,7 +622,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -631,7 +631,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -667,7 +667,7 @@
           "type": "Tooltip",
           "settings": {
             "title": "Fototapete Blooming Spring",
-            "content": "Dieses <a href=\"https:\/\/unik-nordic.com\/products\/fototapete-blooming-spring\">Motiv<\/a> bringt den Frühling an deine Wand!",
+            "content": "Dieses <a href=\"https://unik-nordic.com/products/fototapete-blooming-spring\">Motiv</a> bringt den Frühling an deine Wand!",
             "top": 19,
             "left": 29
           }
@@ -697,7 +697,7 @@
         "tooltip_H3xawB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/blooming_spring_thema.jpg",
+        "image": "shopify://shop_images/blooming_spring_thema.jpg",
         "tooltip_color": "#ffffff",
         "tooltip_background_color": "#bf9f86",
         "tooltip_focus_color": "#bcb2a8",
@@ -784,7 +784,7 @@
       "type": "apps",
       "blocks": {
         "formful_app_block_form_zMxRwC": {
-          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "type": "shopify://apps/formful/blocks/app-block-form/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
           "settings": {
             "form_id": "form_GIrxcD8v6n",
             "max_width": 75,

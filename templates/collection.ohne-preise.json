@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "9d41215b-4019-4718-8b50-02b64246f741": {
@@ -21,7 +30,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [
-        ".card-information {display: none;}"
+        ".price {display: none;}"
       ],
       "settings": {
         "products_per_page": 24,
@@ -31,7 +40,7 @@
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "quick_add": "none",
         "enable_filtering": true,
         "filter_type": "horizontal",

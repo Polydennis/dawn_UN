@@ -1,0 +1,112 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}",
+        "@media (max-width: 768px) {p {text-align: justify; }}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_TFHiUX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kTPzzi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Danke, dass du Unik Nordic dein Vertrauen schenkst!",
+            "heading_size": "h1"
+          }
+        },
+        "text_xeDqmX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lange Zeit ist es mir gelungen, meine Preise stabil zu<br\/>halten. Nun bin ich aber leider gezwungen, eine Preisanpassung bei den Tapeten<br\/>vorzunehmen. Dies ist eine Entscheidung, die ich lange hinausgezögert habe,<br\/>aber aufgrund der Preissteigerungen für Rohstoffe, Energie und Produktion leider unumgänglich ist.<\/p><p>Damit ich die Qualität meiner Tapeten weiterhin<br\/>gewährleisten und stetig verbessern kann, werden sie künftig etwas mehr kosten.<br\/>Die <strong>Preisanpassung <\/strong>findet <strong>am 07.10.2024<\/strong> statt, bis dahin kannst du deine Bestellung<br\/>zum alten Preis abschließen.<\/p><p><strong>Doch ich habe auch eine gute Nachricht:<\/strong> Alle anderen<br\/>Produkte, wie z. B. meine Wandsticker oder Möbelfolien, behalten ihren Preis!<\/p><p>Zudem bekommst du wie immer <strong>maßgeschneiderte Designs<\/strong>, die<br\/>ich persönlich an deine Raumgegebenheiten anpasse – egal ob Dachschrägen,<br\/>Fenster oder Türen. <strong>Ab 60 € Bestellwert<\/strong> sende ich dir deine Bestellung übrigens auch weiterhin<br\/><strong>kostenfrei nach Hause<\/strong>.<\/p><p>Mir ist es wichtig, dass du dich weiterhin auf die <strong>Qualität<br\/>und den individuellen Service<\/strong> verlassen kannst, den du bei mir gewohnt bist.<br\/>Auch die einfache Montage mit den passgenau zugeschnittenen und nummerierten<br\/>Bahnen bleibt dir erhalten.<\/p>"
+          }
+        },
+        "button_mmc6hM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kTPzzi",
+        "text_xeDqmX",
+        "button_mmc6hM"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_grbiEA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wF89LK": {
+          "type": "heading",
+          "settings": {
+            "heading": "DANKE",
+            "heading_size": "h1"
+          }
+        },
+        "caption_KfbHPD": {
+          "type": "caption",
+          "settings": {
+            "caption": "für dein Verständnis & Vertrauen 💛",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wF89LK",
+        "caption_KfbHPD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Foto_Website.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TFHiUX",
+    "image_with_text_grbiEA"
+  ]
+}

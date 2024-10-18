@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo_2022_frei_4e23c94d-ab53-4e75-be78-ba7208f47cd9.png",
+    "logo": "shopify://shop_images/Logo_2022_frei_4e23c94d-ab53-4e75-be78-ba7208f47cd9.png",
     "logo_width": 160,
-    "favicon": "shopify:\/\/shop_images\/favicon_trans.png",
+    "favicon": "shopify://shop_images/favicon_trans.png",
     "type_header_font": "avenir_next_n3",
     "heading_scale": 100,
     "type_body_font": "avenir_next_n3",
@@ -107,15 +107,15 @@
     "sale_badge_color_scheme": "scheme-276f73b7-efe0-4d63-8abf-157b0932f212",
     "sold_out_badge_color_scheme": "accent-2",
     "brand_headline": "Unik Nordic - einzigartige Tapeten",
-    "brand_description": "<p>Sei unik - unverwechselbare Wohnraumgestaltung<\/p>",
-    "brand_image": "shopify:\/\/shop_images\/Logo_2022_dark.png",
-    "social_facebook_link": "https:\/\/www.facebook.com\/UnikNordic\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/unik.nordic\/",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UC0wXEDqZ49MyMT2C8nINiSg",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@unik.nordic",
+    "brand_description": "<p>Sei unik - unverwechselbare Wohnraumgestaltung</p>",
+    "brand_image": "shopify://shop_images/Logo_2022_dark.png",
+    "social_facebook_link": "https://www.facebook.com/UnikNordic/",
+    "social_instagram_link": "https://www.instagram.com/unik.nordic/",
+    "social_youtube_link": "https://www.youtube.com/channel/UC0wXEDqZ49MyMT2C8nINiSg",
+    "social_tiktok_link": "https://www.tiktok.com/@unik.nordic",
     "social_twitter_link": "",
     "social_snapchat_link": "",
-    "social_pinterest_link": "https:\/\/www.pinterest.de\/uniknordic",
+    "social_pinterest_link": "https://www.pinterest.de/uniknordic",
     "social_tumblr_link": "",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
@@ -127,7 +127,7 @@
     "show_cart_note": true,
     "cart_drawer_collection": "alle-tapeten",
     "cart_color_scheme": "inverse",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_checkout_ff838da7-ddce-4c2e-81d7-d0292b7a3239.png",
+    "checkout_logo_image": "shopify://shop_images/Logo_checkout_ff838da7-ddce-4c2e-81d7-d0292b7a3239.png",
     "checkout_accent_color": "#bf9f86",
     "checkout_button_color": "#595959",
     "sections": {
@@ -149,31 +149,31 @@
     ],
     "blocks": {
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#bf9f86",
           "secondary_color": "#ffffff",
-          "ternary_color": "#6A6A6A",
+          "ternary_color": "#6a6a6a",
           "button_icon": "chat_bubble",
           "button_text": "no_text",
           "button_horizontal_position": "bottom_left",
