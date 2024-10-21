@@ -23,12 +23,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "5db8702d-074c-4d33-867f-a7af180bb2e9": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "UkR3jg"
-          }
-        },
         "trusted_shops_easy_integration_trusted_stars_HHPer9": {
           "type": "shopify://apps/trusted-shops-easy-integration/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
           "settings": {
@@ -47,13 +41,19 @@
             "heading": "Rechtliches",
             "menu": "footer"
           }
+        },
+        "5db8702d-074c-4d33-867f-a7af180bb2e9": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "UkR3jg"
+          }
         }
       },
       "block_order": [
-        "5db8702d-074c-4d33-867f-a7af180bb2e9",
         "trusted_shops_easy_integration_trusted_stars_HHPer9",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "5db8702d-074c-4d33-867f-a7af180bb2e9"
       ],
       "settings": {
         "color_scheme": "accent-2",
