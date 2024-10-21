@@ -162,6 +162,39 @@
         "accessibility_info": "Kollektionen"
       }
     },
+    "bekannt_aus_pprF7b": {
+      "type": "bekannt-aus",
+      "blocks": {
+        "logo_gHdfBD": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/logo_1.svg",
+            "logo_link": ""
+          }
+        },
+        "logo_D9Py8P": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Closer_logo_svg.png",
+            "logo_link": ""
+          }
+        },
+        "logo_76tkMj": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/logo_lisa.png",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_gHdfBD",
+        "logo_D9Py8P",
+        "logo_76tkMj"
+      ],
+      "settings": {
+      }
+    },
     "172926778639d65192": {
       "type": "apps",
       "blocks": {
@@ -823,6 +856,7 @@
   "order": [
     "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
+    "bekannt_aus_pprF7b",
     "172926778639d65192",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
     "featured_collection",
