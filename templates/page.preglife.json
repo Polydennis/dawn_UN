@@ -26,32 +26,20 @@
         "heading_xRdFYM": {
           "type": "heading",
           "settings": {
-            "heading": "Willkommen an meinem Stand",
+            "heading": "Willkommen in meinem Shop 💛",
             "heading_size": "h1"
           }
         },
         "text_dRiwjc": {
           "type": "text",
           "settings": {
-            "text": "<p>Stöbere dich gern durch meine Produkte, nimm am Gewinnspiel teil oder schreibe mir eine Nachricht mit deiner persönlichen Anfrage.</p>"
-          }
-        },
-        "button_iVL3Ye": {
-          "type": "button",
-          "settings": {
-            "button_label": "Deine Anfrage an mich",
-            "button_link": "https://form.jotform.com/242552251662049",
-            "button_style_secondary": false,
-            "button_label_2": "Gewinne einen 250 € Gutschein",
-            "button_link_2": "shopify://pages/gewinnspiel",
-            "button_style_secondary_2": false
+            "text": "<p>Entdecke liebevoll gestaltete Tapeten, Wandsticker & Möbelfolien.</p><p>✔ Motivanpassung an Fenster, Türen, Schrägen & Möbel</p><p>✔ Maßanfertigung für deine Wand</p><p>✔ Druck auf Vlies in Deutschland</p>"
           }
         }
       },
       "block_order": [
         "heading_xRdFYM",
-        "text_dRiwjc",
-        "button_iVL3Ye"
+        "text_dRiwjc"
       ],
       "settings": {
         "desktop_content_position": "center",
