@@ -36,28 +36,16 @@
             "text": "<p>Kaufe ein Wandsticker-Set in Größe L und du bekommst ein 2. Sticker-Set mit deinem Lieblingsmotiv in Größe L <strong>GRATIS</strong> dazu!</p>"
           }
         },
-        "button_xPcAUz": {
-          "type": "button",
-          "settings": {
-            "button_label": "CODE: GRATIS-STICKER",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "text_j38QTL": {
           "type": "text",
           "settings": {
-            "text": "<p>Nur am 29.11. & 30.11.2024</p>"
+            "text": "<p>Nur am 29.11. & 30.11.2024. Rabatt wird automatisch im Warenkorb abgezogen.</p>"
           }
         }
       },
       "block_order": [
         "heading_XjnkUg",
         "text_zJQiDK",
-        "button_xPcAUz",
         "text_j38QTL"
       ],
       "custom_css": [
