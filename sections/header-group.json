@@ -11,47 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_TkMJmx": {
-          "type": "announcement",
-          "settings": {
-            "text": "Individuelle Tapeten auf Maß",
-            "link": ""
-          }
-        },
-        "announcement_z6F3C3": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Preisanpassung zum 7.10.24",
-            "link": "shopify://pages/preisinformation"
-          }
-        },
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "Kostenloser Versand nach DE ab 60€",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_TkMJmx",
-        "announcement_z6F3C3",
-        "announcement-bar-0"
-      ],
-      "settings": {
-        "color_scheme": "inverse",
-        "show_line_separator": true,
-        "show_social": true,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": true
-      }
-    },
     "ss_countdown_bar_TUigfW": {
       "type": "ss-countdown-bar",
       "blocks": {
@@ -93,6 +52,47 @@
         "background-color": "#bc7f63"
       }
     },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_TkMJmx": {
+          "type": "announcement",
+          "settings": {
+            "text": "Individuelle Tapeten auf Maß",
+            "link": ""
+          }
+        },
+        "announcement_z6F3C3": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Preisanpassung zum 7.10.24",
+            "link": "shopify://pages/preisinformation"
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Kostenloser Versand nach DE ab 60€",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_TkMJmx",
+        "announcement_z6F3C3",
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "show_social": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": true
+      }
+    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -122,8 +122,8 @@
     }
   },
   "order": [
-    "announcement-bar",
     "ss_countdown_bar_TUigfW",
+    "announcement-bar",
     "header"
   ]
 }
