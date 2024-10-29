@@ -82,6 +82,7 @@
         "text_wqNLwf",
         "timer_cmFXe4"
       ],
+      "disabled": true,
       "settings": {
         "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
         "use_cross": true,
