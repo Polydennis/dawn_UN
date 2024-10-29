@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,7 +33,7 @@
         "text_XFyxhK": {
           "type": "text",
           "settings": {
-            "text": "<p>Du liebst es, dein Zuhause mit <strong>einzigartigen Designs<\/strong> zu verschönern und deine Follower für <strong>außergewöhnliche Produkte<\/strong> zu begeistern? <\/p><p>Dann bist du bei mir genau richtig! <\/p><p>Als Influencer für Unik Nordic hast du die Möglichkeit, deinen Followern exklusive Rabattcodes anzubieten und dabei <span style=\"text-decoration:underline\">selbst zu profitieren<\/span>.<\/p>"
+            "text": "<p>Du liebst es, dein Zuhause mit <strong>einzigartigen Designs</strong> zu verschönern und deine Follower für <strong>außergewöhnliche Produkte</strong> zu begeistern? </p><p>Dann bist du bei mir genau richtig! </p><p>Als Influencer für Unik Nordic hast du die Möglichkeit, deinen Followern exklusive Rabattcodes anzubieten und dabei <span style=\"text-decoration:underline\">selbst zu profitieren</span>.</p>"
           }
         }
       },
@@ -66,7 +66,7 @@
         "text_fpQHcY": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Einzigartige Designs<\/strong><\/p><p>Jedes Tapetenmotiv wird von mir persönlich entworfen und verleiht jedem Raum einen individuellen Charme.<\/p><p><strong>Hochwertige Materialien<\/strong><\/p><p> Unsere Tapeten bestehen aus reißfestem Vlies und sind frei von Schadstoffen – perfekt für ein gesundes Raumklima.<\/p><p><strong>Einfache Montage<\/strong><\/p><p> Nummerierte und zugeschnittene Bahnen sorgen dafür, dass das Anbringen der Tapeten zum Kinderspiel wird.<\/p>",
+            "text": "<p><strong>Einzigartige Designs</strong></p><p>Jedes Tapetenmotiv wird von mir persönlich gestaltet und verleiht jedem Raum einen individuellen Charme.</p><p><strong>Hochwertige Materialien</strong></p><p>Meine Tapeten bestehen aus reißfestem Vlies und sind frei von Schadstoffen – perfekt für ein gesundes Raumklima.</p><p><strong>Einfache Montage</strong></p><p>Nummerierte und zugeschnittene Bahnen sorgen dafür, dass das Anbringen der Tapeten zum Kinderspiel wird.</p>",
             "text_style": "body"
           }
         }
@@ -76,7 +76,7 @@
         "text_fpQHcY"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1052wtrolle-detailjpg.jpg",
+        "image": "shopify://shop_images/1052wtrolle-detailjpg.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -99,7 +99,7 @@
           "settings": {
             "heading": "Schritt: 1. Anmeldung",
             "icon": "clipboard",
-            "row_content": "<p>Nutze das Kontaktformular unten auf dieser Seite und erhalte deinen individuellen Rabattcode. <\/p><p>Alternativ kannst du uns unter <strong>support@unik-nordic.com<\/strong> erreichen.<\/p>",
+            "row_content": "<p>Nutze das Kontaktformular unten auf dieser Seite und erhalte deinen individuellen Rabattcode. </p><p>Alternativ kannst du uns unter <strong>support@unik-nordic.com</strong> erreichen.</p>",
             "page": ""
           }
         },
@@ -108,7 +108,7 @@
           "settings": {
             "heading": "Schritt: 2. Teilen",
             "icon": "chat_bubble",
-            "row_content": "<p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.<\/p>",
+            "row_content": "<p>Teile den Code mit deiner Community auf deinen bevorzugten Plattformen.</p>",
             "page": ""
           }
         },
@@ -117,7 +117,7 @@
           "settings": {
             "heading": "Schritt: 3. Profitieren",
             "icon": "check_mark",
-            "row_content": "<p>Bei jeder Bestellung mit deinem Code erhältst du <strong>10% des Gesamtbestellwertes als Provision<\/strong>.<\/p>",
+            "row_content": "<p>Bei jeder Bestellung mit deinem Code erhältst du <strong>10% des Gesamtbestellwertes als Provision</strong>.</p>",
             "page": ""
           }
         }
@@ -146,7 +146,7 @@
       "type": "apps",
       "blocks": {
         "formful_app_block_form_GLh7k4": {
-          "type": "shopify:\/\/apps\/formful\/blocks\/app-block-form\/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
+          "type": "shopify://apps/formful/blocks/app-block-form/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
           "settings": {
             "form_id": "form_GIrxcD8v6n",
             "max_width": 75,
@@ -182,7 +182,7 @@
         "text_jihFQX": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"\/pages\/affiliate-agb\" target=\"_blank\" title=\"Affiliate-AGB\">Unsere Affiliate-AGB findest du hier.<\/a><\/p>"
+            "text": "<p><a href=\"/pages/affiliate-agb\" target=\"_blank\" title=\"Affiliate-AGB\">Unsere Affiliate-AGB findest du hier.</a></p>"
           }
         },
         "button_k3gY7j": {
