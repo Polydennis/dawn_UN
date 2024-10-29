@@ -82,15 +82,14 @@
         "text_wqNLwf",
         "timer_cmFXe4"
       ],
-      "disabled": true,
       "settings": {
         "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
-        "use_cross": false,
-        "days_text": "Days",
-        "hours_text": "Hrs",
-        "mins_text": "Mins",
-        "seconds_text": "Secs",
-        "background-color": "#000000"
+        "use_cross": true,
+        "days_text": "Tage",
+        "hours_text": "Stunden",
+        "mins_text": "Minuten",
+        "seconds_text": "Sekunden",
+        "background-color": "#bc7f63"
       }
     },
     "header": {
