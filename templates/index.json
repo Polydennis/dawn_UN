@@ -53,7 +53,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Mockup_06_Mood_Rohformat.jpg",
-            "heading": "Zauberhafter Adventskalender",
+            "heading": "Zauber­hafter Advents­kalender",
             "heading_size": "h1",
             "subheading": "Weihnachtskalender, Kinderbuch und Wandsticker in einem",
             "button_label": "Jetzt ansehen",
@@ -62,9 +62,9 @@
             "box_align": "bottom-right",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 20,
             "color_scheme": "scheme-276f73b7-efe0-4d63-8abf-157b0932f212",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "right"
           }
         },
         "00332378-0e47-4c7a-b477-9006f35a538b": {
