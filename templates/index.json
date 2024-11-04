@@ -59,9 +59,9 @@
             "button_label": "Jetzt ansehen",
             "link": "shopify://products/magischer-adventskalender-24-geschichten-sticker-fur-kinder",
             "button_style_secondary": false,
-            "box_align": "bottom-right",
+            "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 20,
             "color_scheme": "scheme-276f73b7-efe0-4d63-8abf-157b0932f212",
             "text_alignment_mobile": "right"
