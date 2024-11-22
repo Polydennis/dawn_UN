@@ -210,75 +210,6 @@
         "include_margins": true
       }
     },
-    "featured_product_XGfCUQ": {
-      "type": "featured-product",
-      "blocks": {
-        "text_yt7baH": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_Ut3ykk": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
-        "price_JF3Pip": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_EBCzgG": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_EPF8ic": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_rfHXxr": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
-        "share_Ufydmd": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
-          }
-        }
-      },
-      "block_order": [
-        "text_yt7baH",
-        "title_Ut3ykk",
-        "price_JF3Pip",
-        "variant_picker_EBCzgG",
-        "quantity_selector_EPF8ic",
-        "buy_buttons_rfHXxr",
-        "share_Ufydmd"
-      ],
-      "settings": {
-        "product": "magischer-adventskalender-24-geschichten-sticker-fur-kinder",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34": {
       "type": "image-with-text",
       "blocks": {
@@ -715,6 +646,75 @@
         "include_margins": true
       }
     },
+    "featured_product_XGfCUQ": {
+      "type": "featured-product",
+      "blocks": {
+        "text_yt7baH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_Ut3ykk": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "price_JF3Pip": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_EBCzgG": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_EPF8ic": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_rfHXxr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share_Ufydmd": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        }
+      },
+      "block_order": [
+        "text_yt7baH",
+        "title_Ut3ykk",
+        "price_JF3Pip",
+        "variant_picker_EBCzgG",
+        "quantity_selector_EPF8ic",
+        "buy_buttons_rfHXxr",
+        "share_Ufydmd"
+      ],
+      "settings": {
+        "product": "magischer-adventskalender-24-geschichten-sticker-fur-kinder",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -1011,7 +1011,6 @@
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "bekannt_aus_pprF7b",
     "172926778639d65192",
-    "featured_product_XGfCUQ",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
     "featured_collection_t3jxVk",
     "featured_collection",
@@ -1023,6 +1022,7 @@
     "image_banner",
     "1704285458eab9a7ff",
     "1703089345cd69a960",
+    "featured_product_XGfCUQ",
     "collage",
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
