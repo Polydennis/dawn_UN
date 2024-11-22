@@ -193,16 +193,14 @@
         "logo_76tkMj"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "172926778639d65192": {
       "type": "apps",
       "blocks": {
         "trusted_shops_easy_integration_trusted_stars_Dzj38B": {
           "type": "shopify://apps/trusted-shops-easy-integration/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -262,6 +260,34 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection_t3jxVk": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "FAVORITEN",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "tapeten-fuer-kinderzimmer",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -269,17 +295,17 @@
         ".card-information {display: none;}"
       ],
       "settings": {
-        "title": "FAVORITEN",
-        "heading_size": "h1",
+        "title": "",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "alle-tapeten",
-        "products_to_show": 8,
+        "collection": "home-tapeten",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "background-2",
         "image_ratio": "adapt",
@@ -413,13 +439,13 @@
       "blocks": {
         "judge_me_reviews_ugc_media_grid_C4j78X": {
           "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "judge_me_reviews_ugc_media_grid_C4j78X"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -518,8 +544,7 @@
       "blocks": {
         "judge_me_reviews_medals_NdG3qE": {
           "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "2597eb6a-aa01-479c-a74b-7d80391dfd2f": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -532,9 +557,7 @@
         "judge_me_reviews_medals_NdG3qE",
         "2597eb6a-aa01-479c-a74b-7d80391dfd2f"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }
@@ -627,9 +650,7 @@
         "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9",
         "c115f993-e3d1-40f8-8093-150b7d9f18da"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -765,8 +786,7 @@
         },
         "price_zjKJCB": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_YhzYek": {
           "type": "variant_picker",
@@ -777,8 +797,7 @@
         },
         "quantity_selector_wix39P": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_f3B8r3": {
           "type": "buy_buttons",
@@ -860,6 +879,7 @@
     "bekannt_aus_pprF7b",
     "172926778639d65192",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
+    "featured_collection_t3jxVk",
     "featured_collection",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
     "171699842267b6a21f",
