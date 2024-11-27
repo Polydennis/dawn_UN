@@ -22,6 +22,12 @@
     "collection_list_rX7iYp": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_gjm9fe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wohnzimmer"
+          }
+        },
         "featured_collection_TzEE7L": {
           "type": "featured_collection",
           "settings": {
@@ -43,41 +49,36 @@
         "featured_collection_EaEag6": {
           "type": "featured_collection",
           "settings": {
-            "collection": "blumentapeten"
+            "collection": "tapete-flur-oder-diele"
           }
         },
         "featured_collection_hmRC4n": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dschungeltapeten"
+            "collection": "tapete-kinderzimmer"
           }
         },
         "featured_collection_X3bgEi": {
           "type": "featured_collection",
           "settings": {
-            "collection": "marmor-steintapeten"
+            "collection": "tapete-kueche"
           }
         },
         "featured_collection_6C9kFN": {
           "type": "featured_collection",
           "settings": {
-            "collection": "naturtapeten"
+            "collection": "tapete-schlafzimmer"
           }
         },
         "featured_collection_8yx4EG": {
           "type": "featured_collection",
           "settings": {
-            "collection": "vintagetapeten"
-          }
-        },
-        "featured_collection_gjm9fe": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "waldtapeten"
+            "collection": "tapete-badezimmer-klo"
           }
         }
       },
       "block_order": [
+        "featured_collection_gjm9fe",
         "featured_collection_TzEE7L",
         "featured_collection_mUDPpW",
         "featured_collection_WjQa3i",
@@ -85,13 +86,12 @@
         "featured_collection_hmRC4n",
         "featured_collection_X3bgEi",
         "featured_collection_6C9kFN",
-        "featured_collection_8yx4EG",
-        "featured_collection_gjm9fe"
+        "featured_collection_8yx4EG"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
