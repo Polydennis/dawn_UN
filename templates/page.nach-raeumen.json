@@ -9,6 +9,15 @@
  */
 {
   "sections": {
+    "custom_liquid_g7RAqE": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"collection-hero__outer page-width scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: #BCB2A8\">\n        <div class=\"category-header\" style=\"position: relative;\">\n            <style>\n                .category-header {\n                    {% if collection.image %}\n                    background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                    background-size: cover;\n                    {% endif %}\n                    min-height: 200px;\n                    display: flex;\n                    align-items: center;\n                    justify-content: center;\n                    position: relative;\n                }\n                .category-header h1 {\n                    font-family: 'Bon Voyage Regular', serif;\n                    font-size: clamp(2em, 5vw, 3em);\n                    font-weight: 500;\n                    text-transform: uppercase;\n                    letter-spacing: 2px;\n                    color: #ffffff;\n                    text-shadow: 2px 2px 2px #595959;\n                    background-color: rgba(191,159,134,0.6);\n                    padding: 10px 10px 0;\n                    text-align: center;\n                    margin-left: min(1em, 20vw);\n                    margin-right: min(1em, 20vw);\n                    max-width: 100%;\n                    position: relative;\n                    z-index: 2;\n                }\n            </style>\n            <h1>{{ collection.title }}</h1>\n        </div>\n    </div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        </div>\n    </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "custom_css": [
@@ -255,6 +264,7 @@
     }
   },
   "order": [
+    "custom_liquid_g7RAqE",
     "main",
     "collection_list_rX7iYp",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a",
