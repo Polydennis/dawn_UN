@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
         "h1,h2,h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
@@ -23,6 +22,12 @@
     "collection_list_rX7iYp": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_TzEE7L": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstrakte-tapeten"
+          }
+        },
         "featured_collection_mUDPpW": {
           "type": "featured_collection",
           "settings": {
@@ -70,15 +75,10 @@
           "settings": {
             "collection": "waldtapeten"
           }
-        },
-        "featured_collection_TzEE7L": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "abstrakte-tapeten"
-          }
         }
       },
       "block_order": [
+        "featured_collection_TzEE7L",
         "featured_collection_mUDPpW",
         "featured_collection_WjQa3i",
         "featured_collection_EaEag6",
@@ -86,136 +86,18 @@
         "featured_collection_X3bgEi",
         "featured_collection_6C9kFN",
         "featured_collection_8yx4EG",
-        "featured_collection_gjm9fe",
-        "featured_collection_TzEE7L"
+        "featured_collection_gjm9fe"
       ],
       "settings": {
-        "title": "Kollektionen",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "beb8b4c2-5082-42e2-81f6-dc0bf1ee471a": {
-      "type": "collage",
-      "blocks": {
-        "template--18840219255052__beb8b4c2-5082-42e2-81f6-dc0bf1ee471a-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "kindertapeten"
-          }
-        },
-        "bb0c3109-e4a2-47cb-9f58-a34d4ec077a6": {
-          "type": "collection",
-          "settings": {
-            "collection": "abstrakte-tapeten"
-          }
-        },
-        "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1": {
-          "type": "collection",
-          "settings": {
-            "collection": "blumentapeten"
-          }
-        }
-      },
-      "block_order": [
-        "template--18840219255052__beb8b4c2-5082-42e2-81f6-dc0bf1ee471a-collection-1",
-        "bb0c3109-e4a2-47cb-9f58-a34d4ec077a6",
-        "ce8d71a4-2af2-4a01-b000-d70e29ddf2d1"
-      ],
-      "custom_css": [
-        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
-      ],
-      "settings": {
-        "heading": "Kollektionen",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "330243b5-97d7-4935-a422-c18067f56d06": {
-      "type": "collage",
-      "blocks": {
-        "ef99a332-d015-4449-8048-5f7c06cfc0c1": {
-          "type": "collection",
-          "settings": {
-            "collection": "architekturtapeten"
-          }
-        },
-        "60539a3b-7974-4f76-96f2-11ab14a12018": {
-          "type": "collection",
-          "settings": {
-            "collection": "muster"
-          }
-        },
-        "0fbdbe1b-eaad-471e-8180-60fb5eccdc65": {
-          "type": "collection",
-          "settings": {
-            "collection": "ikea-kura-bett-folien"
-          }
-        }
-      },
-      "block_order": [
-        "ef99a332-d015-4449-8048-5f7c06cfc0c1",
-        "60539a3b-7974-4f76-96f2-11ab14a12018",
-        "0fbdbe1b-eaad-471e-8180-60fb5eccdc65"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "398b1967-5b80-40fc-9f91-2ec4d8d6243a": {
-      "type": "collage",
-      "blocks": {
-        "ef9cfb58-ce83-41e2-a815-438e923f3ba3": {
-          "type": "collection",
-          "settings": {
-            "collection": "naturtapeten"
-          }
-        },
-        "f0e08a6e-cc42-4864-baaa-dc465f782aff": {
-          "type": "collection",
-          "settings": {
-            "collection": "dschungeltapeten"
-          }
-        },
-        "1cc6a494-0a99-4fad-b0c1-89ac1af33cd6": {
-          "type": "collection",
-          "settings": {
-            "collection": "beliebte-motive-fur-kinder"
-          }
-        }
-      },
-      "block_order": [
-        "ef9cfb58-ce83-41e2-a815-438e923f3ba3",
-        "f0e08a6e-cc42-4864-baaa-dc465f782aff",
-        "1cc6a494-0a99-4fad-b0c1-89ac1af33cd6"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -375,9 +257,6 @@
   "order": [
     "main",
     "collection_list_rX7iYp",
-    "beb8b4c2-5082-42e2-81f6-dc0bf1ee471a",
-    "330243b5-97d7-4935-a422-c18067f56d06",
-    "398b1967-5b80-40fc-9f91-2ec4d8d6243a",
     "2a705e2b-95f5-448a-8c73-836fa9f1b07a",
     "04fc0b06-f489-400c-862a-3d6269ce018b",
     "form"
