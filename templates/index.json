@@ -51,6 +51,7 @@
       "blocks": {
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/wandsticker-kinderzimmer-wald-tiere-tanne-baeume01jpg.jpg",
             "heading": "<strong>BLACK SPECIAL</strong>",
