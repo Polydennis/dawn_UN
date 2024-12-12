@@ -12,15 +12,69 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "featured_blog_Njqa6k": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Trendthemen",
+        "heading_size": "h2",
+        "blog": "trends",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_aaLR9N": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Einrichtungsideen",
+        "heading_size": "h2",
+        "blog": "einrichtungsideen",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_blog_eKzQxk": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "DIY und Kreativität",
+        "heading_size": "h2",
+        "blog": "diy-und-kreativitat",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_blog_Njqa6k",
+    "featured_blog_aaLR9N",
+    "featured_blog_eKzQxk"
   ]
 }
