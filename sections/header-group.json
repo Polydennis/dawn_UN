@@ -66,7 +66,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Preisanpassung zum 7.10.24",
+            "text": "INFO: Betriebsferien von 23.12 - 5.1.",
             "link": "shopify://pages/preisinformation"
           }
         },
