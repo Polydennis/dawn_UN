@@ -646,69 +646,64 @@
         "include_margins": true
       }
     },
-    "featured_product_XGfCUQ": {
+    "featured_product_kBnGme": {
       "type": "featured-product",
       "blocks": {
-        "text_yt7baH": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_Ut3ykk": {
+        "title_kiyHmh": {
           "type": "title",
           "settings": {
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "price_JF3Pip": {
+        "price_zjKJCB": {
           "type": "price",
           "settings": {}
         },
-        "variant_picker_EBCzgG": {
+        "variant_picker_YhzYek": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector_EPF8ic": {
+        "quantity_selector_wix39P": {
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_rfHXxr": {
+        "buy_buttons_f3B8r3": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         },
-        "share_Ufydmd": {
+        "share_BJ6ccr": {
           "type": "share",
           "settings": {
-            "share_label": "Teilen"
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "text_yt7baH",
-        "title_Ut3ykk",
-        "price_JF3Pip",
-        "variant_picker_EBCzgG",
-        "quantity_selector_EPF8ic",
-        "buy_buttons_rfHXxr",
-        "share_Ufydmd"
+        "title_kiyHmh",
+        "price_zjKJCB",
+        "variant_picker_YhzYek",
+        "quantity_selector_wix39P",
+        "buy_buttons_f3B8r3",
+        "share_BJ6ccr"
+      ],
+      "custom_css": [
+        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
       ],
       "settings": {
-        "product": "magischer-adventskalender-24-geschichten-sticker-fur-kinder",
-        "color_scheme": "",
+        "product": "unik-nordic-geschenkgutschein",
+        "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "none",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -908,70 +903,6 @@
         "breakpoint": "768"
       }
     },
-    "featured_product_kBnGme": {
-      "type": "featured-product",
-      "blocks": {
-        "title_kiyHmh": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_zjKJCB": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_YhzYek": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_wix39P": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_f3B8r3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_BJ6ccr": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "title_kiyHmh",
-        "price_zjKJCB",
-        "variant_picker_YhzYek",
-        "quantity_selector_wix39P",
-        "buy_buttons_f3B8r3",
-        "share_BJ6ccr"
-      ],
-      "custom_css": [
-        "h2,h3 {font-family: \"Bon Voyage Regular\", serif;}"
-      ],
-      "settings": {
-        "product": "unik-nordic-geschenkgutschein",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "none",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
@@ -1022,13 +953,12 @@
     "image_banner",
     "1704285458eab9a7ff",
     "1703089345cd69a960",
-    "featured_product_XGfCUQ",
+    "featured_product_kBnGme",
     "collage",
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "multicolumn",
     "tooltips_gGYKab",
-    "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409"
   ]
