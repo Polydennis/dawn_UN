@@ -478,6 +478,8 @@
         <!-- Start blocks -->
         <!-- Subtotals -->
 
+        {% render 'recommended-products-own' %}
+        
         <div class="cart-drawer__footer" {{ block.shopify_attributes }}>
           <div>
             {%- if cart.cart_level_discount_applications.size > 0 -%}
