@@ -97,10 +97,11 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_HcheAy": {
+    "custom_liquid_WrxyHG": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
-        "custom_liquid": "<style>\n  /* CSS-Regeln */\n  :root {\n    --product-container-height: 100px;\n    --recommendedProduct-bg-color: lightblue;\n  }\n\n  #recProductsMain {\n    position: relative;\n  }\n\n  .recommendedContainer {\n    width: 90%;\n    background: none;\n    margin: 0 auto;\n    overflow-x: hidden;\n  }\n\n  .recommendedProduct {\n    height: var(--product-container-height);\n    background-color: var(--recommendedProduct-bg-color);\n    display: flex;\n    align-items: center;\n  }\n\n  .sliderButton {\n    position: absolute;\n    border: none;\n    background: none;\n    cursor: pointer;\n    color: black;\n  }\n\n  .sliderButton.prev {\n    left: -4%;\n  }\n\n  .sliderButton.next {\n    right: -4%;\n  }\n\n  .detailsDiv {\n    display: flex;\n    flex-direction: column;\n    padding: 10px;\n  }\n\n  .detailsTitle {\n    font-size: 13px;\n    font-weight: bold;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    overflow: hidden;\n  }\n\n  .detailsPrice {\n    font-size: 12px;\n    color: black;\n  }\n</style>\n\n<div id=\"recProductsMain\">\n  <button class=\"sliderButton prev\" data-slider-button=\"prev\" onclick=\"handleSliderButtons(this)\">&#8249;</button>\n  <button class=\"sliderButton next\" data-slider-button=\"next\" onclick=\"handleSliderButtons(this)\">&#8250;</button>\n\n  <div class=\"recommendedContainer\">\n    {% for product in collection.products %}\n      <div class=\"recommendedProduct\" data-product-id=\"{{ product.id }}\">\n        <div class=\"detailsDiv\">\n          <a href=\"{{ product.url }}\">\n            <span class=\"detailsTitle\">{{ product.title }}</span>\n          </a>\n          <div class=\"detailsPrice\">{{ product.price | money }}</div>\n        </div>\n      </div>\n    {% endfor %}\n  </div>\n</div>\n\n<script>\n  // JavaScript für Slider\n  function handleSliderButtons(button) {\n    const offset = button.dataset.sliderButton === 'next' ? 1 : -1;\n    const container = button.closest('#recProductsMain').querySelector('.recommendedContainer');\n    const products = container.querySelectorAll('.recommendedProduct');\n    const active = [...products].findIndex((product) => product.style.display === 'flex');\n\n    let newIndex = active + offset;\n    if (newIndex < 0) newIndex = products.length - 1;\n    if (newIndex >= products.length) newIndex = 0;\n\n    products[active].style.display = 'none';\n    products[newIndex].style.display = 'flex';\n  }\n</script>",
+        "custom_liquid": "{% render 'recommended-products-own' %}",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -112,6 +113,6 @@
     "rich_text_cayFdL",
     "cart-footer",
     "featured-collection",
-    "custom_liquid_HcheAy"
+    "custom_liquid_WrxyHG"
   ]
 }
