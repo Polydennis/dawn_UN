@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/Bildschirmfoto_2024-12-20_um_10.15.51.png",
             "heading": "Frohe Weihnachten!",
             "heading_size": "h1",
-            "subheading": "Wir haben vom 23.12. bis 05.01. Betriebsferien.   Bestellungen in diesem Zeitraum werden nach dem 05.01. versendet.",
+            "subheading": "Wir haben Betriebsferien. Bestellungen werden ab dem 05.01.25 wieder versendet.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -146,6 +146,7 @@
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
         "9be37071-bb59-420b-a356-632d89308bf8"
       ],
+      "disabled": true,
       "custom_css": [
         "a {text-decoration: none;}",
         "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
