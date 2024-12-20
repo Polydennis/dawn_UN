@@ -15,26 +15,25 @@
         "slide_kM4YFT": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
-            "heading": "",
+            "image": "shopify://shop_images/Bildschirmfoto_2024-12-20_um_10.22.37.png",
+            "heading": "Frohe Weihnachten!",
             "heading_size": "h0",
-            "subheading": "",
+            "subheading": "Wir haben vom 23.12. bis 05.01. Betriebsferien.   Bestellungen in diesem Zeitraum werden nach dem 05.01. versendet.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "top-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "text_alignment_mobile": "left"
           }
         }
       },
       "block_order": [
         "slide_kM4YFT"
       ],
-      "disabled": true,
       "settings": {
         "layout": "grid",
         "slide_height": "adapt_image",
