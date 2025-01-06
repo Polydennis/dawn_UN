@@ -64,6 +64,7 @@
         },
         "announcement_z6F3C3": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "INFO: Betriebsferien von 20.12 - 5.1.",
             "link": ""
