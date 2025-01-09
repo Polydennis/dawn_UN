@@ -20,8 +20,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -32,8 +31,7 @@
         },
         "14cabf41-0965-4cf8-9c5c-944812d212b5": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
@@ -44,8 +42,7 @@
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -58,8 +55,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -80,7 +76,7 @@
           "settings": {
             "heading": "Maßanfertigung für deine Wand",
             "icon": "check_mark",
-            "content": "<p>{{ product.metafields.custom.produkttyp.value.masse | metafield_tag }}</p>",
+            "content": "<p>Die Tapete wird exakt auf die von dir eingegebenen Maße geschnitten und kommt bereit für deine Wand bei dir an.</p>",
             "page": ""
           }
         },
@@ -156,8 +152,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
           "type": "custom_liquid",
@@ -233,7 +228,7 @@
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
-        "image_zoom": "lightbox",
+        "image_zoom": "hover",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -361,8 +356,7 @@
       "blocks": {
         "da54baad-b45e-4a43-8a83-4af017fd047b": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
