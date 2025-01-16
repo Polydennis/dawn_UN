@@ -55,6 +55,7 @@
         "image_GdwYib",
         "image_W6jBe6"
       ],
+      "disabled": true,
       "settings": {
         "slider_width": 100,
         "slider_gap": 16,
@@ -74,7 +75,7 @@
         "icon_border_color": "#bcb2a8",
         "icon_border_gradient": "",
         "text_color": "#6e6e6e",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#bcb2a8",
         "border_gradient": "",
