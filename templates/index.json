@@ -9,6 +9,89 @@
  */
 {
   "sections": {
+    "ss_circle_menu_DJPxYF": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_nwFbkV": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_t6hCHy": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_3Y3LyD": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_GdwYib": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_W6jBe6": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nwFbkV",
+        "image_t6hCHy",
+        "image_3Y3LyD",
+        "image_GdwYib",
+        "image_W6jBe6"
+      ],
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 88,
+        "icon_size_mobile": 74,
+        "icon_space": 4,
+        "icon_space_mobile": 2,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "avenir_next_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#bcb2a8",
+        "icon_border_gradient": "",
+        "text_color": "#6e6e6e",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#bcb2a8",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
     "slideshow_7WPkPD": {
       "type": "slideshow",
       "blocks": {
@@ -938,6 +1021,7 @@
     }
   },
   "order": [
+    "ss_circle_menu_DJPxYF",
     "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "bekannt_aus_pprF7b",
