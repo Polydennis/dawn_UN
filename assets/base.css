@@ -266,7 +266,7 @@ h5,
   word-break: break-word;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: "Bon Voyage Regular", serif;
   text-transform: uppercase;
 }
