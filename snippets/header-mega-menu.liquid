@@ -44,7 +44,7 @@
                       {% elsif section.settings.mega_menu_images_toggle == 'metafield' %}
                         {% if childlink.object.metafields.custom.header_menu_image %}
                           {% assign image_url = childlink.object.metafields.custom.header_menu_image | img_url: '100x' %}
-                        {% elsif childlink.object_type == 'page' and childlink.object.metafields.custom.page_header_menu_image %}
+                        {% elsif childlink.object.metafields.custom.page_header_menu_image %}
                           {% assign image_url = childlink.object.metafields.custom.page_header_menu_image | img_url: '100x' %}
                         {% endif %}
                       {% endif %}
