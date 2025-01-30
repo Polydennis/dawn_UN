@@ -36,19 +36,18 @@
                   <ul class="mega-menu__list megamenu-with-image page-width">
                     {%- for childlink in link.links -%}
                       {% assign image_url = '' %}
-
+                      
                       {% if section.settings.mega_menu_images_toggle == 'featured' %}
                         {% if childlink.object.featured_image %}
                           {% assign image_url = childlink.object.featured_image | img_url: '100x' %}
                         {% endif %}
                       {% elsif section.settings.mega_menu_images_toggle == 'metafield' %}
                         {% if childlink.object.metafields.custom.header_menu_image %}
-                          {% assign image_url = childlink.object.metafields.custom.header_menu_image
-                            | img_url: '100x'
-                          %}
+                          {% assign image_url = childlink.object.metafields.custom.header_menu_image | img_url: '100x' %}
+                        {% elsif childlink.object_type == 'page' and childlink.object.metafields.custom.page-header_menu_image %}
+                          {% assign image_url = childlink.object.metafields.custom.page-header_menu_image | img_url: '100x' %}
                         {% endif %}
                       {% endif %}
-
                       <li>
                         <div class="mega-menu__column">
                           {% if image_url != blank %}
