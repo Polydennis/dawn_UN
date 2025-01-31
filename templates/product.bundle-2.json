@@ -1,0 +1,334 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "custom_liquid_Kqkcac": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains 'Bestseller' %}\n              <span\n                id=\"NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}\"\n                class=\"badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}\"\n              >Bestseller</span>\n{% endif %}"
+          }
+        },
+        "14cabf41-0965-4cf8-9c5c-944812d212b5": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div>\n  <span class=\"caption\">{{ 'products.product.custom_labels.label_info' | t }}<br /></span>\n  {% if product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors' %}\n    <a href=\"javascript:void(0);\" class=\"tooltip\">\n      <img src=\"{{ 'Icons_Farben.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">{{ 'products.product.custom_labels.color_options_desc' | t }}</span>\n    </a>\n  {% endif %}\n  {% if product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable individual motifs' %}\n    <a href=\"javascript:void(0);\" class=\"tooltip\">\n      <img src=\"{{ 'Icons_Anpassung.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">{{ 'products.product.custom_labels.moveable_elements_desc' | t }}</span>\n    </a>\n  {% endif %}\n  {% if product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Individual dimensions' %}\n    <a href=\"javascript:void(0);\" class=\"tooltip\">\n      <img src=\"{{ 'Icons_Format.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">{{ 'products.product.custom_labels.custom_sizes_desc' | t }}</span>\n    </a>\n  {% endif %}\n</div>\n\n<script>\n  function positionTooltip(tooltip, tooltipText) {\n    // Standardposition auf unterhalb des Tooltips setzen\n    tooltipText.style.top = '100%';\n    tooltipText.style.bottom = 'auto';\n\n    const rect = tooltip.getBoundingClientRect();\n    const winWidth = window.innerWidth;\n    const winHeight = window.innerHeight;\n    const spaceBottom = winHeight - rect.bottom;\n\n    // Platz unten überprüfen und ggf. Position anpassen\n    if (spaceBottom < tooltipText.offsetHeight) {\n      tooltipText.style.top = 'auto';\n      tooltipText.style.bottom = '100%';\n    }\n\n    if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = -(tooltipText.offsetWidth / 2) + 'px';\n    } else if (spaceRight < tooltipText.offsetWidth) {\n      tooltipText.style.left = 'auto';\n      tooltipText.style.right = '100%';\n      tooltipText.style.marginLeft = '';\n    }\n  }\n\n  document.addEventListener('DOMContentLoaded', function() {\n    var tooltips = document.querySelectorAll('.tooltip');\n    tooltips.forEach(function(tooltip) {\n      var tooltipText = tooltip.querySelector('.tooltiptext');\n      positionTooltip(tooltip, tooltipText);\n\n      tooltip.addEventListener('click', function(event) {\n        event.preventDefault();\n        tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n        positionTooltip(tooltip, tooltipText);\n      });\n\n      window.addEventListener('resize', function() {\n        positionTooltip(tooltip, tooltipText);\n      });\n    });\n  });\n</script>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n      var baseHandle = currentHandle;\n      \n      // Überprüfen, ob das aktuelle Produkt ein Muster ist\n      if(currentHandle.startsWith(samplePrefix)) {\n        // Entfernen des Präfixes, um das Handle des Hauptprodukts zu erhalten\n        baseHandle = currentHandle.substring(samplePrefix.length);\n        document.getElementById(\"sample-link\").innerHTML = '<p>Dies ist ein Muster. <a href=\"/products/' + baseHandle + '\">Hier findest du das Hauptprodukt</a>.</p>';\n      } else {\n        // AJAX-Anfrage, um die Existenz des Musters zu überprüfen\n        fetch(\"/products/\" + sampleHandle + \".js\")\n          .then(response => {\n            if(response.ok) {\n              return response.json();\n            } else {\n              throw new Error('Muster nicht gefunden');\n            }\n          })\n          .then(product => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"/products/' + sampleHandle + '\">Muster bestellen</a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.</p>';\n          })\n          .catch(error => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar. <a href=\"https://unik-nordic.com/pages/schreib-mir\">schreib mir</a>, wenn du dennoch eins brauchst.</p>';\n          });\n      }\n    });\n</script>\n<div id=\"sample-link\"></div>"
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Hochwertiges Material",
+            "icon": "price_tag",
+            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Schneller Versand",
+            "icon": "truck",
+            "content": "{{ product.metafields.custom.produkttyp.value.versand | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Wände messen",
+            "icon": "ruler",
+            "content": "{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "e4466e54-edb3-46ab-abef-e0dac9de574c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Leichte Anbringung",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "970234dc-5764-4f4f-a779-3fd06697f559": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zufriedenheitsgarantie",
+            "icon": "heart",
+            "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Dz7KKA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Made in Germany",
+            "icon": "check_mark",
+            "content": "<p>Das Design und die Produktion finden in Deutschland statt.</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "f72e0f29-9bde-47a2-9281-116e421970d2": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"/products/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.</a></p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"/products/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.</a></p>\n{% endif %}"
+          }
+        },
+        "228d415a-3259-4c35-9225-e4ee1041029d": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Passend dazu",
+            "make_collapsible_row": true,
+            "icon": "eye",
+            "product_list_limit": 5,
+            "products_per_page": 3,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "caption",
+        "custom_liquid_Kqkcac",
+        "14cabf41-0965-4cf8-9c5c-944812d212b5",
+        "8b2c2ac0-aef4-4794-a5f8-640cba7dd897",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "b6e2e917-3611-461c-8013-255b4dc8e1b2",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "e4466e54-edb3-46ab-abef-e0dac9de574c",
+        "970234dc-5764-4f4f-a779-3fd06697f559",
+        "collapsible_tab_Dz7KKA",
+        "share",
+        "f72e0f29-9bde-47a2-9281-116e421970d2",
+        "228d415a-3259-4c35-9225-e4ee1041029d"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Könnte dir auch gefallen",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "c3e850ba-cf14-47ef-a41d-e20f3f289c8b": {
+      "type": "multirow",
+      "blocks": {
+        "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
+            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
+            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
+            "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e240a810-9610-44c3-aca9-5744d7240547": {
+          "type": "row",
+          "settings": {
+            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
+            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
+            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
+            "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Produktseite_Qualitaet.jpg",
+            "caption": "Begeisterte Kunden",
+            "heading": "Qualität, die überzeugt",
+            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
+            "caption": "Durchgängige Beratung",
+            "heading": "Von der Idee zur Wand",
+            "text": "<p>Bei mir steht durchgängige, <a href=\"/pages/schreib-mir\" title=\"Schreib mir\">persönliche Beratung</a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deiner Wand, um ein Ergebnis zu garantieren, das dich begeistert.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
+            "caption": "Deine Wand, dein Stil",
+            "heading": "Sei Unik",
+            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jede Tapete, die ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Produktseite_Montage.jpg",
+            "caption": "Einfaches Anbringen",
+            "heading": "Unkomplizierte Montage",
+            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Tapeten sind so gestaltet, dass du sie ganz einfach selbst anbringen kannst – perfekt für alle DIY-Enthusiasten. Genieße das Erfolgserlebnis, dein Zuhause mit eigenen Händen zu verschönern.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "62be5099-6cf1-4339-a934-0ad8cdc1f401",
+        "e240a810-9610-44c3-aca9-5744d7240547",
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2",
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3",
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1",
+        "29a9111b-a835-4f59-8fd8-9310d663b3d9"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Bon Voyage Regular\", serif !important;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "170289245009e9ebe5": {
+      "type": "apps",
+      "blocks": {
+        "da54baad-b45e-4a43-8a83-4af017fd047b": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "da54baad-b45e-4a43-8a83-4af017fd047b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
+    "170289245009e9ebe5"
+  ]
+}
