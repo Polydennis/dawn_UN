@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -16,21 +24,19 @@
           }
         },
         "14cabf41-0965-4cf8-9c5c-944812d212b5": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<div>{% if product.metafields.custom.labels.value contains 'farben' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.<\/span>\n    <\/a>\n  {% elsif product.metafields.custom.labels.value contains 'variabel' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.<\/span>\n    <\/a>\n{% endif %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Dein Motiv wird genau auf das bestellte Format angepasst und in passende und nummertierte Bahnen geschnitten.<\/span>\n    <\/a>\n\n  \n  \n  <script>\n    function positionTooltip(tooltip, tooltipText) {\n      tooltipText.style.bottom = '150%';\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = '-60px';\n      tooltipText.style.marginTop = '';\n  \n      const rect = tooltip.getBoundingClientRect();\n      const winWidth = window.innerWidth;\n      const winHeight = window.innerHeight;\n      const spaceLeft = rect.left;\n      const spaceRight = winWidth - rect.right;\n      const spaceTop = rect.top;\n      const spaceBottom = winHeight - rect.bottom;\n  \n      if (spaceTop < tooltipText.offsetHeight) {\n        tooltipText.style.bottom = 'auto';\n        tooltipText.style.top = '100%';\n      }\n  \n      if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n        tooltipText.style.left = '50%';\n        tooltipText.style.marginLeft = -(tooltipText.offsetWidth \/ 2) + 'px';\n      } else if (spaceRight < tooltipText.offsetWidth) {\n        tooltipText.style.left = 'auto';\n        tooltipText.style.right = '100%';\n        tooltipText.style.marginLeft = '';\n      }\n    }\n  \n    document.addEventListener('DOMContentLoaded', function() {\n      var tooltips = document.querySelectorAll('.tooltip');\n      tooltips.forEach(function(tooltip) {\n        var tooltipText = tooltip.querySelector('.tooltiptext');\n        positionTooltip(tooltip, tooltipText);\n  \n        tooltip.addEventListener('click', function(event) {\n          event.preventDefault();\n          tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n          positionTooltip(tooltip, tooltipText);\n        });\n  \n        window.addEventListener('resize', function() {\n          positionTooltip(tooltip, tooltipText);\n        });\n      });\n    });\n  <\/script><\/div>"
+            "custom_liquid": "<div>{% if product.metafields.custom.labels.value contains 'farben' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.</span>\n    </a>\n  {% elsif product.metafields.custom.labels.value contains 'variabel' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.</span>\n    </a>\n{% endif %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Dein Motiv wird genau auf das bestellte Format angepasst und in passende und nummertierte Bahnen geschnitten.</span>\n    </a>\n\n  \n  \n  <script>\n    function positionTooltip(tooltip, tooltipText) {\n      tooltipText.style.bottom = '150%';\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = '-60px';\n      tooltipText.style.marginTop = '';\n  \n      const rect = tooltip.getBoundingClientRect();\n      const winWidth = window.innerWidth;\n      const winHeight = window.innerHeight;\n      const spaceLeft = rect.left;\n      const spaceRight = winWidth - rect.right;\n      const spaceTop = rect.top;\n      const spaceBottom = winHeight - rect.bottom;\n  \n      if (spaceTop < tooltipText.offsetHeight) {\n        tooltipText.style.bottom = 'auto';\n        tooltipText.style.top = '100%';\n      }\n  \n      if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n        tooltipText.style.left = '50%';\n        tooltipText.style.marginLeft = -(tooltipText.offsetWidth / 2) + 'px';\n      } else if (spaceRight < tooltipText.offsetWidth) {\n        tooltipText.style.left = 'auto';\n        tooltipText.style.right = '100%';\n        tooltipText.style.marginLeft = '';\n      }\n    }\n  \n    document.addEventListener('DOMContentLoaded', function() {\n      var tooltips = document.querySelectorAll('.tooltip');\n      tooltips.forEach(function(tooltip) {\n        var tooltipText = tooltip.querySelector('.tooltiptext');\n        positionTooltip(tooltip, tooltipText);\n  \n        tooltip.addEventListener('click', function(event) {\n          event.preventDefault();\n          tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n          positionTooltip(tooltip, tooltipText);\n        });\n  \n        window.addEventListener('resize', function() {\n          positionTooltip(tooltip, tooltipText);\n        });\n      });\n    });\n  </script></div>"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -42,8 +48,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -54,14 +59,13 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n      var baseHandle = currentHandle;\n      \n      \/\/ Überprüfen, ob das aktuelle Produkt ein Muster ist\n      if(currentHandle.startsWith(samplePrefix)) {\n        \/\/ Entfernen des Präfixes, um das Handle des Hauptprodukts zu erhalten\n        baseHandle = currentHandle.substring(samplePrefix.length);\n        document.getElementById(\"sample-link\").innerHTML = '<p>Dies ist ein Muster. <a href=\"\/products\/' + baseHandle + '\">Hier findest du das Hauptprodukt<\/a>.<\/p>';\n      } else {\n        \/\/ AJAX-Anfrage, um die Existenz des Musters zu überprüfen\n        fetch(\"\/products\/\" + sampleHandle + \".js\")\n          .then(response => {\n            if(response.ok) {\n              return response.json();\n            } else {\n              throw new Error('Muster nicht gefunden');\n            }\n          })\n          .then(product => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"\/products\/' + sampleHandle + '\">kostenloses Muster bestellen<\/a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.<\/p>';\n          })\n          .catch(error => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar. <a href=\"https:\/\/unik-nordic.com\/pages\/schreib-mir\">schreib mir<\/a>, wenn du dennoch eins brauchst.<\/p>';\n          });\n      }\n    });\n<\/script>\n<div id=\"sample-link\"><\/div>"
+            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n      var baseHandle = currentHandle;\n      \n      // Überprüfen, ob das aktuelle Produkt ein Muster ist\n      if(currentHandle.startsWith(samplePrefix)) {\n        // Entfernen des Präfixes, um das Handle des Hauptprodukts zu erhalten\n        baseHandle = currentHandle.substring(samplePrefix.length);\n        document.getElementById(\"sample-link\").innerHTML = '<p>Dies ist ein Muster. <a href=\"/products/' + baseHandle + '\">Hier findest du das Hauptprodukt</a>.</p>';\n      } else {\n        // AJAX-Anfrage, um die Existenz des Musters zu überprüfen\n        fetch(\"/products/\" + sampleHandle + \".js\")\n          .then(response => {\n            if(response.ok) {\n              return response.json();\n            } else {\n              throw new Error('Muster nicht gefunden');\n            }\n          })\n          .then(product => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"/products/' + sampleHandle + '\">kostenloses Muster bestellen</a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.</p>';\n          })\n          .catch(error => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar. <a href=\"https://unik-nordic.com/pages/schreib-mir\">schreib mir</a>, wenn du dennoch eins brauchst.</p>';\n          });\n      }\n    });\n</script>\n<div id=\"sample-link\"></div>"
           }
         },
         "collapsible-row-0": {
@@ -101,16 +105,6 @@
             "page": ""
           }
         },
-        "24725872-f967-4a93-b412-3b8750be9d55": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Anpassmöglichkeiten",
-            "icon": "star",
-            "content": "{{ product.metafields.custom.produkttyp.value.label | metafield_tag }}",
-            "page": ""
-          }
-        },
         "970234dc-5764-4f4f-a779-3fd06697f559": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -131,7 +125,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"\/products\/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.<\/a><\/p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"\/products\/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.<\/a><\/p>\n{% endif %}"
+            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"/products/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.</a></p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"/products/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.</a></p>\n{% endif %}"
           }
         },
         "228d415a-3259-4c35-9225-e4ee1041029d": {
@@ -163,7 +157,6 @@
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "collapsible-row-1",
         "collapsible-row-2",
-        "24725872-f967-4a93-b412-3b8750be9d55",
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
@@ -191,10 +184,10 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produktseite_Qualitaet.jpg",
+            "image": "shopify://shop_images/Produktseite_Qualitaet.jpg",
             "caption": "Auswgewählte Werkzeuge",
             "heading": "Für perfekte Ergebnisse",
-            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
+            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -202,10 +195,10 @@
         "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produktseite_Montage.jpg",
+            "image": "shopify://shop_images/Produktseite_Montage.jpg",
             "caption": "Einfaches Anbringen",
             "heading": "Unkomplizierte Montage",
-            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Tapeten sind so gestaltet, dass du sie ganz einfach selbst anbringen kannst – und damit das auch problemlos klappt, habe ich hier die von mir ausgewählten und getesteten Werkzeuge dafür für Dich im Angebot.<\/p>",
+            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Tapeten sind so gestaltet, dass du sie ganz einfach selbst anbringen kannst – und damit das auch problemlos klappt, habe ich hier die von mir ausgewählten und getesteten Werkzeuge dafür für Dich im Angebot.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -213,10 +206,10 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
+            "image": "shopify://shop_images/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
             "caption": "Durchgängige Beratung",
             "heading": "Von der Idee zur Wand",
-            "text": "<p>Bei mir steht durchgängige, <a href=\"\/pages\/schreib-mir\" title=\"Schreib mir\">persönliche Beratung<\/a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deiner Wand, um ein Ergebnis zu garantieren, das dich begeistert.<\/p>",
+            "text": "<p>Bei mir steht durchgängige, <a href=\"/pages/schreib-mir\" title=\"Schreib mir\">persönliche Beratung</a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deiner Wand, um ein Ergebnis zu garantieren, das dich begeistert.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -250,9 +243,8 @@
       "type": "apps",
       "blocks": {
         "da54baad-b45e-4a43-8a83-4af017fd047b": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
