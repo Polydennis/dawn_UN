@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -25,21 +24,19 @@
           }
         },
         "14cabf41-0965-4cf8-9c5c-944812d212b5": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "8b2c2ac0-aef4-4794-a5f8-640cba7dd897": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<div>{% if product.metafields.custom.labels.value contains 'farben' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.<\/span>\n    <\/a>\n  {% elsif product.metafields.custom.labels.value contains 'variabel' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.<\/span>\n    <\/a>\n{% endif %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" \/>\n      <span class=\"tooltiptext\">Dein Motiv wird genau auf das bestellte Format angepasst und in passende und nummertierte Bahnen geschnitten.<\/span>\n    <\/a>\n\n  \n  \n  <script>\n    function positionTooltip(tooltip, tooltipText) {\n      tooltipText.style.bottom = '150%';\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = '-60px';\n      tooltipText.style.marginTop = '';\n  \n      const rect = tooltip.getBoundingClientRect();\n      const winWidth = window.innerWidth;\n      const winHeight = window.innerHeight;\n      const spaceLeft = rect.left;\n      const spaceRight = winWidth - rect.right;\n      const spaceTop = rect.top;\n      const spaceBottom = winHeight - rect.bottom;\n  \n      if (spaceTop < tooltipText.offsetHeight) {\n        tooltipText.style.bottom = 'auto';\n        tooltipText.style.top = '100%';\n      }\n  \n      if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n        tooltipText.style.left = '50%';\n        tooltipText.style.marginLeft = -(tooltipText.offsetWidth \/ 2) + 'px';\n      } else if (spaceRight < tooltipText.offsetWidth) {\n        tooltipText.style.left = 'auto';\n        tooltipText.style.right = '100%';\n        tooltipText.style.marginLeft = '';\n      }\n    }\n  \n    document.addEventListener('DOMContentLoaded', function() {\n      var tooltips = document.querySelectorAll('.tooltip');\n      tooltips.forEach(function(tooltip) {\n        var tooltipText = tooltip.querySelector('.tooltiptext');\n        positionTooltip(tooltip, tooltipText);\n  \n        tooltip.addEventListener('click', function(event) {\n          event.preventDefault();\n          tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n          positionTooltip(tooltip, tooltipText);\n        });\n  \n        window.addEventListener('resize', function() {\n          positionTooltip(tooltip, tooltipText);\n        });\n      });\n    });\n  <\/script><\/div>"
+            "custom_liquid": "<div>{% if product.metafields.custom.labels.value contains 'farben' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Farben.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Wenn dieses Label auf deinem Wunschdesign ist kannst du die Farbe passend zu deinem Geschmack bestimmen.</span>\n    </a>\n  {% elsif product.metafields.custom.labels.value contains 'variabel' %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Bei allen Motiven mit diesem Label wird jedes Element einzeln von mir neu positioniert. Dadurch werden keine Elemente durch Ecken und Türen abgeschnitten.</span>\n    </a>\n{% endif %}\n    <a href=\"#\" class=\"tooltip\">\n      <img src=\"{{ 'ICON-Variabel.png' | file_img_url }}\" class=\"label-ico\" />\n      <span class=\"tooltiptext\">Dein Motiv wird genau auf das bestellte Format angepasst und in passende und nummertierte Bahnen geschnitten.</span>\n    </a>\n\n  \n  \n  <script>\n    function positionTooltip(tooltip, tooltipText) {\n      tooltipText.style.bottom = '150%';\n      tooltipText.style.left = '50%';\n      tooltipText.style.marginLeft = '-60px';\n      tooltipText.style.marginTop = '';\n  \n      const rect = tooltip.getBoundingClientRect();\n      const winWidth = window.innerWidth;\n      const winHeight = window.innerHeight;\n      const spaceLeft = rect.left;\n      const spaceRight = winWidth - rect.right;\n      const spaceTop = rect.top;\n      const spaceBottom = winHeight - rect.bottom;\n  \n      if (spaceTop < tooltipText.offsetHeight) {\n        tooltipText.style.bottom = 'auto';\n        tooltipText.style.top = '100%';\n      }\n  \n      if (tooltipText.offsetWidth > Math.max(spaceLeft, spaceRight)) {\n        tooltipText.style.left = '50%';\n        tooltipText.style.marginLeft = -(tooltipText.offsetWidth / 2) + 'px';\n      } else if (spaceRight < tooltipText.offsetWidth) {\n        tooltipText.style.left = 'auto';\n        tooltipText.style.right = '100%';\n        tooltipText.style.marginLeft = '';\n      }\n    }\n  \n    document.addEventListener('DOMContentLoaded', function() {\n      var tooltips = document.querySelectorAll('.tooltip');\n      tooltips.forEach(function(tooltip) {\n        var tooltipText = tooltip.querySelector('.tooltiptext');\n        positionTooltip(tooltip, tooltipText);\n  \n        tooltip.addEventListener('click', function(event) {\n          event.preventDefault();\n          tooltipText.style.visibility = tooltipText.style.visibility === 'visible' ? 'hidden' : 'visible';\n          positionTooltip(tooltip, tooltipText);\n        });\n  \n        window.addEventListener('resize', function() {\n          positionTooltip(tooltip, tooltipText);\n        });\n      });\n    });\n  </script></div>"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -51,8 +48,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -63,14 +59,13 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "b6e2e917-3611-461c-8013-255b4dc8e1b2": {
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n      var baseHandle = currentHandle;\n      \n      \/\/ Überprüfen, ob das aktuelle Produkt ein Muster ist\n      if(currentHandle.startsWith(samplePrefix)) {\n        \/\/ Entfernen des Präfixes, um das Handle des Hauptprodukts zu erhalten\n        baseHandle = currentHandle.substring(samplePrefix.length);\n        document.getElementById(\"sample-link\").innerHTML = '<p>Dies ist ein Muster. <a href=\"\/products\/' + baseHandle + '\">Hier findest du das Hauptprodukt<\/a>.<\/p>';\n      } else {\n        \/\/ AJAX-Anfrage, um die Existenz des Musters zu überprüfen\n        fetch(\"\/products\/\" + sampleHandle + \".js\")\n          .then(response => {\n            if(response.ok) {\n              return response.json();\n            } else {\n              throw new Error('Muster nicht gefunden');\n            }\n          })\n          .then(product => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"\/products\/' + sampleHandle + '\">kostenloses Muster bestellen<\/a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.<\/p>';\n          })\n          .catch(error => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar. <a href=\"https:\/\/unik-nordic.com\/pages\/schreib-mir\">schreib mir<\/a>, wenn du dennoch eins brauchst.<\/p>';\n          });\n      }\n    });\n<\/script>\n<div id=\"sample-link\"><\/div>"
+            "custom_liquid": "<script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var currentHandle = \"{{ product.handle }}\";\n      var samplePrefix = \"muster-\";\n      var sampleHandle = samplePrefix + currentHandle;\n      var baseHandle = currentHandle;\n      \n      // Überprüfen, ob das aktuelle Produkt ein Muster ist\n      if(currentHandle.startsWith(samplePrefix)) {\n        // Entfernen des Präfixes, um das Handle des Hauptprodukts zu erhalten\n        baseHandle = currentHandle.substring(samplePrefix.length);\n        document.getElementById(\"sample-link\").innerHTML = '<p>Dies ist ein Muster. <a href=\"/products/' + baseHandle + '\">Hier findest du das Hauptprodukt</a>.</p>';\n      } else {\n        // AJAX-Anfrage, um die Existenz des Musters zu überprüfen\n        fetch(\"/products/\" + sampleHandle + \".js\")\n          .then(response => {\n            if(response.ok) {\n              return response.json();\n            } else {\n              throw new Error('Muster nicht gefunden');\n            }\n          })\n          .then(product => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Du kannst auch ein <a href=\"/products/' + sampleHandle + '\">kostenloses Muster bestellen</a>, um dich von der Qualität des Materials und des Drucks zu überzeugen.</p>';\n          })\n          .catch(error => {\n            document.getElementById(\"sample-link\").innerHTML = '<p>Ein Muster für dieses Produkt ist derzeit nicht verfügbar. <a href=\"https://unik-nordic.com/pages/schreib-mir\">schreib mir</a>, wenn du dennoch eins brauchst.</p>';\n          });\n      }\n    });\n</script>\n<div id=\"sample-link\"></div>"
           }
         },
         "collapsible-row-0": {
@@ -87,7 +82,7 @@
           "settings": {
             "heading": "Randlose Gestaltung",
             "icon": "silhouette",
-            "content": "<p>Meine Sticker werden in Deutschland mit hochpräzisen Schneidemaschinen hergestellt und haben keinen weißen Rand.<\/p>",
+            "content": "<p>Meine Sticker werden in Deutschland mit hochpräzisen Schneidemaschinen hergestellt und haben keinen weißen Rand.</p>",
             "page": ""
           }
         },
@@ -123,8 +118,14 @@
           "settings": {
             "heading": "Made in Germany",
             "icon": "check_mark",
-            "content": "<p>Das Design und die Herstellung finden in Deutschland statt.<\/p>",
+            "content": "<p>Das Design und die Herstellung finden in Deutschland statt.</p>",
             "page": ""
+          }
+        },
+        "custom_liquid_UeeCi3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-product-videos'></div>"
           }
         },
         "share": {
@@ -137,7 +138,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"\/products\/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.<\/a><\/p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"\/products\/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.<\/a><\/p>\n{% endif %}"
+            "custom_liquid": "{% assign current_handle = product.handle %}\n{% assign sample_prefix = \"muster-\" %}\n{% assign sample_handle = sample_prefix | append: current_handle %}\n\n{% if current_handle contains sample_prefix %}\n  {% assign base_product_handle = current_handle | remove: sample_prefix %}\n  <p>Dies ist ein Muster. <a href=\"/products/{{ base_product_handle }}\">Klicken Sie hier, um das Hauptprodukt zu sehen.</a></p>\n{% else %}\n  <p>Möchten Sie ein kostenloses Muster? <a href=\"/products/{{ sample_handle }}\">Klicken Sie hier, um das Muster zu bestellen.</a></p>\n{% endif %}"
           }
         },
         "228d415a-3259-4c35-9225-e4ee1041029d": {
@@ -171,6 +172,7 @@
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
         "970234dc-5764-4f4f-a779-3fd06697f559",
         "24725872-f967-4a93-b412-3b8750be9d55",
+        "custom_liquid_UeeCi3",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
         "228d415a-3259-4c35-9225-e4ee1041029d"
@@ -189,6 +191,170 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "ss_product_vidoes_qN97Qq": {
+      "type": "ss-product-vidoes",
+      "blocks": {
+        "video_CUBbPA": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_xej3M6": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_xXMnXp": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_QxXmYi": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        },
+        "video_ipUtGP": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "modal_heading": "<h4>Modal Heading</h4>",
+            "modal_text": "<p>Modal Text</p>"
+          }
+        }
+      },
+      "block_order": [
+        "video_CUBbPA",
+        "video_xej3M6",
+        "video_xXMnXp",
+        "video_QxXmYi",
+        "video_ipUtGP"
+      ],
+      "disabled": true,
+      "settings": {
+        "videos_position": "above_description",
+        "use_metafield": false,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 0,
+        "heading_size_mobile": 0,
+        "heading_height": 50,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "slider_view": 3,
+        "slider_view_mobile": 3,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 20,
+        "card_radius": 10,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "video_overlay": 0.3,
+        "icon_size": 34,
+        "icon_size_mobile": 34,
+        "icon_border_thickness": 1,
+        "icon_position_mobile": "bottom_left",
+        "icon_position": "bottom_left",
+        "hide_icon": false,
+        "arrow_size": 35,
+        "arrow_size_mobile": 35,
+        "arrow_radius": 5,
+        "arrow_border_thickness": 0,
+        "arrow_hover_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "show_content": false,
+        "modal_width": 30,
+        "modal_width_mobile": 95,
+        "modal_padding_vertical": 0,
+        "modal_padding_vertical_mobile": 0,
+        "modal_padding_horizontal": 0,
+        "modal_padding_horizontal_mobile": 0,
+        "modal_radius": 16,
+        "modal_border_thickness": 0,
+        "modal_overlay": 50,
+        "close_size": 42,
+        "close_size_mobile": 42,
+        "close_radius": 8,
+        "close_border_thickness": 0,
+        "buttons_size": 48,
+        "buttons_size_mobile": 48,
+        "buttons_radius": 8,
+        "buttons_border_thickness": 0,
+        "modal_video_radius": 0,
+        "modal_video_border_thickness": 0,
+        "modal_video_ratio": "portrait",
+        "modal_video_ratio_mobile": "portrait",
+        "modal_heading_custom": false,
+        "modal_heading_font": "josefin_sans_n4",
+        "modal_heading_size": 28,
+        "modal_heading_size_mobile": 28,
+        "modal_heading_height": 130,
+        "modal_heading_align": "center",
+        "modal_heading_align_mobile": "center",
+        "modal_text_custom": false,
+        "modal_text_font": "josefin_sans_n4",
+        "modal_text_size": 16,
+        "modal_text_size_mobile": 16,
+        "modal_text_height": 130,
+        "modal_text_align": "center",
+        "modal_text_align_mobile": "center",
+        "modal_text_mt": 16,
+        "card_bg_color": "#FFFFFF",
+        "card_border_color": "#000000",
+        "card_shadow_color": "#000000",
+        "video_overlay_color": "#000000",
+        "icon_bg_color": "#000000",
+        "icon_border_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#FFFFFF",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "arrow_icon_color": "#1c1c1c",
+        "arrow_icon_hover_color": "#1c1c1c",
+        "modal_bg_color": "#FFFFFF",
+        "modal_border_color": "#000000",
+        "close_bg_color": "#FFFFFF",
+        "close_border_color": "#000000",
+        "close_icon_color": "#FFFFFF",
+        "buttons_bg_color": "#FFFFFF",
+        "buttons_border_color": "#000000",
+        "buttons_icon_color": "#FFFFFF",
+        "modal_video_border_color": "#000000",
+        "modal_content_bg_color": "#FFFFFF",
+        "modal_content_border_color": "#000000",
+        "modal_heading_color": "#000000",
+        "modal_text_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b": {
@@ -220,10 +386,10 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Produktseite_Qualitaet.jpg",
+            "image": "shopify://shop_images/Produktseite_Qualitaet.jpg",
             "caption": "Begeisterte Kunden",
             "heading": "Qualität, die überzeugt",
-            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.<\/p>",
+            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -231,10 +397,10 @@
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
+            "image": "shopify://shop_images/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
             "caption": "Durchgängige Beratung",
             "heading": "Von der Idee zur Umsetzung",
-            "text": "<p>Bei mir steht durchgängige, <a href=\"\/pages\/schreib-mir\" title=\"Schreib mir\">persönliche Beratung<\/a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung in deinem Zuhause, um ein Ergebnis zu garantieren, das dich begeistert.<\/p>",
+            "text": "<p>Bei mir steht durchgängige, <a href=\"/pages/schreib-mir\" title=\"Schreib mir\">persönliche Beratung</a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung in deinem Zuhause, um ein Ergebnis zu garantieren, das dich begeistert.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -243,10 +409,10 @@
           "type": "row",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
+            "image": "shopify://shop_images/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
             "caption": "Deine Wand, dein Stil",
             "heading": "Sei Unik",
-            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jedes Produkt, das ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.<\/p>",
+            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jedes Produkt, das ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -254,10 +420,10 @@
         "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Wandsticker-Aufklerber-Safari-Dschungel-Kinder-Zimmer__Mood_01.jpg",
+            "image": "shopify://shop_images/Wandsticker-Aufklerber-Safari-Dschungel-Kinder-Zimmer__Mood_01.jpg",
             "caption": "Einfaches Anbringen",
             "heading": "Klebt zuverlässig",
-            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Sticker sind so reißfest und, dass du sie ganz einfach und ohne Risiko selbst anbringen kannst – perfekt für alle Design-Liebhaberinnen.<br\/>Und wenn die Sticker dir oder deinem Kind einmal nicht mehr gefallen, kannst du sie ganz leicht und ohne Spuren wieder ablösen.<\/p>",
+            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Sticker sind so reißfest und, dass du sie ganz einfach und ohne Risiko selbst anbringen kannst – perfekt für alle Design-Liebhaberinnen.<br/>Und wenn die Sticker dir oder deinem Kind einmal nicht mehr gefallen, kannst du sie ganz leicht und ohne Spuren wieder ablösen.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -294,9 +460,8 @@
       "type": "apps",
       "blocks": {
         "da54baad-b45e-4a43-8a83-4af017fd047b": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -327,6 +492,7 @@
   },
   "order": [
     "main",
+    "ss_product_vidoes_qN97Qq",
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
     "170289245009e9ebe5",
     "related-products"
