@@ -166,6 +166,12 @@
             "custom_liquid": "{% if product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable Colors' %}Für dieses Produkt gibt es Farbkarten, die du bestellen kannst um dich mit den Druckergebnissen zu überzeugen.{% endif %}"
           }
         },
+        "custom_liquid_tMzPCF": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div id='ss-product-videos'></div>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -216,6 +222,7 @@
         "description",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
         "custom_liquid_tXPEAe",
+        "custom_liquid_tMzPCF",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
         "228d415a-3259-4c35-9225-e4ee1041029d"
