@@ -9,290 +9,6 @@
  */
 {
   "sections": {
-    "ss_product_vidoes_fJXywK": {
-      "type": "ss-product-vidoes",
-      "blocks": {
-        "video_pAVyiB": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_hzDMQm": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_4kgTkB": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_dzfEjf": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_faY7fa": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        }
-      },
-      "block_order": [
-        "video_pAVyiB",
-        "video_hzDMQm",
-        "video_4kgTkB",
-        "video_dzfEjf",
-        "video_faY7fa"
-      ],
-      "settings": {
-        "videos_position": "above_description",
-        "use_metafield": false,
-        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 18,
-        "heading_size_mobile": 18,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "slider_view": 3,
-        "slider_view_mobile": 3,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
-        "slider_mt": 20,
-        "card_radius": 10,
-        "card_border_thickness": 0,
-        "card_shadow": true,
-        "video_ratio": "portrait",
-        "video_ratio_mobile": "portrait",
-        "video_overlay": 0.3,
-        "icon_size": 34,
-        "icon_size_mobile": 34,
-        "icon_border_thickness": 1,
-        "icon_position_mobile": "bottom_left",
-        "icon_position": "bottom_left",
-        "hide_icon": false,
-        "arrow_size": 35,
-        "arrow_size_mobile": 35,
-        "arrow_radius": 5,
-        "arrow_border_thickness": 0,
-        "arrow_hover_shadow": true,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": true,
-        "show_content": false,
-        "modal_width": 30,
-        "modal_width_mobile": 95,
-        "modal_padding_vertical": 0,
-        "modal_padding_vertical_mobile": 0,
-        "modal_padding_horizontal": 0,
-        "modal_padding_horizontal_mobile": 0,
-        "modal_radius": 16,
-        "modal_border_thickness": 0,
-        "modal_overlay": 50,
-        "close_size": 42,
-        "close_size_mobile": 42,
-        "close_radius": 8,
-        "close_border_thickness": 0,
-        "buttons_size": 48,
-        "buttons_size_mobile": 48,
-        "buttons_radius": 8,
-        "buttons_border_thickness": 0,
-        "modal_video_radius": 0,
-        "modal_video_border_thickness": 0,
-        "modal_video_ratio": "portrait",
-        "modal_video_ratio_mobile": "portrait",
-        "modal_heading_custom": false,
-        "modal_heading_font": "josefin_sans_n4",
-        "modal_heading_size": 28,
-        "modal_heading_size_mobile": 28,
-        "modal_heading_height": 130,
-        "modal_heading_align": "center",
-        "modal_heading_align_mobile": "center",
-        "modal_text_custom": false,
-        "modal_text_font": "josefin_sans_n4",
-        "modal_text_size": 16,
-        "modal_text_size_mobile": 16,
-        "modal_text_height": 130,
-        "modal_text_align": "center",
-        "modal_text_align_mobile": "center",
-        "modal_text_mt": 16,
-        "card_bg_color": "#FFFFFF",
-        "card_border_color": "#000000",
-        "card_shadow_color": "#000000",
-        "video_overlay_color": "#000000",
-        "icon_bg_color": "#000000",
-        "icon_border_color": "#FFFFFF",
-        "icon_color": "#FFFFFF",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#000000",
-        "arrow_icon_color": "#1c1c1c",
-        "arrow_icon_hover_color": "#1c1c1c",
-        "modal_bg_color": "#FFFFFF",
-        "modal_border_color": "#000000",
-        "close_bg_color": "#FFFFFF",
-        "close_border_color": "#000000",
-        "close_icon_color": "#FFFFFF",
-        "buttons_bg_color": "#FFFFFF",
-        "buttons_border_color": "#000000",
-        "buttons_icon_color": "#FFFFFF",
-        "modal_video_border_color": "#000000",
-        "modal_content_bg_color": "#FFFFFF",
-        "modal_content_border_color": "#000000",
-        "modal_heading_color": "#000000",
-        "modal_text_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "ss_circle_menu_DJPxYF": {
-      "type": "ss-circle-menu",
-      "blocks": {
-        "image_nwFbkV": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_t6hCHy": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_3Y3LyD": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_GdwYib": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_W6jBe6": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_nwFbkV",
-        "image_t6hCHy",
-        "image_3Y3LyD",
-        "image_GdwYib",
-        "image_W6jBe6"
-      ],
-      "disabled": true,
-      "settings": {
-        "slider_width": 100,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
-        "icon_size": 88,
-        "icon_size_mobile": 74,
-        "icon_space": 4,
-        "icon_space_mobile": 2,
-        "icon_border_thickness": 1,
-        "icon_square": false,
-        "text_custom": false,
-        "text_font": "avenir_next_n4",
-        "text_size": 12,
-        "text_size_mobile": 10,
-        "text_height": 130,
-        "text_mt": 8,
-        "icon_border_color": "#bcb2a8",
-        "icon_border_gradient": "",
-        "text_color": "#6e6e6e",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#bcb2a8",
-        "border_gradient": "",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 150,
-        "border_thickness": 0,
-        "lazy": true,
-        "hide_mobile": false,
-        "hide_desktop": false
-      }
-    },
-    "slideshow_7WPkPD": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_kM4YFT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Bildschirmfoto_2024-12-20_um_10.15.51.png",
-            "heading": "Frohes neues Jahr!",
-            "heading_size": "h1",
-            "subheading": "Wir haben Betriebsferien. Bestellungen werden ab dem 05.01.25 wieder versendet.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_kM4YFT"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
       "type": "slideshow",
       "blocks": {
@@ -441,6 +157,22 @@
       ],
       "disabled": true,
       "settings": {}
+    },
+    "1704285458eab9a7ff": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_NdG3qE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_NdG3qE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
     },
     "172926778639d65192": {
       "type": "apps",
@@ -741,6 +473,15 @@
             "link_label": "Über mich",
             "link": "shopify://pages/uber-mich"
           }
+        },
+        "column_GeLTF4": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -751,7 +492,8 @@
         "be68dd8c-c296-43cf-95d8-84833eadde63",
         "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e",
         "e596a778-7165-4979-a415-ef49f9a37c3a",
-        "a4b302be-1cd8-422d-befe-523463196468"
+        "a4b302be-1cd8-422d-befe-523463196468",
+        "column_GeLTF4"
       ],
       "custom_css": [
         "h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase; font-size: 2rem;}"
@@ -771,22 +513,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "171699842267b6a21f": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_ugc_media_grid_C4j78X": {
-          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_ugc_media_grid_C4j78X"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
       }
     },
     "image_with_text_VEYqap": {
@@ -878,14 +604,10 @@
         "show_text_below": false
       }
     },
-    "1704285458eab9a7ff": {
+    "apps_fDeNCc": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_medals_NdG3qE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
-        "2597eb6a-aa01-479c-a74b-7d80391dfd2f": {
+        "judge_me_reviews_featured_carousel_YtGeDW": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1400
@@ -893,10 +615,8 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_medals_NdG3qE",
-        "2597eb6a-aa01-479c-a74b-7d80391dfd2f"
+        "judge_me_reviews_featured_carousel_YtGeDW"
       ],
-      "custom_css": [],
       "settings": {
         "include_margins": true
       }
@@ -1118,6 +838,7 @@
         "tooltip_UzgykR",
         "tooltip_H3xawB"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/blooming_spring_thema.jpg",
         "tooltip_color": "#ffffff",
@@ -1161,11 +882,9 @@
     }
   },
   "order": [
-    "ss_product_vidoes_fJXywK",
-    "ss_circle_menu_DJPxYF",
-    "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "bekannt_aus_pprF7b",
+    "1704285458eab9a7ff",
     "172926778639d65192",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
     "featured_collection_t3jxVk",
@@ -1174,10 +893,9 @@
     "featured_collection_6h7Agh",
     "featured_collection_9b7bj7",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
-    "171699842267b6a21f",
     "image_with_text_VEYqap",
     "image_banner",
-    "1704285458eab9a7ff",
+    "apps_fDeNCc",
     "1703089345cd69a960",
     "featured_product_kBnGme",
     "collage",
