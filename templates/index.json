@@ -9,6 +9,112 @@
  */
 {
   "sections": {
+    "ss_circle_menu_XwgEY3": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_J7AmBG": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-kinderzimmer-wald-tannen01jpg.jpg",
+            "bubble_text": "Tapete Kinderzimmer",
+            "bubble_link": "shopify://collections/tapete-kinderzimmer"
+          }
+        },
+        "image_qi7Ufb": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-vintage-blumen-aquarell-border-von-oben4jpg.jpg",
+            "bubble_text": "Tapete Wohnzimmer",
+            "bubble_link": "shopify://collections/tapete-wohnzimmer"
+          }
+        },
+        "image_TNXMCK": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-marmor-stein-gruen3jpg.jpg",
+            "bubble_text": "Tapete Esszimmer",
+            "bubble_link": "shopify://collections/tapete-esszimmer"
+          }
+        },
+        "image_6k4jh9": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/1048wttapete-blumen-vintage-alt-blueten-wand-fototapete-retro-schlafzimmer.jpg",
+            "bubble_text": "Tapete Schlafzimmer",
+            "bubble_link": "shopify://collections/tapete-schlafzimmer"
+          }
+        },
+        "image_6tniH3": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
+            "bubble_text": "Wandsticker",
+            "bubble_link": "shopify://collections/wandsticker"
+          }
+        },
+        "image_gTiYw7": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/kuchenruckwand-folie-vintage-blumen-floral-diy-spritzschutz03jpg.jpg",
+            "bubble_text": "Rückwände für Küchen",
+            "bubble_link": "shopify://collections/kuechenfolie"
+          }
+        },
+        "image_t8ya3A": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/malmaufkleberfolieikeablumenrosen-09jpg.jpg",
+            "bubble_text": "IKEA Hacks",
+            "bubble_link": "shopify://collections/alle-moebelfolien"
+          }
+        }
+      },
+      "block_order": [
+        "image_J7AmBG",
+        "image_qi7Ufb",
+        "image_TNXMCK",
+        "image_6k4jh9",
+        "image_6tniH3",
+        "image_gTiYw7",
+        "image_t8ya3A"
+      ],
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "avenir_next_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#bf9f86",
+        "icon_border_gradient": "",
+        "text_color": "#595959",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
       "type": "slideshow",
       "blocks": {
@@ -882,6 +988,7 @@
     }
   },
   "order": [
+    "ss_circle_menu_XwgEY3",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "bekannt_aus_pprF7b",
     "1704285458eab9a7ff",
