@@ -125,6 +125,55 @@
         "accessibility_info": "Kollektionen"
       }
     },
+    "bekannt_aus_pprF7b": {
+      "type": "bekannt-aus",
+      "blocks": {
+        "logo_gHdfBD": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/logo_1.svg",
+            "logo_link": ""
+          }
+        },
+        "logo_D9Py8P": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/Closer_logo_svg.png",
+            "logo_link": ""
+          }
+        },
+        "logo_76tkMj": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/logo_lisa.png",
+            "logo_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_gHdfBD",
+        "logo_D9Py8P",
+        "logo_76tkMj"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "1704285458eab9a7ff": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_NdG3qE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_NdG3qE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "ss_circle_menu_XwgEY3": {
       "type": "ss-circle-menu",
       "blocks": {
@@ -229,55 +278,6 @@
         "lazy": true,
         "hide_mobile": false,
         "hide_desktop": false
-      }
-    },
-    "bekannt_aus_pprF7b": {
-      "type": "bekannt-aus",
-      "blocks": {
-        "logo_gHdfBD": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/logo_1.svg",
-            "logo_link": ""
-          }
-        },
-        "logo_D9Py8P": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/Closer_logo_svg.png",
-            "logo_link": ""
-          }
-        },
-        "logo_76tkMj": {
-          "type": "logo",
-          "settings": {
-            "logo_image": "shopify://shop_images/logo_lisa.png",
-            "logo_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_gHdfBD",
-        "logo_D9Py8P",
-        "logo_76tkMj"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
-    "1704285458eab9a7ff": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_NdG3qE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_NdG3qE"
-      ],
-      "custom_css": [],
-      "settings": {
-        "include_margins": true
       }
     },
     "172926778639d65192": {
@@ -522,6 +522,7 @@
         },
         "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Motive.png",
             "title": "Einzigartige Motive",
@@ -532,6 +533,7 @@
         },
         "37ddb6a2-01d2-49f4-94ba-b04877663891": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Motivservice.png",
             "title": "Persön­licher Motiv­service",
@@ -544,7 +546,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
-            "title": "Berliner Druck",
+            "title": "Made in Germany",
             "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Berlin-Adlershof angefertigt und ausgiebig geprüft.</p>",
             "link_label": "",
             "link": ""
@@ -552,6 +554,7 @@
         },
         "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Kalkulation.png",
             "title": "Kalkulator",
@@ -572,21 +575,13 @@
         },
         "a4b302be-1cd8-422d-befe-523463196468": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Know_How.png",
             "title": "Meine Passion",
             "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br/>Möchtest du mehr über mich erfahren?</p>",
             "link_label": "Über mich",
             "link": "shopify://pages/uber-mich"
-          }
-        },
-        "column_GeLTF4": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "link_label": "",
-            "link": ""
           }
         }
       },
@@ -598,8 +593,7 @@
         "be68dd8c-c296-43cf-95d8-84833eadde63",
         "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e",
         "e596a778-7165-4979-a415-ef49f9a37c3a",
-        "a4b302be-1cd8-422d-befe-523463196468",
-        "column_GeLTF4"
+        "a4b302be-1cd8-422d-befe-523463196468"
       ],
       "custom_css": [
         "h3 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase; font-size: 2rem;}"
