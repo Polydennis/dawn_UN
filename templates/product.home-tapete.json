@@ -369,15 +369,6 @@
     "ss_product_vidoes_xWqcmC": {
       "type": "ss-product-vidoes",
       "blocks": {
-        "video_dXaqaD": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Julia_UGC_H2_lang.mov",
-            "video_url": "",
-            "modal_heading": "<h4>Das sagt Julia</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
         "video_hn4Lyr": {
           "type": "video",
           "settings": {
@@ -393,6 +384,15 @@
             "video": "shopify://files/videos/Saskia_H3_kurz.mov",
             "video_url": "",
             "modal_heading": "<h4>Das sagt Saskia</h4>",
+            "modal_text": ""
+          }
+        },
+        "video_dXaqaD": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Julia_UGC_H2_lang.mov",
+            "video_url": "",
+            "modal_heading": "<h4>Das sagt Julia</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
         },
@@ -414,9 +414,9 @@
         }
       },
       "block_order": [
-        "video_dXaqaD",
         "video_hn4Lyr",
         "video_teYLfC",
+        "video_dXaqaD",
         "video_zb4jVt",
         "video_3CKLtF"
       ],
