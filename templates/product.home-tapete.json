@@ -244,8 +244,8 @@
           "settings": {
             "video": "shopify://files/videos/Laura_Vid-mit-Untertiteln-RICHTIG.mp4",
             "video_url": "",
-            "modal_heading": "<h4>Content Creator</h4>",
-            "modal_text": ""
+            "modal_heading": "<h4>Laura über ihre Tapete</h4>",
+            "modal_text": "<p>Motiv Marmor Beige</p>"
           }
         },
         "video_teYLfC": {
@@ -254,7 +254,7 @@
             "video": "shopify://files/videos/Saskia_H3_kurz.mov",
             "video_url": "",
             "modal_heading": "<h4>Das sagt Saskia</h4>",
-            "modal_text": ""
+            "modal_text": "<p>Motiv Vintage Blumen</p>"
           }
         },
         "video_dXaqaD": {
@@ -263,32 +263,14 @@
             "video": "shopify://files/videos/Julia_UGC_H2_lang.mov",
             "video_url": "",
             "modal_heading": "<h4>Das sagt Julia</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_zb4jVt": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_3CKLtF": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "modal_text": "<p>Motiv Aquarell rosa-grau</p>"
           }
         }
       },
       "block_order": [
         "video_hn4Lyr",
         "video_teYLfC",
-        "video_dXaqaD",
-        "video_zb4jVt",
-        "video_3CKLtF"
+        "video_dXaqaD"
       ],
       "settings": {
         "videos_position": "above_description",
@@ -325,7 +307,7 @@
         "arrow_hover_shadow": true,
         "arrow_show_desktop": true,
         "arrow_show_mobile": true,
-        "show_content": true,
+        "show_content": false,
         "modal_width": 30,
         "modal_width_mobile": 95,
         "modal_padding_vertical": 0,
