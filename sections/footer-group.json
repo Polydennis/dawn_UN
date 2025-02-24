@@ -23,10 +23,9 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "trusted_shops_easy_integration_trusted_stars_HHPer9": {
-          "type": "shopify://apps/trusted-shops-easy-integration/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {
-          }
+        "judge_me_reviews_medals_D3XDgT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "footer-0": {
           "type": "link_list",
@@ -50,7 +49,7 @@
         }
       },
       "block_order": [
-        "trusted_shops_easy_integration_trusted_stars_HHPer9",
+        "judge_me_reviews_medals_D3XDgT",
         "footer-0",
         "footer-1",
         "5db8702d-074c-4d33-867f-a7af180bb2e9"
