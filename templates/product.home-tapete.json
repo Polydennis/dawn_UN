@@ -423,7 +423,7 @@
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
-        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "heading": "<h2>Was unsere Fans sagen</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 18,
@@ -535,9 +535,9 @@
   },
   "order": [
     "main",
+    "ss_product_vidoes_xWqcmC",
     "related-products",
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
-    "170289245009e9ebe5",
-    "ss_product_vidoes_xWqcmC"
+    "170289245009e9ebe5"
   ]
 }
