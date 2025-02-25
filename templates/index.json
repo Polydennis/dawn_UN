@@ -16,9 +16,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/NEU_Living_Steintapete.jpg",
-            "heading": "Neue Produkte",
+            "heading": "Neuheiten",
             "heading_size": "h1",
-            "subheading": "Hier findest du neue Motive und Produkte für dein Zuhause!",
+            "subheading": "Entdecke neue Motive und Produkte für dein Zuhause!",
             "button_label": "Jetzt stöbern",
             "link": "shopify://collections/neues",
             "button_style_secondary": false,
