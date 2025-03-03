@@ -252,7 +252,7 @@
         "video_dXaqaD": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Video_02_Marmor Beige.mov",
+            "video": "shopify://files/videos/Video_02_Marmor Beige_lowered.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_02_Marmor Beige.mp4",
             "modal_heading": "",
@@ -262,7 +262,7 @@
         "video_teYLfC": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Video_03_Aquarell  Grau Rosa.mp4",
+            "video": "shopify://files/videos/Video_03_Aquarell  Grau Rosa_lowered.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_03_Aquarell  Grau Rosa.mp4",
             "modal_heading": "",
