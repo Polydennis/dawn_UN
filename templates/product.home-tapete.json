@@ -245,8 +245,8 @@
             "video": "shopify://files/videos/Video_01_Flower Border.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_01_Flower Border.mp4.mp4",
-            "modal_heading": "<p><a href=\"/products/fototapete-flower-border\" title=\"Fototapete Flower Border\">Fototapete Flower Border</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/fototapete-flower-border\" title=\"Fototapete Flower Border\">Fototapete Flower Border</a></p>"
           }
         },
         "video_dXaqaD": {
@@ -255,8 +255,8 @@
             "video": "shopify://files/videos/Video_02_Marmor Beige.mov",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_02_Marmor Beige.mp4",
-            "modal_heading": "<p><a href=\"/products/fototapete-marmor-stein-pastell-beige\" title=\"Fototapete Marmor Stein pastell beige\">Fototapete Marmor Stein pastell beige</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/fototapete-marmor-stein-pastell-beige\" title=\"Fototapete Marmor Stein pastell beige\">Fototapete Marmor Stein pastell beige</a></p>"
           }
         },
         "video_teYLfC": {
@@ -265,8 +265,8 @@
             "video": "shopify://files/videos/Video_03_Aquarell  Grau Rosa.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_03_Aquarell  Grau Rosa.mp4",
-            "modal_heading": "<p><a href=\"/products/fototapete-stein-aquarell-malerei-grau-rosa\" title=\"Fototapete Malerei Aquarell grau-rosa\">Fototapete Malerei Aquarell grau-rosa</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/fototapete-stein-aquarell-malerei-grau-rosa\" title=\"Fototapete Malerei Aquarell grau-rosa\">Fototapete Malerei Aquarell grau-rosa</a></p>"
           }
         }
       },
