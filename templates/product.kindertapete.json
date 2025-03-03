@@ -245,8 +245,8 @@
             "video": "shopify://files/videos/Video_01_Feenwald.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_01_Feenwald.mp4",
-            "modal_heading": "<p><a href=\"/products/kindertapete-feenwald\" title=\"Kindertapete Feenwald\">Kindertapete Feenwald</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/kindertapete-feenwald\" title=\"Kindertapete Feenwald\">Kindertapete Feenwald</a></p>"
           }
         },
         "video_AMzNjd": {
@@ -255,8 +255,8 @@
             "video": "shopify://files/videos/Video_02_Dschungelabenteuer.mp4.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_02_Dschungelabenteuer.mp4",
-            "modal_heading": "<p><a href=\"/products/kindertapete-abenteuer-dschungel\" title=\"Kindertapete Abenteuer Dschungel\">Kindertapete Abenteuer Dschungel</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/kindertapete-abenteuer-dschungel\" title=\"Kindertapete Abenteuer Dschungel\">Kindertapete Abenteuer Dschungel</a></p>"
           }
         },
         "video_q9AbKE": {
@@ -265,8 +265,8 @@
             "video": "shopify://files/videos/Video_03_Tannenwald.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_03_Tannenwald.mp4",
-            "modal_heading": "<p><a href=\"/products/kindertapete-abenteuer-dschungel\" title=\"Kindertapete Abenteuer Dschungel\">Kindertapete Abenteuer Dschungel</a></p>",
-            "modal_text": ""
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/kindertapete-tannenwald-aquarell\" title=\"Kindertapete Tannen­wald Aquarell\">Kindertapete Tannen­wald Aquarell</a></p>"
           }
         }
       },
