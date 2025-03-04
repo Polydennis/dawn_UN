@@ -252,7 +252,7 @@
         "video_AMzNjd": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Video_02_Dschungelabenteuer.mp4.mp4",
+            "video": "shopify://files/videos/Video_02_Dschungelabenteuer_lowered.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_02_Dschungelabenteuer.mp4",
             "modal_heading": "",
@@ -262,7 +262,7 @@
         "video_q9AbKE": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Video_03_Tannenwald.mp4",
+            "video": "shopify://files/videos/Video_03_Tannenwald_lowered.mp4",
             "video_url": "",
             "preload_video": "shopify://files/videos/Thumbnail_03_Tannenwald.mp4",
             "modal_heading": "",
