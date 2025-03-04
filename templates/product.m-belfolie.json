@@ -73,16 +73,7 @@
           "settings": {
             "heading": "Hochwertiges Material",
             "icon": "price_tag",
-            "content": "{{ product.metafields.custom.produkttyp.value.material | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Randlose Gestaltung",
-            "icon": "silhouette",
-            "content": "<p>Meine Sticker werden in Deutschland mit hochpräzisen Schneidemaschinen hergestellt und haben keinen weißen Rand.</p>",
+            "content": "<p>Die Motive werden auf Möbelfolie höchster Qualität gedruckt und mit hochpräzisen Maschinen auf das optimale Format geschnitten.</p>",
             "page": ""
           }
         },
@@ -95,37 +86,51 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Wände messen",
+            "icon": "ruler",
+            "content": "{{ product.metafields.custom.produkttyp.value.ausmessen | metafield_tag }}",
+            "page": ""
+          }
+        },
         "e4466e54-edb3-46ab-abef-e0dac9de574c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Leichte Anbringung",
+            "heading": "Leichtes Aufkleben",
             "icon": "check_mark",
-            "content": "{{ product.metafields.custom.produkttyp.value.anbringung | metafield_tag }}",
+            "content": "<p>Das Anbringen der Folien auf deine Möbel ist spielend leicht. Mit dem mitgelieferten Rakel gelingt dir das Aufkleben ohne Luftblasen garantiert.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_gt4iUq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Rückstandsfreies Ablösen",
+            "icon": "star",
+            "content": "<p>Solltest du die Gestaltung deiner Möbel wieder ändern wollen, ist das Ablösen ohne Probleme möglich</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_fPDXTf": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Made in Germany",
+            "icon": "heart",
+            "content": "<p>Alle Produkte werden in Deutschland gestaltet und nach aktuellsten Standards gedruckt</p>",
             "page": ""
           }
         },
         "970234dc-5764-4f4f-a779-3fd06697f559": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Zufriedenheitsgarantie",
             "icon": "heart",
             "content": "{{ product.metafields.custom.produkttyp.value.zufriedenheitsgarantie | metafield_tag }}",
             "page": ""
-          }
-        },
-        "24725872-f967-4a93-b412-3b8750be9d55": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Made in Germany",
-            "icon": "check_mark",
-            "content": "<p>Das Design und die Herstellung finden in Deutschland statt.</p>",
-            "page": ""
-          }
-        },
-        "custom_liquid_UeeCi3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div id='ss-product-videos'></div>"
           }
         },
         "share": {
@@ -167,12 +172,12 @@
         "description",
         "b6e2e917-3611-461c-8013-255b4dc8e1b2",
         "collapsible-row-0",
-        "collapsible-row-2",
         "collapsible-row-1",
+        "collapsible-row-2",
         "e4466e54-edb3-46ab-abef-e0dac9de574c",
+        "collapsible_tab_gt4iUq",
+        "collapsible_tab_fPDXTf",
         "970234dc-5764-4f4f-a779-3fd06697f559",
-        "24725872-f967-4a93-b412-3b8750be9d55",
-        "custom_liquid_UeeCi3",
         "share",
         "f72e0f29-9bde-47a2-9281-116e421970d2",
         "228d415a-3259-4c35-9225-e4ee1041029d"
@@ -193,39 +198,56 @@
         "padding_bottom": 12
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Könnte dir auch gefallen",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b": {
       "type": "multirow",
       "blocks": {
-        "62be5099-6cf1-4339-a934-0ad8cdc1f401": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_1_bild_600_x_400.value }}",
-            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_1_subtitle.value }}",
-            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_1_title.value }}",
-            "text": "{{ product.metafields.custom.motivkategorie.value.usp_1 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "e240a810-9610-44c3-aca9-5744d7240547": {
-          "type": "row",
-          "settings": {
-            "image": "{{ product.metafields.custom.motivkategorie.value.usp_2_bild_600_x_400.value }}",
-            "caption": "{{ product.metafields.custom.motivkategorie.value.usp_2_subtitle.value }}",
-            "heading": "{{ product.metafields.custom.motivkategorie.value.usp_2_title.value }}",
-            "text": "{{ product.metafields.custom.motivkategorie.value.usp_2 | metafield_tag }}",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Produktseite_Qualitaet.jpg",
             "caption": "Begeisterte Kunden",
             "heading": "Qualität, die überzeugt",
-            "text": "<p>Meine Tapeten stehen für erstklassige Qualität und einzigartiges Design. Aus reißfestem Vlies gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.</p>",
+            "text": "<p>Meine Produkte stehen für erstklassige Qualität und einzigartiges Design. Aus klebestarker Möbelfolie gefertigt, begeistern sie durch ihre Langlebigkeit und mit besonderen Motiven – und das bestätigen auch die begeisterten Rückmeldungen meiner Kunden.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/rakel_folie.jpg",
+            "caption": "Perfekt abgestimmt",
+            "heading": "Kinderleichtes Aufkleben",
+            "text": "<p>Die Aufkleber sind perfekt auf die Maße deiner Möbel angepasst, so dass Du sie spielend leicht anbringen kannst. Dazu erhältst du natürlich eine ausführliche Anleitung, damit du dich absolut sicher sein kannst, dass die Ergebnisse deinen wünschen entsprechen.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
+            "caption": "Deine Schränke, dein Stil",
+            "heading": "Sei Unik",
+            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jeder Möbelsticker, den ich designe, ist ein Ausdruck deiner Einzigartigkeit. Lass uns gemeinsam Möbel schaffen, die so unverwechselbar sind wie du selbst.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -235,43 +257,18 @@
           "settings": {
             "image": "shopify://shop_images/ecom-edit-image-M2Ja0mLkhpFoto_Website.jpg",
             "caption": "Durchgängige Beratung",
-            "heading": "Von der Idee zur Umsetzung",
-            "text": "<p>Bei mir steht durchgängige, <a href=\"/pages/schreib-mir\" title=\"Schreib mir\">persönliche Beratung</a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung in deinem Zuhause, um ein Ergebnis zu garantieren, das dich begeistert.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1": {
-          "type": "row",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Tapete-Motivtapete-Vintage-Lanschaft-Malerei-Gemaelde-Wiese-Wandbild-pastell-07_f531abfd-32d9-4a84-9936-255b5fc6818f.jpg",
-            "caption": "Deine Wand, dein Stil",
-            "heading": "Sei Unik",
-            "text": "<p>Lass dich einladen, deine Persönlichkeit in jedem Winkel deines Zuhauses zu entfalten. Jedes Produkt, das ich designe, ist eine Leinwand für deine Einzigartigkeit. Lass uns gemeinsam Räume schaffen, die so unverwechselbar sind wie du selbst.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "29a9111b-a835-4f59-8fd8-9310d663b3d9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Wandsticker-Aufklerber-Safari-Dschungel-Kinder-Zimmer__Mood_01.jpg",
-            "caption": "Einfaches Anbringen",
-            "heading": "Klebt zuverlässig",
-            "text": "<p>Unik Nordic steht für kinderleichte Montage. Meine Sticker sind so reißfest und, dass du sie ganz einfach und ohne Risiko selbst anbringen kannst – perfekt für alle Design-Liebhaberinnen.<br/>Und wenn die Sticker dir oder deinem Kind einmal nicht mehr gefallen, kannst du sie ganz leicht und ohne Spuren wieder ablösen.</p>",
+            "heading": "Von der Idee bis in deinen Raum",
+            "text": "<p>Bei mir steht durchgängige, <a href=\"/pages/schreib-mir\" title=\"Schreib mir\">persönliche Beratung</a> im Vordergrund. Ich begleite dich von der ersten Idee bis zur perfekten Umsetzung an deinem Möbel, um ein Ergebnis zu garantieren, das dich begeistert.</p>",
             "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "62be5099-6cf1-4339-a934-0ad8cdc1f401",
-        "e240a810-9610-44c3-aca9-5744d7240547",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-2",
-        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3",
+        "29a9111b-a835-4f59-8fd8-9310d663b3d9",
         "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-1",
-        "29a9111b-a835-4f59-8fd8-9310d663b3d9"
+        "template--18322339823884__c3e850ba-cf14-47ef-a41d-e20f3f289c8b-row-3"
       ],
       "custom_css": [
         "h2 {font-family: \"Bon Voyage Regular\", serif !important;}"
@@ -305,24 +302,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "Könnte dir auch gefallen",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     }
   },

@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "9d41215b-4019-4718-8b50-02b64246f741": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"collection-hero__outer page-width scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: #BCB2A8\">\n        <div class=\"category-header\" style=\"position: relative;\">\n            <style>\n                .category-header {\n                    {% if collection.image %}\n                    background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                    background-size: cover;\n                    {% endif %}\n                    min-height: 200px;\n                    display: flex;\n                    align-items: center;\n                    justify-content: center;\n                    position: relative;\n                }\n                .category-header h1 {\n                    font-family: 'Bon Voyage Regular', serif;\n                    font-size: clamp(2em, 5vw, 3em);\n                    font-weight: 500;\n                    text-transform: uppercase;\n                    letter-spacing: 2px;\n                    color: #ffffff;\n                    text-shadow: 2px 2px 2px #595959;\n                    background-color: rgba(191,159,134,0.6);\n                    padding: 10px 10px 0;\n                    text-align: center;\n                    margin-left: min(1em, 20vw);\n                    margin-right: min(1em, 20vw);\n                    max-width: 100%;\n                    position: relative;\n                    z-index: 2;\n                }\n            <\/style>\n            <h1>{{ collection.title }}<\/h1>\n        <\/div>\n    <\/div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        <\/div>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"collection-hero__outer page-width scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: #BCB2A8\">\n        <div class=\"category-header\" style=\"position: relative;\">\n            <style>\n                .category-header {\n                    {% if collection.image %}\n                    background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                    background-size: cover;\n                    {% endif %}\n                    min-height: 200px;\n                    display: flex;\n                    align-items: center;\n                    justify-content: center;\n                    position: relative;\n                }\n                .category-header h1 {\n                    font-family: 'Bon Voyage Regular', serif;\n                    font-size: clamp(2em, 5vw, 3em);\n                    font-weight: 500;\n                    text-transform: uppercase;\n                    letter-spacing: 2px;\n                    color: #ffffff;\n                    text-shadow: 2px 2px 2px #595959;\n                    background-color: rgba(191,159,134,0.6);\n                    padding: 10px 10px 0;\n                    text-align: center;\n                    margin-left: min(1em, 20vw);\n                    margin-right: min(1em, 20vw);\n                    max-width: 100%;\n                    position: relative;\n                    z-index: 2;\n                }\n            </style>\n            <h1>{{ collection.title }}</h1>\n        </div>\n    </div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        </div>\n    </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 16
@@ -21,7 +21,7 @@
     "custom_liquid_G8jmit": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n  .collection__icons {\n    display: flex; \n    flex-wrap: wrap; \n    justify-content: space-between;\n    align-items: center;\n  }\n  .collection__icon {\n    display: flex;\n    align-items: center;\n    flex: 1 1 20px;\n    margin: 10px;\n  }\n  .collection__icon img {\n    margin-right: 10px;\n  }\n  .collection__icon p {\n    margin: 0;\n    text-align: left;\n    line-height: 1.2; \n  }\n  @media (max-width: 768px) {\n    .collection__icons {\n      flex-direction: column;\n    }\n    .collection__icon {\n      flex-direction: row;\n      align-items: center;\n      width: 100%;\n    }\n    .collection__icon img {\n      width: 40px;\n      height: 40px;\n      margin-right: 10px;\n\n  .collection__icon p {\n      text-size: small;\n  }\n    }\n  }\n<\/style>\n<style>\n  .collection__icons {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    align-items: center;\n  }\n  .collection__icon {\n    display: flex;\n    align-items: center;\n    flex: 1 1 20px;\n    margin: 10px;\n  }\n  .collection__icon img {\n    margin-right: 10px;\n  }\n  .collection__icon p {\n    margin: 0;\n    text-align: left;\n    line-height: 1.2;\n  }\n  @media (max-width: 768px) {\n    .collection__icons {\n      flex-direction: column;\n    }\n    .collection__icon {\n      flex-direction: row;\n      align-items: center;\n      width: 100%;\n    }\n    .collection__icon img {\n      width: 40px;\n      height: 40px;\n      margin-right: 10px;\n    }\n    .collection__icon p {\n      font-size: small;\n    }\n  }\n<\/style>\n\n<div class=\"page-width\">\n  <div class=\"collection__icons\">\n    {% assign measure_icon_shown = false %}\n    {% assign motive_icon_shown = false %}\n    {% assign color_icon_shown = false %}\n\n    {% for product in collection.products %}\n      {% if product.metafields.custom.labels.value != blank %}\n        {% if measure_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Individual dimensions' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Format.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.custom_sizes' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.custom_sizes' | t }}<\/b><br>\n                {{ 'products.product.custom_labels.custom_sizes_desc' | t }}\n              <\/p>\n            <\/div>\n            {% assign measure_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n        {% if motive_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable individual motifs' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Anpassung.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.moveable_elements' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.moveable_elements' | t }}<\/b><br>\n                {{ 'products.product.custom_labels.moveable_elements_desc' | t }}\n              <\/p>\n            <\/div>\n            {% assign motive_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n        {% if color_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable colors' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Farben.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.color_options' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.color_options' | t }}<\/b><br>\n                {{ 'products.product.custom_labels.color_options_desc' | t }}\n              <\/p>\n            <\/div>\n            {% assign color_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n      {% endif %}\n    {% endfor %}\n  <\/div>\n<\/div>",
+        "custom_liquid": "<style>\n  .collection__icons {\n    display: flex; \n    flex-wrap: wrap; \n    justify-content: space-between;\n    align-items: center;\n  }\n  .collection__icon {\n    display: flex;\n    align-items: center;\n    flex: 1 1 20px;\n    margin: 10px;\n  }\n  .collection__icon img {\n    margin-right: 10px;\n  }\n  .collection__icon p {\n    margin: 0;\n    text-align: left;\n    line-height: 1.2; \n  }\n  @media (max-width: 768px) {\n    .collection__icons {\n      flex-direction: column;\n    }\n    .collection__icon {\n      flex-direction: row;\n      align-items: center;\n      width: 100%;\n    }\n    .collection__icon img {\n      width: 40px;\n      height: 40px;\n      margin-right: 10px;\n\n  .collection__icon p {\n      text-size: small;\n  }\n    }\n  }\n</style>\n<style>\n  .collection__icons {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    align-items: center;\n  }\n  .collection__icon {\n    display: flex;\n    align-items: center;\n    flex: 1 1 20px;\n    margin: 10px;\n  }\n  .collection__icon img {\n    margin-right: 10px;\n  }\n  .collection__icon p {\n    margin: 0;\n    text-align: left;\n    line-height: 1.2;\n  }\n  @media (max-width: 768px) {\n    .collection__icons {\n      flex-direction: column;\n    }\n    .collection__icon {\n      flex-direction: row;\n      align-items: center;\n      width: 100%;\n    }\n    .collection__icon img {\n      width: 40px;\n      height: 40px;\n      margin-right: 10px;\n    }\n    .collection__icon p {\n      font-size: small;\n    }\n  }\n</style>\n\n<div class=\"page-width\">\n  <div class=\"collection__icons\">\n    {% assign measure_icon_shown = false %}\n    {% assign motive_icon_shown = false %}\n    {% assign color_icon_shown = false %}\n\n    {% for product in collection.products %}\n      {% if product.metafields.custom.labels.value != blank %}\n        {% if measure_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Individuelle Maße' or product.metafields.custom.labels.value contains 'Individual dimensions' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Format.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.custom_sizes' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.custom_sizes' | t }}</b><br>\n                {{ 'products.product.custom_labels.custom_sizes_desc' | t }}\n              </p>\n            </div>\n            {% assign measure_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n        {% if motive_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Verschiebbare Einzelmotive' or product.metafields.custom.labels.value contains 'Movable individual motifs' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Anpassung.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.moveable_elements' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.moveable_elements' | t }}</b><br>\n                {{ 'products.product.custom_labels.moveable_elements_desc' | t }}\n              </p>\n            </div>\n            {% assign motive_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n        {% if color_icon_shown == false %}\n          {% if product.metafields.custom.labels.value contains 'Auswählbare Farben' or product.metafields.custom.labels.value contains 'Selectable colors' %}\n            <div class=\"collection__icon\">\n              <img\n                src=\"{{ 'Icons_Farben.png' | file_img_url }}\"\n                alt=\"{{ 'products.product.custom_labels.color_options' | t }}\"\n                class=\"label-ico\"\n                width=\"60\"\n                height=\"60\"\n              >\n              <p>\n                <b>{{ 'products.product.custom_labels.color_options' | t }}</b><br>\n                {{ 'products.product.custom_labels.color_options_desc' | t }}\n              </p>\n            </div>\n            {% assign color_icon_shown = true %}\n          {% endif %}\n        {% endif %}\n      {% endif %}\n    {% endfor %}\n  </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -63,7 +63,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_ixc8GN": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
@@ -100,6 +100,21 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1739175004d58d764c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_GHxCUz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_GHxCUz"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -108,6 +123,7 @@
     "product-grid",
     "banner",
     "171689932043344943",
-    "50417dae-724e-441f-83ea-3070bb99050e"
+    "50417dae-724e-441f-83ea-3070bb99050e",
+    "1739175004d58d764c"
   ]
 }

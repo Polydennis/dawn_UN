@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -17,28 +17,35 @@
         "padding_bottom": 36
       }
     },
-    "cart-footer": {
-      "type": "main-cart-footer",
+    "rich_text_cayFdL": {
+      "type": "rich-text",
       "blocks": {
-        "subtotal": {
-          "type": "subtotal",
+        "heading_k6YHME": {
+          "type": "heading",
           "settings": {
+            "heading": "Betriebsferien",
+            "heading_size": "h2"
           }
         },
-        "buttons": {
-          "type": "buttons",
+        "text_r3pTFc": {
+          "type": "text",
           "settings": {
+            "text": "<p>Unik Nordic macht ab dem 20.12. bis zum 5.12. Betriebsferien. Deine Bestellung wird also am 6.1. wieder versendet.<br/>Ich wünsche dir eine besinnliche und genussvolle Weihnachtszeit und einen zauberhaften Rutsch in das Jahr 2025!<br/><em>Deine Sindy</em></p>"
           }
         }
       },
       "block_order": [
-        "subtotal",
-        "buttons"
+        "heading_k6YHME",
+        "text_r3pTFc"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-d1902cd5-778b-4a02-9488-541754a55407",
+        "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 40
+        "padding_bottom": 52
       }
     },
     "featured-collection": {
@@ -68,11 +75,45 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_liquid_WrxyHG": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% render 'recommended-products-own' %}",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "cart-items",
+    "rich_text_cayFdL",
+    "featured-collection",
     "cart-footer",
-    "featured-collection"
+    "custom_liquid_WrxyHG"
   ]
 }

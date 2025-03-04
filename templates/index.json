@@ -9,46 +9,27 @@
  */
 {
   "sections": {
-    "slideshow_7WPkPD": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_kM4YFT": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/2024_Kindertag_Mesa_de_trabajo_1-03.jpg",
-            "heading": "",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_kM4YFT"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4": {
       "type": "slideshow",
       "blocks": {
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/NEU_Living_Steintapete.jpg",
+            "heading": "Neuheiten",
+            "heading_size": "h1",
+            "subheading": "Entdecke neue Motive und Produkte für dein Zuhause!",
+            "button_label": "Jetzt stöbern",
+            "link": "shopify://collections/neues",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-276f73b7-efe0-4d63-8abf-157b0932f212",
+            "text_alignment_mobile": "right"
+          }
+        },
         "00332378-0e47-4c7a-b477-9006f35a538b": {
           "type": "slide",
           "settings": {
@@ -73,7 +54,7 @@
             "image": "shopify://shop_images/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
             "heading": "Wandsticker",
             "heading_size": "h1",
-            "subheading": "<strong>Gestalte deine Wand selbst oder gemeinsam mit deinem Kind.</strong>",
+            "subheading": "Kinderleichte Wandgestaltung - spielerisch, kreativ, einzigartig",
             "button_label": "Jetzt ansehen",
             "link": "shopify://collections/wandsticker",
             "button_style_secondary": false,
@@ -89,11 +70,11 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Tapete-Fototapete-Wandtapete-Marmor-Pastell-Stein-Struktur-beige-01_bea18eed-9963-4b1d-8903-1f1b47703da4.jpg",
-            "heading": "Marmor- & Stein­tapeten",
+            "heading": "Tapeten nach Räumen",
             "heading_size": "h1",
-            "subheading": "Atmosphärisch natürliche Muster und kunstvolle Aquarelle",
+            "subheading": "Hier findest du die Empfehlungen welche Tapete sich für welchen Raum eigenet.",
             "button_label": "Jetzt ansehen",
-            "link": "shopify://collections/marmor-steintapeten",
+            "link": "shopify://pages/tapeten-fuer-alle-raume",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": false,
@@ -109,7 +90,7 @@
             "image": "shopify://shop_images/kura-sticker-aufkleber-baustelle-bagger-junge-bau03jpg.jpg",
             "heading": "Möbelfolien",
             "heading_size": "h1",
-            "subheading": "Werte deine Möbel mit Folien auf",
+            "subheading": "Werte deine Möbel mit passgenauen Folien auf",
             "button_label": "Jetzt ansehen",
             "link": "shopify://collections/mobelfolien",
             "button_style_secondary": false,
@@ -120,32 +101,14 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Tapete-Motivtapete-Fototapete-Landschaft-Pastell-Wandbild-Hell-Malerei-03.jpg",
-            "heading": "<a href=\"/collections/neues\" title=\"Neues\">Neu im Sortiment</a>",
-            "heading_size": "h1",
-            "subheading": "<a href=\"/collections/neues\" title=\"Neues\"><strong>Neuheiten bei Produkten und Motiven. Sei im Trend!</strong></a>",
-            "button_label": "Jetzt ansehen",
-            "link": "shopify://collections/neues",
-            "button_style_secondary": false,
-            "box_align": "bottom-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "inverse",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1",
         "00332378-0e47-4c7a-b477-9006f35a538b",
         "b4e3236e-8312-49c6-ba50-20558b8061ef",
         "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-2",
-        "9be37071-bb59-420b-a356-632d89308bf8",
-        "template--18322339561740__d76e8a84-398a-4dc8-983e-7d1fad7a1cb4-slide-1"
+        "9be37071-bb59-420b-a356-632d89308bf8"
       ],
       "custom_css": [
         "a {text-decoration: none;}",
@@ -193,7 +156,112 @@
         "logo_76tkMj"
       ],
       "disabled": true,
+      "settings": {}
+    },
+    "ss_circle_menu_XwgEY3": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_J7AmBG": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-kinderzimmer-wald-tannen01jpg.jpg",
+            "bubble_text": "Tapete Kinderzimmer",
+            "bubble_link": "shopify://collections/tapete-kinderzimmer"
+          }
+        },
+        "image_qi7Ufb": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-vintage-blumen-aquarell-border-von-oben4jpg.jpg",
+            "bubble_text": "Tapete Wohnzimmer",
+            "bubble_link": "shopify://collections/tapete-wohnzimmer"
+          }
+        },
+        "image_TNXMCK": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/tapete-marmor-stein-gruen3jpg.jpg",
+            "bubble_text": "Tapete Esszimmer",
+            "bubble_link": "shopify://collections/tapete-esszimmer"
+          }
+        },
+        "image_6k4jh9": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/1048wttapete-blumen-vintage-alt-blueten-wand-fototapete-retro-schlafzimmer.jpg",
+            "bubble_text": "Tapete Schlafzimmer",
+            "bubble_link": "shopify://collections/tapete-schlafzimmer"
+          }
+        },
+        "image_6tniH3": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
+            "bubble_text": "Wandsticker",
+            "bubble_link": "shopify://collections/wandsticker"
+          }
+        },
+        "image_gTiYw7": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/kuchenruckwand-folie-vintage-blumen-floral-diy-spritzschutz03jpg.jpg",
+            "bubble_text": "Rückwände für Küchen",
+            "bubble_link": "shopify://collections/kuechenfolie"
+          }
+        },
+        "image_t8ya3A": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/malmaufkleberfolieikeablumenrosen-09jpg.jpg",
+            "bubble_text": "IKEA Hacks",
+            "bubble_link": "shopify://collections/alle-moebelfolien"
+          }
+        }
+      },
+      "block_order": [
+        "image_J7AmBG",
+        "image_qi7Ufb",
+        "image_TNXMCK",
+        "image_6k4jh9",
+        "image_6tniH3",
+        "image_gTiYw7",
+        "image_t8ya3A"
+      ],
       "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "avenir_next_n4",
+        "text_size": 12,
+        "text_size_mobile": 10,
+        "text_height": 130,
+        "text_mt": 8,
+        "icon_border_color": "#bf9f86",
+        "icon_border_gradient": "",
+        "text_color": "#595959",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
       }
     },
     "172926778639d65192": {
@@ -201,8 +269,7 @@
       "blocks": {
         "trusted_shops_easy_integration_trusted_stars_Dzj38B": {
           "type": "shopify://apps/trusted-shops-easy-integration/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -262,10 +329,25 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
+    "1704285458eab9a7ff": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_NdG3qE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_NdG3qE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_t3jxVk": {
       "type": "featured-collection",
       "custom_css": [
-        "h2 {font-family: \"Bon Voyage Regular\", serif;}",
         ".card-information {display: none;}"
       ],
       "settings": {
@@ -274,15 +356,15 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "alle-tapeten",
-        "products_to_show": 8,
+        "collection": "tapeten-fuer-kinderzimmer",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "background-2",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -291,6 +373,127 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "home-tapeten",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_3p97cH": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "wandsticker",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_6h7Agh": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ikea-kura-bett-folien",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_9b7bj7": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".card-information {display: none;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ikea-malm-mobelfolien",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "link",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -319,6 +522,7 @@
         },
         "template--18322339561740__f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Motive.png",
             "title": "Einzigartige Motive",
@@ -329,6 +533,7 @@
         },
         "37ddb6a2-01d2-49f4-94ba-b04877663891": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Motivservice.png",
             "title": "Persön­licher Motiv­service",
@@ -341,7 +546,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ecom-edit-image-ZuSKvz7ZcVIcon_Druck.png",
-            "title": "Berliner Druck",
+            "title": "Made in Germany",
             "text": "<p>Alle meine Tapeten werden von einer großartigen Druckerei in Berlin-Adlershof angefertigt und ausgiebig geprüft.</p>",
             "link_label": "",
             "link": ""
@@ -349,6 +554,7 @@
         },
         "8063ec4e-9651-4cb8-8ee1-0d68576f9b4e": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Kalkulation.png",
             "title": "Kalkulator",
@@ -369,6 +575,7 @@
         },
         "a4b302be-1cd8-422d-befe-523463196468": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Icon_Know_How.png",
             "title": "Meine Passion",
@@ -406,22 +613,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "171699842267b6a21f": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_ugc_media_grid_C4j78X": {
-          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_ugc_media_grid_C4j78X"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "image_with_text_VEYqap": {
@@ -513,15 +704,10 @@
         "show_text_below": false
       }
     },
-    "1704285458eab9a7ff": {
+    "apps_fDeNCc": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_medals_NdG3qE": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        },
-        "2597eb6a-aa01-479c-a74b-7d80391dfd2f": {
+        "judge_me_reviews_featured_carousel_YtGeDW": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1400
@@ -529,11 +715,7 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_medals_NdG3qE",
-        "2597eb6a-aa01-479c-a74b-7d80391dfd2f"
-      ],
-      "custom_css": [
-
+        "judge_me_reviews_featured_carousel_YtGeDW"
       ],
       "settings": {
         "include_margins": true
@@ -559,201 +741,6 @@
         "include_margins": true
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "kindertapeten"
-          }
-        },
-        "85aad2c5-311f-490e-b87d-efa516fb14e3": {
-          "type": "collection",
-          "settings": {
-            "collection": "naturtapeten"
-          }
-        },
-        "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5": {
-          "type": "collection",
-          "settings": {
-            "collection": "abstrakte-tapeten"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "85aad2c5-311f-490e-b87d-efa516fb14e3",
-        "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5"
-      ],
-      "custom_css": [
-        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
-      ],
-      "settings": {
-        "heading": "Kollektionen",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "0df249d7-ed45-4953-87b1-586b8352a83e": {
-      "type": "collage",
-      "blocks": {
-        "0945f3da-a152-4c24-8328-848fa1d66c19": {
-          "type": "collection",
-          "settings": {
-            "collection": "fototapeten-home-gym"
-          }
-        },
-        "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9": {
-          "type": "collection",
-          "settings": {
-            "collection": "muster"
-          }
-        },
-        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
-          "type": "collection",
-          "settings": {
-            "collection": "ikea-kura-bett-folien"
-          }
-        }
-      },
-      "block_order": [
-        "0945f3da-a152-4c24-8328-848fa1d66c19",
-        "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9",
-        "c115f993-e3d1-40f8-8093-150b7d9f18da"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "none",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=g16yvx8hpt0",
-        "cover_image": "shopify://shop_images/produktionsvideo_titel.jpg",
-        "description": "Unik Nordic Produktionsvideo",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "tooltips_gGYKab": {
-      "type": "tooltips",
-      "blocks": {
-        "tooltip_BK3KH8": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Fototapete Blooming Spring",
-            "content": "Dieses <a href=\"https://unik-nordic.com/products/fototapete-blooming-spring\">Motiv</a> bringt den Frühling an deine Wand!",
-            "top": 19,
-            "left": 29
-          }
-        },
-        "tooltip_UzgykR": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Malm Möbelfolie Blooming Spring",
-            "content": "Diese exakt zugeschnittene Folie ist leicht anzubringen und wertet deine Möbel im Handumdrehen auf.",
-            "top": 58,
-            "left": 31
-          }
-        },
-        "tooltip_H3xawB": {
-          "type": "Tooltip",
-          "settings": {
-            "title": "Küchenfolie Blooming Spring",
-            "content": "Auch in deiner Küche findet dieses florale Motiv Platz. Schütze deine Rückwand vor Spritzern und lass ihn dabei noch gut aussehen!",
-            "top": 47,
-            "left": 62
-          }
-        }
-      },
-      "block_order": [
-        "tooltip_BK3KH8",
-        "tooltip_UzgykR",
-        "tooltip_H3xawB"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/blooming_spring_thema.jpg",
-        "tooltip_color": "#ffffff",
-        "tooltip_background_color": "#bf9f86",
-        "tooltip_focus_color": "#bcb2a8",
-        "breakpoint": "768"
-      }
-    },
     "featured_product_kBnGme": {
       "type": "featured-product",
       "blocks": {
@@ -765,8 +752,7 @@
         },
         "price_zjKJCB": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_YhzYek": {
           "type": "variant_picker",
@@ -777,8 +763,7 @@
         },
         "quantity_selector_wix39P": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_f3B8r3": {
           "type": "buy_buttons",
@@ -820,6 +805,148 @@
         "padding_bottom": 36
       }
     },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "kindertapeten"
+          }
+        },
+        "85aad2c5-311f-490e-b87d-efa516fb14e3": {
+          "type": "collection",
+          "settings": {
+            "collection": "naturtapeten"
+          }
+        },
+        "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5": {
+          "type": "collection",
+          "settings": {
+            "collection": "abstrakte-tapeten"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "85aad2c5-311f-490e-b87d-efa516fb14e3",
+        "a7c38037-e3f5-42b7-a5fe-b89b3c6b3be5"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "heading": "Kollektionen",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "0df249d7-ed45-4953-87b1-586b8352a83e": {
+      "type": "collage",
+      "blocks": {
+        "0945f3da-a152-4c24-8328-848fa1d66c19": {
+          "type": "collection",
+          "settings": {
+            "collection": "fototapeten-home-gym"
+          }
+        },
+        "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9": {
+          "type": "collection",
+          "settings": {
+            "collection": "muster"
+          }
+        },
+        "c115f993-e3d1-40f8-8093-150b7d9f18da": {
+          "type": "collection",
+          "settings": {
+            "collection": "ikea-kura-bett-folien"
+          }
+        }
+      },
+      "block_order": [
+        "0945f3da-a152-4c24-8328-848fa1d66c19",
+        "8ceb1b2b-6cc7-4ddf-8196-55362fed14d9",
+        "c115f993-e3d1-40f8-8093-150b7d9f18da"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=g16yvx8hpt0",
+        "cover_image": "shopify://shop_images/produktionsvideo_titel.jpg",
+        "description": "Unik Nordic Produktionsvideo",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "tooltips_gGYKab": {
+      "type": "tooltips",
+      "blocks": {
+        "tooltip_BK3KH8": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Fototapete Blooming Spring",
+            "content": "Dieses <a href=\"https://unik-nordic.com/products/fototapete-blooming-spring\">Motiv</a> bringt den Frühling an deine Wand!",
+            "top": 19,
+            "left": 29
+          }
+        },
+        "tooltip_UzgykR": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Malm Möbelfolie Blooming Spring",
+            "content": "Diese exakt zugeschnittene Folie ist leicht anzubringen und wertet deine Möbel im Handumdrehen auf.",
+            "top": 58,
+            "left": 31
+          }
+        },
+        "tooltip_H3xawB": {
+          "type": "Tooltip",
+          "settings": {
+            "title": "Küchenfolie Blooming Spring",
+            "content": "Auch in deiner Küche findet dieses florale Motiv Platz. Schütze deine Rückwand vor Spritzern und lass ihn dabei noch gut aussehen!",
+            "top": 47,
+            "left": 62
+          }
+        }
+      },
+      "block_order": [
+        "tooltip_BK3KH8",
+        "tooltip_UzgykR",
+        "tooltip_H3xawB"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/blooming_spring_thema.jpg",
+        "tooltip_color": "#ffffff",
+        "tooltip_background_color": "#bf9f86",
+        "tooltip_focus_color": "#bcb2a8",
+        "breakpoint": "768"
+      }
+    },
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
@@ -855,24 +982,27 @@
     }
   },
   "order": [
-    "slideshow_7WPkPD",
     "d76e8a84-398a-4dc8-983e-7d1fad7a1cb4",
     "bekannt_aus_pprF7b",
+    "ss_circle_menu_XwgEY3",
     "172926778639d65192",
     "46d794bc-7a98-4fa8-9086-fc0ccec2de34",
+    "1704285458eab9a7ff",
+    "featured_collection_t3jxVk",
     "featured_collection",
+    "featured_collection_3p97cH",
+    "featured_collection_6h7Agh",
+    "featured_collection_9b7bj7",
     "f65eaa63-60ff-41ab-b1d3-8e5d75b8d05c",
-    "171699842267b6a21f",
     "image_with_text_VEYqap",
     "image_banner",
-    "1704285458eab9a7ff",
+    "apps_fDeNCc",
     "1703089345cd69a960",
+    "featured_product_kBnGme",
     "collage",
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
-    "multicolumn",
     "tooltips_gGYKab",
-    "featured_product_kBnGme",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409"
   ]

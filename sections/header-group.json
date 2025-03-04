@@ -11,6 +11,47 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "ss_countdown_bar_TUigfW": {
+      "type": "ss-countdown-bar",
+      "blocks": {
+        "text_wqNLwf": {
+          "type": "text",
+          "settings": {
+            "heading": "Black Friday Sale",
+            "color": "#ffffff",
+            "font_size": 24
+          }
+        },
+        "timer_cmFXe4": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "12",
+            "day": "03",
+            "hour": "00",
+            "minute": "00",
+            "hide_timer_on_completed": true,
+            "color": "#ffffff",
+            "font_size_number": 20,
+            "font_size_text": 10
+          }
+        }
+      },
+      "block_order": [
+        "text_wqNLwf",
+        "timer_cmFXe4"
+      ],
+      "disabled": true,
+      "settings": {
+        "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
+        "use_cross": true,
+        "days_text": "Tage",
+        "hours_text": "Stunden",
+        "mins_text": "Minuten",
+        "seconds_text": "Sekunden",
+        "background-color": "#bc7f63"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -25,8 +66,8 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Preisanpassung zum 7.10.24",
-            "link": "shopify://pages/preisinformation"
+            "text": "INFO: Betriebsferien von 20.12 - 5.1.",
+            "link": ""
           }
         },
         "announcement-bar-0": {
@@ -49,19 +90,17 @@
         "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
-        "enable_language_selector": true
+        "enable_language_selector": false
       }
     },
     "header": {
       "type": "header",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "top-center",
         "menu": "megamenu",
         "menu_type_desktop": "mega",
-        "mega_menu_images_toggle": "none",
+        "mega_menu_images_toggle": "metafield",
         "mega_menu_images_title": false,
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
@@ -71,7 +110,7 @@
         "drawer_menu_images_border_toggle": false,
         "drawer_menu_images_border_color": "#bc7f63",
         "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
@@ -81,6 +120,7 @@
     }
   },
   "order": [
+    "ss_countdown_bar_TUigfW",
     "announcement-bar",
     "header"
   ]

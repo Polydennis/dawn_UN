@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_wDbiV8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XjnkUg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>BLACK SPECIAL</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_zJQiDK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kaufe ein <strong>beliebiges Wandsticker-Set in Größe L</strong> und du bekommst ein<strong> 2. Sticker-Set</strong> in Größe L <strong>GRATIS</strong> dazu! Lege dafür einfach deine beiden Lieblingsmotive in den Warenkorb & der Rabatt wird automatisch abgezogen.</p>"
+          }
+        },
+        "text_j38QTL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nur vom 29.11. - 01.12.2024.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XjnkUg",
+        "text_zJQiDK",
+        "text_j38QTL"
+      ],
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_kCHjX3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "WANDSTICKER",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "wandsticker",
+        "products_to_show": 25,
+        "columns_desktop": 2,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_wDbiV8",
+    "featured_collection_kCHjX3"
+  ]
+}
