@@ -275,6 +275,7 @@
         "video_AMzNjd",
         "video_q9AbKE"
       ],
+      "disabled": true,
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
