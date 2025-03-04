@@ -311,7 +311,7 @@
         "arrow_show_desktop": true,
         "arrow_show_mobile": true,
         "show_content": true,
-        "modal_width": 30,
+        "modal_width": 60,
         "modal_width_mobile": 95,
         "modal_padding_vertical": 0,
         "modal_padding_vertical_mobile": 0,
