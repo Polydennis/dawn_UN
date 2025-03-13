@@ -11,7 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/Logo_2022_frei_4e23c94d-ab53-4e75-be78-ba7208f47cd9.png",
     "logo_width": 160,
-    "favicon": "shopify://shop_images/favicon_trans.png",
+    "favicon": "shopify://shop_images/Favicon_Updated_2d2b017d-b16d-4921-af5b-2c5646f1d5ae.svg",
     "type_header_font": "avenir_next_n3",
     "heading_scale": 100,
     "type_body_font": "avenir_next_n3",
@@ -141,6 +141,12 @@
         "type": "main-password-footer",
         "settings": {
           "color_scheme": "background-1"
+        }
+      },
+      "cart-drawer": {
+        "type": "cart-drawer",
+        "settings": {
+          "enable_recommended": "true"
         }
       }
     },
