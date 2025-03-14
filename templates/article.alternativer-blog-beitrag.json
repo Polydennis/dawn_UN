@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "medium"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_w3dD7H": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MzrJ6k": {
+          "type": "heading",
+          "settings": {
+            "heading": "Über die Autorin",
+            "heading_size": "h2"
+          }
+        },
+        "text_WQQtxi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ich bin Sindy, die Gründerin von Unik Nordic, und lebe meine Leidenschaft für Design und Ästhetik in allen meinen Produkten aus. Jede Idee, jedes Motiv wird von mir persönlich entwickelt, um dein Zuhause zu einem ganz besonderen Ort zu machen. Mein Ziel ist es, mit kreativen und hochwertigen Wandgestaltungen, Möbel- und Küchenfolien sowie Wandtattoos deine Wohnträume wahr werden zu lassen. Dabei setze ich auf Qualität, Nachhaltigkeit und einen persönlichen Service, um dir ein rundum perfektes Ergebnis zu bieten</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MzrJ6k",
+        "text_WQQtxi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Foto_Website.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "accent-2",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_w3dD7H"
+  ]
+}
