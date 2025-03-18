@@ -947,6 +947,21 @@
         "breakpoint": "768"
       }
     },
+    "1742295500c59a707d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_wcEyMD": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_wcEyMD"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
@@ -1003,6 +1018,7 @@
     "0df249d7-ed45-4953-87b1-586b8352a83e",
     "video",
     "tooltips_gGYKab",
+    "1742295500c59a707d",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409"
   ]
