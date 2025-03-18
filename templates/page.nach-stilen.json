@@ -131,7 +131,7 @@
         "button_H7UNfk": {
           "type": "button",
           "settings": {
-            "button_label": "Beliebte Kindertapeten",
+            "button_label": "Kindertapeten",
             "button_link": "shopify://pages/beliebte-kindertapeten",
             "button_style_secondary": false
           }
