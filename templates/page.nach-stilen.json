@@ -38,12 +38,6 @@
             "collection": "abstrakte-tapeten"
           }
         },
-        "featured_collection_mUDPpW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "architekturtapeten"
-          }
-        },
         "featured_collection_WjQa3i": {
           "type": "featured_collection",
           "settings": {
@@ -60,6 +54,12 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dschungeltapeten"
+          }
+        },
+        "featured_collection_FRrqaT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kindertapeten"
           }
         },
         "featured_collection_X3bgEi": {
@@ -89,10 +89,10 @@
       },
       "block_order": [
         "featured_collection_TzEE7L",
-        "featured_collection_mUDPpW",
         "featured_collection_WjQa3i",
         "featured_collection_EaEag6",
         "featured_collection_hmRC4n",
+        "featured_collection_FRrqaT",
         "featured_collection_X3bgEi",
         "featured_collection_6C9kFN",
         "featured_collection_8yx4EG",
@@ -142,6 +142,7 @@
         "text_7xhRWb",
         "button_H7UNfk"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/wandsticker-aufklerber-safari-dschungel-kinder-zimmermood01jpg.jpg",
         "height": "small",
