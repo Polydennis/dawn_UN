@@ -1,0 +1,145 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_WAttAc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"collection-hero__outer page-width scroll-trigger animate--fade-in\">\n    <div style=\"padding: 5px; background-color: #BCB2A8\">\n        <div class=\"category-header\" style=\"position: relative;\">\n            <style>\n                .category-header {\n                    {% if collection.image %}\n                    background: url('{{ collection.image | img_url: '1024x1024' }}') no-repeat center center;\n                    background-size: cover;\n                    {% endif %}\n                    min-height: 200px;\n                    display: flex;\n                    align-items: center;\n                    justify-content: center;\n                    position: relative;\n                }\n                .category-header h1 {\n                    font-family: 'Bon Voyage Regular', serif;\n                    font-size: clamp(2em, 5vw, 3em);\n                    font-weight: 500;\n                    text-transform: uppercase;\n                    letter-spacing: 2px;\n                    color: #ffffff;\n                    text-shadow: 2px 2px 2px #595959;\n                    background-color: rgba(191,159,134,0.6);\n                    padding: 10px 10px 0;\n                    text-align: center;\n                    margin-left: min(1em, 20vw);\n                    margin-right: min(1em, 20vw);\n                    max-width: 100%;\n                    position: relative;\n                    z-index: 2;\n                }\n            </style>\n            <h1>{{ collection.title }}</h1>\n        </div>\n    </div>\n    <div class=\"collection-hero__text-wrapper rte\" style=\"margin-top:1em;\">\n        <div class=\"collection-hero__description rte center\">\n            {{ collection.description }}\n        </div>\n    </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_MrGGzN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mncBhh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tapeten für Wohnbereiche",
+            "heading_size": "h1"
+          }
+        },
+        "text_8rb3j4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Egal ob Wohnzimmer, Schlafzimmer, Flur - Finde genau die Tapete, die deinem Raum das gewisse Etwas verleiht. Hochwertig, individuell und einfach anzubringen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mncBhh",
+        "text_8rb3j4"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "columns_mobile": "1",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "171689915465a33be9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_pWTdz7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_pWTdz7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_newK9d": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ag3qyH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.seo_text | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_ag3qyH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1739175709dcc04b8c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_NVJT4x": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_NVJT4x"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_WAttAc",
+    "rich_text_MrGGzN",
+    "banner",
+    "product-grid",
+    "171689915465a33be9",
+    "rich_text_newK9d",
+    "1739175709dcc04b8c"
+  ]
+}
