@@ -199,53 +199,41 @@
         "video_4tcMNq": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_01_Feenwald_9b191055-b0c6-46dc-8bc8-3fed89cd9d35.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_01_Feenwald_513b8720-560c-493e-8556-26bec22e2e9f.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/wandsticker-feenwald\" title=\"Wandsticker Feenwald\">Wandsticker Feenwald</a></p>"
           }
         },
         "video_4tKXCh": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_02_Wolkentiere.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_02_Wolkentiere.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/wandsticker-wolken-tiere\" title=\"Wandsticker Wolken Tiere\">Wandsticker Wolkentiere</a></p>"
           }
         },
         "video_wCkEVG": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_kz7YJy": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_bCrAzX": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_03_Safari Aquarell.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_03_Safari Aquarell.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/wandsticker-safari-aquarell\" title=\"Wandsticker Safari Aquarell\">Wandsticker Safari Aquarell</a></p>"
           }
         }
       },
       "block_order": [
         "video_4tcMNq",
         "video_4tKXCh",
-        "video_wCkEVG",
-        "video_kz7YJy",
-        "video_bCrAzX"
+        "video_wCkEVG"
       ],
       "settings": {
-        "videos_position": "below_description",
+        "videos_position": "above_description",
         "use_metafield": false,
         "heading": "",
         "heading_custom": false,
