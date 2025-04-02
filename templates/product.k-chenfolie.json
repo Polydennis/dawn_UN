@@ -220,9 +220,11 @@
         "video_4VzXqW": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_03_Metrofliesen weiß.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_03_Metrofliesen weiß.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/kuechenfolie-metrofliesen\" title=\"Küchen­folie Metro­fliesen\">Küchenfolie Metrofliesen</a></p>"
           }
         }
       },
