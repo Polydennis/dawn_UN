@@ -182,6 +182,11 @@
           "button_vertical_position": "lowest",
           "greeting_message": "Hallo!👋 Wenn ich dir irgendwie weiter helfen kann, lass es mich gerne wissen!"
         }
+      },
+      "1667617622883045986": {
+        "type": "shopify://apps/trident-ab-testing/blocks/app_embed/609f6155-7978-4752-94b2-7c68b314a47b",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
