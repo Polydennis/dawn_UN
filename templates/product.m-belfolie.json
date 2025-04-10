@@ -214,24 +214,28 @@
         "video_TfUqNJ": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_02_Babybett.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_02_Babybett.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/ikea-smagora-moebelfolie-schmetterlingsgarten\" title=\"IKEA Smågöra Möbel­folien Schmetter­lings­garten\">IKEA Smågöra Möbel­folien Schmetter­lings­garten</a></p>"
           }
         },
-        "video_pCNLmT": {
+        "video_7dm9GK": {
           "type": "video",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
+            "video": "shopify://files/videos/Video_03_Malm.mp4",
+            "video_url": "",
+            "preload_video": "shopify://files/videos/Thumbnail_03_Malm.mp4",
+            "modal_heading": "",
+            "modal_text": "<p><a href=\"/products/ikea-malm-mobelfolie-schmetterlingsgarten\" title=\"IKEA Malm Möbelfolie Schmetter­lings­garten\">IKEA Malm Möbelfolie Schmetter­lings­garten</a></p>"
           }
         }
       },
       "block_order": [
         "video_VNFqV7",
         "video_TfUqNJ",
-        "video_pCNLmT"
+        "video_7dm9GK"
       ],
       "settings": {
         "videos_position": "above_description",
