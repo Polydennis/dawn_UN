@@ -19,34 +19,166 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_qXDATD": {
-      "type": "rich-text",
+    "collapsible_content_YNJddY": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_MtJjAx": {
-          "type": "heading",
+        "collapsible_row_qDpmM8": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Vor deiner bestellung",
-            "heading_size": "h1"
+            "heading": "Individuell auf deine Maße angepasst",
+            "icon": "check_mark",
+            "row_content": "<p>Ob mit Dachschräge, Fenster oder Tür – ich passe dein Motiv genau auf deinen Raum an, damit alles perfekt sitzt.</p>",
+            "page": ""
           }
         },
-        "text_ywCEYP": {
-          "type": "text",
+        "collapsible_row_7dVrkJ": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+            "heading": "Hochwertiges, langlebiges Material",
+            "icon": "check_mark",
+            "row_content": "<p>Meine Tapeten bestehen aus starkem, reißfestem Vlies mit 180 g/m² – spürbare Qualität für viele Jahre.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_a9fJmp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einfache Anbringung mit Kleister",
+            "icon": "check_mark",
+            "row_content": "<p>Die Tapetenbahnen werden mit normalem Vlieskleber an die Wand gebracht – ganz ohne Stress, ohne Blasen, ohne Chaos.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YNmRqi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vorgeschnitten & nummeriert",
+            "icon": "check_mark",
+            "row_content": "<p>Du bekommst dein Design in fertigen Bahnen, die durchnummeriert sind – das macht die Montage super einfach, auch für Anfängerinnen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_efJ6KM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Motivanpassung auf Raummaße",
+            "icon": "check_mark",
+            "row_content": "<p>Ich achte darauf, dass dein Motiv stimmig angeordnet ist – auch bei Sonderwünschen, ungewöhnlichen Wandformen oder asymmetrischen Flächen. So wirkt das Gesamtbild immer harmonisch und durchdacht.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UaNc7f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Persönliche Betreuung bei Fragen oder Sonderwünschen",
+            "icon": "check_mark",
+            "row_content": "<p>Ich stehe dir persönlich zur Seite – vom ersten Maß bis zum letzten Streifen an der Wand.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "heading_MtJjAx",
-        "text_ywCEYP"
+        "collapsible_row_qDpmM8",
+        "collapsible_row_7dVrkJ",
+        "collapsible_row_a9fJmp",
+        "collapsible_row_YNmRqi",
+        "collapsible_row_efJ6KM",
+        "collapsible_row_UaNc7f"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "caption": "",
+        "heading": "Deine Unik nordic tapeten vorteile auf einen blick",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_HDtbXM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_EKTzFa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Individuell auf deine Maße angepasst",
+            "icon": "check_mark",
+            "row_content": "<p>Deine Küchenfolie wird millimetergenau für dich zugeschnitten – kein Nachschneiden nötig, einfach abziehen und aufkleben.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eWwVg8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hochwertiges, langlebiges Material",
+            "icon": "check_mark",
+            "row_content": "<p>Die Folie ist robust, reißfest und bleibt auch bei täglichem Gebrauch formstabil. So bleibt deine Küche lange ein Hingucker.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_G4QWbk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Selbstklebend & stark haftend",
+            "icon": "check_mark",
+            "row_content": "<p>Kein zusätzlicher Kleber notwendig – einfach abziehen, positionieren und andrücken. Hält zuverlässig auf glatten Oberflächen.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_iqNtLY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Abwischbar & hitzebeständig",
+            "icon": "check_mark",
+            "row_content": "<p>Fett, Soßenspritzer oder Wasser? Kein Problem. Du kannst die Folie feucht abwischen und sie hält auch die Hitze in der Nähe des Herds aus.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_H4hrRX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Keine Fugenabdrücke",
+            "icon": "check_mark",
+            "row_content": "<p>Dank der ordentlichen Materialstärke zeichnen sich Fliesenfugen beim Bekleben nicht ab – das Ergebnis ist glatt und hochwertig.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CTeHCA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Persönliche Betreuung bei Fragen oder Sonderwünschen",
+            "icon": "check_mark",
+            "row_content": "<p>Du hast eine spezielle Fläche oder ein individuelles Maß? Ich helfe dir persönlich, die perfekte Lösung zu finden.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_EKTzFa",
+        "collapsible_row_eWwVg8",
+        "collapsible_row_G4QWbk",
+        "collapsible_row_iqNtLY",
+        "collapsible_row_H4hrRX",
+        "collapsible_row_CTeHCA"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Vorteile der unik nordic küchenfolien",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "video_GRVPXq": {
@@ -59,67 +191,6 @@
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collapsible_content_YNJddY": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_7dVrkJ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_YNmRqi": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_a9fJmp": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_efJ6KM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Einklappbare Reihe",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_7dVrkJ",
-        "collapsible_row_YNmRqi",
-        "collapsible_row_a9fJmp",
-        "collapsible_row_efJ6KM"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Einklappbarer Inhalt",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
-        "color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -142,9 +213,9 @@
   },
   "order": [
     "main",
-    "rich_text_qXDATD",
-    "video_GRVPXq",
     "collapsible_content_YNJddY",
+    "collapsible_content_HDtbXM",
+    "video_GRVPXq",
     "1744703705e0d563fe"
   ]
 }
