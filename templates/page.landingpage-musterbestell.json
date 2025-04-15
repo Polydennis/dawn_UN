@@ -19,69 +19,46 @@
         "padding_bottom": 28
       }
     },
-    "video_GQYA7U": {
+    "rich_text_qXDATD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MtJjAx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vor deiner bestellung",
+            "heading_size": "h1"
+          }
+        },
+        "text_ywCEYP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MtJjAx",
+        "text_ywCEYP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_GRVPXq": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/7mejdvQU6NQ",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_UBfAKk": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_tE3mrG": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_8kCiei": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DmQBEp": {
-          "type": "column",
-          "settings": {
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_tE3mrG",
-        "column_8kCiei",
-        "column_DmQBEp"
-      ],
-      "settings": {
-        "title": "Mit mehreren Spalten",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "Schaltflächenbeschriftung",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -165,8 +142,8 @@
   },
   "order": [
     "main",
-    "video_GQYA7U",
-    "multicolumn_UBfAKk",
+    "rich_text_qXDATD",
+    "video_GRVPXq",
     "collapsible_content_YNJddY",
     "1744703705e0d563fe"
   ]
