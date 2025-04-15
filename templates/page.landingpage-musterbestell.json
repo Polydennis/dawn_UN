@@ -12,15 +12,205 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1, h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
+        "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_pwpfQw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rVn86f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_wTHejb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_P66pQ3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rVn86f",
+        "text_wTHejb",
+        "button_P66pQ3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_UBfAKk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tE3mrG": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8kCiei": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DmQBEp": {
+          "type": "column",
+          "settings": {
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tE3mrG",
+        "column_8kCiei",
+        "column_DmQBEp"
+      ],
+      "settings": {
+        "title": "Mit mehreren Spalten",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_GQYA7U": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_YNJddY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7dVrkJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_YNmRqi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_a9fJmp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_efJ6KM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7dVrkJ",
+        "collapsible_row_YNmRqi",
+        "collapsible_row_a9fJmp",
+        "collapsible_row_efJ6KM"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Einklappbarer Inhalt",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1744703705e0d563fe": {
+      "type": "apps",
+      "blocks": {
+        "trusted_shops_reviews_and_more_trusted_stars_CmQAea": {
+          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trusted_shops_reviews_and_more_trusted_stars_CmQAea"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_pwpfQw",
+    "multicolumn_UBfAKk",
+    "video_GQYA7U",
+    "collapsible_content_YNJddY",
+    "1744703705e0d563fe"
   ]
 }
