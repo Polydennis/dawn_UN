@@ -19,6 +19,24 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_HER3nd": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Tapezieren_Musterauswahl_Blog.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_YNJddY": {
       "type": "collapsible-content",
       "blocks": {
@@ -213,6 +231,7 @@
   },
   "order": [
     "main",
+    "image_with_text_HER3nd",
     "collapsible_content_YNJddY",
     "collapsible_content_HDtbXM",
     "video_GRVPXq",
