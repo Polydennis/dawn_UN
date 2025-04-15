@@ -19,48 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_pwpfQw": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rVn86f": {
-          "type": "heading",
-          "settings": {
-            "heading": "Erzähle etwas über deine Marke",
-            "heading_size": "h1"
-          }
-        },
-        "text_wTHejb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
-          }
-        },
-        "button_P66pQ3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_rVn86f",
-        "text_wTHejb",
-        "button_P66pQ3"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn_UBfAKk": {
       "type": "multicolumn",
       "blocks": {
@@ -207,7 +165,6 @@
   },
   "order": [
     "main",
-    "rich_text_pwpfQw",
     "multicolumn_UBfAKk",
     "video_GQYA7U",
     "collapsible_content_YNJddY",
