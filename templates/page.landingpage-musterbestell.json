@@ -35,6 +35,43 @@
         "show_text_below": false
       }
     },
+    "image_with_text_CtV7xY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HDeK6R": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tapeten bei unik nordic",
+            "heading_size": "h1"
+          }
+        },
+        "text_A9dYj4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HDeK6R",
+        "text_A9dYj4"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_YNJddY": {
       "type": "collapsible-content",
       "blocks": {
@@ -216,6 +253,7 @@
   "order": [
     "main",
     "image_banner_DhJTHK",
+    "image_with_text_CtV7xY",
     "collapsible_content_YNJddY",
     "collapsible_content_HDtbXM",
     "video_GRVPXq"
