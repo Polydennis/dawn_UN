@@ -19,22 +19,20 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_HER3nd": {
-      "type": "image-with-text",
+    "image_banner_DhJTHK": {
+      "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Tapezieren_Musterauswahl_Blog.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "image": "shopify://shop_images/Landingpage_Slim-Banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
       }
     },
     "collapsible_content_YNJddY": {
@@ -105,7 +103,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Deine Unik nordic tapeten vorteile auf einen blick",
+        "heading": "Vorteile der Unik nordic tapeten",
         "heading_size": "h2",
         "heading_alignment": "center",
         "layout": "none",
@@ -202,39 +200,24 @@
     "video_GRVPXq": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "Tipps zum Wandmessen",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "video_url": "https://youtu.be/7mejdvQU6NQ",
+        "cover_image": "shopify://shop_images/Wandvermessen.jpg",
+        "description": "Hinweise zum richtigen vermessen der Wand",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1744703705e0d563fe": {
-      "type": "apps",
-      "blocks": {
-        "trusted_shops_reviews_and_more_trusted_stars_CmQAea": {
-          "type": "shopify://apps/trusted-shops-reviews-and-more/blocks/trusted-stars/2ae4ab38-7eb9-4d62-abe3-d4a5f27cbef2",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "trusted_shops_reviews_and_more_trusted_stars_CmQAea"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
-    "image_with_text_HER3nd",
+    "image_banner_DhJTHK",
     "collapsible_content_YNJddY",
     "collapsible_content_HDtbXM",
-    "video_GRVPXq",
-    "1744703705e0d563fe"
+    "video_GRVPXq"
   ]
 }
