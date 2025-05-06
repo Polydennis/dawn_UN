@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Richtiges Zubehör",
             "icon": "clipboard",
-            "row_content": "<p>Für ein sauberes Ergebnis empfehlen wir das passende Zubehör:<br/><br/>🖌️ <strong>Für Tapeten:</strong> Kleister, Andrückrolle, Wasserwaage und Cutter.<br/><br/>🧽 <strong>Für Küchenfolien:</strong> Rakel mit Filzkante und Cutter</p><p>🛒 <strong>Alles Nötige findest du in unserem Onlineshop: </strong><a>Zubehör entdecken</a></p>",
+            "row_content": "<p>Für ein sauberes Ergebnis empfehlen wir das passende Zubehör:<br/><br/>🖌️ <strong>Für Tapeten:</strong> Kleister, Andrückrolle, Wasserwaage und Cutter.<br/>🧽 <strong>Für Küchenfolien:</strong> Rakel mit Filzkante und Cutter</p><p>🛒 <strong>Alles Nötige findest du in unserem Onlineshop: </strong><a>Zubehör entdecken</a></p>",
             "page": ""
           }
         },
@@ -367,6 +367,15 @@
             "row_content": "<p>Du hast eine spezielle Fläche oder ein individuelles Maß? Ich helfe dir persönlich, die perfekte Lösung zu finden.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_8KPjyw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -375,7 +384,8 @@
         "collapsible_row_G4QWbk",
         "collapsible_row_iqNtLY",
         "collapsible_row_H4hrRX",
-        "collapsible_row_CTeHCA"
+        "collapsible_row_CTeHCA",
+        "collapsible_row_8KPjyw"
       ],
       "disabled": true,
       "settings": {
@@ -407,6 +417,21 @@
         "padding_top": 24,
         "padding_bottom": 36
       }
+    },
+    "video_wDcEMh": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Wand vorbereiten und tapezieren",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/XbyfX2G2xls",
+        "description": "Hinweis zur Wandvorbereitung und zur Anbringung der Tapete an der Wand",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -418,6 +443,7 @@
     "collapsible_content_YNJddY",
     "image_with_text_fHCR3b",
     "collapsible_content_HDtbXM",
-    "video_GRVPXq"
+    "video_GRVPXq",
+    "video_wDcEMh"
   ]
 }
