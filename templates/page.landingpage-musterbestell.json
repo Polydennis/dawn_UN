@@ -200,6 +200,38 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_mkRdUg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jzQWfA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspiration gefällig?",
+            "heading_size": "h2"
+          }
+        },
+        "text_JHLy8M": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Folge uns auf Social Media</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jzQWfA",
+        "text_JHLy8M"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "bekannt_aus_H8tcbE": {
       "type": "bekannt-aus",
       "blocks": {
@@ -232,7 +264,8 @@
       ],
       "custom_css": [
         ".logo-link {display: block; text-align: center;}",
-        ".logo-image {width: 50%;}"
+        ".logo-image {width: 50%;}",
+        ".bekannt-aus-section {margin-top: -40px;}"
       ],
       "name": "Bekannt aus",
       "settings": {}
@@ -245,6 +278,7 @@
     "collapsible_content_VFtA8j",
     "video_GRVPXq",
     "video_wDcEMh",
+    "rich_text_mkRdUg",
     "bekannt_aus_H8tcbE"
   ]
 }
