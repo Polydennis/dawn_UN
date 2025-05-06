@@ -426,6 +426,7 @@
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://youtu.be/XbyfX2G2xls",
+        "cover_image": "shopify://shop_images/Montage-Video.jpg",
         "description": "Hinweis zur Wandvorbereitung und zur Anbringung der Tapete an der Wand",
         "full_width": false,
         "color_scheme": "",
