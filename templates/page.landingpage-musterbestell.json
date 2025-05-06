@@ -36,6 +36,91 @@
         "show_text_below": false
       }
     },
+    "ss_circle_menu_xQYzat": {
+      "type": "ss-circle-menu",
+      "blocks": {
+        "image_WC7feQ": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/faq.jpg",
+            "bubble_text": "FAQ",
+            "bubble_link": "shopify://pages/infos-faq"
+          }
+        },
+        "image_afKMp3": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_bwyQTN": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_XiRLXx": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        },
+        "image_ft6YNU": {
+          "type": "Image",
+          "settings": {
+            "bubble_text": "Collection",
+            "bubble_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WC7feQ",
+        "image_afKMp3",
+        "image_bwyQTN",
+        "image_XiRLXx",
+        "image_ft6YNU"
+      ],
+      "name": "SS - Circle Menu",
+      "settings": {
+        "slider_width": 100,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "icon_size": 108,
+        "icon_size_mobile": 74,
+        "icon_space": 0,
+        "icon_space_mobile": 0,
+        "icon_border_thickness": 1,
+        "icon_square": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 30,
+        "text_size_mobile": 14,
+        "text_height": 170,
+        "text_mt": 8,
+        "icon_border_color": "#000000",
+        "icon_border_gradient": "",
+        "text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "border_gradient": "",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 150,
+        "border_thickness": 0,
+        "lazy": true,
+        "hide_mobile": false,
+        "hide_desktop": false
+      }
+    },
     "image_with_text_CtV7xY": {
       "type": "image-with-text",
       "blocks": {
@@ -45,18 +130,10 @@
             "heading": "Tapeten bei unik nordic",
             "heading_size": "h1"
           }
-        },
-        "text_A9dYj4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "heading_HDeK6R",
-        "text_A9dYj4"
+        "heading_HDeK6R"
       ],
       "settings": {
         "image": "shopify://shop_images/Tapeten-Musterseite.jpg",
@@ -71,7 +148,7 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "collapsible_content_YNJddY": {
@@ -82,7 +159,7 @@
           "settings": {
             "heading": "Individuell auf deine Maße angepasst",
             "icon": "check_mark",
-            "row_content": "<p>Ob mit Dachschräge, Fenster oder Tür – ich passe dein Motiv genau auf deinen Raum an, damit alles perfekt sitzt.</p>",
+            "row_content": "<p>Ob mit Dachschräge, Fenster oder Tür – Sindy passt dein Motiv genau auf deinen Raum an, damit alles perfekt sitzt.</p>",
             "page": ""
           }
         },
@@ -91,7 +168,7 @@
           "settings": {
             "heading": "Hochwertiges, langlebiges Material",
             "icon": "check_mark",
-            "row_content": "<p>Meine Tapeten bestehen aus starkem, reißfestem Vlies mit 180 g/m² – spürbare Qualität für viele Jahre.</p>",
+            "row_content": "<p>Unsere Tapeten bestehen aus starkem, reißfestem Vlies mit 180 g/m² – spürbare Qualität für viele Jahre.</p>",
             "page": ""
           }
         },
@@ -118,7 +195,7 @@
           "settings": {
             "heading": "Motivanpassung auf Raummaße",
             "icon": "check_mark",
-            "row_content": "<p>Ich achte darauf, dass dein Motiv stimmig angeordnet ist – auch bei Sonderwünschen, ungewöhnlichen Wandformen oder asymmetrischen Flächen. So wirkt das Gesamtbild immer harmonisch und durchdacht.</p>",
+            "row_content": "<p>Sindy achtet darauf, dass dein Motiv stimmig angeordnet ist – auch bei Sonderwünschen, ungewöhnlichen Wandformen oder asymmetrischen Flächen. So wirkt das Gesamtbild immer harmonisch und durchdacht.</p>",
             "page": ""
           }
         },
@@ -127,7 +204,7 @@
           "settings": {
             "heading": "Persönliche Betreuung bei Fragen oder Sonderwünschen",
             "icon": "check_mark",
-            "row_content": "<p>Ich stehe dir persönlich zur Seite – vom ersten Maß bis zum letzten Streifen an der Wand.</p>",
+            "row_content": "<p>Wir stehen dir persönlich zur Seite – vom ersten Maß bis zum letzten Streifen an der Wand.</p>",
             "page": ""
           }
         }
@@ -293,6 +370,7 @@
   "order": [
     "main",
     "image_banner_DhJTHK",
+    "ss_circle_menu_xQYzat",
     "image_with_text_CtV7xY",
     "collapsible_content_YNJddY",
     "image_with_text_fHCR3b",

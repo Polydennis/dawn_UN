@@ -169,11 +169,6 @@
         "disabled": false,
         "settings": {}
       },
-      "1667617622883045986": {
-        "type": "shopify://apps/trident-ab-testing/blocks/app_embed/609f6155-7978-4752-94b2-7c68b314a47b",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
