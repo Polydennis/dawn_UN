@@ -98,7 +98,7 @@
           "settings": {
             "heading": "Wand messen und vorbereiten",
             "icon": "ruler",
-            "row_content": "<h3></h3><h3><strong>Wand fürs Tapezieren vorbereiten:</strong></h3><p>Miss deine Wand an mehreren Stellen in Breite und Höhe – jeweils an der weitesten bzw. höchsten Stelle. Schrägen, Vorsprünge oder Sockelleisten sollten mit einbezogen werden. </p><p>🔍 <strong>Eine ausführliche Anleitung zum korrekten Ausmessen findest du hier: </strong><a href=\"https://unik-nordic.com/pages/so-misst-du-deine-wand-richtig-aus\">So misst du deine Wand richtig aus</a></p><p>🔧 Die Wand muss sauber, trocken, glatt und staubfrei sein – alte Tapeten oder lose Farbe bitte vorher entfernen.<br/><br/>🎥 <strong>Tipp:</strong> Weiter unten auf der Seite findest du auch hilfreiche <strong>Erklärvideos</strong> rund ums Vermessen, Bestellen und Anbringen der Tapete.<br/></p><p></p><h3><strong>Wand für Küchenfolie vorbereiten:</strong></h3><p>Miss die zu beklebende Fläche exakt in Breite und Höhe – am besten an mehreren Stellen, um Ungleichmäßigkeiten zu erkennen. Runde bei Unsicherheiten lieber etwas auf.</p><p>🔧 Die Fläche sollte <strong>glatt, sauber, trocken und fettfrei</strong> sein. Entferne alte Folien, Staub, Fettrückstände oder Silikonreste gründlich. Unebenheiten wie Fugen oder Strukturputz können die Haftung beeinträchtigen – glätte sie ggf. vor dem Anbringen.</p>",
+            "row_content": "<h3></h3><h3><strong>Wand fürs Tapezieren vorbereiten:</strong></h3><p>Miss deine Wand an mehreren Stellen in Breite und Höhe – jeweils an der weitesten bzw. höchsten Stelle. Schrägen, Vorsprünge oder Sockelleisten sollten mit einbezogen werden. </p><p>🔍 <strong>Eine ausführliche Anleitung zum korrekten Ausmessen findest du hier: </strong><a href=\"https://unik-nordic.com/pages/so-misst-du-deine-wand-richtig-aus\">So misst du deine Wand richtig aus</a></p><p>🔧 Die Wand muss sauber, trocken, glatt und staubfrei sein – alte Tapeten oder lose Farbe bitte vorher entfernen.<br/><br/>🎥 <strong>Tipp:</strong> Weiter unten auf der Seite findest du auch hilfreiche <strong>Erklärvideos</strong> rund ums Vermessen und Anbringen der Tapete.<br/></p><h3><strong>Wand für Küchenfolie vorbereiten:</strong></h3><p>Miss die zu beklebende Fläche exakt in Breite und Höhe – am besten an mehreren Stellen, um Ungleichmäßigkeiten zu erkennen. Runde bei Unsicherheiten lieber etwas auf.</p><p>🔧 Die Fläche sollte <strong>glatt, sauber, trocken und fettfrei</strong> sein. Entferne alte Folien, Staub, Fettrückstände oder Silikonreste gründlich. Unebenheiten wie Fugen oder Strukturputz können die Haftung beeinträchtigen – glätte sie ggf. vor dem Anbringen.</p>",
             "page": ""
           }
         },
@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Richtiges Zubehör",
             "icon": "clipboard",
-            "row_content": "",
+            "row_content": "<p>Für ein sauberes Ergebnis empfehlen wir das passende Zubehör:<br/><br/>🖌️ <strong>Für Tapeten:</strong> Kleister, Andrückrolle, Wasserwaage und Cutter.<br/><br/>🧽 <strong>Für Küchenfolien:</strong> Rakel mit Filzkante und Cutter</p><p>🛒 <strong>Alles Nötige findest du in unserem Onlineshop: </strong><a>Zubehör entdecken</a></p>",
             "page": ""
           }
         },
@@ -116,7 +116,7 @@
           "settings": {
             "heading": "Einfache Anbringung",
             "icon": "heart",
-            "row_content": "",
+            "row_content": "<p>Unsere Vliestapeten lassen sich besonders leicht verarbeiten: Die Wand wird eingekleistert, dann werden die Bahnen direkt trocken angebracht – ganz ohne Weichzeit oder Tapeziertisch. Auch nachträgliches Korrigieren ist möglich.</p><p>Die selbstklebenden Küchenfolien haften ohne zusätzlichen Kleber. Einfach die Fläche gründlich reinigen, Folie ausrichten, nach und nach abziehen und mit einer Rakel glattstreichen – fertig!</p>",
             "page": ""
           }
         }
