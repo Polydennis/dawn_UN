@@ -19,23 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_DhJTHK": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Landingpage_Slim-Banner.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "ss_circle_menu_xQYzat": {
       "type": "ss-circle-menu",
       "blocks": {
@@ -51,7 +34,7 @@
           "type": "Image",
           "settings": {
             "bubble_img": "shopify://shop_images/kundenstimmenb.jpg",
-            "bubble_text": "Kunden&shy;stimmen",
+            "bubble_text": "Kunden&shy;galerie",
             "bubble_link": "shopify://pages/kundengalerie"
           }
         },
@@ -107,6 +90,75 @@
         "hide_desktop": false
       }
     },
+    "collapsible_content_VFtA8j": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gdYcaQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wand messen und vorbereiten",
+            "icon": "ruler",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BXrK3r": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Richtiges Zubehör",
+            "icon": "clipboard",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_wt4YQD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einfache Anbringung",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gdYcaQ",
+        "collapsible_row_BXrK3r",
+        "collapsible_row_wt4YQD"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Das wichtigste im überblick",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "",
+        "color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_DhJTHK": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Landingpage_Slim-Banner.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
     "image_with_text_CtV7xY": {
       "type": "image-with-text",
       "blocks": {
@@ -121,6 +173,7 @@
       "block_order": [
         "heading_HDeK6R"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Tapeten-Musterseite.jpg",
         "height": "adapt",
@@ -203,6 +256,7 @@
         "collapsible_row_efJ6KM",
         "collapsible_row_UaNc7f"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Vorteile der Unik nordic tapeten",
@@ -240,6 +294,7 @@
         "heading_jKAf6L",
         "text_hNkthE"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Kuechenfolien-Musterseite.jpg",
         "height": "adapt",
@@ -322,6 +377,7 @@
         "collapsible_row_H4hrRX",
         "collapsible_row_CTeHCA"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Vorteile der unik nordic küchenfolien",
@@ -355,8 +411,9 @@
   },
   "order": [
     "main",
-    "image_banner_DhJTHK",
     "ss_circle_menu_xQYzat",
+    "collapsible_content_VFtA8j",
+    "image_banner_DhJTHK",
     "image_with_text_CtV7xY",
     "collapsible_content_YNJddY",
     "image_with_text_fHCR3b",
