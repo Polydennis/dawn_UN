@@ -50,57 +50,43 @@
         "image_afKMp3": {
           "type": "Image",
           "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
+            "bubble_img": "shopify://shop_images/kundenstimmenb.jpg",
+            "bubble_text": "Kunden&shy;stimmen",
+            "bubble_link": "shopify://pages/kundengalerie"
           }
         },
         "image_bwyQTN": {
           "type": "Image",
           "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_XiRLXx": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
-          }
-        },
-        "image_ft6YNU": {
-          "type": "Image",
-          "settings": {
-            "bubble_text": "Collection",
-            "bubble_link": ""
+            "bubble_img": "shopify://shop_images/kontakt.jpg",
+            "bubble_text": "Kontakt",
+            "bubble_link": "shopify://pages/kontakt"
           }
         }
       },
       "block_order": [
         "image_WC7feQ",
         "image_afKMp3",
-        "image_bwyQTN",
-        "image_XiRLXx",
-        "image_ft6YNU"
+        "image_bwyQTN"
       ],
       "name": "SS - Circle Menu",
       "settings": {
         "slider_width": 100,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
+        "slider_gap": 68,
+        "slider_gap_mobile": 30,
         "icon_size": 108,
-        "icon_size_mobile": 74,
+        "icon_size_mobile": 84,
         "icon_space": 0,
         "icon_space_mobile": 0,
         "icon_border_thickness": 1,
         "icon_square": false,
         "text_custom": false,
         "text_font": "josefin_sans_n4",
-        "text_size": 30,
+        "text_size": 16,
         "text_size_mobile": 14,
         "text_height": 170,
         "text_mt": 8,
-        "icon_border_color": "#000000",
+        "icon_border_color": "#ffffff",
         "icon_border_gradient": "",
         "text_color": "#000000",
         "background_color": "#FFFFFF",
