@@ -136,12 +136,22 @@
             "row_content": "<p>Unsere Vliestapeten lassen sich besonders leicht verarbeiten: Die Wand wird eingekleistert, dann werden die Bahnen direkt trocken angebracht – ganz ohne Weichzeit oder Tapeziertisch. Auch nachträgliches Korrigieren ist möglich.</p><p>Die selbstklebenden Küchenfolien haften ohne zusätzlichen Kleber. Einfach die Fläche gründlich reinigen, Folie ausrichten, nach und nach abziehen und mit einer Rakel glattstreichen – fertig!</p>",
             "page": ""
           }
+        },
+        "collapsible_row_zEQzp9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Individualisierbarkeit",
+            "icon": "silhouette",
+            "row_content": "<p>Unsere Tapeten werden passgenau auf deine Wandmaße zugeschnitten – so sitzt das Motiv perfekt, ohne wichtige Elemente abzuschneiden. Bei vielen Designs sind zusätzlich individuelle Anpassungen möglich, z. B. das Verschieben einzelner Motive, das Reduzieren von Details für ein ruhigeres Gesamtbild oder das Einfügen persönlicher Wünsche (z. B. bestimmte Tiere im Sichtbereich).</p><p>ℹ️ <strong>Mehr Infos zur individuellen Anpassung findest du in unserem </strong><a href=\"/pages/infos-faq\" title=\"Infos & FAQ\"><strong>FAQ-Bereich</strong></a><strong>.</strong></p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_gdYcaQ",
         "collapsible_row_BXrK3r",
-        "collapsible_row_wt4YQD"
+        "collapsible_row_wt4YQD",
+        "collapsible_row_zEQzp9"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
