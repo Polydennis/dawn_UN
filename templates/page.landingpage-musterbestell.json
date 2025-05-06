@@ -231,6 +231,7 @@
         "logo_Nhh6pa"
       ],
       "custom_css": [
+        ".logo-link {display: block; text-align: center;}",
         ".logo-image {width: 50%;}"
       ],
       "name": "Bekannt aus",
