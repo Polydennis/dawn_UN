@@ -199,6 +199,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "bekannt_aus_H8tcbE": {
+      "type": "bekannt-aus",
+      "blocks": {
+        "logo_gcbmrT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/freepik__adjust__60631.png",
+            "logo_link": "https://de.pinterest.com/uniknordic/"
+          }
+        },
+        "logo_GqRLEr": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/freepik__adjust__60630.png",
+            "logo_link": "https://www.facebook.com/UnikNordic/"
+          }
+        },
+        "logo_Nhh6pa": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/freepik__adjust__60632.png",
+            "logo_link": "https://www.instagram.com/unik.nordic/"
+          }
+        }
+      },
+      "block_order": [
+        "logo_gcbmrT",
+        "logo_GqRLEr",
+        "logo_Nhh6pa"
+      ],
+      "custom_css": [
+        ".logo-image {width: 50%;}"
+      ],
+      "name": "Bekannt aus",
+      "settings": {}
     }
   },
   "order": [
@@ -207,6 +243,7 @@
     "image_banner_DhJTHK",
     "collapsible_content_VFtA8j",
     "video_GRVPXq",
-    "video_wDcEMh"
+    "video_wDcEMh",
+    "bekannt_aus_H8tcbE"
   ]
 }
