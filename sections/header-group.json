@@ -76,19 +76,27 @@
             "text": "Kostenloser Versand nach DE ab 60€",
             "link": ""
           }
+        },
+        "announcement_DJUKmp": {
+          "type": "announcement",
+          "settings": {
+            "text": "CO₂-neutraler Versand",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement_TkMJmx",
         "announcement_z6F3C3",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_DJUKmp"
       ],
       "settings": {
+        "auto_rotate": true,
+        "change_slides_speed": 5,
         "color_scheme": "inverse",
         "show_line_separator": true,
         "show_social": true,
-        "auto_rotate": true,
-        "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
@@ -98,6 +106,7 @@
       "custom_css": [],
       "settings": {
         "logo_position": "top-center",
+        "mobile_logo_position": "center",
         "menu": "megamenu",
         "menu_type_desktop": "mega",
         "mega_menu_images_toggle": "metafield",
@@ -112,7 +121,6 @@
         "enable_country_selector": false,
         "enable_language_selector": true,
         "enable_customer_avatar": true,
-        "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 16,
         "padding_bottom": 16
