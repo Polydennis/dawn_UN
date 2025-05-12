@@ -962,6 +962,35 @@
         "include_margins": true
       }
     },
+    "17470601269989d54d": {
+      "type": "apps",
+      "blocks": {
+        "planet_shopify_planet_Xp4C3L": {
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "badgeMode": "info",
+            "customText": "",
+            "showMoreInfo": "modal",
+            "showLogo": false,
+            "showStats": false,
+            "showProjects": false,
+            "backgroundColor": "#a6a97e",
+            "textColor": "#ffffff",
+            "borderColor": "#595959",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
+          }
+        }
+      },
+      "block_order": [
+        "planet_shopify_planet_Xp4C3L"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "243dfa51-fba6-451f-8318-b9c2c5ed6949": {
       "type": "contact-form",
       "settings": {
@@ -974,23 +1003,6 @@
     },
     "1705325432ab25b409": {
       "type": "apps",
-      "blocks": {
-        "formful_app_block_form_zMxRwC": {
-          "type": "shopify://apps/formful/blocks/app-block-form/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
-          "settings": {
-            "form_id": "form_GIrxcD8v6n",
-            "max_width": 75,
-            "column_gap": 0,
-            "row_gap": 0,
-            "padding_top": 36,
-            "padding_bottom": 36,
-            "color_scheme": ""
-          }
-        }
-      },
-      "block_order": [
-        "formful_app_block_form_zMxRwC"
-      ],
       "settings": {
         "include_margins": false
       }
@@ -1019,6 +1031,7 @@
     "video",
     "tooltips_gGYKab",
     "1742295500c59a707d",
+    "17470601269989d54d",
     "243dfa51-fba6-451f-8318-b9c2c5ed6949",
     "1705325432ab25b409"
   ]
