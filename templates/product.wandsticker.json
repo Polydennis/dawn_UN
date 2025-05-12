@@ -362,6 +362,35 @@
         "padding_bottom": 28
       }
     },
+    "apps_BMtEFm": {
+      "type": "apps",
+      "blocks": {
+        "planet_shopify_planet_THkbfp": {
+          "type": "shopify://apps/planet/blocks/shopify-planet/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "badgeMode": "info",
+            "customText": "",
+            "showMoreInfo": "modal",
+            "showLogo": false,
+            "showStats": false,
+            "showProjects": false,
+            "backgroundColor": "#a6a97e",
+            "textColor": "#ffffff",
+            "borderColor": "#595959",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "borderRadius": 4
+          }
+        }
+      },
+      "block_order": [
+        "planet_shopify_planet_THkbfp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b": {
       "type": "multirow",
       "blocks": {
@@ -481,6 +510,7 @@
     "main",
     "ss_product_vidoes_993YU3",
     "related-products",
+    "apps_BMtEFm",
     "c3e850ba-cf14-47ef-a41d-e20f3f289c8b",
     "170289245009e9ebe5"
   ]
