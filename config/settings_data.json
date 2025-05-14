@@ -185,7 +185,7 @@
       },
       "6460986421370555689": {
         "type": "shopify://apps/apippa-custom-price-calculator/blocks/cpc-app-embed/c499fa68-8478-4285-a3f7-27654dd66c3e",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     },
