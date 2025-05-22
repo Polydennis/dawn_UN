@@ -57,7 +57,7 @@
             "heading_size": "h1",
             "subheading": "Kinderleichte Wandgestaltung - spielerisch, kreativ, einzigartig",
             "button_label": "Jetzt ansehen",
-            "link": "shopify://collections/wandsticker",
+            "link": "shopify://collections/wandsticker-wandtattoo",
             "button_style_secondary": false,
             "show_text_box": false,
             "box_align": "middle-left",
@@ -198,7 +198,7 @@
           "settings": {
             "bubble_img": "shopify://shop_images/Photo-Print-Mockup-Set-_matte_-_closeup-2.jpg",
             "bubble_text": "Wandsticker",
-            "bubble_link": "shopify://collections/wandsticker"
+            "bubble_link": "shopify://collections/wandsticker-wandtattoo"
           }
         },
         "image_gTiYw7": {
@@ -410,7 +410,7 @@
     "featured_collection_3p97cH": {
       "type": "featured-collection",
       "settings": {
-        "collection": "wandsticker",
+        "collection": "wandsticker-wandtattoo",
         "products_to_show": 4,
         "title": "",
         "heading_size": "h2",

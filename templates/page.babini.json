@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,17 +33,17 @@
         "text_dRiwjc": {
           "type": "text",
           "settings": {
-            "text": "<p>Stöbere dich gern durch meine Produkte, nimm am Gewinnspiel teil oder schreibe mir eine Nachricht mit deiner persönlichen Anfrage.<\/p>"
+            "text": "<p>Stöbere dich gern durch meine Produkte, nimm am Gewinnspiel teil oder schreibe mir eine Nachricht mit deiner persönlichen Anfrage.</p>"
           }
         },
         "button_iVL3Ye": {
           "type": "button",
           "settings": {
             "button_label": "Deine Anfrage an mich",
-            "button_link": "https:\/\/form.jotform.com\/242552251662049",
+            "button_link": "https://form.jotform.com/242552251662049",
             "button_style_secondary": false,
             "button_label_2": "Gewinne einen 250 € Gutschein",
-            "button_link_2": "shopify:\/\/pages\/gewinnspiel",
+            "button_link_2": "shopify://pages/gewinnspiel",
             "button_style_secondary_2": false
           }
         }
@@ -65,18 +65,18 @@
     "featured_collection_q9hbb6": {
       "type": "featured-collection",
       "settings": {
+        "collection": "kindertapeten",
+        "products_to_show": 10,
         "title": "Kindertapeten",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "kindertapeten",
-        "products_to_show": 10,
         "columns_desktop": 4,
+        "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "square",
         "image_shape": "default",
@@ -93,18 +93,18 @@
     "featured_collection_yn7WUG": {
       "type": "featured-collection",
       "settings": {
+        "collection": "wandsticker-wandtattoo",
+        "products_to_show": 5,
         "title": "Wandsticker",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "wandsticker",
-        "products_to_show": 5,
         "columns_desktop": 4,
+        "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -121,18 +121,18 @@
     "featured_collection_UTgptb": {
       "type": "featured-collection",
       "settings": {
-        "title": "Möbelfolien",
-        "heading_size": "h1",
-        "description": "<p>für IKEA Kura, Malm, Smågöra & Sundvik<\/p>",
-        "show_description": false,
-        "description_style": "body",
         "collection": "alle-moebelfolien",
         "products_to_show": 5,
+        "title": "Möbelfolien",
+        "heading_size": "h1",
+        "description": "<p>für IKEA Kura, Malm, Smågöra & Sundvik</p>",
+        "show_description": false,
+        "description_style": "body",
         "columns_desktop": 4,
+        "enable_desktop_slider": true,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
