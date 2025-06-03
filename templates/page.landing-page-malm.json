@@ -25,18 +25,18 @@
         "h1,h2 {font-family: \"Bon Voyage Regular\", serif; text-transform: uppercase;}"
       ],
       "settings": {
+        "collection": "ikea-malm-mobelfolien",
+        "products_to_show": 21,
         "title": "Bestseller",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "ikea-malm-mobelfolien",
-        "products_to_show": 21,
         "columns_desktop": 3,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -249,7 +249,7 @@
             "title": "Meine Passion",
             "text": "<p>Design, Druck und Interieur sind meine Leidenschaften.<br/>Möchtest du mehr über mich erfahren?</p>",
             "link_label": "Über mich",
-            "link": "shopify://pages/uber-mich"
+            "link": "shopify://pages/ueber-uns"
           }
         }
       },
@@ -268,11 +268,11 @@
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
@@ -292,22 +292,6 @@
     },
     "170774340382c5916b": {
       "type": "apps",
-      "blocks": {
-        "formful_app_block_form_GgMd6n": {
-          "type": "shopify://apps/formful/blocks/app-block-form/be9de36b-78a1-4ce9-8de3-f1044fb2ee2e",
-          "settings": {
-            "form_id": "form_GIrxcD8v6n",
-            "max_width": 75,
-            "column_gap": 2,
-            "row_gap": 1,
-            "padding_top": 36,
-            "padding_bottom": 36
-          }
-        }
-      },
-      "block_order": [
-        "formful_app_block_form_GgMd6n"
-      ],
       "settings": {
         "include_margins": true
       }
