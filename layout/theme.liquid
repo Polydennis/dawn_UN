@@ -330,7 +330,8 @@
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
       </script>
     -->
-  </head>
+    {% render 'abpilot-ui-sdk' %}
+	</head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
